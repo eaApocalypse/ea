@@ -14,7 +14,7 @@
   ],
   "units": [
     {
-      "from": "ImperialAllies.json",
+      "from": "TraitorTitanLegions.json",
       "units": [
         "Carapace Missiles",
         "Carapace Multilasers",
