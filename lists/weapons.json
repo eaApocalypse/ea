@@ -9508,7 +9508,7 @@
     },
     {
       "name": "Portal",
-      "description": "Portal measured from centre"
+      "description": "Portal measured from any edge."
     },
     {
       "name": "Right",
@@ -9520,7 +9520,7 @@
     },
     {
       "name": "Shield Disruptor",
-      "description": "Shield Disruptor"
+      "description": "A weapon with Shield Disruptor ignores Ion Shields. In addition, each hit with will knock down two Powerfields, Shadowfields or Void Shields. When only one field/shield remains, a Shield Disruptor hit will knock it down and must then be saved as a normal hit (it loses TK, MW or Lance)."
     },
     {
       "name": "S",
@@ -9536,7 +9536,7 @@
     },
     {
       "name": "Ignore Shields",
-      "description": "Ignore Shields"
+      "description": "Ignore Void Shields, Power Fields and Shadowfields (Shadowfields still count as in cover). "
     },
     {
       "name": "TK(1)",
