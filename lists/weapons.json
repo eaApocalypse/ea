@@ -2492,7 +2492,7 @@
         "modes": [
           {
             "firepower": "AT5+/AT5+",
-            "range": 60,
+            "range": 45,
             "specialRules": [
           ]
           }
