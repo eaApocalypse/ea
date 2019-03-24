@@ -91,9 +91,9 @@
     },
     {
       "name": "Warlord Titan",
-      "units": "One Warlord Titan",
+      "units": "One Warlord Titan. 4 Weapons from the Battle Titan Weapon list may be taken. Max 2 Arm Weapons and 2 Carapace weapons. Weapons listed as just 'Weapon' maybe count as either.",
       "extraUnits": [
-        "4 Weapons from the Battle Titan Weapon list may be taken. Max 2 Arm Weapons and 2 Carapace weapons. Weapons listed as just 'Weapon' maybe count as either.",
+
         "Gatling Blaster +25",
         "Melta Cannon +25",
         "Multiple Rocket Launcher +25",
