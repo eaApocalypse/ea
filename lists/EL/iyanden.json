@@ -7,8 +7,8 @@
   "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-    "Avatar (Iyanden)",
-    "May Not Garrison (Iyanden)",
+    "Avatar",
+    "Eldar Garrisons",
     "Farsight",
     "Hit and Run",
     "Holofields (x)",

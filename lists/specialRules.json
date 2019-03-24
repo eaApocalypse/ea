@@ -198,12 +198,6 @@
         "Any company formation with the Faithful special rule may attempt to perform an Act of Faith while. The formation may perform any order, but activates at -1 Initiative. If successful, the formation receives Fearless and Invulnerable Save until end of turn. If the Initiative roll fails, the formation does not recieve the Act of Faith bonus."
       ]
     },
-    {
-      "title": "Adepta Sororitas Rhinos",
-      "description": [
-        "When ever a formation is listed as having 'Optional Rhinos', the formation may be add enough rhinos to trasnport the infantry in the formation with no rhinos left over empty."
-      ]
-    },
 
 
 
@@ -311,93 +305,17 @@
         ]
     },
     {
-      "title": "Avatar (Biel-Tan)",
+      "title": "Avatar",
       "description": [
         "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
+        "The Avatar counts as its own formation and may only enter playing this manner.",
         "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
       ]
     },
     {
-      "title": "Avatar (Lugganath)",
+      "title": "Eldar May Not Garrison",
       "description": [
-        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
-        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
-      ]
-    },
-    {
-      "title": "Avatar (Saim-Hann)",
-      "description": [
-        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Mounted Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
-        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
-      ]
-    },
-    {
-      "title": "Avatar (Iyanden)",
-      "description": [
-        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Spiritseer, Wraithseer or Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
-        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
-      ]
-    },
-    {
-      "title": "Avatar (Ulthwé)",
-      "description": [
-        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Seer Council or Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
-        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
-      ]
-    },
-    {
-      "title": "Avatar (Mymeara)",
-      "description": [
-        "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
-        " The Avatar counts as its own formation and may only enter playing this manner.",
-        "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
-      ]
-    },
-    {
-      "title": "May Not Garrison (Saim-Hann)",
-      "description": [
-        "Only Eldar Rangers, War Walkers and Hornets are allowed to garrison objectives in the Epic tournament game scenario."
-      ]
-    },
-    {
-      "title": "May Not Garrison (Iyanden)",
-      "description": [
-        "Only Eldar Rangers and War Walkers are allowed to garrison objectives in the Epic tournament game scenario."
-      ]
-    },
-    {
-      "title": "May Not Garrison (Biel-Tan)",
-      "description": [
-        "Only Eldar Rangers and War Walkers are allowed to garrison objectives in the Epic tournament game scenario."
-      ]
-    },
-    {
-      "title": "May Not Garrison (Ulthwé)",
-      "description": [
-        "Only Eldar Rangers and War Walkers are allowed to garrison objectives in the Epic tournament game scenario."
-      ]
-    },
-    {
-      "title": "May Not Garrison (Mymeara)",
-      "description": [
-        "Only Ghost Walkers, Wasp Walkers and Hornets are allowed to garrison objectives in the Epic tournament game scenario."
-      ]
-    },
-    {
-      "title": "May Not Garrison (Lugganath)",
-      "description": [
-        "Only Ghost Walkers and Wasp Walkers are allowed to garrison objectives in the Epic tournament game scenario."
-      ]
-    },
-    {
-      "title": "May Not Garrison (Eldar Titan Force)",
-      "description": [
-        "Only Bright Stallions are allowed to garrison objectives in the Epic tournament game scenario."
+        "Only formation with all units consisting of scouts are allowed to garrison objectives."
       ]
     },
     {
@@ -437,7 +355,7 @@
     {
       "title": "Independent Twins",
       "description": ["Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Revenant Titan is destroyed, the other Revenant Twin receives a Blast Marker.",
-                      "Additionally, Revenant Twins may use the Commander ability but only with its Revenant Twin. The Commander ability is increased to 25cm instead of the normal 5cm."
+                      "Additionally, Revenant Twins may use the Commander ability but only with its Revenant Twin and the Commander ability is increased to 25cm instead of the normal 5cm."
       ]
     },
 

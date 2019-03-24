@@ -6,7 +6,19 @@
   "strategy": "Ulthwé Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Seers of Ulthwé", "Black Guardians","Avatar (Ulthwé)","May Not Garrison (Ulthwé)","Farsight","Hit and Run","Holofields (x)","Lance", "Ignore Shields", "Shield Disruptor", "Webway Portal"],
+  "specialRules": [
+    "Seers of Ulthwé",
+    "Black Guardians",
+    "Avatar",
+    "Eldar Garrisons",
+    "Farsight",
+    "Hit and Run",
+    "Holofields (x)"
+    ,"Lance", 
+    "Ignore Shields",
+    "Shield Disruptor",
+    "Webway Portal"
+  ],
   "usage": [
     "The following army list allows you to field an army based on the Eldar Craftworld Ulthwé."
   ],
