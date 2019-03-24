@@ -1,0 +1,404 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Black Legion",
+  "version": "1.32",
+  "release": "2019-02-26",
+  "strategy": "Black Legion armies have a Strategy Rating of 4.",
+  "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "specialRules":
+    [
+      "Summoning",
+      "Black Legion Summoning Rules",
+      "Augment Summoning (+x)",
+      "Daemonic Focus",
+      "Fickle Masters",
+      "Black Legion Dreadclaws"
+    ],
+  "usage": [
+    "The following army list allows you to field an army based on the Black Legion, using their preferred operational methods."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Warlord",
+        "Chaos Lord",
+        "Sorcerer Lord",
+        "Champion of Chaos Undivided",
+        "Icon Bearer",
+        "Daemon Prince of Chaos Undivided",
+        "Chaos Space Marines",
+        "Havocs",
+        "Chosen",
+        "Raptors",
+        "Chaos Terminators",
+        "Noise Marines",
+        "Plague Marines",
+        "Khorne Berzerkers",
+        "Rubric Marines",
+        "Obliterators",
+        "Chaos Space Marine Assault Bikes",
+        "Chaos Rhino",
+        "Chaos Land Raider",
+        "Chaos Predator",
+        "Chaos Vindicator",
+        "Chaos Dreadnought",
+        "Chaos Stalker"
+    ],
+    "unitRules": [
+
+    ]
+    },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Defiler",
+            "Decimator",
+            "Deathwheel"
+        ],
+        "unitRules": [
+          "Daemon Engine (x)"
+        ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Daemonettes of Slaanesh",
+        "Plaguebearers of Nurgle",
+        "Bloodletters of Khorne",
+        "Horrors of Tzeench",
+        "Keeper of Secrets",
+        "Great Unclean One",
+        "Bloodthirster",
+        "Lord of Change",
+        "Daemonic Beasts of Chaos Undivided"
+      ],
+      "unitRules": [
+    ]
+  },
+    {
+      "from": "traitortitanlegions.json",
+      "units": [
+        "Chaos Warhound",
+        "Chaos Reaver",
+        "Chaos Warlord"
+      ],
+      "unitRules": [
+        "Void Shields",
+        "God Machine",
+        "Split Fire"
+    ]
+  },
+  {
+    "from": "chaosnavy.json",
+    "units": [
+      "Hell Blade Interceptor",
+      "Hell Talon Fighter-Bomber",
+      "Harbringer Bomber",
+      "Devastation Class Cruiser",
+      "Despoiler Class Battleship"
+  ],
+  "unitRules": [
+      "God Machine Killer (GMK)"
+
+  ]
+  }
+  ],
+  "sections": [
+    {
+      "name": "Black Legion Core Formations",
+      "formations": [
+        {
+          "name": "Black Legion Retinue",
+          "units": "Eight Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
+          "upgrades": [
+            "Supreme Commander",
+            "Transport",
+            "Champion",
+            "Daemonic Pact",
+            "Stalker",
+            "Dreadclaws",
+            "Icon Bearer",
+            "Vindicators",
+            "Havocs",
+            "Cult Marines",
+            "Dreadnoughts"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Black Legion Elite Formations",
+      "description": "One Elite formation may be fielded per Core formation",
+      "formations": [
+        {
+          "name": "Chosen",
+          "units": "Four Chosen, two Chaos Rhinos",
+          "upgrades": [
+            "Dreadnoughts",
+            "Daemonic Pact"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Chaos Terminators",
+          "units": "Four Chaos Terminators, one Chaos Lord or Sorcerer Lord",
+          "upgrades": [
+              "Supreme Commander",
+              "Transport",
+              "Champion",
+              "Daemonic Pact",
+              "Dreadclaws",
+              "Icon Bearer",
+              "Obliterators",
+              "Dreadnoughts"
+          ],
+          "points": 275
+      }
+    ]
+  },
+  {
+    "name": "Black Legion Support Formations",
+    "description": "Two Support formations may be fielded per Core formation",
+    "formations": [
+      {
+        "name": "Bike Company",
+        "units": "Eight Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
+        "upgrades": [
+          "Daemonic Pact",
+          "Icon Bearer"
+        ],
+        "points": 300
+    },
+    {
+      "name": "Raptor Cult",
+      "units": "Six Raptors, one Chaos Lord or Sorcerer Lord",
+      "upgrades": [
+          "Daemonic Pact"
+      ],
+      "points": 225
+  },
+  {
+    "name": "Predator Company",
+    "units": "Four Chaos Predators",
+    "upgrades": [
+        "Stalker",
+        "Vindicator"
+    ],
+    "points": 200
+    },
+    {
+  "name": "Havocs",
+  "units": "Four Havocs, one Chaos Lord or Sorcerer Lord, two Rhinos",
+  "upgrades": [
+      "Land Raiders",
+      "Stalker",
+      "Vindicator"
+  ],
+  "points": 225
+    }
+    ]
+  },
+        {
+      "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Defiler Pack",
+            "units": "Four Defilers",
+          "upgrades": [
+            "Add up to two Defilers for 50 points each"
+          ],
+          "points": 225
+            },
+          {
+            "name": "Decimators",
+            "units": "One Decimator",
+            "upgrades": [
+              "Add one Decimator for 150 points"
+            ],
+            "points": 200
+          },
+          {
+            "name": "Deathwheels",
+            "units": "One Deathwheel",
+            "upgrades": [
+              "Add one Deathwheel for 225 points"
+            ],
+            "points": 275
+          },
+          {
+            "name": "Chaos Warhound",
+            "units": "One Chaos Warhound Scout Titan",
+            "upgrades": [
+              "Add one Chaos Warhound for 225 Points"
+            ],
+            "points": 275
+          },
+          {
+            "name": "Chaos Reaver",
+            "units": "One Chaos Reaver Titan",
+            "points": 625
+          },
+          {
+            "name": "Chaos Warlord",
+            "units": "One Chaos Warlord Titan",
+            "points": 750
+          },
+        {
+          "name": "Hell Blade Squadron",
+          "units": "Three Hell Blade Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Hell Talon Squadron",
+          "units": "Two Hell Talon Fighter-Bombers",
+          "points": 225
+        },
+        {
+          "name": "0-1 Harbringer",
+          "units": "One Harbringer Bomber",
+          "points": 325
+        },
+        {
+          "name": "0-1 Chaos Cruiser",
+          "units": "One Devastation Class Cruiser",
+          "upgrades": [
+            "Battleship"
+          ],
+          "points": 150
+        }
+      ]
+  },
+  {
+    "name": "Daemon Pool",
+    "description": "Any amount may be spent on Daemon Pool points",
+    "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
+      },
+      {
+        "name": "Greater Daemon Pool",
+        "units": "Any amount of Greater Daemon Pool points",
+        "points": 50
+      }
+    ]
+}
+  ],
+  "upgrades": {
+    "title": "Black Legion Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Battleship",
+        "description": "Replace the Devastation Class Cruiser with a Despoiler Class Battleship",
+        "points": "50 points"
+      },
+      {
+        "name": "0-1 Supreme Commander",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Replace the Chaos Lord with a Warlord",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Chaos Undivided",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Transport",
+        "options": [
+          {
+            "description": "Add up to four Chaos Rhinos (Retinue only)",
+            "points": "10 points each"
+          },
+          {
+            "description": "Add up to four Chaos Land Raiders",
+            "points": "50 points each"
+        },
+        {
+          "description": "(No more than needed to transport the formation with no space left over)",
+          "points": ""
+      }
+        ]
+      },
+      {
+        "name": "Daemonic Pact",
+        "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
+        "points": "25 points"
+      },
+      {
+        "name": "Dreadnoughts",
+        "description": "Add two Chaos Dreadnoughts to the formation",
+        "points": "75 points"
+      },
+      {
+        "name": "Champion",
+        "description": "Add one Champion of Chaos Undivided character to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Icon Bearer",
+        "description": "Add one Icon Bearer character",
+        "points": "25 points"
+      },
+      {
+        "name": "Stalker",
+        "description": "Add one Chaos Stalker to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
+        "points": "5 points per unit"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Add two Chaos Vindicators",
+        "points": "50 points"
+      },
+      {
+        "name": "Havocs",
+        "description": "Replace four Chaos Space Marines with four Havocs",
+        "points": "50 points"
+      },
+      {
+        "name": "Cult Marines",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Replace four Chaos Space Marines with four Noise Marines",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace four Chaos Space Marines with four Plague Marines",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
+            "points": "25 points"
+          },
+          {
+            "description": "Replace four Chaos Space Marines with four Rubric Marines",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Obliterators",
+        "description": "Replace up to two Chaos Terminators with Obliterators",
+        "points": "35 points each"
+    }
+    ]
+  }
+}

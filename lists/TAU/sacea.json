@@ -1,0 +1,350 @@
+{
+  "fraction": "Tau",
+  "army": "Sa’ Cea",
+  "version": "1.1",
+  "release": "2019-02-22",
+  "strategy": "Sa’ Cea armies have a Strategy Rating of 3.",
+  "Initiative": "Crisis Battlesuit Cadre and Manta Dropship formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+
+  "specialRules": [
+            "Coordinated Fire",
+            "Deflector Shield",
+            "Guided Missiles",
+            "Markerlights",
+            "Tau Jet Packs"
+          ],
+
+  "usage": [
+    "The following army list allows you to field an army based on the Sa’ Cea Military world of the Tau Empire"
+  ],
+  "units": [
+    {
+      "from": "TAU.json",
+      "units": [
+        "Ethereal",
+        "Shas'o",
+        "Shas'el",
+        "Crisis Battlesuits",
+        "Fire Warriors",
+        "Gun Drones",
+        "Kroot Hounds",
+        "Kroot Master Shapers",
+        "Kroot Warriors",
+        "Krootox",
+        "Pathfinders",
+        "Stealth Battlesuits",
+        "Broadside Battlesuit",
+        "Piranha",
+        "Tetra",
+        "Devilfish",
+        "Hammerhead",
+        "Skyray",
+        "Manta"
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "tauNavy.json",
+      "units": [
+        "Barracuda",
+        "Sundshark Bomber",
+        "Tiger Shark AX-1-0",
+        "Orca",
+        "Custodian Class Battleship",
+        "Protector Class Cruiser"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Sa’ Cea Cadres",
+      "formations": [
+        {
+          "name": "Crisis Battlesuit Cadre",
+          "units": "Four Crisis Battlesuits and one Shas’el",
+          "upgrades": [
+            "Shas’o, Crisis Suits, Gun Drones"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Fire Warrior Cadre",
+          "units": "Eight Fire Warriors or Six Fire Warriors and three Devilfish",
+          "upgrades": [
+            "Bonded Team, Broadsides, Ethereal, Fire Warriors, Gun Drones, Hammerheads, Pathfinders, Piranhas, Skyray"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Sa’ Cea Support Formations ",
+      "description": "Up to three for each Sa’ Cea Cadre taken",
+      "formations": [
+        {
+          "name": "Armour Support Group",
+          "units": "Four Hammerheads",
+          "upgrades": [
+            "Hammerheads, Skyray, Note: One or more Hammerheads with Railguns cost +25 points"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Broadside Group",
+          "units": "Six Broadside Battlesuits",
+          "upgrades": [
+            "Gun Drones"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Kroot Kindred",
+          "units": "One Kroot Master Shapers unit and nine Kroot Warriors",
+          "upgrades": [
+            "Kroot, Kroot Hounds, Krootox"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Pathfinder Group",
+          "units": "Four Pathfinders and two Devilfish",
+          "upgrades": [
+            "Gun Drones, Piranhas"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Recon Skimmer Group",
+          "units": "Any six of the following units: Piranha, Tetra",
+          "upgrades": [
+            "Gun Drones, Piranhas"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Skysweep Support Group",
+          "units": "Three Skyrays",
+          "upgrades": [
+
+          ],
+          "points": 250
+        },
+        {
+          "name": "Stealth Group",
+          "units": "Six Stealth Battlesuits",
+          "upgrades": [
+            "Bonded Team"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Sa’ Cea Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Barracuda Squadron",
+          "units": "Two Barracudas",
+          "upgrades": [
+            "None"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Sunshark Bomber",
+          "units": "Two Sun shark Bombers",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Tiger Shark AX-1-0 Squadron",
+          "units": "Two Shark AX-1-0s",
+          "upgrades": [
+
+          ],
+          "points": 350
+        },
+        {
+          "name": "Orca Dropship",
+          "units": "One Orca",
+          "upgrades": [
+
+          ],
+          "points": 175
+        },
+        {
+          "name": "Manta Dropship",
+          "units": "One Manta",
+          "upgrades": [
+
+          ],
+          "points": 500
+        },
+        {
+          "name": "0–1 Spacecraft",
+          "units": "Protector Class Cruiser",
+          "upgrades": [
+            "Replace with a Custodian Class Battleship (+25 Points)"
+
+          ],
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Upgrades",
+    "description": "Maximum 3 Upgrades per Formation and each different allowed upgrade may be taken once by a formation",
+    "items": [
+      {
+        "name": "Bonded Team",
+        "options": [
+          {
+            "description": "Give the formation Leader (this special ability is not added to any one specific unit)",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Broadsides",
+        "options": [
+          {
+            "description": "Add three Broadside Battlesuits",
+            "points": "150 points"
+          }
+        ]
+      },
+      {
+        "name": "Crisis Suits",
+        "options": [
+          {
+            "description": "Add one Crisis Battlesuits",
+            "points": "50 points"
+          },
+          {
+            "description": "Add two Crisis Battlesuits",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "0–1 Ethereal",
+        "options": [
+          {
+            "description": "Add one Etheral character per army to a unit of Fire Warriors",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Fire Warriors",
+        "options": [
+          {
+            "description": "Add any one of the following options:"
+          },
+          {
+            "description": "Four Fire Warriors",
+            "points": "100 points"
+          },
+          {
+            "description": "Four Fire Warriors and two Devilfish",
+            "points": "125 points"
+          }
+        ]
+      },
+      {
+        "name": "Gun Drones",
+        "options": [
+          {
+            "description": "Add two Gun Drones",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Hammerheads",
+        "options": [
+          {
+            "description": "Add any one of the following options: "
+          },
+          {
+            "description": "Add two Hammerheads with Ion Cannons",
+            "points": "75 points"
+          },
+          {
+            "description": "Add up to two Hammerheads with Railguns or Twin Fusion Cannons",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
+        "name": "Kroot",
+        "options": [
+          {
+            "description": "Add five Kroot Warriors",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Kroot Hounds",
+        "options": [
+          {
+            "description": "Add three Kroot Hounds",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Krootox",
+        "options": [
+          {
+            "description": "Add three Krootox",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Pathfinders",
+        "options": [
+          {
+            "description": "Add two Pathfinders and one Devilfish",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Piranhas",
+        "options": [
+          {
+            "description": "Add three Piranhas",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "0–1 Shas’o",
+        "options": [
+          {
+            "description": "Replace one Shas’el character with a Shas’o character",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Skyray",
+        "options": [
+          {
+            "description": "Add one Skyray",
+            "points": "100 points"
+          }
+        ]
+      }
+    ]
+  }
+}

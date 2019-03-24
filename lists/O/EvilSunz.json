@@ -1,0 +1,162 @@
+{
+  "fraction": "Ork",
+  "army": "EA-A Speed Freeks, WAAAGH! Gazbag",
+  "version": "1.0",
+  "release": "2019-03-09",
+  "strategy": "Speed Freeks armies have a Strategy Rating of 3.",
+  "Initiative": "All formations have an Initiative Rating of 3+.",
+  "specialRules": [
+      "Mob Rule",
+      "Power of the Waaagh!",
+      "Speed Freeks Warlord"
+  ],
+  "usage": [
+    "An Ork player can choose to double or triple the number of units in the formation if he wishes. A formation with double the normal number of units is called a big formation, and a formation with three times the normal number of units is called a ’Uge formation.",
+    "An Ork formation may include any of the extra units listed in the Extras column. You may include any number of extra units in a formation unless it is specifically noted otherwise. If there is a limitation then the limit is doubled for a big formation and tripled for a ’uge formation. For example, a normal sized Kult of Speed can include 0–1 Oddboy, a big Kult of Speed can include 0–2, and a ’uge Kult of Speed can include 0–3."
+  ],
+  "units": [
+    {
+      "from": "ORK.json",
+      "units": [
+        "Warlord",
+        "Speed Freek Oddboy",
+        "Boyz",
+        "Grotz",
+        "Nobz",
+        "Nob Warbikes",
+        "Warbikes",
+        "Warbike Outriders",
+        "Mekboy Speedsta",
+        "Deth Kopta",
+        "Skorcha",
+        "Warbuggy",
+        "Battlewagon",
+        "Gunwagon",
+        "Spleenrippa",
+        "Flakwagon",
+        "Battlefortress",
+        "Gunfortress",
+        "Speed Freek Fighta",
+        "Bommer",
+        "Kill Kroozer",
+        "Evil Sunz Battlekroozer"
+      ],
+      "unitRules": [
+          "Power Fields",
+          "Battlefortresses and Gunfortresses",
+          "Super-Expendable"
+
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ork Formations",
+      "formations": [
+          {
+            "name": "Evil Sunz Gunfortress Mob",
+            "units": "One Gunfortress, one Nobz, three Boyz, two Grotz",
+            "extraUnits": [
+              "Add any number of Flakwagons, Gunwagons: 35 points each",
+              "0-1 Add one Speed Freek Oddboy character to a Gunfortress: 50 points"
+            ],
+            "pointsOptions": [
+              {"name": "Normal", "points":  "200"},
+              {"name": "Big", "points":  "350"},
+              {"name": "'Uge", "points":  "500"}
+            ]
+          },
+          {
+            "name": "Evil Sunz Battlefortress Mob",
+            "units": "One Battlefortress, two Nobz, six Boyz, four Grotz",
+            "extraUnits": [
+              "Add any number of Flakwagons, Gunwagons: 35 points each",
+              "0-1 Add one Speed Freek Oddboy to a Battlefortress: 50 points"
+            ],
+            "pointsOptions": [
+              {"name": "Normal", "points":  "225"},
+              {"name": "Big", "points":  "400"},
+              {"name": "'Uge", "points":  "550"}
+            ]
+          },
+        {
+          "name": "Evil Sunz Blitz Brigade",
+          "units": "Any four of the following units: Deth Kopta, Flakwagon, Gunwagon",
+          "extraUnits": [
+            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each",
+            "Add one unit of Boyz to any Gunwagon or Flakwagon in the formation: 15 points each",
+            "Replace any number of Gunwagons with Spleenrippas: 15 points each",
+            "0-1: Replace one Gunwagon with a Mekboy Speedsta: 30 points"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "150"},
+            {"name": "Big", "points":  "250"},
+            {"name": "'Uge", "points":  "350"}
+          ]
+        },
+        {
+          "name": "Evil Sunz Kult of Speed",
+          "units": "Two Nob Warbikes, any six of the following units: Skorchas, Warbikes, Warbuggies",
+          "extraUnits": [
+            "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each",
+            "Add any number of Deth Koptas, Flakwagons, Gunwagons: 35 points each"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "200"},
+            {"name": "Big", "points":  "350"},
+            {"name": "'Uge", "points":  "500"}
+          ]
+        },
+        {
+          "name": "Evil Sunz Warbike Outriders",
+          "units": "Five Warbike Outriders",
+          "extraUnits": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Evil Sunz Warband",
+          "units": "One Nob Warbike, two Warbikes or Warbuggies, four Boyz, two Battlewagons and two Grotz",
+          "extraUnits": [
+            "Add any number of Flakwagons: 35 points each",
+            "Add any number of Skorchas, Warbikes, Warbuggies: 25 points each"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "175"},
+            {"name": "Big", "points":  "300"},
+            {"name": "'Uge", "points":  "425"}
+          ]
+        },
+        {
+          "name": "0–1 Kroozer",
+          "units": "One Kill Kroozer",
+          "extraUnits": [
+            "Replace the Kill Kroozer with an Evil Sunz Battlekroozer for +75 points"
+          ],
+          "points": 100
+        }
+      ]
+      },
+      {
+        "name": "Ork Aircraft formations",
+        "description": "Up to a fourth of the points available may be spent on these formations",
+        "formations": [
+            {
+              "name": "Evil Sunz Fighta Skwadron",
+              "units": "Three Speed Freek Fightas",
+              "upgrades": [
+                  "Add up to six Speed Freek Fightas for 50 points each"
+              ],
+              "points": 175
+          },
+          {
+            "name": "Bommer",
+            "units": "One Bommer",
+            "upgrades": [
+            ],
+            "points": 150
+            }
+            ]
+        }
+  ]
+}

@@ -1,0 +1,153 @@
+[
+  {
+    "name": "Craftworld Eldar Navy",
+    "specialRules": [
+        {
+              "title": "God Machine Killer (GMK)",
+              "description": [
+                "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
+          ]
+        }
+    ],
+    "unit": [
+    {
+      "name": "Nightwing Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Shuriken Cannons",
+        "AC Twin Bright Lances"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Nightshade Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 4,
+      "weapons": [
+        "AC Bright Lances|2"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Phoenix Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Shuriken Cannons",
+        "AC Pulse Laser",
+        "AC Spinner Array"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Hemlock Wraithfighters",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Heavy D-Scythe"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Vampire Raider",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "AC Pulse Laser|2|",
+        "AC Scatter Laser"
+      ],
+      "specialRules": [
+        "Planetfall",
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Transport (May carry up to eight of the following: Warlock, Farseer, Guardian, Wraithguard, Ranger, Pathfinder, Heavy Weapon Platform, Support Weapon Platform, Howling Banshee, Striking Scorpion, Fire Dragon, Dire Avenger, Dark Reaper, Warp Spider & Swooping Hawk units).",
+        "Critical Hit Effect: The Vampire and all on board are destroyed."
+
+      ]
+    },
+    {
+      "name": "Vampire Hunter",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Vampire Hunter Twin Pulsar",
+        "AC Twin Eldar Missile Launchers",
+        "AC Scatter Laser"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Holofield (5+)"
+      ]
+    },
+    {
+      "name": "Corsair Vampire Hunter",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Vampire Hunter Twin Pulsar",
+        "AC Twin Phoenix Missile Launcher",
+        "AC Scatter Laser"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Holofield (5+)",
+        "Transport: (May carry 4 Ghost Walkers or 4 Wasp Walkers)",
+        "Critical Hit: Vampire Hunter and all transported units are destroyed"
+      ]
+    },
+    {
+      "name": "Wraithship",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "0-1x Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+        },
+        "Pin Point|0-1|"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Dragonship",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "0-1x Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "8BP, MW"
+              }
+            ]
+        },
+        "Pin Point|0-1 2|"
+      ],
+      "specialRules": [
+        "Transport (May carry up to 12 Vampires and any units transported within them)"
+      ]
+    }
+    ]
+  }
+]

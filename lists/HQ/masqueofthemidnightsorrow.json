@@ -1,0 +1,319 @@
+{
+  "fraction": "Harlequin",
+  "army": "Masque of the Midnight Sorrow",
+  "version": "0.01",
+  "release": "2019-02-22",
+  "strategy": "Harlequin armies have a Strategy Rating of 4.",
+  "Initiative": "Dark Eldar Kabals have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans and Harlequins receive a +1 modifier when attempting an engage action.",
+
+  "specialRules": [
+        "Fleet of Foot",
+        "Hit and Run",
+        "Lance",
+        "Kabal Coterie",
+        "Dark Eldar May not Garrison",
+        "Webway Portal",
+        "Shadowfields"
+
+      ],
+  "usage": [
+    "The following army list allows you to field an army based on the Kabal of the Wraithkind, with Harlequin Allies from the Masque of the Midnight Sorrow."
+  ],
+  "units": [
+    {
+      "from": "DE.json",
+      "units": [
+        "Archon",
+        "Dracon",
+        "Succubus",
+        "Haemonoculus Ancient",
+        "Incubi",
+        "Warriors",
+        "Mandrakes",
+        "Scourges",
+        "Haemonculi",
+        "Wracks",
+        "Grotesques",
+        "Hellions",
+        "Reavers",
+        "Venom",
+        "Raider",
+        "Reaper",
+        "Tantalus",
+        "Vessel of Pain"
+      ],
+        "unitRules": [
+
+      ]
+    },
+    {
+      "from": "HQ.json",
+      "units": [
+        "Harlequin Avatar",
+        "Shadowseer",
+        "Master Mime",
+        "Solitaire",
+        "Mimes",
+        "Death Jesters",
+        "Harlequin Troupe",
+        "Skyweaver",
+        "Starweaver",
+        "Voidweaver"
+      ],
+        "unitRules": [
+            "Masters of the Webway",
+            "Dance of Shadows",
+            "Dance of Death"
+      ]
+    },
+    {
+      "from": "darkEldarNavy.json",
+      "units": [
+          "Razorwing Fighter",
+          "Voidraven Bomber",
+          "Slavebringer Assault Boat"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Commorragh Special",
+      "formations": [
+        {
+          "name": "0-1 Wraithgate",
+          "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
+
+          "points": 50
+        },
+        {
+          "name": "0-1 Portable Webway Portal",
+          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus or Ancient character in the army. This portable Webway may be used once in a game. After the characters formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the end phase of the turn before any rallying.",
+
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Commorragh Kabals",
+      "formations": [
+        {
+          "name": "Kabal Coterie",
+          "units": "Four Incubi and one Archon character",
+          "upgrades": [
+            "Tantalus, Haemonculi, Incubi, Scourges, Ravager, Transport, Warriors"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Reaper Flotilla",
+          "units": "Four Reapers",
+          "upgrades": [
+            "Dracon"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Kabal Syndicate",
+          "units": "Six Dark Eldar Warriors",
+          "upgrades": [
+            "Tantalus, Dracon, Haemonculi, Scourges, Transport, Warriors"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Commorragh Partisans",
+      "description": "Up to two for each Commorragh Kabal taken",
+      "formations": [
+        {
+          "name": "Haemonculi Coven",
+          "units": "Two Haemonculi units and four Wracks",
+          "upgrades": [
+            "Ancient, Barges, Grotesques, Talos, Transport"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Heavy Barge",
+          "units": "One Vessel of Pain",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Scourges",
+          "units": "Six Scourges",
+          "upgrades": [
+            "Succubus, Scourges"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Hellions",
+          "units": "Six Hellions",
+          "upgrades": [
+            "Succubus, Hellions"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Reavers",
+          "units": "Six Reavers",
+          "upgrades": [
+            "Succubus, Reavers"
+          ],
+          "points": 200
+        }
+
+
+      ]
+    },
+    {
+      "name": "Harlequin Saedaths",
+      "description": "Up to one for each Commorragh Kabal taken",
+      "formations": [
+        {
+          "name": "0-1 Serpent's Blood",
+          "units": "One Harlequin Avatar, four Skyweaver, two Voidweavers",
+          "upgrades": [
+
+          ],
+          "points": 250
+        },
+        {
+          "name": "0-1 Devourer's Thirst",
+          "units": "One Master Mime, six Mimes",
+          "upgrades": [
+
+          ],
+          "points": 250
+        },
+        {
+          "name": "0-1 Cegorath's Revenge",
+          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters, six Starweavers",
+          "upgrades": [
+          ],
+          "points": 350
+        },
+        {
+          "name": "0-1 Isha's Tears",
+          "units": "One Harlequin Avatar, one Shadowseer, four Death Jesters, two Harlequin Troupes, six Starweavers",
+          "upgrades": [
+          ],
+          "points": 400
+        },
+        {
+          "name": "0-1 Dance Without End",
+          "units": "One Harelquin Avatar, one Shadowseer, one Solitaire, two Death Jesters, two Mimes, three Harlequin Troupes, eight Starweavers",
+          "upgrades": [
+          ],
+          "points": 500
+        }
+      ]
+    },
+    {
+      "name": "Commorragh Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Razorwing Cast",
+          "units": "Two to three Razorwing Fighters",
+          "upgrades": [
+
+          ],
+          "points": "100 points each"
+        },
+        {
+          "name": "Voidraven Cast",
+          "units": "Two Void Raven Bombers",
+          "upgrades": [
+
+          ],
+          "points": 225
+        },
+        {
+          "name": "Slavebringer",
+          "units": "One Slavebringer Assault Boat",
+          "upgrades": [
+
+          ],
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Commorragh Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Ancient",
+        "description": "Add one Dark Eldar Haemonculus Ancient Character to a unit in the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Beasts",
+        "description": "Two Warp Beasts",
+        "points": "50 points each"
+      },
+      {
+        "name": "Dracon/Succubus",
+        "description": "Add one Dark Eldar Dracon or Dark Eldar Succubus to a unit in the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Grotesques",
+        "description": "Two Grotesques",
+        "points": "75 points"
+      },
+      {
+        "name": "Haemonculi",
+        "description": "One Haemonculi unit and one Grotesques",
+        "points": "75 points"
+      },
+      {
+        "name": "Incubi",
+        "description": "Two Dark Eldar Incubi",
+        "points": "75 points"
+      },
+      {
+        "name": "Hellions",
+        "description": "Two Dark Eldar Hellions",
+        "points": "50 points each"
+      },
+      {
+        "name": "Ravager",
+        "description": "One or two Dark Eldar Ravagers",
+        "points": "50 points"
+      },
+      {
+        "name": "Reavers",
+        "description": "Two Dark Eldar Reavers",
+        "points": "50 points"
+      },
+      {
+        "name": "Scourges",
+        "description": "Two Scourges",
+        "points": "75 points"
+      },
+      {
+        "name": "Warriors",
+        "description": "Two Dark Eldar Warriors",
+        "points": "50 points"
+      },
+      {
+        "name": "Transport",
+        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation. Up to three Raiders may be added to a formation for free to carry any Incubi, Warrior, Wych, Haemonculi and/or Wrack units, additional Raiders are added for free to transport units from the Dark Eldar Upgrades section, as long as that unit can be trasported in a Raider. Any number of Raiders may be replaced by two Venoms, for 25 points per Raider replaced.",
+        "points": "Free"
+      },
+      {
+        "name": "Tantalus",
+        "description": "Add Tantalus tranports to replace Raiders. There shouldnt be more than one Tantalus for every two infantry units without jump packs or mounted.",
+        "points": "25 points each"
+      }
+    ]
+  }
+}

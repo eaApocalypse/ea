@@ -1,0 +1,303 @@
+{
+  "fraction": "Dark Mechanicus",
+  "army": "Traitor Titan Legion",
+  "version": "1.6",
+  "release": "2019-03-02",
+  "strategy": "Traitor Titan Legions armies have a Strategy Rating of 3.",
+  "Initiative": "All Traitor Titan formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "specialRules":
+    [
+      "Summoning",
+      "TTL Summoning Rules",
+      "Augment Summoning (+x)",
+      "Daemonic Focus",
+      "Fickle Masters",
+      "TTL Eternal Animosity"
+    ],
+  "usage": [
+    "The following army list allows you to field an army from the Traitor Titan Legions with Dark Mechanicus support."
+  ],
+  "units": [
+      {
+        "from": "traitortitanlegions.json",
+        "units": [
+          "Eye of the Gods",
+
+          "Vicebringer Titan",
+          "Gloombringer Titan",
+          "Strifebringer Titan",
+          "Changebringer Titan",
+
+          "Painlord Titan",
+          "Plaguelord Titan",
+          "Banelord Titan",
+          "Warplord Titan",
+
+          "Reviler Titan",
+          "Repugnant Titan",
+          "Ravager Titan",
+          "Mutator Titan",
+
+          "Plaguehound",
+          "Bloodhound",
+          "Warphound"
+        ],
+        "unitRules": [
+          "Void Shields",
+          "God Machine",
+          "Split Fire",
+          "Ignore Shields"
+      ]
+    },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Questor",
+            "Subjugator",
+            "Hell-Strider",
+            "Hell-Knight",
+            "Hell-Scourge",
+            "Desecrator",
+            "Knight-Decayer",
+            "Slaughterfiend",
+            "Knight-Mauler",
+            "Deciever",
+            "Knight-Mutator",
+            "Defiler",
+            "Knight-Renegade",
+            "Heretek",
+            "Chaos Squat Excavators",
+            "Hades Land Raider"
+        ],
+        "unitRules": [
+          "Daemon Engine (x)",
+          "Stubborn"
+        ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Daemonettes of Slaanesh",
+        "Fiends of Slaanesh",
+        "Plaguebearers of Nurgle",
+        "Beasts of Nurgle",
+        "Bloodletters of Khorne",
+        "Fleshhounds of Khorne",
+        "Horrors of Tzeench",
+        "Flamers of Tzeench",
+        "Daemonic Beasts of Chaos Undivided"
+      ],
+      "unitRules": [
+    ]
+    },
+  {
+    "from": "chaosnavy.json",
+    "units": [
+      "Heldrake Interceptor",
+      "Baledrake Fighter-Bomber",
+      "Despoiler Class Battleship"
+  ],
+  "unitRules": [
+      "God Machine Killer (GMK)"
+
+  ]
+}
+],
+  "sections": [
+    {
+      "name": "Traitor Titan Legion Battle Titan Formations",
+      "description": "A TTL army must contain at least one Chaos Emperor or Chaos Warlord Titan. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
+      "formations": [
+        {
+          "name": "0-1 Chaos Emperor Titan",
+          "units": "One Vicebringer Titan of Slaanesh / Gloombringer Titan of Nurgle / Strifebringer Titan of Khorne / Changebringer Titan of Tzeench",
+          "upgrades": [
+            "Supreme Commander"
+          ],
+          "points": 900
+      },
+        {
+          "name": "Chaos Warlord Titan",
+          "units": "One Painlord Titan of Slaanesh / Plaguelord Titan of Nurgle / Banelord Titan of Khorne / Warplord Titan of Tzeench",
+          "upgrades": [
+            "Supreme Commander"
+          ],
+          "points": 750
+      },
+        {
+          "name": "Chaos Reaver Titan",
+          "units": "One Reviler Titan of Slaanesh / Repugnant Titan of Nurgle / Ravager Titan of Khorne / Mutator Titan of Tzeench",
+          "upgrades": [
+          ],
+          "points": 600
+      }
+    ]
+},
+    {
+      "name": "Scout Titan Formations",
+      "description": "Three for each Chaos Emperor Titan, two for each Chaos Warlord Titan. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
+      "formations": [
+        {
+          "name": "Chaos Warhounds",
+          "units": "One Plaguehound of Nurgle / Bloodhound of Khorne / Warphound or Tzeench",
+          "upgrades": [
+            "Add one Chaos Warhound of the chosen type: 225 points"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Questors of Slaanesh",
+          "units": "One Questor",
+          "upgrades": [
+            "Add one Questor for 225 points"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Subjugators of Slaanesh",
+          "units": "One Subjugator",
+          "upgrades": [
+            "Add one Subjugator for 200 points"
+          ],
+          "points": 250
+        }
+    ]
+  },
+  {
+    "name": "Dark Mechanicus Daemon Engine Formations",
+    "description": "Three for each Battle Titan, one for each unit in a Scout Titan formation. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations.",
+    "formations": [
+        {
+          "name": "Hell-Striders of Slaanesh",
+          "units": "Four Hell-Striders",
+        "upgrades": [
+            "Add up to two Hell-Striders for 35 points each"
+        ],
+        "points": 200
+          },
+          {
+            "name": "Hell-Knights of Slaanesh",
+            "units": "Three Hell-Knights",
+            "points": 250
+          },
+          {
+            "name": "Hell-Scourges of Slaanesh",
+            "units": "Two Hell-Scourges",
+            "points": 225
+          },
+          {
+            "name": "Knights of Nurgle",
+            "units": "Two Knight-Decayers",
+            "upgrades": [
+            ],
+            "points": 250
+        },
+          {
+            "name": "Nurgle Defiler Pack",
+            "units": "Four Desecrators",
+            "upgrades": [
+        "Add up to three Desecrators for 50 points each"
+            ],
+            "points": 225
+        },
+        {
+          "name": "Knights of Khorne",
+          "units": "Two Knight-Maulers",
+          "upgrades": [
+          ],
+          "points": 250
+      },
+        {
+          "name": "Khorne Defiler Pack",
+          "units": "Five Slaughterfiends",
+          "upgrades": [
+            "Add up to three Slaughterfiends for 35 points each"
+          ],
+          "points": 225
+      },
+      {
+        "name": "Knights of Tzeench",
+        "units": "Two Knight-Mutators",
+        "upgrades": [
+        ],
+        "points": 250
+    },
+        {
+          "name": "Tzeench Defiler Pack",
+          "units": "Four Decievers",
+          "upgrades": [
+          ],
+          "points": 250
+      }
+
+    ]
+  },
+        {
+      "name": "Chaos Undivided Allies and Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Knights of Chaos Undivided",
+            "units": "Two Knight-Renegades",
+            "upgrades": [
+            ],
+            "points": 250
+        },
+          {
+            "name": "Chaos Undivided Defiler Pack ",
+            "units": "Four Defilers",
+          "upgrades": [
+            "Add up to two Defilers for 50 points each"
+          ],
+          "points": 225
+      },
+          {
+            "name": "Chaos Squats (Chaos Undivided)",
+            "units": "One Heretek, four Chaos Squat Excavators, two Hades Land Raiders",
+          "upgrades": [
+              ],
+          "points": 225
+            },
+        {
+          "name": "Hell Blade Squadron",
+          "units": "Three Hell Blade Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Hell Talon Squadron",
+          "units": "Two Hell Talon Fighter-Bombers",
+          "points": 225
+        },
+        {
+          "name": "0-1 Chaos Battleship",
+          "units": "One Despoiler Class Battleship",
+          "upgrades": [
+          ],
+          "points": 150
+        }
+      ]
+  },
+  {
+    "name": "Daemon Pool",
+    "description": "Any amount may be spent on Daemon Pool points",
+    "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
+      }
+    ]
+}
+  ],
+  "upgrades": {
+    "title": "Traitor Titan Legion Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "1 Supreme Commander",
+        "description": "One Eye of the Gods character. Must be added to a Chaos Emperor Titan if such have been bought, or to a Chaos Warlord Titan.",
+        "points": "50 points"
+      }
+    ]
+  }
+}

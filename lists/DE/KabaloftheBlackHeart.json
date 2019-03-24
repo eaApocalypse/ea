@@ -1,0 +1,333 @@
+{
+  "fraction": "Dark Eldar",
+  "army": "Kabal of the Black Heart",
+  "version": "1.2",
+  "release": "2019-03-17",
+  "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
+  "Initiative": "Dark Eldar Kabal, Tormentor, Torture Titans, and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
+
+  "specialRules": [
+        "Fleet of Foot",
+        "Hit and Run",
+        "Lance",
+        "Kabal Coterie BTS",
+        "Dark Eldar May not Garrison",
+        "Webway Portal",
+        "Shadowfields"
+      ],
+  "usage": [
+    "The following army list allows you to field an army based on the Kabal of the Bladed Lotus"
+  ],
+  "units": [
+    {
+      "from": "DE.json",
+      "units": [
+        "Archon",
+        "Dracon",
+        "Succubus",
+        "Haemonoculus Ancient",
+        "Incubi",
+        "Warriors",
+        "Mandrakes",
+        "Scourges",
+        "Haemonculi",
+        "Wracks",
+        "Grotesques",
+        "Wyches",
+        "Warp Beasts",
+        "Hellions",
+        "Reavers",
+        "Venom",
+        "Raider",
+        "Ravager",
+        "Talos",
+        "Perditor",
+        "Barge of Pleasure",
+        "Vessel of Pain",
+        "Tormentor Titan",
+        "Torture Titan"
+      ],
+        "unitRules": [
+
+      ]
+    },
+    {
+      "from": "darkEldarNavy.json",
+      "units": [
+          "Razorwing Fighter",
+          "Voidraven Bomber",
+          "Slavebringer Assault Boat",
+          "Executioner Assault Ship",
+          "Torture Class Cruiser"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Kabal of the Black Heart Special",
+      "formations": [
+        {
+          "name": "0-1 Wraithgate",
+          "units": "Replace one objective marker in the Dark Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way.",
+
+          "points": 50
+        },
+        {
+          "name": "0-1 Portable Webway Portal",
+          "units": "Add a portable Webway Portal to an Archon, Dracon, Succubus or Ancient character in the army. This portable Webway may be used once in a game. After the characters formation completes an action you may place a barrage template marker completely within 15cm of the character and outside any enemy zones of control. This marker counts as a Webway Portal which may not be attacked or damaged in any way. Remove this Webway Portal marker in the end phase of the turn before any rallying.",
+
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Black Heart Kabals",
+      "formations": [
+        {
+          "name": "Kabal Coterie",
+          "units": "Four Incubi and one Archon character",
+          "upgrades": [
+            "Barge, Haemonculi, Incubi, Scourges, Ravager, Transport, Warriors, Wyches"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Kabal Flotilla",
+          "units": "Four Ravagers",
+          "upgrades": [
+            "Dracon, Ravager"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Kabal Syndicate",
+          "units": "Six Dark Eldar Warriors",
+          "upgrades": [
+            "Barge, Dracon, Haemonculi, Scourges, Ravager, Transport, Warriors, Wyches"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Black Heart Partisans",
+      "description": "Up to two for each Bladed Lotus Kabals taken",
+      "formations": [
+        {
+          "name": "Haemonculi Coven",
+          "units": "Two Haemonculi units and four Wracks",
+          "upgrades": [
+            "Ancient, Barges, Grotesques, Talos, Transport"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Heavy Barge",
+          "units": "One Vessel of Pain",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Mandrakes",
+          "units": "Six Mandrake units",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Scourges",
+          "units": "Six Scourges",
+          "upgrades": [
+            "Succubus, Scourges"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Talos",
+          "units": "Four Talos",
+          "upgrades": [
+            "Talos, Perditors"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Hellions",
+          "units": "Six Hellions",
+          "upgrades": [
+            "Succubus, Hellions"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Reavers",
+          "units": "Six Reavers",
+          "upgrades": [
+            "Succubus, Reavers"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Wych Cult",
+          "units": "Six Wyches",
+          "upgrades": [
+            "Barges, Beasts, Succubus, Transport, Wyches"
+          ],
+          "points": 200
+        }
+
+
+      ]
+    },
+    {
+      "name": "Black Heart Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Razorwing Cast",
+          "units": "Two to Three Razorwing Fighters",
+          "upgrades": [
+
+          ],
+          "points": "100 points each"
+        },
+        {
+          "name": "Voidraven Cast",
+          "units": "Two Void Raven Bombers",
+          "upgrades": [
+
+          ],
+          "points": 225
+        },
+        {
+          "name": "Slavebringer",
+          "units": "One Slavebringer Assault Boat",
+          "upgrades": [
+
+          ],
+          "points": 200
+        },
+        {
+          "name": "Tormentor",
+          "units": "One Tormentor Titan",
+          "upgrades": [
+
+          ],
+          "points": 350
+        },
+        {
+          "name": "Torture Class Titan",
+          "units": "One Torture Titan",
+          "upgrades": [
+
+          ],
+          "points": 650
+        },
+        {
+          "name": "Executioner",
+          "units": "One Executioner Assault Ship",
+          "upgrades": [
+
+          ],
+          "points": 400
+        },
+        {
+          "name": "0-1 Spacecraft",
+          "units": "One Torture Class Cruiser",
+          "upgrades": [
+
+          ],
+          "points": 300
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Black Heart Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Ancient",
+        "description": "Add one Dark Eldar Haemonculus Ancient Character to a unit in the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Beasts",
+        "description": "Two Warp Beasts",
+        "points": "50 points each"
+      },
+      {
+        "name": "Dracon/Succubus",
+        "description": "Add one Dark Eldar Dracon or Dark Eldar Succubus to a unit in the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Grotesques",
+        "description": "Two Grotesques",
+        "points": "75 points"
+      },
+      {
+        "name": "Haemonculi",
+        "description": "One Haemonculi unit and one Grotesques",
+        "points": "75 points"
+      },
+      {
+        "name": "Incubi",
+        "description": "Two Dark Eldar Incubi",
+        "points": "75 points"
+      },
+      {
+        "name": "Hellions",
+        "description": "Two Dark Eldar Hellions",
+        "points": "50 points each"
+      },
+      {
+        "name": "Perditor",
+        "description": "One or two Perditors",
+        "points": "125 points each"
+      },
+      {
+        "name": "Ravager",
+        "description": "One or two Dark Eldar Ravagers",
+        "points": "50 points"
+      },
+      {
+        "name": "Reavers",
+        "description": "Two Dark Eldar Reavers",
+        "points": "50 points"
+      },
+      {
+        "name": "Scourges",
+        "description": "Two Scourges",
+        "points": "75 points"
+      },
+      {
+        "name": "Talos",
+        "description": "Add up to four Dark Eldar Talos",
+        "points": "50 points each"
+      },
+      {
+        "name": "Warriors",
+        "description": "Two Dark Eldar Warriors",
+        "points": "50 points"
+      },
+      {
+        "name": "Wyches",
+        "description": "Two Dark Eldar Wyches",
+        "points": "50 points"
+      },
+      {
+        "name": "Transport",
+        "description": "Any combination of transport options may be taken to transport a formation, as long as no vehicle has an empty transport slot. Not all units in a formation require a transport vehicle. Transport options selected may only transport units from the same formation. Up to three Raiders may be added to a formation for free to carry any Incubi, Warrior, Wych, Haemonculi and/or Wrack units, additional Raiders are added for free to transport units from the Dark Eldar Upgrades section, as long as that unit can be trasported in a Raider. Any number of Raiders may be replaced by two Dark Eldar Venoms, for 25 points per Raider replaced.",
+        "points": "Free"
+      },
+      {
+        "name": "Barges",
+        "description": "Up to three Dark Eldar Barge's of Pleasure may be added to a formation. One Barge of Pleasure replaces two Raiders in the formation.",
+        "points": "100 point each"
+      }
+    ]
+  }
+}

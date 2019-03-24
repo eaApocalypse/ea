@@ -1,0 +1,17 @@
+{{#if specialRules}}
+<div class="card" style="margin-top: .8rem">
+    <div class="card-header"><b>Special Rules</b></div>
+    <div class="card-body">
+        <dl class="row">
+            {{#each specialRules}}
+            <dt class="col-md-2">{{title}}</dt>
+            <dd class="col-md-10">
+                {{#each description}}
+                <p class="card-text">{{this}}</p>
+                {{/each}}
+            </dd>
+            {{/each}}
+        </dl>
+    </div>
+</div>
+{{/if}}

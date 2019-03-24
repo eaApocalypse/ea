@@ -1,0 +1,478 @@
+[
+  {
+    "name": "Necron Forces",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          ""
+        ]
+      }
+    ],
+    "unit": [
+      {
+          "name": "Necron Overlord",
+          "type": "CH",
+          "weapons": [
+            "Staff of Light"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Necron Lord",
+          "type": "CH",
+          "weapons": [
+            "Staff of Light"
+          ],
+          "specialRules": [
+            "Leader",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Destroyers",
+          "type": "INF",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 3,
+          "weapons": [
+            "Gauss Cannon|2|"
+          ],
+          "specialRules": [
+            "Mounted",
+            "Necron",
+            "Skimmer"
+          ]
+      },
+      {
+          "name": "Heavy Destroyers",
+          "type": "INF",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Heavy Gauss Cannon"
+          ],
+          "specialRules": [
+            "Mounted",
+            "Necron",
+            "Skimmer"
+          ]
+      },
+      {
+          "name": "Flayed Ones",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "weapons": [
+            "Flayed Ones Claws"
+          ],
+          "specialRules": [
+            "Infiltrator",
+            "Necron",
+            "Scout",
+            "Teleport"
+          ]
+      },
+      {
+          "name": "Immortals",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": [
+            "Gauss Blasters"
+          ],
+          "specialRules": [
+            "Necron"
+          ]
+      },
+      {
+          "name": "Necron Warriors",
+          "type": "INF",
+          "speed": 15,
+          "armour": 5,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Gauss Flayers"
+          ],
+          "specialRules": [
+            "Necron"
+          ]
+      },
+      {
+          "name": "Cryptek",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": [
+            "Abyssal Staff"
+          ],
+          "specialRules": [
+            "Inspiring",
+            "Invulnerable save"
+          ]
+      },
+      {
+          "name": "Wraiths",
+          "type": "INF",
+          "speed": 15,
+          "armour": 5,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Wraith Claws"
+          ],
+          "specialRules": [
+            "First Strike",
+            "Invulnerable Save",
+            "Necron",
+            "Jump Packs"
+          ]
+      },
+      {
+          "name": "Deathmarks",
+          "type": "INF",
+          "speed": 15,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Synaptic Disintegrator"
+          ],
+          "specialRules": [
+            "Necron",
+            "Scout",
+            "Teleport"
+          ]
+      },
+      {
+          "name": "Tomb Blades",
+          "type": "INF",
+          "speed": 35,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Twin Tesla Carbines"
+          ],
+          "specialRules": [
+            "Mounted",
+            "Skimmer"
+          ]
+      },
+      {
+          "name": "Triarch Preatorian",
+          "type": "INF",
+          "speed": 30,
+          "armour": 4,
+          "cc": 3,
+          "ff": 5,
+          "weapons": [
+            "Rods of Covenant"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Necron",
+            "Jump Packs"
+          ]
+      },
+      {
+          "name": "Monolith",
+          "type": "AV",
+          "speed": 15,
+          "armour": 3,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Particle Whip",
+            "Gauss Flux Arc"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Living Metal",
+            "Portal",
+            "Skimmer",
+            "Teleport",
+            "Thick Rear Armour",
+            "Ponderous"
+          ]
+      },
+      {
+          "name": "Obelisk",
+          "type": "AV",
+          "speed": 30,
+          "armour": 3,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Particle Flail"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Living Metal",
+            "Skimmer",
+            "Teleport",
+            "Thick Rear Armour",
+            "Ponderous"
+          ]
+      },
+      {
+          "name": "Tomb Spyder",
+          "type": "AV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Scarab Swarm",
+            "Tomb Spyder Claws"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Leader",
+            "Skimmer",
+            "Walker"
+          ]
+      },
+      {
+          "name": "Ghost Ark",
+          "type": "AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Gauss Flayers Array"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Skimmer",
+            "Enduring"
+          ],
+          "notes": "Transport: 2 Infantry Units"
+      },
+      {
+          "name": "Annihilation Barge",
+          "type": "AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 6,
+          "ff": 3,
+          "weapons": [
+            "Twin Tesla Destructor",
+            "Tesla Cannon"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Skimmer",
+            "Enduring"
+          ]
+      },
+      {
+          "name": "Catacomb Command Barge",
+          "type": "AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 6,
+          "ff": 3,
+          "weapons": [
+            "Gauss Cannon"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Skimmer",
+            "Enduring",
+            "Commander",
+            "Leader"
+          ]
+      },
+      {
+          "name": "Doomsday Ark",
+          "type": "AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Doomsday Cannon",
+            "Gauss Flayers Array"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Skimmer",
+            "Enduring"
+          ]
+      },
+      {
+          "name": "Triarch Stalker",
+          "type": "AV",
+          "speed": 20,
+          "armour": 5,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Heat Ray"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Infiltrator",
+            "Walker"
+          ]
+      },
+      {
+          "name": "Sentry Pylons",
+          "type": "AV",
+          "speed": "Immobile",
+          "armour": 5,
+          "ff": 5,
+          "weapons": [
+            "Gauss Exterminator"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Fearless",
+            "Teleport"
+          ]
+      },
+      {
+          "name": "Abattoir",
+          "type": "WE",
+          "speed": 20,
+          "armour": 3,
+          "cc": 2,
+          "ff": 4,
+          "weapons": [
+            "Scarab Swarm|3|",
+            "Harvesters"
+          ],
+          "specialRules": [
+            "Damage Capacity 8",
+            "Fearless",
+            "Infiltrator",
+            "Living Metal",
+            "Portal",
+            "Skimmer",
+            "Thick Rear Armour"
+          ],
+          "notes": "Critical Hit Effect: The unit and all units within 5cm of the unit suffer a Titan Killer hit on a roll of 4+"
+      },
+      {
+          "name": "Aeonic Orb",
+          "type": "WE",
+          "speed": 20,
+          "armour": 3,
+          "ff": 3,
+          "weapons": [
+            "Solar Flare"
+          ],
+          "specialRules": [
+            "Damage Capacity 6",
+            "Fearless",
+            "Living Metal",
+            "Skimmer",
+            "Thick Rear Armour"
+          ],
+          "notes": "Critical Hit Effect: Center the barrage template that is 12cm across on the unit and resolve the effect as if it were a 3BP macro-weapon barrage."
+      },
+      {
+          "name": "Pylon",
+          "type": "WE",
+          "speed": 20,
+          "armour": 3,
+          "cc": "",
+          "ff": 4,
+          "weapons": [
+            "Particle Accelerator",
+            "Gauss Flux Arc"
+          ],
+          "specialRules": [
+            "Damage Capacity 2",
+            "Fearless",
+            "Living Metal",
+            "Teleport",
+            "Thick Rear Armour"
+          ],
+          "notes": "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a hit on a roll of 4+"
+      },
+      {
+          "name": "Warbarque",
+          "type": "WE",
+          "speed": 20,
+          "armour": 3,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Particle Cannon|2|",
+            "War Cannon|2|",
+            "Gauss Cannon|2|",
+            "Gauss Flux Arc"
+          ],
+          "specialRules": [
+            "Damage Capacity 3",
+            "Commander",
+            "Fearless",
+            "Ponderous",
+            "Leader",
+            "Living Metal",
+            "Portal",
+            "Skimmer",
+            "Teleport",
+            "Thick Rear Armour"
+          ],
+          "notes": "Critical Hit Effect: The unit loses Portal. Subsequent critical hits destroy the unit."
+      },
+      {
+          "name": "C’tan Shard",
+          "type": "WE",
+          "speed": 20,
+          "armour": 3,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Transdimentional Bolt",
+            "Entropic Touch",
+            "Pyreshards"
+          ],
+          "specialRules": [
+            "Damage Capacity 2",
+            "Inspiring",
+            "Living Metal",
+            "C'tans can use portals. If the C’tan Shard becomes broken at any point it is immediatly removed from play, removing it in this way does not cause Blast Markers for hackdowns."
+          ],
+          "notes": "Critical Hit Effect: The C'tan is destroyed and removed from play."
+      },
+      {
+          "name": "Seraptek Heavy Construct",
+          "type": "WE",
+          "speed": 25,
+          "armour": 3,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Singularity Generators|2|",
+            "Titanic Forelimbs"
+          ],
+          "specialRules": [
+            "Damage Capacity 2",
+            "Fearless",
+            "Living Metal",
+            "Walker"
+          ],
+          "notes": "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 4+."
+      }
+
+
+    ]
+  }
+]

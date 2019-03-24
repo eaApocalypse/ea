@@ -1,0 +1,141 @@
+<h1>{{fraction}} - {{army}}</h1>
+<p>
+    <small>Version {{version}} - {{release}}</small>
+</p>
+
+{{#if introduction}}
+<p>{{introduction}}</p>
+{{/if}}
+
+{{#if usage}}
+<h5>Using The Army List</h5>
+{{#each usage}}
+<p>{{{this}}}</p>
+{{/each}}
+{{/if}}
+
+{{> special-rules}}
+
+<h2>{{army}} Army List</h2>
+<p>{{strategy}} {{Initiative}} {{{armyRules}}}</p>
+
+{{#each sections}}
+{{> card-with-margin}}
+<div class="card-header"><b>{{name}}</b>{{#if description}}<br>
+    <small>{{description}}</small>
+    {{/if}}
+</div>
+<div>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">
+                <div class="row">
+                    <div class="col-3 col-md-2">Formation</div>
+                    <div class="col-6 col-md-4">Units</div>
+                    <div class="col-3 order-md-9 col-md-2" style="text-align: right">Cost</div>
+                    <div class="d-none d-md-inline col-md-4">Upgrades</div>
+                </div>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each formations}}
+        <tr>
+            <td>
+                <div class="row">
+                    <div class="col-3 col-md-2">{{name}}</div>
+                    <div class="col-6 col-md-4">
+                        {{units}}
+                        {{#if notes}}
+                        <br>
+                        <small>{{notes}}</small>
+                        {{/if}}
+                    </div>
+                    <div class="col-3 order-md-9 col-md-2" style="text-align: right">
+                        {{#if points}}{{points}} points{{/if}}
+                        {{#if pointsOptions}}
+                        {{#each pointsOptions}}{{this.name}} - {{this.points}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                        {{/if}}
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <span class="d-inline d-md-none"><i>Upgrades:</i></span>
+                        {{#each upgrades}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+                        {{#if extraUnits}}
+                        <ul style="padding-left: 1rem">
+                            {{#each extraUnits}}
+                            <li>{{this}}</li>
+                            {{/each}}
+                        </ul>
+                        {{/if}}
+                    </div>
+                </div>
+            </td>
+        </tr>
+        {{/each}}
+        </tbody>
+    </table>
+</div>
+</div>
+{{/each}}
+
+{{#with upgrades}}
+<div class="card" style="margin-top: .8rem">
+    <div class="card-header"><b>{{title}}</b><br>
+        <small>{{description}}</small>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Upgrades</th>
+                <th scope="col" colspan="2">Units</th>
+                <th scope="col">Cost</th>
+            </tr>
+            </thead>
+            <tbody>
+            {{#each items}}
+            {{#upgrade this}}
+            {{#unless options}}
+            <tr class="unit-row-{{oddEven @index}}">
+                <td>{{name}}</td>
+                <td colspan="2">{{description}}</td>
+                <td style="white-space: nowrap;">
+                    {{#if (isArray points)}}
+                    {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                    {{else}}
+                    {{points}}
+                    {{/if}}
+                </td>
+            </tr>
+            {{else}}
+            <tr class="unit-row-{{oddEven @index}}">
+                <td rowspan="{{@options}}">{{name}}</td>
+                {{#if description}}
+                <td rowspan="{{@options}}">{{description}}</td>
+                {{/if}}
+                {{#each options}}
+                {{#unless @first}}
+            <tr class="unit-row-{{oddEven @../index}}">{{/unless}}
+                {{#if ../description}}
+                <td>{{description}}</td>
+                {{else}}
+                <td colspan="2">{{description}}</td>
+                {{/if}}
+                <td>
+                    {{#if (isArray points)}}
+                    {{#each points}}{{this}}{{#unless @last}}<br>{{/unless}}{{/each}}
+                    {{else}}
+                    {{points}}
+                    {{/if}}
+                </td>
+            </tr>
+            {{/each}}
+            {{/unless}}
+            {{/upgrade}}
+            {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
+{{/with}}

@@ -1,0 +1,172 @@
+{
+  "fraction": "Eldar",
+  "army": "Eldar Titan Force",
+  "version": "0.01",
+  "release": "2019-02-22",
+  "strategy": "Eldar Titan Force armies have a Strategy Rating of 4.",
+  "Initiative": "Titans and Knights have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+
+  "specialRules": ["Farsight","Hit and Run","May Not Garrison (Eldar Titan Force)", "Holofields (x)","Lance","Ignore Shields", "Shield Disruptor", "Webway Portal","Independent Twins", "Heavy Armoured Vehicle (H-AV)"],
+  "usage": [
+    "The following army list allows you to field an army based on Eldar Titans and Eldar Knights."
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Bonesinger",
+        "Spiritseer",
+        "Wraithblade",
+        "Wraithguard",
+        "Wraithlord",
+        "Fire Gale",
+        "Bright Stallion",
+        "Wraithknights",
+        "Scorpion",
+        "Cobra",
+        "Storm Serpent",
+        "Revenant Titan",
+        "Warlock Titan",
+        "Yme-Loc Phantom Titan",
+        "Mymeara Phantom Titan",
+        "Kinshara Phantom Titan",
+        "Fir Iolarion Phantom Titan"
+
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nightwing Interceptor"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Eldar Titans Special",
+      "formations": [
+        {
+          "name": "0-1 Wraithgate",
+          "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
+
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Eldar Titans",
+      "description": "Choose one Titan for the army. Max 1 for each 3k points",
+      "formations": [
+        {
+          "name": "Warlock Titan",
+          "units": "One Warlock Titan",
+          "upgrades": [
+            "Bonesinger"
+          ],
+          "points": 800
+        },
+        {
+          "name": "Phantom Titan",
+          "units": "One Yme-Loc Phantom Titan, Fir Iolarion Phantom Titan, Kinshara Phantom Titan or Mymeara Phantom Titan",
+          "upgrades": [
+            "Bonesinger"
+          ],
+          "points": 700
+        }
+      ]
+    },
+    {
+      "name": "Eldar Scout Titans",
+      "description": "Up to one Eldar Scout Titan formation for each 1000 points.",
+      "formations": [
+        {
+          "name": "Revenant Titan",
+          "units": "Two Revenant Titans",
+          "upgrades": [
+            "'Independent Twins' for: 50 points (see special rules)"
+          ],
+          "points": 650
+        }
+
+      ]
+    },
+    {
+      "name": "Eldar Titans Support",
+      "description": "Up to three Supports formations for each Pair of Scout Titans Taken.",
+      "formations": [
+
+        {
+          "name": "Fire Gale Troupe",
+          "units": "Two Fire Gale Knights",
+          "upgrades": [
+
+          ],
+          "points": 300
+        },
+        {
+          "name": "Bright Stallion Troupe",
+          "units": "Two Bright Stallion Knights",
+          "upgrades": [
+
+          ],
+          "points": 250
+        },
+        {
+          "name": "Wraithknights",
+          "units": "Three Wraithknights",
+          "upgrades": [
+
+          ],
+          "points": 325
+        },
+        {
+          "name": "Engine of Vaul Troupe",
+          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
+          "upgrades": [
+            "Add one or two additional Engine of Vauls for 200 points each chosen from the following: Cobra, Scorpion, Storm Serpent"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Spirit Troupe",
+          "units": "Four Wraithlords and one Spiritseer",
+          "upgrades": [
+            "Add three Wraithguards for 125 points",
+            "Add three Wraithblades for 75 points"
+
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Eldar Navy",
+      "description": "Up to one formation for each 1500 points.",
+      "formations": [
+        {
+          "name": "Nightwing Aerie",
+          "units": "Two Nightwing Interceptors ",
+          "upgrades": [
+            "Add one Nightwing Interceptor: 75 Points"
+          ],
+          "points": 225
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Eldar Titans Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "0-1 Bone Singer",
+        "description": "Add one Bone Singer to the formation.",
+        "points": "Free"
+      }
+    ]
+  }
+}

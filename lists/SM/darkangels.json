@@ -1,0 +1,269 @@
+{
+  "fraction": "Space Marines",
+  "army": "Dark Angels",
+  "version": "1.2",
+  "release": "2019-03-19",
+  "strategy": "Space Marine armies have a Strategy Rating of 5.",
+  "Initiative": "All formations have an Initiative Rating of 1+.",
+  "specialRules": ["Space Marine Transports", "Teleport Homer", "Deathwing"],
+  "usage": [
+    "The following army list allows you to field an army of Dark Angels Space Marines."
+  ],
+  "units": [
+    {
+      "from": "SM.json",
+      "units": [
+        "Dark Angels Captain",
+        "Chaplain",
+        "Librarian",
+        "Supreme Commander",
+        "Assaults",
+        "Scouts",
+        "Tacticals",
+        "Dark Angels Devastators",
+        "Deathwing Terminators",
+        "Deathwing Knights",
+        "Deathwing Cyclones",
+        "Ravenwing Black Knights",
+        "Ravenwing Assault Bikes",
+        "Ravenwing Attack Bike",
+        "Ravenwing Land Speeder",
+        "Ravenwing Land Speeder Tornado",
+        "Ravenwing Land Speeder Venegance",
+        "Dreadnought, Mortis",
+        "Dreadnought, Deathwing",
+        "Hunter",
+        "Stalker",
+        "Land Raider",
+        "Land Raider Ares",
+        "Deathwing Land Raider",
+        "Deimos Predator Executioner",
+        "Deimos Laser Vindicator",
+        "Predator Destructor",
+        "Predator Annihilator",
+        "Rhino",
+        "Whirlwind",
+        "Vindicator",
+        "Glaive",
+        "Ravenwing Nephilim Interceptor",
+        "Ravenwing Dark Talon Fighter-Bomber",
+        "Hunter Class Destroyer",
+        "Strike Cruiser",
+        "Drop Pod"
+      ],
+      "unitRules": ["They Shall Know No Fear"
+
+    ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Dark Angels Core Detachments",
+      "formations": [
+        {
+          "name": "Assaults",
+          "units": "One Dark Angels Captain, six Assaults",
+          "extraUnits": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Ravenwing",
+          "units": "One Black Knights, four Ravenwing Assault Bikes, three Ravenwing Land Speeders",
+          "extraUnits": [
+            "Attack Bikes",
+            "Commander"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
+          "extraUnits": [
+            "Land Raiders",
+            "AAA",
+            "Commander"
+          ],
+          "points": 275
+      },
+      {
+        "name": "Devastators",
+        "units": "Four Dark Angels Devastators plus transport",
+        "extraUnits": [
+          "Land Raiders",
+          "AAA",
+          "Commander"
+        ],
+        "points": 250
+    },
+      {
+        "name": "Land Raiders",
+        "units": "Three Land Raiders",
+        "extraUnits": [
+            "AAA"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Deathwing Terminators",
+        "units": "Four Deathwing Terminators",
+        "extraUnits": [
+          "Commander",
+          "Replace up to four Deathwing Terminators with Deathwing Cyclones and/or Deathwing Knights: Free"
+        ],
+        "points": 350
+        }
+    ]
+},
+    {
+      "name": "Dark Angels Support Detachments",
+      "description": "Three Support Detachments may be fielded per Core Detachment",
+      "formations": [
+          {
+            "name": "Predators",
+            "units": "Four Predator Annihilators or four Predator Destructors",
+            "extraUnits": [
+              "AAA"
+            ],
+            "points": 250
+        },
+        {
+          "name": "Land Raider Ares",
+          "units": "Three Land Raider Ares, three Vindicators",
+          "extraUnits": [
+            "AAA"
+          ],
+          "points": 350
+      },
+        {
+          "name": "Ravenwing Support",
+          "units": "Four Ravenwing Land Speeder Tornado",
+          "extraUnits": [
+            "Venegance"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Scouts",
+          "units": "Four Scouts, two Rhinos",
+          "extraUnits": [
+            "Snipers"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Whirlwind Battery",
+          "units": "Four Whirlwinds",
+          "extraUnits": [
+            "AAA"
+          ],
+          "points": 275
+      },
+      {
+        "name": "Deathwing Land Raiders",
+        "units": "Three Deathwing Land Raiders, three Deathwing Terminators",
+        "extraUnits": [
+        ],
+        "points": 450
+      },
+      {
+        "name": "Deathwing Dreadnoughts",
+        "units": "Five Deathwing Dreadnoughts plus transport",
+        "points": 300
+    },
+    {
+      "name": "0-1 Dreadwing Relic",
+      "units": "Either two Glaives, or four Deimos Predator Executioners and three Deimos Laser Vindicators",
+      "pointsOptions": [{"name": "Glaives", "points":  "550"}, {"name": "Deimos", "points":  "400"}]
+    }
+    ]
+    },
+    {
+      "name": "Ravenwing Aircraft & Dark Angels Swordwing",
+      "description": "Up to a third of the points available may be spent on these formations. One Swordwing Support formation must be taken",
+      "formations": [
+        {
+          "name": "Nephilim Squadron",
+          "units": "Two Ravenwing Nephilim Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Dark Talon Squadron",
+          "units": "Two Ravenwing Dark Talon Fighter-Bombers",
+          "points": 225
+        },
+        {
+          "name": "1 Swordwing Support",
+          "units": "Hunter Class Destroyer",
+          "extraUnits": [
+            "Strike Cruiser"
+          ],
+          "points": 75
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Dark Angels Upgrades",
+    "description": "Each upgrade may be taken once per detachment",
+    "items": [
+      {
+        "name": "Attack Bikes",
+        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
+        "points": "Free"
+      },
+      {
+        "name": "Strike Cruiser",
+        "description": "Replace the Hunter Class Destroyer with a Strike Cruiser",
+        "points": "125 points"
+      },
+      {
+        "name": "Commander",
+        "description": "Add any one of the following characters to any unit in the formation",
+        "options": [
+          {
+            "description": "Dark Angels Captain, Chaplain, Librarian",
+            "points": "50 points"
+          },
+          {
+            "description": "0–1 Supreme Commander",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "AAA",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add two Stalkers",
+            "points": "100 points"
+        },
+        {
+          "description": "Add one or two Mortis Dreadnoughts",
+          "points": ["50 points for one", "75 points for two"]
+        }
+        ]
+      },
+      {
+        "name": "Land Raiders",
+        "description": "Add any number of Land Raiders, up to the number required to transport the formation",
+        "points": "50 points each"
+      },
+      {
+        "name": "Snipers",
+        "description": "Give up to four Scouts Sniper",
+        "points": "10 points each"
+      },
+      {
+        "name": "Venegance",
+        "description": "Replace four Ravenwing Land Speeder Tornado with four Ravenwing Land Speeder Venegance",
+        "points": "50 points"
+      }
+    ]
+  }
+}

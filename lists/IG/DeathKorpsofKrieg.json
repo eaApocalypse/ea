@@ -1,0 +1,313 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Death Korps of Krieg",
+  "version": "0.01",
+  "release": "2019-03-20",
+  "strategy": "DKoK armies have a Strategy Rating of 2.",
+  "Initiative": "Titan Legion and Grenadier formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+
+  "specialRules": [
+      "Lord Commissar",
+      "Courage, Discipline and Loyalty",
+      "Fortified Positions"
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on the Death Korps of Krieg"
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "DKoK Supreme Commander",
+        "DKoK Commander",
+        "Lord Commissar",
+        "Commissar",
+        "Assault Infantry",
+        "Trench Support Squad",
+        "Death Riders",
+        "Rough Riders",
+        "Snipers",
+        "Grenadiers",
+        "Earthshaker Gun",
+        "Heavy AA Gun",
+        "Trojan",
+        "Bombard",
+        "Medusa",
+        "Deathstrike Silo",
+        "Hellhound",
+        "Leman Russ Annihilator",
+        "Leman Russ Thunderer",
+        "Malcador",
+        "Malcador Annihilator",
+        "Minotaur",
+        "Macharius",
+        "Macharius Command",
+        "Gorgon",
+        "Baneblade",
+        "Stormsword",
+        "Shadowsword"
+      ],
+        "unitRules": [
+            "Heavy Armoured Vehicle (H-AV)"
+
+          ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+        "Warhound"
+          ],
+        "unitRules": [
+            "Void Shields"
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt Fighter",
+        "Marauder Bomber",
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
+      ],
+        "unitRules": [
+            "God Machine Killer (GMK)"
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "DKoK Core Formations",
+      "formations": [
+        {
+          "name": "Regimental HQ",
+          "units": "One DKoK Supreme Commander with a Commissar, fourteen Assault Infantry",
+          "extraUnits": [
+              "Lord Commissar",
+              "Gorgon Assault",
+              "Macharius",
+              "Trench Support",
+              "Snipers",
+              "Hellhounds",
+              "Malcadors",
+              "Entrenchments"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Assault Infantry Company",
+          "units": "One DKoK Commander with a Commissar, fourteen Assault Infantry",
+          "extraUnits": [
+              "Gorgon Assault",
+              "Macharius",
+              "Trench Support",
+              "Snipers",
+              "Hellhounds",
+              "Malcadors",
+              "Entrenchments"
+          ],
+          "points": 250
+    },
+        {
+          "name": "Death Rider Company",
+          "units": "One Commissar, twelve Death Riders",
+          "extraUnits": [
+          "Hellhound Platoon"
+          ],
+          "points": 300
+    }
+  ]
+},
+    {
+      "name": "DKoK Support Formations",
+      "description": "Up to two Support Formations for each Company Formation.",
+      "formations": [
+        {
+          "name": "0–1 Deathstrike Silo",
+          "units": "One Deathstrike Silo",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Earthshaker Battery",
+          "units": "Three Earthshaker Guns, three Trojans",
+          "upgrades": [
+              "Add three Earthshaker Guns, one Commissar, three Trojans: 200 points"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Siege Battery",
+          "units": "Three Bombards or Medusa, three Gun Emplacements",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Flak Battery",
+          "units": "Three Heavy AA Guns, three Trojans",
+          "upgrades": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Rough Rider Platoon",
+          "units": "Six Rough Riders",
+          "points": 150
+        },
+        {
+          "name": "Super-Heavy Tank Company",
+          "units": "One Commissar, and any three chosen from Shadowsword, Baneblade, Stormsword",
+          "upgrades": [
+          ],
+          "points": 500
+        },
+        {
+          "name": "Leman Russ Platoon",
+          "units": "Six Leman Russ Thunderers or Leman Russ Annihilators",
+          "upgrades": [
+          ],
+          "points": 350
+        },
+        {
+          "name": "Macharius Company",
+          "units": "One Macharius Command with a Commissar, two Macharius",
+          "upgrades": [
+          ],
+          "points": 325
+        },
+        {
+          "name": "Minotaur Battery",
+          "units": "Two Minotaurs",
+          "points": 350
+        },
+
+        {
+          "name": "Grenadier Company",
+          "units": "One DKoK Commander with a Commissar, seven Grenadiers",
+          "upgrades": [
+              "Add one Gorgon: 75 points"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Titan Legion and Imperial Navy",
+      "description": "Up to a third of the points available may be spent on Titan Legion and Imperial Navy formations",
+      "formations": [
+          {
+            "name": "Warhound Pack",
+            "units": "Two Warhounds",
+            "points": 500
+          },
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 150
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
+      },
+      {
+        "name": "0–1 Orbital Support",
+        "units": "One Lunar Class Cruiser",
+        "points": 150,
+        "upgrades": [
+            "Replace with an Emperor Class Battleship for +50 points"
+        ]
+      }
+      ]
+    }
+
+
+
+
+
+
+
+
+
+
+  ],
+  "upgrades": {
+    "title": "DKoK Upgrades",
+    "description": "Each upgrade may be taken once per formation. Max four upgrades per Company",
+    "items": [
+      {
+        "name": "0-1 Lord Commissar",
+        "options": [
+          {
+            "description": "Replace a Commissar with a Lord Commissar",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Gorgon Assault",
+        "options": [
+          {
+            "description": "Add two Gorgons and five Assault Infantry",
+            "points": "300 points"
+          }
+        ]
+      },
+      {
+        "name": "Macharius",
+        "options": [
+          {
+            "description": "Add one Macharius",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Trench Support",
+        "options": [
+          {
+            "description": "Add four Trench Support Squads",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Hellhounds",
+        "options": [
+          {
+            "description": "Add up to three Hellhounds",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Malcadors",
+        "options": [
+          {
+            "description": "Add up to two Malcadors and/or Malcador Annihilators",
+            "points": "75 points each"
+          }
+        ]
+      },
+      {
+        "name": "Snipers",
+        "options": [
+          {
+            "description": "Add up to two Snipers",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Entrenchments",
+        "options": [
+          {
+            "description": "60cm Razor Wire, 60cm Trenches. May not be combined with the Gorgon Assault upgrade",
+            "points": "50 points"
+          }
+        ]
+      }
+    ]
+  }
+}

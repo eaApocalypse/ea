@@ -1,0 +1,246 @@
+{
+  "fraction": "Chaos Cultists",
+  "army": "Daemonic Incursion",
+  "version": "2.6",
+  "release": "2019-03-15",
+  "strategy": "Daemonic Incursion armies have a Strategy Rating of 0.",
+  "Initiative": "All Daemon formations have an Initiative Rating of 1+. Dark Mechanicus and Chaos Cultist formations have an Initiative Rating of 2+.",
+  "specialRules":
+    [
+      "Summoning",
+      "Daemonic Incursion Summoning Rules",
+      "Augment Summoning (+x)",
+      "Daemonic Focus",
+      "Daemon Instability",
+      "Reign of Chaos",
+      "The Great Ritual",
+      "Terror From Beyond",
+      "Warp Rift",
+      "Chaos Gates",
+      "DI Eternal Animosity"
+    ],
+  "usage": [
+    "The following army list allows you to field an army based on a Daemonic Incursion, aided and abetted by the Lost and the Damned."
+  ],
+  "units": [
+    {
+      "from": "daemons.json",
+      "units": [
+        "Herald of Slaanesh",
+        "Herald of Slaanesh on Seeker Chariot",
+        "Daemonettes of Slaanesh",
+        "Fiends of Slaanesh",
+        "Seekers of Slaanesh",
+        "Herald of Nurgle on Palanquin",
+        "Herald of Nurgle on Blight Fly",
+        "Plaguebearers of Nurgle",
+        "Beasts of Nurgle",
+        "Plague Drones of Nurgle",
+        "Herald of Khorne on Skull Cannon",
+        "Herald of Khorne on Juggernaut",
+        "Bloodletters of Khorne",
+        "Fleshhounds of Khorne",
+        "Bloodcrushers of Khorne",
+        "Herald of Tzeench",
+        "Herald of Tzeench on Burning Chariot",
+        "Horrors of Tzeench",
+        "Flamers of Tzeench",
+        "Screamers of Tzeench",
+        "Exalted Keeper of Secrets",
+        "Keeper of Secrets",
+        "Exalted Great Unclean One",
+        "Great Unclean One",
+        "Exalted Bloodthirster",
+        "Bloodthirster",
+        "Exalted Lord of Change",
+        "Lord of Change",
+        "Daemonic Beasts of Chaos Undivided",
+        "Soul Grinder"
+      ],
+      "unitRules": [
+    ]
+    },
+    {
+    "from": "chaoscultists.json",
+    "units": [
+        "Demagogue",
+        "Aspiring Champion of Chaos Undivided",
+        "Cultists",
+        "Mutants",
+        "Chaos Spawn",
+        "Land Transporter"
+    ],
+    "unitRules": [
+    ]
+},
+{
+    "from": "darkmechanicus.json",
+    "units": [
+        "Defiler",
+        "Warp Altar"
+    ],
+    "unitRules": [
+        "Daemon Engine (x)"
+    ]
+}
+  ],
+  "sections": [
+          {
+    "name": "Daemonic Incursion Specials",
+    "description": "The Army must include one Chaos Gate",
+    "formations": [
+
+        {
+          "name": "1 Chaos Gate",
+          "units": "Replace one objective marker in the Daemonic Incursion player's half of the table with a Chaos Gate. It counts both as an objective and a Chaos Gate.",
+          "upgrades": [
+          ],
+          "points": "0"
+      }
+    ]
+    },
+    {
+      "name": "1+ Exalted Greater Daemons. Max one for each part of 1000 points in the army.",
+      "formations": [
+        {
+          "name": "Exalted Greater Daemon of Slaanesh",
+          "units": "One Exalted Keeper of Secrets ",
+          "extraUnits": [
+            "Soul Grinder"
+          ],
+          "points": 300
+      },
+          {
+            "name": "Exalted Greater Daemon of Nurgle",
+            "units": "One Exalted Great Unclean One",
+            "extraUnits": [
+              "Soul Grinder"
+            ],
+            "points": 300
+        },
+        {
+          "name": "Exalted Greater Daemon of Khorne",
+          "units": "One Exalted Bloodthirster",
+          "extraUnits": [
+            "Soul Grinder"
+          ],
+          "points": 300
+      },
+      {
+        "name": "Exalted Greater Daemon of Tzeench",
+        "units": "One Exalted Lord of Change",
+        "extraUnits": [
+          "Soul Grinder"
+        ],
+        "points": 300
+      }
+      ]
+    },
+    {
+      "name": "Daemon Legions",
+     "description": "",
+      "formations": [
+          {
+            "name": "Slaneesh Legion of Excess",
+            "units": "Three Herald of Slaanesh, five Lesser Daemon Pool points",
+            "extraUnits": [
+                "Replace three Herald of Slaanesh with a Keeper of Secrets: 100 points",
+                "Replace three Herald of Slaanesh with three Herald of Slaanesh on Seeker Chariot: Free",
+                "Soul Grinder"
+            ],
+            "points": 200
+            },
+            {
+              "name": "Nurgle Plague Legion ",
+              "units": "Three Herald of Nurgle on Palanquin, five Lesser Daemon Pool points",
+              "extraUnits": [
+                  "Replace three Herald of Nurgle on Palanquin with a Great Unclean One: 100 points",
+                  "Replace three Herald of Nurgle on Palanquin with three Herald of Nurgle on Blight Fly: Free",
+                  "Soul Grinder"
+              ],
+              "points": 200
+              },
+              {
+                "name": "Khorne Blood Legion",
+                "units": "Three Herald of Khorne on Juggernauts, five Lesser Daemon Pool points",
+                "extraUnits": [
+                    "Replace three Herald of Khorne on Juggernaut with a Bloodthirster: 100 points",
+                    "Replace three Herald of Khorne on Juggernaut with three Herald of Khorne on Skull Cannon: Free",
+                    "Soul Grinder"
+                ],
+                "points": 200
+                },
+                {
+                  "name": "Tzeench Scintillating Legion",
+                  "units": "Three Herald of Tzeench, five Lesser Daemon Pool points",
+                  "extraUnits": [
+                      "Replace three Herald of Tzeench with a Lord of Change: 100 points",
+                      "Replace three Herald of Tzeench with three Herald of Tzeench on Burning Chariot: Free",
+                      "Soul Grinder"
+                  ],
+                  "points": 200
+              }
+              ]
+            },
+            {
+      "name": "Portals & Mortals",
+      "description": "Up to a fourth of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Warp Altar",
+            "units": "One Warp Altar and two Defilers",
+            "extraUnits": [
+                "Defilers"
+            ],
+            "points": 325
+        },
+          {
+            "name": "Lost and the Damned",
+            "units": "One Demagogue or Aspiring Champion of Chaos Undivided, seven Chaos Cultists and/or Mutants",
+            "extraUnits": [
+              "Chaos Spawn",
+              "Land Transporters"
+            ],
+            "points": 175
+        }
+      ]
+  },
+  {
+    "name": "Daemon Pool",
+    "description": "Any amount may be spent on Daemon Pool points",
+    "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
+      }
+    ]
+}
+  ],
+  "upgrades": {
+    "title": "Daemonic Incursion Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Soul Grinder",
+        "description": "Add one Soul Grinder",
+        "points": "75 points"
+      },
+      {
+        "name": "Defilers",
+        "description": "Add up to two Defiler of Chaos Undivided",
+        "points": "50 points each"
+    },
+      {
+        "name": "Chaos Spawn",
+        "description": "Replace up to two Cultists/Mutants with Chaos Spawn",
+        "points": "25 points each"
+    },
+        {
+          "name": "Land Transporters",
+          "description": "Add enough Land Transporters to transport the formation with no space left over",
+          "points": "10 points each"
+      }
+    ]
+  }
+}

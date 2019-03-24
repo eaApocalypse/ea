@@ -1,0 +1,336 @@
+{
+  "fraction": "Chaos Cultists",
+  "army": "Lost and the Damned",
+  "version": "1.3",
+  "release": "2019-02-28",
+  "strategy": "Lost and the Damned armies have a Strategy Rating of 1.",
+  "Initiative": "All formations have an Initiative Rating of 2+.",
+  "specialRules":
+    [
+      "Summoning",
+      "Lost and the Damned Summoning Rules",
+      "Augment Summoning (+x)",
+      "Daemonic Focus",
+      "Fickle Masters",
+      "Infestation",
+      "LatD Eternal Animosity"
+    ],
+  "usage": [
+    "The following army list allows you to field an army based on the Lost and the Damned, the Cultists of Chaos."
+  ],
+  "units": [
+          {
+          "from": "chaoscultists.json",
+          "units": [
+              "Arch Heretic",
+              "Demagogue",
+              "Icon Bearer",
+              "Aspiring Champion of Chaos Undivided",
+              "Daemon Prince of Chaos Undivided",
+              "Cultists",
+              "Mutants",
+              "Big Mutants",
+              "Chaos Hounds",
+              "Chaos Altar",
+              "Chaos Spawn",
+              "Technical",
+              "Land Transporter",
+              "Plague Zombies of Nurgle"
+          ],
+          "unitRules": [
+          ]
+      },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Defiler",
+            "Hellfire Cannon",
+            "Doomblaster",
+            "Forgefiend",
+            "Hell-Strider",
+            "Subjugator",
+            "Questor",
+            "Plague Tower",
+            "Contagion Engine",
+            "Daemonic Assault Engine",
+            "Greater Brass Scorpion",
+            "Lord of Battles",
+            "Silver Tower",
+            "Warp Palace",
+            "Doomwing Interceptor"
+        ],
+        "unitRules": [
+            "Void Shields",
+            "Daemon Engine (x)"
+        ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Daemonettes of Slaanesh",
+        "Plaguebearers of Nurgle",
+        "Bloodletters of Khorne",
+        "Horrors of Tzeench",
+        "Keeper of Secrets",
+        "Great Unclean One",
+        "Bloodthirster",
+        "Lord of Change",
+        "Daemonic Beasts of Chaos Undivided"
+      ],
+      "unitRules": [
+    ]
+    },
+    {
+      "from": "chaosnavy.json",
+      "units": [
+        "Heldrake Interceptor",
+        "Baledrake Fighter-Bomber",
+        "Devastation Class Cruiser"
+    ],
+    "unitRules": [
+        "God Machine Killer (GMK)"
+    ]
+    }
+
+  ],
+  "sections": [
+    {
+      "name": "Chaos Cultist Formations",
+      "formations": [
+        {
+          "name": "Cultist Coven",
+          "units": "Eleven Chaos Cultists and/or Mutants, one Demagogue or Aspiring Champion of Chaos Undivided, Daemonic Pact",
+          "extraUnits": [
+            "Supreme Commander",
+            "Icon Bearer",
+            "Mutants/Cultists",
+            "Big Mutants",
+            "Chaos Spawn",
+            "Chaos Hounds",
+            "Chaos Altar",
+            "Transport",
+            "Technicals"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Dark Mechanicus and Infestation Support Covens ",
+      "description": "Two formations may be fielded per Chaos Cultist formation. May not Mix Nurgle/Tzeench or Slaanesh/Khorne formations. All formations are 0-1 for each part of 1000 points in the army",
+      "formations": [
+          {
+            "name": "Doomblasters of Chaos Undivided",
+            "units": "Four Doomblasters",
+            "upgrades": [
+                "Forgefiends"
+            ],
+            "points": 225
+            },
+            {
+              "name": "Hell Cannons of Chaos Undivided",
+              "units": "Four Hell Cannons",
+              "upgrades": [
+                  "Forgefiends"
+              ],
+              "points": 225
+          },
+          {
+            "name": "Defiler Pack of Chaos Undivided",
+            "units": "Four Defilers",
+          "upgrades": [
+          ],
+          "points": 225
+            },
+            {
+              "name": "Hell-Striders of Slaanesh",
+              "units": "Four Hell-Striders",
+            "upgrades": [
+            ],
+            "points": 200
+              },
+            {
+              "name": "Questors of Slaanesh",
+              "units": "One Questor",
+              "upgrades": [
+                "Add one Questor for 225 points"
+              ],
+              "points": 275
+            },
+            {
+              "name": "Subjugators of Slaanesh",
+              "units": "One Subjugator",
+              "upgrades": [
+                "Add one Subjugator for 200 points"
+              ],
+              "points": 250
+            },
+          {
+            "name": "Contagion Engines of Nurgle",
+            "units": "Four Contagion Engines",
+            "upgrades": [
+            ],
+            "points": 325
+        },
+        {
+          "name": "Plaguetower of Nurgle",
+          "units": "One Plaguetower",
+          "upgrades": [
+          ],
+          "points": 325
+      },
+      {
+        "name": "Nurgle Plague Zombie Infestation",
+        "units": "3 x 2D6 Plague Zombies",
+        "points": 175
+        },
+          {
+            "name": "Khorne Daemonic Assault Engines",
+            "units": "Six Daemonic Assault Engines",
+            "upgrades": [
+            ],
+            "points": 300
+        },
+        {
+          "name": "Greater Brass Scorpion of Khorne",
+          "units": "One Greater Brass Scorpion",
+        "upgrades": [
+          "Add one Greater Brass Scorpion for 175 points"
+        ],
+        "points": 225
+          },
+        {
+          "name": "Khorne Lord of Battles",
+          "units": "One Lord of Battles",
+          "upgrades": [
+          ],
+          "points": 375
+        },
+            {
+          "name": "Silver Towers of Tzeench",
+          "units": "Four Silver Towers",
+          "upgrades": [
+          ],
+          "points": 300
+        },
+        {
+          "name": "Warp Palace of Tzeench",
+          "units": "One Warp Palace",
+        "upgrades": [
+        ],
+        "points": 500
+    },
+    {
+      "name": "Doomwings of Tzeench",
+      "units": "Three Doomwing Interceptors",
+      "upgrades": [
+      ],
+      "points": 150
+      }
+    ]
+},
+
+        {
+      "name": "Chaos Navy",
+      "description": "Up to a fourth of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Heldrake Wing",
+            "units": "Two Heldrake Interceptors",
+            "points": 200
+          },
+          {
+            "name": "Baledrake Wing",
+            "units": "Two Baledrake Fighter-Bombers",
+            "points": 200
+          },
+
+          {
+            "name": "0-1 Chaos Cruiser",
+            "units": "One Devastation Class Cruiser",
+            "upgrades": [
+            ],
+            "points": 150
+          }
+      ]
+  },
+  {
+    "name": "Daemon Pool",
+    "description": "Any amount may be spent on Daemon Pool points",
+    "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
+      },
+      {
+        "name": "Greater Daemon Pool",
+        "units": "Any amount of Greater Daemon Pool points.",
+        "points": 50
+      }
+    ]
+}
+  ],
+  "upgrades": {
+    "title": "Lost and the Damned Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "0-1 Supreme Commander",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Add an Arch Heretic character to the Demagogue or Aspiring Champion of Chaos Undivided",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace the Demagogue with a Daemon Prince of Chaos Undivided",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Icon Bearer",
+        "description": "Add one Icon Bearer character",
+        "points": "25 points"
+      },
+      {
+        "name": "Cultists/Mutants",
+        "description": "Add six Cultists or Mutants",
+        "points": "50 points"
+      },
+      {
+        "name": "Big Mutants",
+        "description": "Replace up to six Cultists/Mutants with Big Mutants",
+        "points": "15 points per unit"
+      },
+      {
+        "name": "Chaos Spawn",
+        "description": "Add one Chaos Spawn",
+        "points": "35 points"
+      },
+      {
+        "name": "Chaos Hounds",
+        "description": "Add three Chaos Hounds",
+        "points": "25 points"
+      },
+      {
+        "name": "Chaos Altar",
+        "description": "Add one Chaos Altar",
+        "points": "150 points"
+      },
+      {
+        "name": "Technicals",
+        "description": "Add up to two Technicals",
+        "points": "15 points each"
+      },
+      {
+        "name": "Land Transporters",
+        "description": "Add enough Land Transporters to carry the entire formation with no spare transport space",
+        "points": "10 points each"
+    }
+    ]
+  }
+}

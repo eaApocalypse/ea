@@ -1,0 +1,331 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Death Guard",
+  "version": "1.5",
+  "release": "2019-02-27",
+  "strategy": "Death Guard armies have a Strategy Rating of 4.",
+  "Initiative": "Death Guard Core and Elite formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "specialRules":
+    [
+      "Summoning",
+      "Death Guard Summoning Rules",
+      "Augment Summoning (+x)",
+      "Daemonic Focus",
+      "Fickle Masters"
+    ],
+  "usage": [
+    "The following army list allows you to field an army based on the Death Guard, using their preferred operational methods."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Warlord",
+        "Chaos Lord",
+        "Sorcerer Lord",
+        "Champion of Nurgle",
+        "Icon Bearer",
+        "Daemon Prince of Nurgle",
+        "Chaos Space Marines",
+        "Havocs",
+        "Chosen",
+        "Blightlord Terminators",
+        "Plague Marines",
+        "Death Guard Rhino",
+        "Death Guard Land Raider",
+        "Death Guard Vindicator",
+        "Death Guard Dreadnought",
+        "Death Guard Stalker"
+    ],
+    "unitRules": [
+
+    ]
+    },
+    {
+        "from": "chaoscultists.json",
+        "units": [
+            "Plague Zombies of Nurgle"
+        ],
+        "unitRules": [
+          "Infestation"
+        ]
+    },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Desecrator",
+            "Greater Blight Drone",
+            "Contagion Engine",
+            "Plague Tower"
+        ],
+        "unitRules": [
+          "Daemon Engine (x)"
+        ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Plaguebearers of Nurgle",
+        "Beasts of Nurgle",
+        "Plague Drones of Nurgle",
+        "Great Unclean One"
+      ],
+      "unitRules": [
+    ]
+  },
+    {
+      "from": "traitortitanlegions.json",
+      "units": [
+        "Plaguehound",
+        "Repugnant Titan"
+      ],
+      "unitRules": [
+        "Void Shields"
+    ]
+  },
+  {
+    "from": "chaosnavy.json",
+    "units": [
+      "Hell Blade Interceptor",
+      "Hell Talon Fighter-Bomber",
+      "Blightbringer Bomber",
+      "Plagueship"
+  ],
+  "unitRules": [
+      "God Machine Killer (GMK)"
+
+  ]
+  }
+  ],
+  "sections": [
+    {
+      "name": "Death Guard Core Formations",
+      "formations": [
+        {
+          "name": "Death Guard Retinue",
+          "units": "Four Plague Marines, three Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
+          "upgrades": [
+            "Supreme Commander",
+            "Transport",
+            "Champion",
+            "Daemonic Pact",
+            "Stalker",
+            "Icon Bearer",
+            "Vindicators",
+            "Havocs",
+            "Plague Marines",
+            "Dreadnoughts"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Death Guard Elite Formations",
+      "description": "One Elite formation may be fielded per Core formation",
+      "formations": [
+        {
+          "name": "Chosen",
+          "units": "Four Chosen, two Death Guard Rhinos",
+          "upgrades": [
+            "Dreadnoughts",
+            "Daemonic Pact",
+            "Icon Bearer",
+            "Vindicators"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Death Guard Terminators",
+          "units": "Four Blightlord Terminators, one Chaos Lord or Sorcerer Lord",
+          "upgrades": [
+              "Supreme Commander",
+              "Transport",
+              "Champion",
+              "Daemonic Pact",
+              "Icon Bearer",
+              "Dreadnoughts"
+          ],
+          "points": 350
+      },
+      {
+        "name": "Vindicators",
+        "units": "Five Death Guard Vindicators",
+        "upgrades": [
+          "Vindicators"
+        ],
+        "points": 200
+      }
+    ]
+  },
+  {
+    "name": "Daemon Engine Formations",
+    "description": "Two Daemon Engine formations may be fielded per Core formation",
+    "formations": [
+      {
+        "name": "Contagion Engines",
+        "units": "Four Contagion Engines",
+        "upgrades": [
+        ],
+        "points": 325
+    },
+    {
+      "name": "Plaguetower",
+      "units": "One Plaguetower",
+      "upgrades": [
+      ],
+      "points": 325
+  },
+  {
+    "name": "Nurgle Defiler Pack",
+    "units": "Four Desecrators",
+    "upgrades": [
+        "Add up to three Desecrators for 50 points each"
+    ],
+    "points": 250
+    }
+    ]
+  },
+        {
+      "name": "Traitor Titans, Plague Zombies and Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Plague Zombie Infestation",
+            "units": "3 x 2D6 Plague Zombies",
+            "points": 175
+            },
+          {
+            "name": "Plaguehounds",
+            "units": "One Plaguehound Titan",
+            "upgrades": [
+              "Add one Plaguehound Titan for 250 points"
+            ],
+            "points": 300
+          },
+          {
+            "name": "Repugnant",
+            "units": "One Repugnant Titan",
+            "upgrades": [
+            ],
+            "points": 625
+          },
+        {
+          "name": "Hell Blade Squadron",
+          "units": "Three Hell Blade Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Hell Talon Squadron",
+          "units": "Two Hell Talon Fighter-Bombers",
+          "points": 225
+        },
+        {
+          "name": "0-1 Blightbringer",
+          "units": "One Blightbringer Bomber",
+          "points": 350
+        },
+        {
+          "name": "0-1 Plagueship",
+          "units": "One Plagueship",
+          "points": 100
+        }
+      ]
+  },
+  {
+    "name": "Daemon Pool",
+    "description": "Any amount may be spent on Daemon Pool points",
+    "formations": [
+        {
+          "name": "Lesser Daemon Pool",
+          "units": "Any amount of Lesser Daemon Pool points",
+          "points": 15
+      },
+      {
+        "name": "Greater Daemon Pool",
+        "units": "Any amount of Greater Daemon Pool points. The first one is free.",
+        "points": 50
+      }
+    ]
+}
+  ],
+  "upgrades": {
+    "title": "Death Guard Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "0-1 Supreme Commander",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Replace the Chaos Lord with a Warlord",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Nurgle",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Transport",
+        "options": [
+          {
+            "description": "Add up to four Death Guard Rhinos (Retinue only)",
+            "points": "10 points each"
+          },
+          {
+            "description": "Add up to four Death Guard Land Raiders",
+            "points": "50 points each"
+        },
+        {
+          "description": "(No more than needed to transport the formation with no space left over)",
+          "points": ""
+      }
+        ]
+      },
+      {
+        "name": "Daemonic Pact",
+        "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
+        "points": "25 points"
+      },
+      {
+        "name": "Dreadnoughts",
+        "description": "Add two Death Guard Dreadnoughts to the formation",
+        "points": "75 points"
+      },
+      {
+        "name": "Champion",
+        "description": "Add one Champion of Nurgle character to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Icon Bearer",
+        "description": "Add one Icon Bearer character",
+        "points": "25 points"
+      },
+      {
+        "name": "Stalker",
+        "description": "Add one Death Guard Stalker to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Add two Death Guard Vindicators",
+        "points": "50 points"
+      },
+      {
+        "name": "Havocs",
+        "description": "Replace three Chaos Space Marines with three Havocs",
+        "points": "35 points"
+      },
+      {
+        "name": "Plague Marines",
+        "description": "Replace three Chaos Space Marines with three Plague Marines",
+        "points": "25 points"
+    }
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "fraction": "Space Marines",
+  "army": "Space Wolves",
+  "version": "0.1.0",
+  "release": "",
+  "strategy": "Space Marine armies have a Strategy Rating of 5.",
+  "Initiative": "All formations have an Initiative Rating of 1+.",
+  "specialRules": ["Space Marine Transports"],
+  "usage": [
+    "The following army list allows you to field an army of Space Marines from the Space Wolves Chapter."
+  ],
+  "units": [
+    {
+      "from": "SM.json",
+      "units": [
+        "Wolf Lord","Wolf Priest","Great Wolf",
+        "Blood Claw Assaults", "Grey Hunter Tacticals","Wolf Guard Terminators", "Long Fang Devastators", "Fenrisian Wolves", "Swiftclaw Assault Bikes", "Wolf Scout Bikes",
+        "Dreadnought", "Leman Russ Exterminator", "Hunter", "Land Raider","Land Raider Wrath of Mjalnar","Iron Wolf Knight","Rhino","Whirlwind","Vindicator",
+        "Wulfen", "Wulfen Dreadnought"
+        "Landing Craft","Storm Talon Gunship","Stormwolf Assault Boat",
+        "Battle Barge","Strike Cruiser","Drop Pod"
+      ],
+      "unitRules": ["They Shall Know No Fear"
+
+    ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Space Wolves Core Detachments",
+      "formations": [
+        {
+          "name": "Assaults",
+          "units": "Four Assaults",
+          "upgrades": [
+            "Commander",
+            "Vindicators"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Bikes",
+          "units": "Five Assault Bikes",
+          "upgrades": [
+            "Attack Bikes",
+            "Commander"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
+          "upgrades": [
+            "Land Raiders",
+            "AAA",
+            "Commander",
+            "Razorback",
+            "Dreadnoughts",
+            "Vindicators"
+          ],
+          "points": 275
+      },
+      {
+        "name": "Devastators",
+        "units": "Four Devastators plus transport",
+        "upgrades": [
+          "Land Raiders",
+          "AAA",
+          "Commander",
+          "Razorback",
+          "Dreadnoughts",
+          "Vindicators"
+        ],
+        "points": 250
+    },
+      {
+        "name": "Land Raiders",
+        "units": "Three Land Raiders",
+        "upgrades": [
+          "AAA",
+          "Commander"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Predators",
+        "units": "Four Predator Annihilator or four Predator Destructor",
+        "upgrades": [
+          "AAA",
+          "Commander"
+        ],
+        "points": 250
+      }
+      ]
+    },
+    {
+      "name": "Codex Astartes Support Detachments",
+      "description": "Three Support Detachments may be fielded per Core Detachment",
+      "formations": [
+        {
+          "name": "Land Speeder",
+          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+          "upgrades": [
+            "Commander",
+            "Typhoons"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Vindicators",
+          "units": "Four Vindicators",
+          "upgrades": [
+            "Commander",
+            "AAA",
+            "Vindicators"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Scouts",
+          "units": "Four Scouts plus transport",
+          "upgrades": [
+            "Commander",
+            "Razorbacks",
+            "Snipers"
+          ],
+          "points": 150
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "upgrades": [
+            "Battle Barge"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Terminators",
+          "units": "Four Terminators",
+          "upgrades": [
+            "Commander",
+            "AAA",
+            "Land Raiders"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Whirlwind Battery",
+          "units": "Four Whirlwinds",
+          "upgrades": [
+            "Commander",
+            "AAA"
+          ],
+          "points": 275
+      },
+      {
+        "name": "Landing Craft",
+        "units": "One Landing Craft",
+        "points": 350
+      }
+      ]
+    },
+    {
+      "name": "Codex Astartes Aircraft & Titan Legion Allies",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Storm Talon Squadron",
+          "units": "Two Storm Talons",
+          "points": 200
+        },
+        {
+          "name": "Thunderhawk",
+          "units": "One Thunderhawk Gunship",
+          "points": 200
+        },
+        {
+          "name": "Warhound Pack",
+          "units": "Two Warhounds",
+          "upgrades": [
+          ],
+          "points": 500
+      },
+      {
+        "name": "Reaver",
+        "units": "One Reaver Titan",
+        "upgrades": [
+        ],
+        "points": 600
+    }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Codex Astartes Upgrades",
+    "description": "Each upgrade may be taken once per detachment",
+    "items": [
+      {
+        "name": "Attack Bikes",
+        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
+        "points": "Free"
+      },
+      {
+        "name": "Dreadnoughts",
+        "description": "Add up to two Dreadnoughts or Hellfire Dreadnoughts",
+        "points": ["50 points each", "75 points per pair"]
+      },
+      {
+        "name": "Battle Barge",
+        "description": "Replace the Strike Cruiser with a Battle Barge",
+        "points": "75 points"
+      },
+      {
+        "name": "Commander",
+        "description": "Add any one of the following characters to any unit in the formation",
+        "options": [
+          {
+            "description": "Captain, Chaplain, Librarian",
+            "points": "50 points"
+          },
+          {
+            "description": "0–1 Supreme Commander",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "AAA",
+        "description": "Add any one of the following units to the formation",
+        "options": [
+          {
+            "description": "Add one Hunter",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Stalker",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Land Raiders",
+        "description": "Add any number of Land Raiders, up to the number required to transport the formation",
+        "points": "50 points each"
+      },
+      {
+        "name": "Razorbacks",
+        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+        "points": "25 points each"
+      },
+      {
+        "name": "Snipers",
+        "description": "Give up to four Scouts Sniper",
+        "points": "10 points each"
+      },
+      {
+        "name": "Typhoons",
+        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
+        "points": "10 points each"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Add up to two Vindicators",
+        "points": ["50 points each", "75 points per pair"]
+      }
+    ]
+  }
+}

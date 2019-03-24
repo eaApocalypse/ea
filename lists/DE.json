@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Dark Eldar Forces",
+    "specialRules": [
+
+    ],
+    "unit": [
+    {
+      "name": "Archon",
+      "type": "CH",
+      "weapons": [
+        "Agonizer"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Invulnerable Save",
+        "Inspiring"
+      ]
+    },
+    {
+      "name": "Dracon",
+      "type": "CH",
+      "weapons": [
+        "Agonizer"
+      ],
+      "specialRules": [
+        "Leader",
+        "Inspiring"
+      ]
+    },
+    {
+      "name": "Succubus",
+      "type": "CH",
+      "weapons": [
+        "Agonizer"
+      ],
+      "specialRules": [
+        "Leader",
+        "Inspiring"
+      ]
+    },
+    {
+      "name": "Haemonoculus Ancient",
+      "type": "CH",
+      "weapons": [
+        "Arcane Terrors",
+        "Scissor Hands"
+      ],
+      "specialRules": [
+        "Leader",
+        "Inspiring"
+      ]
+    },
+    {
+      "name": "Incubi",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 3,
+      "ff": 6,
+      "weapons": [
+        "Tormentors",
+        "Klaives"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Warriors",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Splinter Rifles",
+        "Splinter Cannons"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Mandrakes",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Balefire",
+        "Mandrake Blades"
+      ],
+      "specialRules": [
+        "First Strike",
+        "Invulnerable Save",
+        "Scouts",
+        "Teleport"
+      ]
+    },
+    {
+      "name": "Scourges",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 3,
+      "weapons": [
+        "Dark Lance",
+        "Splinter Cannon",
+        "Splinter Carbines"
+        ],
+      "specialRules": [
+        "Jump Packs",
+        "Teleport"
+      ]
+    },
+    {
+      "name": "Haemonculi",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Liquefiers",
+        "Poison Blades"
+      ],
+      "specialRules": [
+        "Fearless",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Wracks",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 3,
+      "weapons": [
+        "Poison Blades"
+      ],
+      "specialRules": [
+        "Fearless"
+      ]
+    },
+    {
+      "name": "Grotesques",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 4,
+      "weapons": [
+        "Grotesques Blades"
+      ],
+      "specialRules": [
+        "Fearless"
+      ]
+    },
+    {
+      "name": "Talos",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+       "Talos Blades",
+       "Paralyzer"
+      ],
+      "specialRules": [
+        "Fearless",
+        "Reinforced Armour",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Perditor",
+      "type": "H-AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+       "Widowmaker",
+       "Perditor Claws"
+      ],
+      "specialRules": [
+        "Fearless",
+        "Reinforced Armour",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Wyches",
+      "type": "INF",
+      "speed": 35,
+      "armour": 6,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Splinter Pistols"
+      ],
+      "specialRules": [
+        "First Strike",
+        "Infiltrators"
+      ]
+    },
+    {
+      "name": "Warp Beasts",
+      "type": "INF",
+      "speed": 20,
+      "armour": 6,
+      "cc": 4,
+      "weapons": [
+        "Teeth and Claws"
+      ],
+      "specialRules": [
+        "First Strike",
+        "Infiltrators"
+      ]
+    },
+    {
+      "name": "Hellions",
+      "type": "INF",
+      "speed": 30,
+      "armour": 5,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Hellglaives",
+        "Splinter Pods"
+      ],
+      "specialRules": [
+        "Jump Packs",
+        "Scouts"
+      ]
+    },
+    {
+      "name": "Reavers",
+      "type": "INF",
+      "speed": 40,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Splinter Rifles",
+        "Blades"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Mounted"
+      ]
+    },
+    {
+      "name": "Venom",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Splinter Cannon",
+        "Twin Splinter Rifles"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Transport may carry one infantry unit without jumppacks or mounted."
+      ]
+    },
+    {
+      "name": "Raider",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Dark Lance"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Transport may carry two of the following: Warrior, Incubi, Haemonculi, Wrack, Grotesques and Wych units"
+      ]
+    },
+    {
+      "name": "Ravager",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Dark Lance|2|",
+        "Disintegrator"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Reaper",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Storm Vortex Projector"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Tantalus",
+      "type": "LV",
+      "speed": 35,
+      "armour": 3,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Pulse Disintegrators|2|"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Barge of Pleasure",
+      "type": "WE",
+      "speed": 30,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Dark Lance L",
+        "Dark Lance R",
+        "Long Barrelled Splinter Cannons|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Shadowfields 2",
+        "Skimmer",
+        "Transport (may carry up to to four of the following units: Warrior, Incubi, Haemonculi, Grotesques, Wrack, Warp Beasts and Wych units). May only Transport units from its own formation."
+      ],
+      "notes": "Critical Hit Effect: The Barge of Pleasure's shield generators explode, destroying the barge and causing a hit to any unit within 5cm on a 5+."
+    },
+    {
+      "name": "Vessel of Pain",
+      "type": "WE",
+      "speed": 30,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Phantom Lance",
+        "Long Barrelled Splinter Cannons|2|",
+        "Desolator"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Shadowfields 2",
+        "Skimmer"
+      ],
+      "notes": "Critical Hit Effect: The Vessel's phantom generator explodes, destroying the Vessel of Pain and causing a hit to any unit within 5cm on a 6+."
+    },
+    {
+      "name": "Tormentor Titan",
+      "type": "WE",
+      "speed": 35,
+      "armour": 5,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+        "Phantom Lance|2|",
+        "Tormentor Blades"
+      ],
+      "specialRules": [
+        "Damage Capacity: 4",
+        "Shadowfields 2",
+        "Jump Packs",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: Tormentor Titan explodes and is destroyed."
+    },
+    {
+      "name": "Torture Titan",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+        "Heavy Phantom Lance|2|",
+        "Dark Lance|2|",
+        "Torture Blades"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Shadowfields 3",
+        "Fearless",
+        "Reinforced Armour",
+        "Walker"
+      ],
+      "notes": "Critical Hit Effect: The Torture Titan shield generator explodes. Any remaining Shadowfields are lost and the titan suffers D3 MW hits."
+    }
+    ]
+  }
+]

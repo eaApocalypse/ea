@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Necron Navy",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+
+    {
+      "name": "Night Scythe",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Tesla Destructor", "AC Gate Projector Array"
+      ],
+      "specialRules": [
+        "Portal"
+      ]
+    },
+    {
+      "name": "Doom Scythe",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Tesla Destructor", "AC Death Ray"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Night Shroud Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Twin Tesla Destructor", "AC Death Spheres"
+      ],
+      "specialRules": [
+        "Reinforced Armour"
+      ]
+    },
+    {
+      "name": "Scythe Class Harvester",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "4BP, MW"
+              }
+            ]
+        },
+        "Pin Point|2|"
+      ]
+    }
+
+    ]
+  }
+]

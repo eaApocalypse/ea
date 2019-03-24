@@ -1,0 +1,148 @@
+[
+  {
+    "name": "Chaos Navy",
+    "specialRules": [
+      {
+        "title": "God Machine Killer (GMK)",
+        "description": [
+          "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
+        ]
+    }
+    ],
+    "unit": [
+    {
+      "name": "Hell Blade Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+      "weapons": [
+        "AC Reaper Autocannon|2|FxF"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Heldrake Interceptor",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+      "weapons": [
+        "AC Hades Autocannon||FxF",
+        "AC Piston-Driven Claws"
+      ],
+      "specialRules": [
+          "Invulnerable Save"
+      ]
+    },
+    {
+      "name": "Hell Talon Fighter-Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Havoc Launcher||FxF",
+        "AC Twin Lascannon",
+        "AC Incendiary Bombs||FxF"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Baledrake Fighter-Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Baleflamer||FxF",
+        "AC Piston-Driven Claws"
+      ],
+      "specialRules": [
+          "Invulnerable Save"
+      ]
+    },
+    {
+      "name": "Harbringer Bomber",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Heavy Incendiary Bombs||FxF",
+        "AC Twin Reaper Autocannon|2|FxF",
+        "AC Combi-Bolters||Left",
+        "AC Combi-Bolters||Right"
+      ],
+      "specialRules": [
+          "Damage Capacity 4",
+          "Reinforced Armour"
+      ],
+    "notes": "Critical Hit Effect: The Harbringer Bomber is destroyed"
+    },
+    {
+      "name": "Blightbringer Bomber",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Blight Bombs||FxF",
+        "AC Twin Reaper Autocannon|2|FxF",
+        "AC Combi-Bolters||Left",
+        "AC Combi-Bolters||Right"
+      ],
+      "specialRules": [
+          "Damage Capacity 4",
+          "Invulnerable Save",
+          "Reinforced Armour"
+      ],
+    "notes": "Critical Hit Effect: The Blightbringer Bomber is destroyed"
+    },
+    {
+      "name": "Devastation Class Cruiser",
+      "type": "SC",
+      "weapons": [
+        {
+          "name": "Orbital Bombardment",
+          "modes": [
+            {
+              "firepower": "3BP, MW"
+            }
+          ]
+      },
+      "Pin Point"
+      ],
+        "notes": "Transport. May transport 20 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
+    },
+    {
+      "name": "Plagueship",
+      "type": "SC",
+      "weapons": [
+        "Orbital Bombardment 4BP"
+    ],
+    "specialRules": [
+      "Slow to Arrive (May only arrive from turn 2 onwards)"
+    ]
+    },
+    {
+      "name": "Despoiler Class Battleship",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+        },
+        "Pin Point|2|"
+      ],
+      "specialRules": [
+        "Slow to Arrive (May only arrive from turn 2 onwards)"
+    ],
+        "notes": "Transport. May transport 30 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
+    }
+
+    ]
+  }
+]

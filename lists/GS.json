@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Genestealer Forces",
+    "specialRules": [
+    ],
+    "unit": [
+      {
+      "name": "Patriarch Coven",
+      "type": "INF",
+      "speed": 20,
+      "armour": "4",
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Large Rending Claws"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Invulnerable Save",
+        "Inspiring",
+        "Expert Tunneler"
+      ]
+    },
+    {
+      "name": "Genestealer Magus",
+      "type": "CH",
+      "weapons": [
+        "Psyker powers"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Genestealer Primus",
+      "type": "CH",
+      "weapons": [
+        "Power Weapons"
+
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Broodlord",
+      "type": "CH",
+      "weapons": [
+        "Rending Claws"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Leader",
+        "Inspiring"
+      ]
+    },
+    {
+      "name": "Jackal Alphus",
+      "type": "CH",
+      "weapons": [
+        "Jackel Sniper Rifle"
+      ],
+      "specialRules": [
+        "Leader"
+      ]
+    },
+    {
+      "name": "Acolyte Hybrid",
+      "type": "INF",
+      "speed": 15,
+
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+        "Seismic Cannons","Claws"
+      ],
+      "specialRules": [
+        "Expert Tunneler",
+        "One in every two has a Seismic Cannon."
+      ]
+    },
+    {
+      "name": "Neophyte Hybrid",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 5,
+      "ff": 5,
+      "weapons": [
+       "Mining Laser","Claws"
+      ],
+      "specialRules": [
+        "Expert Tunneler",
+        "Cult Ambush"
+      ]
+    },
+    {
+      "name": "Brood Brothers",
+      "type": "INF",
+      "speed": 15,
+
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Autocannon","Lasguns"
+      ],
+      "specialRules": [
+        "One in every two has an Autocannon"
+      ]
+    },
+    {
+      "name": "Cult Fire Support",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Autocannon|2|"
+      ]
+    },
+    {
+      "name": "Aberrants",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 3,
+
+      "weapons": [
+        "Giant Mauls"
+      ],
+      "specialRules": [
+        "Expert Tunneler",
+        "Cult Ambush"
+      ]
+    },
+    {
+      "name": "Genestealers",
+      "type": "INF",
+      "speed": 20,
+      "armour": 6,
+      "cc": 2,
+      "weapons": [
+      "Rending Claws"
+      ],
+      "specialRules": [
+        "Scout",
+        "Infiltraitors"
+      ]
+    },
+    {
+      "name": "Purestrain Genestealers",
+      "type": "INF",
+      "speed": 20,
+      "armour": 4,
+      "cc": 4,
+      "weapons": [
+        "Purestrain Rending Claws"
+      ],
+      "specialRules": [
+        "Expert Tunneler",
+        "Cult Ambush",
+        "Infiltraitors"
+      ]
+    },
+    {
+      "name": "Hybrid Metamorphs",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Metamorph Guns","Metamorph Claws"
+      ],
+      "specialRules": [
+        "Expert Tunneler",
+        "Cult Ambush",
+        "Infiltraitors"
+      ]
+    },
+    {
+      "name": "Atalan Jackals",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+      "Jackal Guns"
+      ],
+      "specialRules": [
+        "Mounted",
+        "Cult Ambush"
+      ]
+    },
+    {
+      "name": "Wolfquad",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+      "Atalan Incinerator"
+      ],
+      "specialRules": [
+        "Mounted",
+        "Cult Ambush"
+      ]
+    },
+    {
+      "name": "Achilles Ridgerunner",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Mining Laser"
+      ],
+      "specialRules": [
+        "Scout"
+      ]
+    },
+    {
+      "name": "Armoured Limousine",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Mounted Guns"
+      ],
+      "specialRules": [
+        "Transport (May carry 2 infantry units without jump packs or mounted)."
+      ]
+    },
+    {
+      "name": "Goliath Truck",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+      "Twin Autocannon"
+      ],
+      "specialRules": [
+        "Transport (May carry 2 infantry units without jump packs or mounted)."
+      ]
+    },
+    {
+      "name": "Goliath Rockgrinder",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Heavy Flamer"
+      ],
+      "specialRules": [
+        "Walker",
+        "Transport (May carry 2 infantry units without jump packs or mounted)."
+      ]
+    }
+    ]
+  }
+]

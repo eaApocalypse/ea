@@ -1,0 +1,1115 @@
+[
+  {
+    "name": "Chaos Space Marine Forces",
+
+    "specialRules": [
+        {
+          "title": "Stubborn",
+          "description": [
+            "Reduce the damage caused by Blast Markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+          ]
+      },
+      {
+        "title": "Lance",
+        "description": [
+          "When units with reinforced armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+        ]
+      }
+    ],
+
+    "unit": [
+        {
+          "name": "Warlord",
+          "type": "CH",
+          "weapons": [
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Invulnerable Save"
+          ]
+        },
+        {
+          "name": "Blood Lord",
+          "type": "CH",
+          "weapons": [
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Inspiring",
+            "Invulnerable Save"
+          ]
+        },
+        {
+          "name": "Exalted Sorcerer",
+          "type": "CH",
+          "weapons": [
+              "Blue Fire of Metamorphosis",
+            "Daemon Weapon"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Teleport Homer",
+            "Daemonic Pact",
+            "Augmented Summoning (+1D3)",
+            "Invulnerable Save"
+          ]
+        },
+      {
+        "name": "Chaos Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
+
+        ]
+      },
+      {
+        "name": "Alpha Legion Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "'I'm Alpharius!'",
+          "Commander",
+          "Leader",
+          "Invulnerable Save"
+
+        ]
+      },
+      {
+        "name": "Skull Lord",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Leader",
+          "Inspiring",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Aspiring Sorcerer",
+        "type": "CH",
+        "weapons": [
+          "Red Fire of Alteration",
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Leader",
+          "Teleport Homer",
+          "Daemonic Pact",
+          "Augmented Summoning (+1)",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Sorcerer Lord",
+        "type": "CH",
+        "weapons": [
+          "Warp Bolt"
+        ],
+        "specialRules": [
+            "Leader",
+            "Invulnerable Save"
+
+        ],
+        "notes": "May not be added to a formation containing Khorne Berzerkers"
+      },
+      {
+        "name": "Alpha Legion Sorcerer",
+        "type": "CH",
+        "weapons": [
+          "Warp Bolt"
+        ],
+        "specialRules": [
+            "Commander",
+            "Leader",
+            "Invulnerable Save"
+
+        ]
+      },
+      {
+        "name": "Champion of Chaos Undivided",
+        "type": "CH",
+        "weapons": [
+          "Daemonic Bolt"
+        ],
+        "specialRules": [
+            "Augment Summoning (+2D3)",
+            "Invulnerable Save"
+        ],
+        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker"
+      },
+      {
+        "name": "Champion of Slaanesh",
+        "type": "CH",
+        "weapons": [
+          "Daemonic Bolt"
+        ],
+        "specialRules": [
+            "Augment Summoning (+2D3)",
+            "Invulnerable Save"
+        ],
+        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker"
+      },
+      {
+        "name": "Champion of Nurgle",
+        "type": "CH",
+        "weapons": [
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+            "Augment Summoning (+2D3)",
+            "Invulnerable Save"
+        ],
+        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker"
+      },
+      {
+        "name": "Champion of Khorne",
+        "type": "CH",
+        "weapons": [
+          "Daemon Weapon"
+        ],
+        "specialRules": [
+            "Augment Summoning (+2D3)",
+            "Invulnerable Save"
+        ],
+        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker"
+      },
+      {
+        "name": "Icon Bearer",
+        "type": "CH",
+        "weapons": [
+          "n/a"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Augment Summoning (+1)",
+            "Invulnerable Save",
+            "Leader"
+        ]
+      },
+      {
+        "name": "Daemon Prince of Chaos Undivided",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+            "Warp Bolt",
+            "Æther Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus"
+        ]
+      },
+      {
+        "name": "Daemon Prince of Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 3,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+            "Daemonic Bolt",
+            "Rapturous Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus"
+        ]
+      },
+      {
+        "name": "Daemon Prince of Nurgle",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+            "Plague Squall",
+            "Blade of Rot"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Teleport",
+          "Fearless",
+          "Daemonic Focus"
+        ]
+      },
+      {
+        "name": "Daemon Prince of Khorne",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+            "Æther Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Inspiring",
+          "Daemonic Focus"
+        ]
+      },
+      {
+        "name": "Daemon Prince of Tzeench",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+            "Blue Fire of Metamorphosis",
+            "Æther Blade"
+        ],
+        "specialRules": [
+          "Supreme Commander",
+          "Reinforced Armour",
+          "Jump Pack",
+          "Teleport",
+          "Fearless",
+          "Daemonic Pact",
+          "Augment Summoning (+1D3)",
+          "Daemonic Focus"
+        ]
+      },
+      {
+        "name": "Alpha Legion Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Autocannon"
+      ],
+      "specialRules": [
+          "Stubborn"
+      ]
+      },
+      {
+        "name": "Chaos Space Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Autocannon"
+        ]
+      },
+      {
+        "name": "Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Autocannon|2|"
+        ]
+      },
+      {
+        "name": "Alpha Legion Flakk Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Flakk Missile Launcher|2|"
+      ],
+      "specialRules": [
+          "Stubborn"
+      ]
+      },
+      {
+        "name": "Chosen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Autocannon"
+      ],
+      "specialRules": [
+          "Scout"
+      ]
+      },
+      {
+        "name": "Headhunters",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Heavy Bolter",
+          "Banestrike Combi-Bolters"
+      ],
+      "specialRules": [
+          "Stubborn",
+          "Scout",
+          "Sabotage"
+      ]
+      },
+      {
+        "name": "Raptors",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Plasma Pistols",
+          "Chainswords"
+      ],
+      "specialRules": [
+          "Jump Packs"
+      ]
+      },
+      {
+        "name": "Alpha Legion Destroyers",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Rad Missile Launcher|2|"
+      ],
+      "specialRules": [
+          "Stubborn",
+          "Jump Packs"
+      ]
+      },
+      {
+        "name": "Chaos Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Reaper Autocannon|2|",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Lernaean Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 2,
+        "weapons": [
+          "Volkite Chargers",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Stubborn",
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Sirenshriek Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Doom Siren|2|",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Blightlord Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Blight Launcher|2|",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Skullseeker Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Reaper Autocannon",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Scarab Occult Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Inferno Combi-Bolters",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Invulnerable Save",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Noise Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Blastmaster"
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
+      },
+      {
+        "name": "Noise Marine Havocs",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Blastmaster|3|"
+      ],
+      "specialRules": [
+        "Fearless"
+      ]
+      },
+      {
+        "name": "Plague Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Bolters and Blight Grenades"
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
+      },
+      {
+        "name": "Khorne Berzerkers",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Bolt Pistols",
+          "Chain Axes"
+      ],
+      "specialRules": [
+        "Fearless"
+      ]
+      },
+      {
+        "name": "Rubric Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 3,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Inferno Bolters"
+        ],
+        "specialRules": [
+            "Fearless",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Obliterators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 2,
+        "weapons": [
+          "Manifested Body Weapons"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Teleport"
+        ]
+      },
+      {
+        "name": "Mutilators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "weapons": [
+          "Manifested Melee Weapons"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Teleport"
+        ]
+      },
+      {
+        "name": "Chaos Space Marine Assault Bikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Combi-Bolters",
+          "Chainswords"
+        ],
+        "specialRules": [
+          "Mounted"
+        ]
+      },
+      {
+        "name": "Khorne Berzerker Assault Bikes",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 2,
+        "ff": 5,
+        "weapons": [
+          "Bolt Pistols",
+          "Chain Axes"
+        ],
+        "specialRules": [
+            "Fearless",
+          "Mounted"
+        ]
+      },
+      {
+        "name": "Juggernaut Riders",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Bolt Pistols",
+          "Juggernaut"
+        ],
+        "specialRules": [
+            "Fearless",
+             "Mounted",
+             "Walker",
+             "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Chaos Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Combi-Bolter"
+      ],
+      "specialRules": [
+        "Transport"
+    ],
+      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Alpha Legion Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Combi-Bolter"
+      ],
+      "specialRules": [
+          "Stubborn",
+        "Transport"
+    ],
+      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Death Guard Rhino",
+        "type": "AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Combi-Bolter"
+      ],
+      "specialRules": [
+          "Invulnerable Save",
+        "Transport"
+    ],
+      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
+      },
+      {
+        "name": "Chaos Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon|2|",
+          "Twin Heavy Bolter"
+        ],
+        "specialRules": [
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Transport"
+        ],
+        "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+          },
+          {
+            "name": "Alpha Legion Land Raider",
+            "type": "AV",
+            "speed": 25,
+            "armour": 4,
+            "cc": 6,
+            "ff": 4,
+            "weapons": [
+              "Twin Lascannon|2|",
+              "Twin Heavy Bolter"
+            ],
+            "specialRules": [
+                "Stubborn",
+                "Reinforced Armour",
+                "Thick Rear Armour",
+                "Transport"
+            ],
+            "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
+              },
+        {
+          "name": "Emperor's Children Land Raider",
+          "type": "AV",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Twin Lascannon|2|",
+            "Twin Blastmaster"
+          ],
+          "specialRules": [
+              "Reinforced Armour",
+              "Thick Rear Armour",
+              "Transport"
+          ],
+    "notes": "May transport one Sirenshriek Terminator unit or two infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Death Guard Land Raider",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon|2|",
+          "Twin Blight Launcher"
+        ],
+        "specialRules": [
+            "Reinforced Armour",
+            "Invulnerable Save",
+            "Thick Rear Armour",
+            "Transport"
+        ],
+  "notes": "May transport one Blightlord Terminator unit or two infantry units without Jump Packs or Mounted."
+    },
+    {
+      "name": "World Eater Land Raider",
+      "type": "AV",
+      "speed": 25,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Lascannon|2|",
+        "Twin Heavy Bolter"
+      ],
+      "specialRules": [
+          "Walker",
+          "Reinforced Armour",
+          "Thick Rear Armour",
+          "Transport"
+      ],
+      "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+        },
+        {
+          "name": "Thousand Sons Land Raider",
+          "type": "AV",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Twin Lascannon|2|",
+            "Heavy Warpflamer"
+          ],
+          "specialRules": [
+              "Reinforced Armour",
+              "Thick Rear Armour",
+              "Transport"
+          ],
+          "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+            },
+      {
+        "name": "Chaos Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon",
+          "Heavy Bolter|2|"
+        ]
+      },
+      {
+        "name": "Alpha Legion Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Predator Cannon",
+          "Lascannon|2|"
+      ],
+      "specialRules": [
+          "Stubborn"
+      ]
+      },
+      {
+        "name": "Emperor's Children Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon",
+          "Blastmaster|2|"
+        ]
+      },
+      {
+        "name": "Thousand Sons Predator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon",
+          "Heavy Warpflamer|2|"
+        ]
+      },
+      {
+        "name": "Chaos Vindicator",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Demolisher"
+        ],
+        "specialRules": [
+          "Walker"
+        ]
+      },
+      {
+        "name": "Alpha Legion Laser Vindicator",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Laser Destroyer Array"
+        ],
+        "specialRules": [
+            "Stubborn",
+            "Walker"
+        ]
+      },
+      {
+        "name": "Death Guard Vindicator",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Demolisher"
+        ],
+        "specialRules": [
+            "Invulnerable Save",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Chaos Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Twin Autocannon",
+          "Power Fist"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Alpha Legion Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Twin Volkite Culvertin",
+          "Power Fist"
+        ],
+        "specialRules": [
+          "Stubborn",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Emperor's Children Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Twin Blastmaster",
+          "Power Fist"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Death Guard Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Twin Blight Launcher",
+          "Power Fist"
+        ],
+        "specialRules": [
+            "Invulnerable Save",
+          "Fearless",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Chaos Stalker",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Hades Autocannon"
+        ]
+    },
+    {
+      "name": "Death Guard Stalker",
+      "type": "AV",
+      "speed": 25,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Hades Autocannon"
+    ],
+    "specialRules": [
+        "Invulnerable Save"
+    ]
+  },
+  {
+    "name": "Alpha Legion Xiphon Interceptor",
+    "type": "AC",
+    "speed": "Fighter",
+    "armour": 6,
+    "weapons": [
+      "AC Quad Lascannon||FxF",
+      "AC Xiphon Rotary Missile Launcher||FxF"
+    ],
+    "specialRules": [
+
+    ]
+  },
+    {
+      "name": "Chaos Thunderhawk",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 4,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Battle Cannon||FxF",
+        "AC Twin Heavy Bolter|2|FxF",
+        "AC Twin Heavy Bolter||Left",
+        "AC Twin Heavy Bolter||Right"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport"
+      ],
+      "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+  },
+  {
+    "name": "Alpha Legion Thunderhawk",
+    "type": "AC/WE",
+    "speed": "Bomber",
+    "armour": 4,
+    "cc": 5,
+    "ff": 4,
+    "weapons": [
+      "Battle Cannon||FxF",
+      "AC Twin Heavy Bolter|2|FxF",
+      "AC Twin Heavy Bolter||Left",
+      "AC Twin Heavy Bolter||Right"
+    ],
+    "specialRules": [
+      "Damage Capacity 2",
+      "Stubborn",
+      "Planetfall",
+      "Reinforced Armour",
+      "Transport"
+    ],
+    "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
+    },
+    {
+      "name": "Alpha Legion Thunderhawk Transporter",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "AC Twin Heavy Bolter|2|Left",
+        "AC Twin Heavy Bolter|2|Right"
+      ],
+      "specialRules": [
+        "Damage Capacity 2",
+        "Stubborn",
+        "Planetfall",
+        "Reinforced Armour",
+        "Transport"
+      ],
+      "notes": "May carry up to two of the following: Stalkers, Predators, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles. Critical Hit Effect: The unit and all units being carried are destroyed."
+  },
+  {
+    "name": "Alpha Legion Strike Cruiser",
+    "type": "SC",
+    "weapons": [
+      {
+        "name": "Orbital Bombardment",
+        "modes": [
+          {
+            "firepower": "4BP, MW"
+          }
+        ]
+      }
+    ],
+    "specialRules": [
+      "Transport"
+    ],
+    "notes": "May transport twenty infantry units or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawk Gunships and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
+  }
+    ]
+  }
+]

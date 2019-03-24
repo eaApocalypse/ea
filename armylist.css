@@ -1,0 +1,59 @@
+h1 {
+  margin-top: 1em;
+}
+
+h2 {
+  margin-top: 1em;
+}
+
+.unit-row-odd {
+  background-color: white;
+}
+
+.unit-row-even {
+  background-color: #EEEEEE;
+}
+
+.unit-row-top td {
+  padding-bottom: .15rem;
+}
+
+.unit-row-middle td {
+  padding-top: .15rem;
+  padding-bottom: .15rem;
+}
+
+.unit-row-bottom td {
+  padding-top: .15rem;
+}
+
+.unit-name {
+  font-weight: 550;
+}
+
+.stats-table td {
+  padding-right: 1.2rem;
+  padding-left: 0rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.stat-title {
+  color: #888888;
+}
+
+.stats-table > tbody > tr:first-child > td {
+  border: none;
+  font-size: 80%;
+  font-weight: 400;
+  color: #888888;
+}
+
+.stats-table > tbody > tr > td:last-child {
+  padding-right: 0;
+}
+
+.weapon-mode-join {
+  text-align: right;
+  font-style: italic;
+}

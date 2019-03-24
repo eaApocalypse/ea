@@ -1,0 +1,238 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Cadian Shock Troops",
+  "version": "0.01",
+  "release": "2019-03-20",
+  "strategy": "Cadian Shock Troops armies have a Strategy Rating of 2.",
+  "Initiative": "The Regimental HQ, Kasrkin Companies and Titan Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+
+  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty"],
+  "usage": [
+    "The following army list allows you to field an army based on a Cadian Shock Troops Regiment"
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Cadian Supreme Commander",
+        "Cadian Commander",
+        "Commissar",
+        "Lord Commissar",
+        "White Shield Infantry",
+        "Infantry",
+        "Kasrkin",
+        "Cadian Sentinel",
+        "Medusa",
+        "Deathstrike",
+        "Chimera",
+        "Hellhound",
+        "Leman Russ",
+        "Leman Russ Exterminator",
+        "Leman Russ Demolisher",
+        "Crassus Amoured Assault Transport",
+        "Praetor Armoured Assault Launcher",
+        "Leviathan Mobile Command Center",
+        "Stormlord",
+        "Shadowsword",
+        "Baneblade",
+        "Stormsword",
+        "Stormblade"
+      ],
+        "unitRules": [
+
+          ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+          "Warhound",
+          "Reaver Titan"
+        ],
+      "unitRules": ["Void Shields", "Independent"]
+    },
+
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt Fighter",
+        "Marauder Bomber",
+        "Lunar Class Cruiser",
+        "Emperor Class Battleship"
+      ],
+        "unitRules": [
+            "God Machine Killer (GMK)"
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Core Company Formations",
+      "formations": [
+        {
+          "name": "0–1 Regimental HQ",
+          "units": "One Cadian Supreme Commander with a Commissar, seven Kasrkins. Transported in a Leviathan Mobile Command Center.",
+          "upgrades": [
+              "All"
+          ],
+          "points": 600
+        },
+        {
+          "name": "Whiteshield Company",
+          "units": "One Cadian Commander with a Commissar, thirteen Whiteshields. Transported in either two Stormlords OR three Crassus Armoured Assault Transports.",
+          "upgrades": [
+              "All except Lord Commissar"
+          ],
+          "points": 400
+        }
+
+      ]
+    },
+    {
+      "name": "Support Formations",
+      "description": "Up to three Support Formations for each Core Company Formation.",
+      "formations": [
+        {
+          "name": "Assault Launcher Platoon",
+          "units": "Two Praetor Armoured Assault Launchers",
+          "points": 250,
+          "upgrades": [
+            "Add one Hydra: 50 points"
+          ]
+        },
+        {
+          "name": "Medusa Company",
+          "units": "One Commissar, six Medusa, six Gun Emplacements",
+          "upgrades": [
+            "Add one Hydra and a Gun Emplacement: 50 points"
+        ],
+          "points": 350
+        },
+        {
+          "name": "0-1 Deathstrike Battery",
+          "units": "Two Deathstrike, two Gun Emplacements",
+          "upgrades": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "Flak Battery",
+          "units": "Three Hydras, three Gun Emplacements",
+          "upgrades": [
+          ],
+          "points": 150
+        },
+        {
+          "name": "Hellhound Platoon",
+          "units": "Six Hellhounds",
+          "points": 225,
+          "upgrades": [
+            "Add one Hydra: 50 points"
+          ]
+        },
+        {
+          "name": "Mechanized Infantry Company",
+          "units": "One Cadian Commander with a Commissar, nine Infantry and five Chimeras",
+          "upgrades": [
+            "Add one Hydra: 50 points"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Leman Russ Platoon",
+          "units": "Six Leman Russ, Leman Russ Exterminator or Leman Russ Demolisher ",
+          "points": 350,
+          "upgrades": [
+            "Add one Hydra: 50 points"
+          ]
+        },
+        {
+          "name": "Sentinel Squadron",
+          "units": "Four Cadian Sentinels",
+          "upgrades": [
+
+          ],
+          "points": 100
+        },
+        {
+          "name": "Super-Heavy Tank Platoon",
+          "units": "One Baneblade, Shadowsword, Stormsword or Stormblade",
+          "points": 200
+      },
+      {
+        "name": "Kasrkin Company",
+        "units": "One Cadian Commander with a Commissar, seven Kasrkins. Transported in either one Storm Lord OR two Crassus Amoured Assault Transports",
+        "points": 350,
+        "upgrades": [
+              "All except Lord Commissar"
+        ]
+      }
+
+      ]
+    },
+    {
+      "name": "Titan Legion, Imperial Navy",
+      "description": "Up to a third of the points available may be spent on Titan Legion and Imperial Navy formations",
+      "formations": [
+        {
+          "name": "Warhound Pack",
+          "units": "Two Warhounds",
+          "upgrades": [
+            "Warhound Pack gains the 'Independent' special rule: 50 points."
+          ],
+          "points": 500
+        },
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 150
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
+        },
+        {
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
+          "points": 150,
+          "upgrades": [
+              "Replace with an Emperor Class Battleship: 50 points"
+          ]
+        }
+      ]
+  }
+],
+    "upgrades": {
+      "title": "Cadian Upgrades",
+      "description": "Each upgrade may be taken once per formation",
+      "items": [
+        {
+          "name": "Lord Commissar",
+          "options": [
+            {
+              "description": "Replace a Commissar with a Lord Commissar (Regimental HQ only).",
+              "points": "50 points"
+            }
+          ]
+      },
+      {
+        "name": "Leman Russ Squadron",
+        "options": [
+          {
+            "description": "Three Leman Russ, Leman Russ Exterminators or Leman Russ Punishers.",
+            "points": "125 points"
+          }
+        ]
+    },
+      {
+        "name": "Super Heavy Tank",
+        "options": [
+          {
+            "description": "One Baneblade, Shadowsword, Stormsword or Stormblade",
+            "points": "150 points"
+          }
+        ]
+      }
+    ]
+  }
+}

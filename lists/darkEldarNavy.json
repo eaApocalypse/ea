@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Dark Eldar Navy",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+    {
+      "name": "Razorwing Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Dark Lances",
+        "AC Moonscythe Missiles",
+        "AC Splinter Cannon"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Voidraven Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Void Mines",
+        "AC Twin Void Lances"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Slavebringer Assault Boat",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "AC Twin Dark Lances|2|",
+        "AC Turreted Splinter Cannon"
+      ],
+      "specialRules": [
+        "Damage Capacity: 2",
+        "Shadowfields 1",
+        "Planetfall",
+        "Transport (May carry up to eight infantry units).",
+        "Critical Hit Effect: The Slavebringer and all on board are destroyed."
+
+      ]
+    },
+    {
+      "name": "Executioner Assault Ship",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "AC Heavy Phantom Lance",
+        "AC Twin Dark Lances|2|",
+        "AC Disintegrator Array"
+      ],
+      "specialRules": [
+        "Damage Capacity: 4",
+        "Shadowfields 1",
+        "Planetfall",
+        "Reinforced Armour",
+        "Fearless",
+        "Transport: may carry up to twelve infantry units.",
+        "Critical Hit Effect: The Exercutioner crashes to the ground and is destroyed along with all on board."
+      ]
+    },
+    {
+      "name": "Torture Class Cruiser",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "6BP, MW"
+              }
+            ]
+        },
+        "Pin Point|2|"
+      ],
+      "specialRules": [
+        "Transport (may carry up to one Executioner Assault Ship and two Slavebringer Assault Boats; or up to four Slavebringer Assault Boats, plus the troops carried in them."
+      ]
+    }
+    ]
+  }
+]

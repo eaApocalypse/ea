@@ -1,0 +1,731 @@
+[
+  {
+    "name": "Dark Mechanicus Forces",
+    "specialRules": [
+        {
+          "title": "Void Shields",
+          "description": [
+            "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast Markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
+            "Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast Markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast Markers or repair 1 shield and remove 1 Blast Marker)."
+          ]
+      },
+        {
+           "title": "Daemon Engine (x)",
+           "description": [
+             "Formations completely made up of units with the Daemon Engine (x) special rule, and that have the same faction within its brackets, gain the bonus associated with that faction:",
+             "Slaanesh: Formation gains +1 to activate when attempting to Double.",
+             "Nurgle: Formation gains +1 to activate when attempting to Marshal.",
+             "Khorne: Formation gains +1 to activate when attempting to Engage.",
+             "Tzeench: Formation gains +1 to activate when attempting to Advance.",
+             "Chaos Undivided: Formations ignores the -1 modifier for enemy formations within 30cm when rallying."
+           ]
+       },
+       {
+         "title": "God Machine",
+         "description": [
+           "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
+           "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
+           "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
+           "Units with the God Machine special rule are themselves immune to this effect."
+         ]
+     },
+     {
+       "title": "Split Fire",
+       "description": [
+         "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon, and gets no +1 to-hit modifier from performing a Sustain Fire."
+       ]
+   },
+       {
+         "title": "Heavy Armoured Vehicle (H-AV)",
+         "description": [
+           "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. They are treated like normal Armoured Vehicles in all other respects."
+         ]
+     }
+    ],
+
+    "unit": [
+        {
+          "name": "Heretek",
+          "type": "CH",
+          "weapons": [
+            "Forbidden Technology"
+          ],
+          "specialRules": [
+            "Commander",
+            "Invulnerable Save"
+          ]
+        },
+        {
+          "name": "Chaos Squat Excavators",
+          "type": "INF",
+          "speed": 15,
+          "armour": 6,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Phospex Serpenta"
+          ],
+          "specialRules": [
+          ]
+        },
+        {
+          "name": "Hades Land Raider",
+          "type": "AV",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Twin Lascannon|2|",
+            "Phospex Blaster"
+          ],
+          "specialRules": [
+              "Reinforced Armour",
+              "Thick Rear Armour",
+              "Transport"
+          ],
+          "notes": "May transport one unit in Exoarmour or two infantry units without Jump Packs or Mounted."
+            },
+        {
+          "name": "Defiler",
+          "type": "AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": [
+            "Battle Cannon",
+            "Reaper Autocannon",
+            "Heavy Flamer",
+            "Battle Claws"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Walker",
+            "Infiltrators",
+            "Invulnerable Save",
+            "Daemon Engine (Chaos Undivided)"
+          ]
+        },
+        {
+          "name": "Doomblaster",
+          "type": "AV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Doomblaster"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Invulnerable Save",
+            "Daemon Engine (Chaos Undivided)"
+          ]
+        },
+        {
+          "name": "Hellfire Cannon",
+          "type": "AV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Hellfire Cannon"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Invulnerable Save",
+            "Daemon Engine (Chaos Undivided)"
+          ]
+        },
+        {
+          "name": "Forgefiend",
+          "type": "AV",
+          "speed": 15,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Twin Hades Autocannon"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Invulnerable Save",
+            "Daemon Engine (Chaos Undivided)"
+          ]
+        },
+        {
+          "name": "Knight-Renegade",
+          "type": "H-AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Rapid Fire Battle Cannon",
+            "Hyperwave Clarion",
+            "Renegade Chainsword"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Reinforced Armour",
+            "Walker",
+            "Invulnerable Save",
+            "Daemon Engine (Chaos Undivided)"
+          ]
+        },
+        {
+          "name": "Warp Altar",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Arcane Technology"
+          ],
+          "specialRules": [
+              "Damage Capacity 3",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Fearless",
+              "Daemonic Focus",
+              "Chaos Gate",
+              "Daemon Engine (Chaos Undivided)"
+          ],
+                    "notes": "Critical Hit Effect: The Warp Altar is destroyed. All Daemons within 5cm are destroyed, non-Daemons within 5cm suffers a MW hit on 6+."
+      },
+        {
+          "name": "Decimator",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 5,
+          "ff": 4,
+          "weapons": [
+            "Decimator Cannon||FxF",
+            "Twin Reaper Autocannon|4|"
+          ],
+          "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour",
+          "Fearless",
+          "Invulnerable Save",
+          "Daemon Engine (Chaos Undivided)"
+      ],
+          "notes": "Critical Hit Effect: The Decimator is destroyed."
+        },
+        {
+          "name": "Deathwheel",
+          "type": "WE",
+          "speed": 30,
+          "armour": 4,
+          "cc": 5,
+          "ff": 3,
+          "weapons": [
+            "Battle Cannon|2|FxF",
+            "Reaper Autocannon|4|FxF"
+          ],
+          "specialRules": [
+              "Damage Capacity 4",
+              "Void Shields 2",
+              "Reinforced Armour",
+              "Fearless",
+              "Invulnerable Save",
+              "Daemon Engine (Chaos Undivided)"
+          ],
+          "notes": "Critical Hit Effect: Move the Deathwheel 3D6 in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The Deathwheel is then destroyed"
+      },
+
+
+
+
+        {
+          "name": "Debaser",
+          "type": "AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": [
+            "Blastmaster|3|",
+            "Doom Siren",
+            "Battle Claws"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Walker",
+            "Infiltrators",
+            "Invulnerable Save",
+            "Daemon Engine (Slaanesh)"
+          ]
+        },
+        {
+          "name": "Hell-Strider",
+          "type": "AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Lascannon",
+            "Multi-Melta"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Walker",
+            "Scout",
+            "Invulnerable Save",
+            "Daemon Engine (Slaanesh)"
+          ]
+        },
+        {
+          "name": "Hell-Knight",
+          "type": "H-AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Thermal Lance"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Fearless",
+            "Walker",
+            "Invulnerable Save",
+            "Daemon Engine (Slaanesh)"
+          ]
+        },
+        {
+          "name": "Hell-Scourge",
+          "type": "H-AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 6,
+          "ff": 3,
+          "weapons": [
+            "Castigator Cannon"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Fearless",
+            "Walker",
+            "Invulnerable Save",
+            "Daemon Engine (Slaanesh)"
+          ]
+        },
+        {
+          "name": "Questor",
+          "type": "WE",
+          "speed": 35,
+          "armour": 5,
+          "cc": 5,
+          "ff": 3,
+          "weapons": [
+            "Battle Cannon|2|",
+            "Castigator Cannon|2|FwA"
+          ],
+          "specialRules": [
+              "Damage Capacity 3",
+              "Void Shields 2",
+              "Reinforced Armour",
+              "Fearless",
+              "Invulnerable Save",
+              "Daemon Engine (Slaanesh)"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the Questor into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+      },
+      {
+        "name": "Subjugator",
+        "type": "WE",
+        "speed": 35,
+        "armour": 5,
+        "cc": 3,
+        "ff": 5,
+        "weapons": [
+          "Tormentor Cannons||FwA",
+          "Doom Siren",
+          "Hellslicer Battle Claws|2|"
+        ],
+        "specialRules": [
+            "Damage Capacity 3",
+            "Void Shields 2",
+            "Reinforced Armour",
+            "Fearless",
+            "Invulnerable Save",
+            "Daemon Engine (Slaanesh)"
+        ],
+        "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the Subjugator into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+    },
+
+
+
+        {
+          "name": "Desecrator",
+          "type": "AV",
+          "speed": 15,
+          "armour": 3,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Reaper Autocannon|2|",
+            "Vomit Cannon",
+            "Battle Claws"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Walker",
+            "Infiltrators",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)"
+          ]
+        },
+        {
+          "name": "Greater Blight Drone",
+          "type": "LV",
+          "speed": 25,
+          "armour": 4,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Reaper Autocannon",
+            "Maw Cannon"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Skimmer",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)"
+          ]
+        },
+        {
+          "name": "Contagion Engine",
+          "type": "AV",
+          "speed": 15,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Plague Catapult",
+            "Vomit Cannon"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)"
+          ]
+        },
+        {
+          "name": "Knight-Decayer",
+          "type": "H-AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Corruptor Gatling Cannon",
+            "Pus Launcher Pod",
+            "Renegade Chainsword"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Reinforced Armour",
+            "Walker",
+            "Invulnerable Save",
+            "Daemon Engine (Nurgle)"
+          ]
+        },
+        {
+          "name": "Plague Tower",
+          "type": "WE",
+          "speed": 20,
+          "armour": 5,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Battle Cannon|3|FxF",
+            "Plague Mortar||FxF"
+          ],
+          "specialRules": [
+              "Damage Capacity 6",
+              "Reinforced Armour",
+              "Fearless",
+              "Invulnerable Save",
+              "Daemon Engine (Nurgle)",
+              "Transport"
+          ],
+          "notes": "May transport fourteen infantry units, Blight Drones or Dreadnoughts. Terminators, Daemon Princes, Blight Drones and Dreadnoughts count as two units each. Critical Hit Effect: The Plague Tower takes 1 additional point of damage. 1D3 random units carried inside takes 1 hit."
+      },
+
+
+
+        {
+          "name": "Slaughterfiend",
+          "type": "AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 2,
+          "ff": 5,
+          "weapons": [
+              "Heavy Cannon",
+            "Reaper Autocannon",
+            "Battle Claws"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Walker",
+            "Infiltrators",
+            "Invulnerable Save",
+            "Daemon Engine (Khorne)"
+          ]
+        },
+        {
+          "name": "Daemonic Assault Engine",
+          "type": "AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 2,
+          "ff": 5,
+          "weapons": [
+              "Blood Cannon",
+            "Daemonic Blades"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Reinforced Armour",
+            "Invulnerable Save",
+            "Daemon Engine (Khorne)"
+          ]
+        },
+        {
+          "name": "Knight-Mauler",
+          "type": "H-AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Twin Reaper Autocannon",
+            "Doomgauntlet",
+            "Renegade Chainsword"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Reinforced Armour",
+            "Walker",
+            "Invulnerable Save",
+            "Daemon Engine (Khorne)"
+          ]
+        },
+        {
+          "name": "Greater Brass Scorpion",
+          "type": "WE",
+          "speed": 20,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Scorpion Cannon",
+            "Demolisher",
+            "Hellmaw|2|",
+            "Scorpion Claws"
+          ],
+          "specialRules": [
+              "Damage Capacity 3",
+              "Reinforced Armour",
+              "Fearless",
+              "Infiltrators",
+              "Walker",
+              "Invulnerable Save",
+              "Daemon Engine (Khorne)"
+          ],
+          "notes": "Critical Hit Effect: The unit takes an additional point of damage. All units in base contact takes a hit on 6+"
+      },
+        {
+          "name": "Lord of Battles",
+          "type": "WE",
+          "speed": 25,
+          "armour": 4,
+          "cc": 3,
+          "ff": 5,
+          "weapons": [
+            "Battle Cannon|2|FwA",
+            "Death Storm",
+            "Chainfist"
+          ],
+          "specialRules": [
+              "Damage Capacity 6",
+              "Reinforced Armour",
+              "Fearless",
+              "Thick Rear Armour",
+              "Invulnerable Save",
+              "Daemon Engine (Khorne)"
+          ],
+          "notes": "The Lord of Battles takes one additional damage, and immediately rampages a full 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Lord of Battles into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
+          },
+          {
+            "name": "Tower of Skulls",
+            "type": "WE",
+            "speed": 20,
+            "armour": 5,
+            "cc": 3,
+            "ff": 3,
+            "weapons": [
+              "Hellstrike Cannon||FxF",
+              "Death Storm|2|FwA",
+              "Hellfire Cannon||Left",
+              "Twin Reaper Autocannon (AA mounted)||Left",
+              "Hellfire Cannon||Right",
+              "Twin Reaper Autocannon (AA mounted)||Right"
+            ],
+            "specialRules": [
+                "Damage Capacity 8",
+                "God Machine",
+                "Split Fire",
+                "Leader",
+                "Reinforced Armour",
+                "Fearless",
+                "Thick Rear Armour",
+                "Invulnerable Save (5+)",
+                "Daemon Engine (Khorne)",
+                "Daemonic Pact"
+            ],
+            "notes": "The Tower of Skulls takes 1 additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
+        },
+
+
+
+
+        {
+          "name": "Deciever",
+          "type": "AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 5,
+          "ff": 3,
+          "weapons": [
+            "Battle Cannon",
+            "Heavy Warpflamer",
+            "Eye of Magnus",
+            "Battle Claws"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Walker",
+            "Infiltrators",
+            "Invulnerable Save",
+            "Daemon Engine (Tzeench)"
+          ]
+        },
+
+        {
+          "name": "Silver Tower",
+          "type": "AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+            "Arcane Cannons",
+            "Beam of Power"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Skimmer",
+            "Invulnerable Save",
+            "Daemon Engine (Tzeench)"
+          ]
+      },
+      {
+        "name": "Knight-Mutator",
+        "type": "H-AV",
+        "speed": 20,
+        "armour": 5,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Rapid Fire Battle Cannon",
+          "Corruptor Gatling Cannon",
+          "Warp Blast Pod"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Walker",
+          "Invulnerable Save",
+          "Daemon Engine (Tzeench)"
+        ]
+      },
+      {
+        "name": "Mirrorfiend",
+        "type": "WE",
+        "speed": 25,
+        "armour": 3,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Pandæmonium",
+          "Battle Claws"
+        ],
+        "specialRules": [
+          "Damage Capacity 2",
+          "Fearless",
+          "Jump Pack",
+          "Invulnerable Save",
+          "Daemon Engine (Tzeench)"
+      ],
+          "notes": "The runes that bind the imprisoned daemon are broken, and the Mirrorfiend is destroyed. All models within 5cm take a hit on 4+."
+      },
+      {
+        "name": "Warp Palace",
+        "type": "WE",
+        "speed": 25,
+        "armour": 5,
+        "cc": 5,
+        "ff": 3,
+        "weapons": [
+          "Warpfire of Tzeench",
+          "Arcane Cannons|2|",
+          "Beam of Power|2|"
+        ],
+        "specialRules": [
+          "Damage Capacity 6",
+          "Reinforced Armour",
+          "Fearless",
+          "Skimmer",
+          "Invulnerable Save (5+)",
+          "Daemon Engine (Tzeench)"
+      ],
+          "notes": "The Warp Palace takes 1 additional damage. Any units within 5cm takes an additional hit with MW on 6+."
+      },
+      {
+        "name": "Doomwing Interceptor",
+        "type": "AC",
+        "speed": "Fighter",
+        "armour": 6,
+        "weapons": [
+          "AC Flame Cannon||FxF"
+        ],
+        "specialRules": [
+            "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Firelord Bomber",
+        "type": "AC",
+        "speed": "Bomber",
+        "armour": 4,
+        "weapons": [
+          "AC Incendiary Bombs||FxF",
+          "AC Flame Cannon||FxF",
+          "AC Twin Lascannon||FxF"
+        ],
+        "specialRules": [
+            "Invulnerable Save"
+        ]
+      }
+    ]
+  }
+]

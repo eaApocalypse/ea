@@ -1,0 +1,321 @@
+{
+  "index": [
+    {
+      "name": "Scenario",
+      "abbreviation": "Scenario",
+      "lists": [
+        {
+          "name": "Battle Line",
+          "file": "battleline"
+        },
+        {
+          "name": "Fog of War",
+          "file": "fogofwar"
+        },
+        {
+          "name": "Fire the Beacons",
+          "file": "firethebeacons"
+        }
+      ]
+    },
+    {
+      "name": "Adeptus Mechanicus",
+      "abbreviation": "AM",
+      "lists": [
+
+        {
+          "name": "Explorator Fleet",
+          "file": "exploratorFleet"
+      },
+      {
+        "name": "Knight World",
+        "file": "knightworld"
+    },
+      {
+        "name": "Questoris Mechanicus",
+        "file": "questorismechanicus"
+      },
+      {
+        "name": "Skitarii",
+        "file": "skitarii"
+    },
+      {
+          "name": "Titan Legion",
+          "file": "amtl"
+      }
+      ]
+    },
+    {
+      "name": "Astra Militarum",
+      "abbreviation": "IG",
+      "lists": [
+        {
+        "name": "Baran Siegemasters",
+        "file": "barans"
+        },
+        {
+          "name": "Cadian Shock Troops",
+          "file": "cadianshocktroops"
+        },
+        {
+          "name": "Catachan Death World",
+          "file": "catachandeathworld"
+        },
+        {
+          "name": "Death Korps of Krieg",
+          "file": "deathkorps"
+        },
+        {
+          "name": "Steel Legion",
+          "file": "steellegion"
+        },
+        {
+          "name": "Elysian Drop Troops",
+          "file": "elysiandroptroops"
+        }
+      ]
+    },
+
+    {
+      "name": "Chaos Space Marines",
+      "abbreviation": "Chaos",
+      "lists": [
+      {
+        "name": "Black Legion",
+        "file": "blacklegion"
+    },
+    {
+      "name": "Emperor's Children",
+      "file": "emperorschildren"
+    },
+    {
+        "name": "Death Guard",
+        "file": "deathguard"
+    },
+    {
+        "name": "World Eaters",
+        "file": "worldeaters"
+    },
+    {
+        "name": "Thousand Sons",
+        "file": "thousandsons"
+    },
+    {
+        "name": "Alpha Legion",
+        "file": "alphalegion"
+    }
+      ]
+    },
+    {
+      "name": "Chaos Cultists",
+      "abbreviation": "Cultists",
+      "lists": [
+      {
+        "name": "Lost and the Damned",
+        "file": "LatD"
+    },
+        {
+          "name": "Slaves to Darkness",
+          "file": "StD"
+      },
+      {
+        "name": "Daemonic Incursion",
+        "file": "DI"
+    }
+      ]
+    },
+    {
+      "name": "Dark Mechanicus",
+      "abbreviation": "DM",
+      "lists": [
+      {
+        "name": "Traitor Titan Legion",
+        "file": "TTL"
+    }
+      ]
+    },
+    {
+      "name": "Dark Eldar",
+      "abbreviation": "DE",
+      "lists": [
+        {
+          "name": "Kabal of the Black Heart",
+          "file": "kabaloftheblackheart"
+        }
+      ]
+    },
+    {
+      "name": "Eldar",
+      "abbreviation": "EL",
+      "lists": [
+        {
+          "name": "Biel-Tan",
+          "file": "bieltan"
+        },
+        {
+          "name": "Iyanden",
+          "file": "iyanden"
+        },
+        {
+          "name": "Mymeara",
+          "file": "mymeara"
+        },
+        {
+          "name": "Saim-Hann",
+          "file": "saimhann"
+        },
+        {
+          "name": "Ulthwé",
+          "file": "ulthwe"
+        },
+        {
+          "name": "Eldar Titan Force",
+          "file": "titanforce"
+        }
+      ]
+    },
+    {
+      "name": "Harlequins",
+      "abbreviation": "HQ",
+      "lists": [
+        {
+          "name": "Masque of the Veiled Path",
+          "file": "masqueoftheveiledpath"
+        },
+        {
+          "name": "Masque of the Midnight Sorrow",
+          "file": "masqueofthemidnightsorrow"
+        }
+      ]
+    },
+    {
+      "name": "Genestealer Cult",
+      "abbreviation": "GS",
+      "lists": [
+        {
+          "name": "Cult of the Four Armed Emperor",
+          "file": "cultofthefourarmedemperor"
+        }
+      ]
+    },
+    {
+      "name": "Imperial Inquisition",
+      "abbreviation": "IQ",
+      "lists": [
+        {
+          "name": "Adepta Sororitas",
+          "file": "adeptasororitas"
+        }
+      ]
+    },
+    {
+      "name": "Necrons",
+      "abbreviation": "NC",
+      "lists": [
+        {
+          "name": "Maynarkh Dynasty",
+          "file": "maynarkhdynasty"
+        },
+        {
+          "name": "Sautekh Dynasty",
+          "file": "sautekhdynasty"
+        }
+      ]
+    },
+    {
+      "name": "Orks",
+      "abbreviation": "O",
+      "lists": [
+          {
+            "name": "Clan Goffs Warhorde",
+            "file": "goffsclan"
+          },
+          {
+            "name": "Evil Sunz Gargant Big Mob",
+            "file": "gargants"
+          },
+          {
+            "name": "Evil Sunz Speed Freeks",
+            "file": "speedfreeks"
+          },
+        {
+          "name": "Snakebite Clan",
+          "file": "snakebiteclan"
+        }
+      ]
+    },
+    {
+      "name": "Space Marines",
+      "abbreviation": "SM",
+      "lists": [
+          {
+            "name": "Blood Angels",
+            "file": "bloodangels"
+          },
+          {
+            "name": "Codex Astartes",
+            "file": "codexastartes"
+          },
+          {
+            "name": "Dark Angels",
+            "file": "darkangels"
+          },
+        {
+          "name": "Iron Hands",
+          "file": "ironhands"
+        },
+        {
+          "name": "Raven Guard",
+          "file": "ravenguard"
+        },
+        {
+          "name": "White Scars",
+          "file": "whitescars"
+        }
+      ]
+    },
+    {
+      "name": "Squats",
+      "abbreviation": "SQ",
+      "lists": [
+        {
+          "name": "Wodan Stronghold",
+          "file": "squats"
+        }
+      ]
+  },
+    {
+      "name": "Tau",
+      "abbreviation": "TAU",
+      "lists": [
+        {
+          "name": "Ke'lshan",
+          "file": "kelshan"
+        },
+        {
+          "name": "Sa’ Cea",
+          "file": "sacea"
+        },
+        {
+          "name": "Violra",
+          "file": "viorla"
+        }
+      ]
+    },
+    {
+      "name": "Tyranids",
+      "abbreviation": "NID",
+      "lists": [
+        {
+          "name": "Hive Fleet Dagon",
+          "file": "dagon"
+      },
+      {
+        "name": "Hive Fleet Hydra",
+        "file": "Hydra"
+      }
+      ]
+  }
+
+  ]
+}

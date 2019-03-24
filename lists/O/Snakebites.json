@@ -1,0 +1,146 @@
+{
+  "fraction": "Ork",
+  "army": "Snakebite Clan",
+  "version": "1.1",
+  "release": "2019-02-20",
+  "strategy": "Snakebite Clan armies have a Strategy Rating of 3.",
+  "Initiative": "All formations have an Initiative Rating of 3+.",
+  "specialRules": [
+                    "Snakebite Clan Warlords",
+                    "Mob Rule",
+                    "Power of the Waaagh!"
+  ],
+  "usage": [
+    "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The most common type of Ork formation is the warband. Other more specialised formations do exist, such as Kults of Speed and Blitz Brigades. The different types of Ork formations you may choose are shown on the army list that follows. The army list includes the following information:",
+    "<b>Units</b> - The units that make up the formation. An Ork player can choose to double or triple the number of units in the formation if he wishes. A formation with double the normal number of units is called a big formation, and a formation with three times the normal number of units is called a ’uge formation.",
+    "<b>Upgrades</b> - An Ork formation may include any of the extra units listed in the Extras column. You may include any number of extra units in a formation unless it is specifically noted otherwise. If there is a limitation then the limit is doubled for a big formation and tripled for a ’uge formation. For example, a normal sized Kult of Speed can include 0–1 Oddboy, a big Kult of Speed can include 0–2, and a ’uge Kult of Speed can include 0–3. All of the core, extra, and free units in an Ork formation count as being part of one large formation. The different units may not move off on their own.",
+    "<b>Cost</b> - Most Ork formations have three values: Normal, Big and 'Uge. If the formation only has one cost then it may not be increased in size."
+  ],
+  "units": [
+    {
+      "from": "ORK.json",
+      "units": [
+        "Warlord",
+        "Ork Wyrdboy",
+        "Pigdok on Cyboar",
+        "Boyz",
+        "Grotz",
+        "Nobz",
+        "Ork Wildboyz",
+        "Ork Madboyz",
+        "Ork Boarboyz",
+        "Ork Squig Catapult",
+        "Orks Junkatruckz",
+        "Ork Squiggoth",
+        "Orkeosaurus",
+        "Ork Steam Gargant"
+      ],
+      "unitRules": [
+          "Super-Expendable"
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Ork Formations",
+      "formations": [
+        {
+          "name": "Warband",
+          "units": "Two Nobz, six Boyz and two Grotz",
+          "extraUnits": [
+            "Any number of Boyz (each with optional Grotz), two Wildboyz, Boarboyz +25 points each",
+            "Up to three Squig Catapults +25 points each",
+            "Up to one Nobz +35 points each",
+            "Up to one Wyrdboy +50 points each",
+            "Any number of Squiggoths +50 points each",
+            "Up to one Orkeosaurus +175 points each"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "200"},
+            {"name": "Big", "points":  "350"},
+            {"name": "'Uge", "points":  "500"}
+          ]
+        },
+        {
+          "name": "Wildboyz",
+          "units": "Two Nobz and six Wildboyz",
+          "extraUnits": [
+            "Any number of Boarboyz, two Wildboyz +25 points each",
+            "Up to three Squig Catapults +25 points each",
+            "Up to one Nobz +35 points each",
+            "Enough Squiggoths to transport the formation +50 points each"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "125"},
+            {"name": "Big", "points":  "225"},
+            {"name": "'Uge", "points":  "325"}
+          ]
+        },
+        {
+          "name": "Trappas",
+          "units": "Six Wildboyz (gain  Scouts ability)",
+          "extraUnits": [
+            "Up to one Nobz +35 points each"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "150"},
+            {"name": "Big", "points":  "N/A"},
+            {"name": "'Uge", "points":  "N/A"}
+          ]
+        },
+        {
+          "name": "Boarboyz Horde ",
+          "units": "Five Boarboyz",
+          "extraUnits": [
+            "Any number of Boarboyz +25 points each",
+            "Up to one Pigdok on Cyboar +50 points each"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "100"},
+            {"name": "Big", "points":  "175"},
+            {"name": "'Uge", "points":  "250"}
+          ]
+        },
+        {
+          "name": "0-1 Madboyz Horde",
+          "units": "Six Madboyz",
+          "extraUnits": [
+            "Up to six Madboyz +15 points each",
+            "Up to three Wyrdboy +50 points each"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "100"},
+            {"name": "Big", "points":  "N/A"},
+            {"name": "'Uge", "points":  "N/A"}
+          ]
+        },
+        {
+          "name": "Junka Brigade",
+          "units": "Six Boyz and six Junkatrukks ",
+          "extraUnits": [
+            "Any number of Boyz (each with free Junkatrukk) +25 points each",
+            "Up to one Nobz with Junkatrukk +50 points each",
+            "Up to one Wyrdboy +50 points each"
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "175"},
+            {"name": "Big", "points":  "300"},
+            {"name": "'Uge", "points":  "N/A"}
+          ]
+        },
+        {
+          "name": "0-1 Steam Gargant ",
+          "units": "One Steam Gargant",
+          "extraUnits": [
+
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "200"},
+            {"name": "Big", "points":  "350"},
+            {"name": "'Uge", "points":  "500"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,302 @@
+{
+  "fraction": "Harlequin",
+  "army": "Masque of the Veiled Path",
+  "version": "0.01",
+  "release": "2019-03-19",
+  "strategy": "Harlequin armies have a Strategy Rating of 4.",
+  "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+
+  "specialRules": [
+    "Avatar (Lugganath)",
+    "May Not Garrison (Lugganath)",
+    "Farsight",
+    "Hit and Run",
+    "Lance",
+    "Ignore Shields",
+    "Shield Disruptor",
+    "Webway Portal",
+    "Holofields (x)"
+
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on the Craftworld Lugganath, with Corsair support and Harlequin allies from the Masque of the Veiled Path."
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Eldar Autarch",
+        "Avatar",
+        "Eldar Exarch",
+        "Eldar Farseer",
+        "Eldar Guardians",
+        "Ghost Walkers",
+        "Lugganath Jetbikes",
+        "Dire Avengers",
+        "Dark Reapers",
+        "Warp Spiders",
+        "Heavy Wraithguards",
+        "Wasp Walker",
+        "Venom",
+        "Vyper",
+        "Wraithlord",
+        "Wave Serpent",
+        "Fire Prism",
+        "Falcon",
+        "Firestorm",
+        "Cobra",
+        "Storm Serpent",
+        "Revenant Titan"
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "HQ.json",
+      "units": [
+        "Harlequin Avatar",
+        "Shadowseer",
+        "Master Mime",
+        "Solitaire",
+        "Mimes",
+        "Death Jesters",
+        "Harlequin Troupe",
+        "Skyweaver",
+        "Starweaver",
+        "Voidweaver"
+      ],
+        "unitRules": [
+            "Masters of the Webway",
+            "Dance of Shadows",
+            "Dance of Death"
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nightwing Interceptor",
+        "Hemlock Wraithfighters",
+        "Corsair Vampire Hunter",
+        "Wraithship",
+        "Dragonship"
+      ],
+        "unitRules": [
+            "God Machine Killer (GMK)"
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Craftworld Eldar Special",
+      "formations": [
+        {
+          "name": "0-1 Avatar",
+          "units": "One Avatar",
+
+          "points": 0
+        },
+        {
+          "name": "0-1 Wraithgate",
+          "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
+
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Craftworld Lugganath Hosts",
+      "description": "One Aspect Warrior Warhost per Guardian Warhost",
+      "formations": [
+        {
+          "name": "Guardian Warhost",
+          "units": "Five Guardians, five Venoms",
+          "upgrades": [
+            "Farseer, Windriders"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Aspect Warrior Warhost",
+          "units": "Any four of either Dire Avengers or Dark Reapers, two Wave Serpents",
+          "upgrades": [
+            "Exarch, Autarch, May exchange two Wave Serpents for four Falcons: 75 points"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Craftworld Lugganath Troupes",
+      "description": "Up to two for each 'Lugganath Host' taken",
+      "formations": [
+        {
+          "name": "Wasp Walkers",
+          "units": "Four Wasp Walkers",
+          "upgrades": [
+
+          ],
+          "points": 150
+        },
+        {
+          "name": "Ghost Walkers",
+          "units": "Four Ghost Walkers",
+          "upgrades": [
+
+          ],
+          "points": 150
+        },
+        {
+          "name": "Fire Prism Troupe ",
+          "units": "Three Fire Prisms",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Warp Spiders Aspect Warriors",
+          "units": "Six Warp Spiders",
+          "upgrades": [
+            "Exarch, Autarch"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Heavy Wraithguard",
+          "units": "Three Heavy Wraithguard",
+          "upgrades": [
+            "Add three Wave Serpents: 75 Points",
+            "Firestorm",
+            "Add two Wraithlords: 125 points"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Engine of Vaul",
+          "units": "Any one of the following units: Cobra, Storm Serpent",
+          "upgrades": [
+            "Add up to any two of the following units for 200 points each: Cobra, Storm Serpent"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Harlequin Saedaths",
+      "description": "Up to one for each 'Lugganath Host' taken",
+      "formations": [
+        {
+          "name": "0-1 Serpent's Blood",
+          "units": "One Harlequin Avatar, four Skyweavers, two Voidweavers",
+          "upgrades": [
+
+          ],
+          "points": 250
+        },
+        {
+          "name": "0-1 Devourer's Thirst",
+          "units": "One Master Mime, six Mimes",
+          "upgrades": [
+
+          ],
+          "points": 250
+        },
+        {
+          "name": "0-1 Cegorath's Revenge",
+          "units": "One Harlequin Avatar, four Harlequin Troupes, two Death Jesters, six Starweavers",
+          "upgrades": [
+          ],
+          "points": 350
+        },
+        {
+          "name": "0-1 Isha's Tears",
+          "units": "One Harlequin Avatar, one Shadowseer, four Death Jesters, two Harlequin Troupes, six Starweavers",
+          "upgrades": [
+          ],
+          "points": 400
+        },
+        {
+          "name": "0-1 Dance Without End",
+          "units": "One Harelquin Avatar, one Shadowseer, one Solitaire, two Death Jesters, two Mimes, three Harlequin Troupes, eight Starweavers",
+          "upgrades": [
+          ],
+          "points": 500
+        }
+      ]
+    },
+    {
+      "name": "Craftworld Lugganath Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Nightwing Aerie",
+          "units": "Two Nightwing Interceptors",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Hemlock Wraithfighter Aerie",
+          "units": "Two Hemlock Wraithfighters",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Corsair Vampire Hunter",
+          "units": "One Corsair Vampire Hunter",
+          "upgrades": [
+
+          ],
+          "points": 200
+        },
+        {
+          "name": "Revenants",
+          "units": "Two Revenant Titans",
+          "upgrades": [
+
+          ],
+          "points": 550
+        },
+        {
+          "name": "0-1 Spacecraft",
+          "units": "One Wraithship",
+          "upgrades": [
+            "Replace with Dragonship for +150 Points"
+          ],
+          "points": 150
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "0-1 Autarch",
+        "description": "Add an Eldar Autarch character",
+        "points": "75 points"
+      },
+      {
+        "name": "Exarch",
+        "description": "Add one Eldar Exarch character to an Eldar Aspect Warrior unit",
+        "points": "50 points"
+      },
+      {
+        "name": "Firestorm",
+        "description": "Add one Firestorm",
+        "points": "50 points"
+      },
+      {
+        "name": "Farseer",
+        "description": "Add one Farseer and a Venom to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Windriders",
+        "description": "Add up to six Lugganath Jetbikes to the formation",
+        "points": "25 points each"
+      }
+    ]
+  }
+}

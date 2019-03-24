@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Adepta Sororitas Forces",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          ""
+        ]
+      }
+
+    ],
+    "unit": [
+      {
+        "name": "Canoness",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Inspiring",
+          "Invulnerable Save",
+          "Supreme Commander"
+        ]
+      },
+      {
+        "name": "Inquisitor",
+        "type": "CH",
+        "weapons": [
+          "Power Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Mistress",
+        "type": "CH",
+        "weapons": [
+          "Neural Whips"
+        ],
+        "specialRules": [
+          "Leader"
+        ]
+      },
+      {
+        "name": "Palatine",
+        "type": "CH",
+        "weapons": [
+          "Blessed Weapon"
+        ],
+        "specialRules": [
+          "Commander",
+          "Invulnerable Save",
+          "Leader"
+        ]
+      },
+      {
+        "name": "Priest",
+        "type": "CH",
+        "weapons": [
+          "Eviserator"
+        ],
+        "specialRules": [
+          "Invulnerable Save",
+          "Inspiring",
+          "Fearless"
+        ]
+      },
+      {
+        "name": "Living Saint",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Ardent Blade"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Jump Packs",
+          "Fearless",
+          "Inspiring",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Arco-Flagellants",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+
+        "weapons": [
+          "Combat Flails"
+        ],
+        "specialRules": [
+          "Fearless"
+        ]
+      },
+      {
+        "name": "Battle Sisters",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Heavy Bolter",
+          "Bolters"
+        ],
+        "specialRules": [
+          "Faithful"
+        ]
+      },
+      {
+        "name": "Celestian Sister",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Multi-Melta"
+        ],
+        "specialRules": [
+          "Faithful"
+        ]
+      },
+      {
+        "name": "Dominion Sister",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Melta Guns"
+        ],
+        "specialRules": [
+          "Faithful"
+        ]
+      },
+      {
+        "name": "Retributor Sister",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Heavy Flamer|2|"
+        ],
+        "specialRules": [
+          "Faithful"
+        ]
+      },
+      {
+        "name": "Redemptionists",
+        "type": "INF",
+        "speed": 15,
+
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Exterminators",
+          "Laspistols"
+        ],
+        "specialRules": [
+
+        ]
+      },
+      {
+        "name": "Seraphim Sister",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Twin Boltpistols"
+        ],
+        "specialRules": [
+          "Faithful"
+        ]
+      },
+      {
+        "name": "Death Cult Assassin",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+
+        "weapons": [
+          "Assassin Weapons"
+        ],
+        "specialRules": [
+          "Infiltrators",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Inquisitorial Storm Trooper",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Plasma Guns"
+        ]
+      },
+      {
+        "name": "Repentia Sisters",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 0,
+        "weapons": [
+          "Eviserator"
+        ],
+        "specialRules": [
+          "Faithful",
+          "Infiltrator"
+        ]
+      },
+      {
+        "name": "Penitent Engine",
+        "type": "LV",
+        "speed": 15,
+        "armour": 4,
+        "cc": 4,
+        "ff": 4,
+        "weapons": [
+          "Heavy Flamer|2|",
+          "Power Saws"
+        ],
+        "specialRules": [
+          "Infiltrators",
+          "Invulnerable Save",
+          "Fearless",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Exorcist",
+        "type": "AV",
+        "speed": 30,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Exorcist Launcher"
+        ],
+        "specialRules": [
+          "Faithful"
+        ]
+      },
+      {
+        "name": "Sororitas Rhino",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Storm Bolter"
+        ],
+        "specialRules": [
+          "Faithful",
+          "Transport"
+        ],
+        "notes": "May transport two infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Sororitas Hunter",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 6,
+        "weapons": [
+          "Hunter-Killer"
+        ],
+        "specialRules": [
+          "Faithful"
+        ]
+      },
+      {
+        "name": "Repressor",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Heavy Flamer",
+          "Storm Bolter"
+
+        ],
+        "specialRules": [
+          "Faithful"
+        ]
+      },
+      {
+        "name": "Immolator",
+        "type": "AV",
+        "speed": 30,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Multi-Melta"
+        ],
+        "specialRules": [
+          "Faithful"
+        ],
+        "notes": "May transport one infantry units without Jump Packs or Mounted."
+      }
+    ]
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "name": "Imperial Navy",
+    "specialRules": [
+      {
+            "title": "God Machine Killer (GMK)",
+            "description": [
+              "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
+        ]
+      }
+    ],
+    "unit": [
+    {
+      "name": "Thunderbolt Fighter",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 6,
+      "weapons": [
+        "AC Multilaser",
+        "AC Underwing Rockets",
+        "AC Storm Bolters"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Lightning Strike Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+      "weapons": [
+        "AC Lascannon",
+        "AC Underwing Rockets"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Avenger Strike Fighters",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 5,
+      "weapons": [
+        "AC Avenger Bolt Cannon",
+        "AC Twin Lascannon",
+        "AC Heavy Stubber"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Marauder Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Lascannon",
+        "AC Bomb Racks",
+        "AC Heavy Bolter Turret|2|"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Marauder Colossus Bomber",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Lascannon",
+        "AC Colossus Bomb",
+        "AC Heavy Bolter Turret|2|"
+      ],
+      "specialRules": [
+
+      ]
+    },
+
+    {
+      "name": "Lunar Class Cruiser",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "3BP, MW"
+              }
+            ]
+        },
+        "Pin Point"
+      ]
+    },
+    {
+      "name": "Emperor Class Battleship",
+      "type": "SC",
+      "weapons": [
+          {
+            "name": "Orbital Bombardment",
+            "modes": [
+              {
+                "firepower": "8BP, MW"
+              }
+            ]
+        }
+      ],
+      "specialRules": [
+        "Slow to Arrive (may only arrive on the battlefield from turn 2 onwards)"
+      ]
+    }
+
+
+    ]
+  }
+]

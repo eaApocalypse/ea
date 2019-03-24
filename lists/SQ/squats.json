@@ -1,0 +1,332 @@
+{
+  "fraction": "Squats",
+  "army": "Wodan Stronghold",
+  "version": "1.0",
+  "release": "2019-03-11",
+  "strategy": "Squat Stronghold armies have a Strategy Rating of 3.",
+  "Initiative": "Squat War Engine formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+
+  "specialRules": [
+      "Stubborn",
+      "Spirit of the Ancients",
+      "Shield Disruptor",
+      "Support Craft",
+      "Tunnelers"
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on the Wodan Stronghold."
+  ],
+  "units": [
+    {
+      "from": "SQ.json",
+      "units": [
+        "Wodan Warlord",
+        "Living Ancestor",
+        "Squat Lord",
+        "Squat Warriors",
+        "Wodan Berzerkers",
+        "Squat Bikers",
+        "Wodan Hearthguard",
+        "Thunderers",
+        "Rapier",
+        "Thudd Gun",
+        "Wodan Guildmaster",
+        "Squat Trike",
+        "Thunderfire",
+        "Squat Rhino",
+        "Squat Land Raider",
+        "Iron Eagle",
+        "Gyrokopter",
+        "Squat Mole",
+        "Squat Hellebore",
+        "Goliath Mega Cannon",
+        "Overlord",
+        "Squat Leviathan",
+        "Colossus",
+        "Cyclops",
+        "Land Train"
+      ],
+        "unitRules": [
+
+
+          ]
+    },
+    {
+      "from": "AM.json",
+      "units": [
+          "Conqueror Robot",
+          "Vultarax Robot"
+        ],
+      "unitRules": ["Automaton"]
+    }
+],
+"sections": [
+    {
+      "name": "Company Formations",
+      "formations": [
+        {
+          "name": "0–1 Regimental HQ",
+          "units": "One Supreme Commander unit, twelve Infantry units and seven Chimera",
+          "upgrades": [
+          ],
+          "points": 550
+        },
+        {
+          "name": "Mechanized Infantry Company",
+          "units": "One Commander unit, twelve Infantry units and seven Chimera",
+          "upgrades": [
+          ],
+          "points": 450
+        },
+        {
+          "name": "Infantry Company",
+          "units": "One Commander unit and twelve Infantry units",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+        {
+          "name": "Tank Company",
+          "units": "Nine Leman Russ Tanks and One Vanquisher",
+          "upgrades": [
+          ],
+          "points": 650
+        },
+        {
+          "name": "Super-Heavy Tank Company",
+          "units": "Three Baneblades or Shadowswords in any combination",
+          "points": 500
+        },
+        {
+          "name": "Artillery Company",
+          "units": "Six Basilisk or six Manticore and six Gun Emplacements.",
+          "upgrades": [
+            "*Only the Flak Upgrade may be added to a Artillery Company."
+          ],
+          "points": 450
+        }
+      ]
+    },
+    {
+      "name": "Support Formations",
+      "description": "up to two Support Formations for each Core Formation.",
+      "formations": [
+        {
+          "name": "0–1 Deathstrike Battery",
+          "units": "Two Deathstrikes",
+          "upgrades": [
+            "May add Gun Emplacements for +25 points"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Artillery Battery",
+          "units": "Three Basilisks or Manticores",
+          "upgrades": [
+            "May add Gun Emplacements for +25 points"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Bombard Battery",
+          "units": "Three Bombards",
+          "upgrades": [
+            "May add Gun Emplacements for +25 points"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Flak Battery",
+          "units": "Three Hydras",
+          "upgrades": [
+            "May add Gun Emplacements for +25 points"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Rough Rider Platoon",
+          "units": "Six Rough Riders",
+          "points": 150
+        },
+        {
+          "name": "Sentinel Squadron",
+          "units": "Four Sentinels",
+          "upgrades": [
+
+          ],
+          "points": 100
+        },
+        {
+          "name": "Super-Heavy Tank Platoon",
+          "units": "One Baneblade, Shadowsword, Stormsword or Stormblade",
+          "points": 200
+        },
+
+        {
+          "name": "Vulture Squadron",
+          "units": "Four Vultures",
+          "points": 300
+        },
+        {
+          "name": "Tempestus Scions",
+          "units": "Eight Tempestus Scions and one Tempestor",
+          "points": 200,
+          "upgrades": [
+              "Add four Taurox OR Add four Valkyries +150 points"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Imperial Titans",
+      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
+      "formations": [
+        {
+          "name": "Warhound Pack",
+          "units": "Two Warhounds",
+          "upgrades": [
+            "Warhound pack gains the 'Independent' special rule for +50 points."
+          ],
+          "points": 500
+        },
+        {
+            "name": "Reaver",
+            "units": "One Reaver Titan",
+            "upgrades": [
+            ],
+            "points": 600
+        }
+      ]
+    },
+    {
+      "name": "Steel Legion Aircraft, Spacecraft",
+      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
+      "formations": [
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 150
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
+        },
+        {
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
+          "points": 150,
+          "upgrades": [
+              "Replace with an Emperor Class Battleship for +50 points"
+          ]
+        }
+      ]
+    }
+
+
+
+
+
+
+
+
+
+
+  ],
+  "upgrades": {
+    "title": "Steel Legion Upgrades",
+    "description": "Each upgrade may be taken once per formation with the exception of valkyries and vendetta upgrades.",
+    "items": [
+      {
+        "name": "Fire Support Platoon*",
+        "options": [
+          {
+            "description": "Add four Fire Support Squad units",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Flak",
+        "options": [
+          {
+            "description": "Add one Hydra",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Griffon Battery",
+        "options": [
+          {
+            "description": "Add three Griffons",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Hellhound Squadron",
+        "options": [
+          {
+            "description": "Add three Hellhounds",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Infantry Platoon*",
+        "options": [
+          {
+            "description": "Add six infantry units",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Ogryns*",
+        "options": [
+          {
+            "description": "Add two Ogruns",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Snipers*",
+        "options": [
+          {
+            "description": "Add up to two Snipers",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Tank Squadron",
+        "options": [
+          {
+            "description": "Add three Leman Russ or Leman Russ Demolishers",
+            "points": "175 points"
+          }
+        ]
+      },
+      {
+        "name": "Lord Commissar",
+        "options": [
+          {
+            "description": "Replace a Commissar with a Lord Commissar.",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "",
+        "options": [
+          {
+            "description": "* These upgrades may add Chimeras. All infantry units in the formation must be transported in Chimeras and the minimum chimeras are to be taken.",
+            "points": "+25 points each"
+          }
+        ]
+      }
+    ]
+  }
+}

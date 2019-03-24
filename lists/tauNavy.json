@@ -1,0 +1,111 @@
+[
+  {
+    "name": "Tau Navy",
+    "specialRules": [
+      {
+        "title": "",
+        "description": [
+          "Template"
+        ]
+      }
+    ],
+    "unit": [
+    {
+      "name": "Barracuda",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+      "weapons": [
+        "AC Ion Cannon",
+        "AC Twin Burst Cannon",
+        "AC Twin Missile Pods"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Razorshark Fighter",
+      "type": "AC",
+      "speed": "Fighter",
+      "armour": 6,
+      "weapons": [
+        "AC Quad Iron Turrets",
+        "AC Twin Burst Cannon"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Sundshark Bomber",
+      "type": "AC",
+      "speed": "Fighter-Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Pulse Bomber Generators",
+        "AC Twin Burst Cannon",
+        "AC Twin Missile Pods"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Tiger Shark AX-1-0",
+      "type": "AC",
+      "speed": "Bomber",
+      "armour": 4,
+      "weapons": [
+        "AC Twin Railcannons",
+        "AC Twin Burst Cannon",
+        "AC Twin Missile Pods",
+        "AC Seeker Missiles"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Orca",
+      "type": "AC/WE",
+      "speed": "Bomber",
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "AC Twin Burst Cannon",
+        "AC Twin Missile Pods",
+        "AC Seeker Missiles"
+      ],
+      "specialRules": [
+        "Planetfall",
+        "Tau Deflector Shield",
+        "Transport (up to twelve: Fire Warriors, Pathfinders, Stealth, Crisis, Gun Drones, Broadsides, Kroot Warriors, Kroot Master Shaper, Krootox and Kroot Hounds. Crisis units take up two slots each).",
+        "Critical Hit Effect: The Orca and all units aboard are destroyed in a spectacular explosion."
+
+      ]
+    },
+    {
+      "name": "Custodian Class Battleship",
+      "type": "SC",
+      "weapons": [
+        "Pin Point|2|"
+      ],
+      "specialRules": [
+        "Transport (may carry up to 3 Orcas plus any troops carried in them. Mantas and any embarked troops can also be carried but count as 3 Orcas for transport purposes)."
+      ]
+    },
+    {
+      "name": "Protector Class Cruiser",
+      "type": "SC",
+      "weapons": [
+        "Gravitic Tracer Salvo",
+        "Pin Point|2|"
+      ],
+      "specialRules": [
+        "Transport (may carry up to 18 Orcas plus any troops carried in them. Mantas and any embarked troops can also be carried but count as 3 Orcas for transport purposes). A Gravitic Tracer Salvo may be fired at a marked formation of any type."
+      ]
+    }
+    ]
+  }
+]

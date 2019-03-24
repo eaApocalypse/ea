@@ -1,0 +1,244 @@
+{
+  "fraction": "Necron",
+  "army": "Maynarkh Dynasty",
+  "version": "1.11",
+  "release": "2019-02-22",
+  "strategy": "Maynarkh Dynasty armies have a Strategy Rating of 2.",
+  "Initiative": "All Necron formations have an Initiative Rating of 1+.",
+
+  "specialRules": [
+            "Necron Special Rules",
+            "Necron Reserves",
+            "Necron Garrisons",
+            "Necron",
+            "Portal",
+            "Living Metal",
+            "Ponderous",
+            "Enduring",
+            "Implacable Advance",
+            "Phase Out"
+          ],
+
+  "usage": [
+    "The following army list allows you to field an army based on the Maynarkh Dynasty"
+  ],
+  "units": [
+    {
+      "from": "NC.json",
+      "units": [
+        "Necron Overlord",
+        "Necron Lord",
+        "Destroyers",
+        "Heavy Destroyers",
+        "Flayed Ones",
+        "Immortals",
+        "Necron Warriors",
+        "Cryptek",
+        "Wraiths",
+        "Monolith",
+        "Obelisk",
+        "Tomb Spyder",
+        "Abattoir",
+        "Aeonic Orb",
+        "Pylon",
+        "Warbarque",
+        "C’tan Shard"
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "necronNavy.json",
+      "units": [
+        "Scythe Class Harvester"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Maynarkh Dynasty Special",
+      "formations": [
+        {
+          "name": "0–1 per army - Tomb Complex",
+          "units": "The first objective the Necron player places on their own table edge functions both as a Portal and as an objective for the rules purposes. It may not be destroyed. Formations using the Portal should measure from the edge of the board as the formation’s starting point.",
+
+          "points": "Free"
+        },
+        {
+          "name": "0–1 per army - Necron Overlord",
+          "units": "Replace a Necron Lord in the army with a Necron Overlord.",
+
+          "points": 75
+        }
+      ]
+    },
+    {
+      "name": "Maynarkh Dynasty Phalanx’s",
+      "formations": [
+        {
+          "name": "Infantry Phalanx",
+          "units": "Eight Necron Warriors and one Necron Lord",
+          "upgrades": [
+            "Listed Below"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Maynarkh Dynasty Support Formations",
+      "description": "Up to three for each Maynarkh Dynasty Phalanx taken",
+      "formations": [
+        {
+          "name": "Armoued Phalanx",
+          "units": "Five Obelisks",
+          "upgrades": [
+            "None"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Eques Maniple",
+          "units": "Any six of the following units: Destroyers, Heavy Destroyers",
+          "upgrades": [
+            "Listed Below"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Monolith Maniple",
+          "units": "Two Monoliths and two Obelisks",
+          "upgrades": [
+            "Listed Below"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Venator Maniple",
+          "units": "Six Flayed Ones",
+          "upgrades": [
+            "Listed Below"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Maynarkh Dynasty Harvesters",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "0–1 Harvester Engine",
+          "units": "One of the following units: Abattoir, Æonic Orb",
+          "upgrades": [
+            "None"
+          ],
+          "points": 600
+        },
+        {
+          "name": "0–1 Spacecraft",
+          "units": "One Scythe Class Harvester",
+          "upgrades": [
+            "None"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Pylon",
+          "units": "One Pylon",
+          "upgrades": [
+            "None"
+          ],
+          "points": 200
+        },
+        {
+          "name": "0–2 Warbarque",
+          "units": "One Warbarque",
+          "upgrades": [
+            "None"
+          ],
+          "points": 275
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Maynarkh Dynasty Upgrades",
+    "items": [
+      {
+        "name": "Infantry Phalanx",
+        "options": [
+          {
+            "description": "Add up to three Tomb Spyders",
+            "points": "50 points each"
+          },
+          {
+            "description": "Add up to three Wraiths",
+            "points": "50 points each"
+          },
+          {
+            "description": "Add one Cryptek",
+            "points": "50 points each"
+          },
+          {
+            "description": "Swap up to three Necron Warriors for Immortals",
+            "points": "25 points each"
+          },
+          {
+            "description": "(0-1 per army) Add one C'tan Shard",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Eques Maniple",
+        "options": [
+          {
+            "description": "Add one Necron Lord",
+            "points": "25 points"
+          },
+          {
+            "description": "Add up to three Wraiths",
+            "points": "50 points each"
+          }
+        ]
+      },
+      {
+        "name": "Monolith Maniple",
+        "options": [
+          {
+            "description": "Add one Obelisk",
+            "points": "50 points each"
+          },
+          {
+            "description": "Add one Monolith ",
+            "points": "75 points each"
+          }
+        ]
+      },
+      {
+        "name": "Venator Maniple",
+        "options": [
+          {
+            "description": "Add one Necron Lord",
+            "points": "25 points"
+          },
+          {
+            "description": "Add up to three Tomb Spyders",
+            "points": "50 points each"
+          },
+          {
+            "description": "Add up to three Wraiths",
+            "points": "50 points each"
+          },
+          {
+            "description": "Add one Cryptek",
+            "points": "50 points each"
+          }
+        ]
+      }
+    ]
+  }
+}

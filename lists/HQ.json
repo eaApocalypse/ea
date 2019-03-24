@@ -1,0 +1,183 @@
+[
+  {
+    "name": "Harlequin Forces",
+    "specialRules": [
+        {
+          "title": "Masters of the Webway",
+          "description": [
+            "Harlequins are know as the masters of the Webway. This is represented by the following rules:",
+            "* Harlequin formations ignore, and do not count for, the one per turn limit that normally applies to Webway Portals.",
+            "* Must start the game in reserves, but do not count towards the maxiumum number of formations placed in reserve per Webway Portal.",
+            "* Harlequin formations may move back into the Webway using normal or consolidation movement. If they do so they counts as having re-entered the reserves in all respects, but cannot teleport. If broken, they must successfully rally before they can re-enter the table.",
+            "* Formations that fail to activate when entering via a Webway may only take a hold and regroup action in reserve.",
+            "* Additionally Mimes may re-roll 1:s when testing for teleport mishap."
+          ]
+        },
+
+        {
+          "title": "Dance of Shadows",
+          "description": [
+            "Gives the enemy an additional -1 to hit modifier to all FF attacks against a formation with a Shadowseer."
+          ]
+        },
+
+
+        {
+          "title": "Dance of Death",
+          "description": [
+            "Harlequins recieve an additional +1 Initiative modifier when attempting to do an Engage action."
+          ]
+        }
+    ],
+    "unit": [
+    {
+      "name": "Harlequin Avatar",
+      "type": "CH",
+      "weapons": [
+        "Harlequins Kiss"
+      ],
+      "specialRules": [
+        "Leader",
+        "Commander"
+      ]
+    },
+    {
+      "name": "Shadowseer",
+      "type": "CH",
+      "weapons": [
+        "Miststave",
+        "Shards of Light"
+      ],
+      "specialRules": [
+        "Leader",
+        "Inv. Save",
+        "Farsight",
+        "Dance of Shadows",
+        "(may only join Harlequins Troupe)"
+      ]
+    },
+    {
+      "name": "Master Mime",
+      "type": "CH",
+      "weapons": [
+        "Monomolecular Blade"
+      ],
+      "specialRules": [
+        "Inspiring",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Solitaire",
+      "type": "INF",
+      "speed": 20,
+      "cc": 3,
+      "weapons": [
+        "Harlequin's Caress",
+        "Harlequins Kiss"
+      ],
+      "specialRules": [
+        "Infiltrate",
+        "Scout",
+        "Inv. Save",
+        "First Strike",
+        "Fearless",
+        "Inspiring",
+        "Holofield (3+)",
+        "(no characters may join this unit)"
+      ]
+    },
+    {
+      "name": "Mimes",
+      "type": "INF",
+      "speed": 15,
+      "cc": 3,
+      "weapons": [
+        "Mime Concealed Blades"
+      ],
+      "specialRules": [
+        "Infiltrate",
+        "Scout",
+        "Teleport",
+        "Holofield (5+)"
+      ]
+    },
+    {
+      "name": "Death Jesters",
+      "type": "INF",
+      "speed": 15,
+      "cc": 5,
+      "ff": 3,
+      "weapons": [
+        "Shrieker Cannons"
+      ],
+      "specialRules": [
+        "Infiltrate",
+        "Holofield (5+)"
+      ]
+    },
+    {
+      "name": "Harlequin Troupe",
+      "type": "INF",
+      "speed": 15,
+      "cc": 3,
+      "ff": 6,
+      "weapons": [
+        "Harlequin's Embrace"
+      ],
+      "specialRules": [
+        "Infiltrate",
+        "Holofield (5+)"
+      ]
+    },
+    {
+      "name": "Skyweaver",
+      "type": "INF",
+      "speed": 40,
+      "armour": 5,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Shuriken Cannon",
+        "Zepyrglaive"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Holofield (5+)"
+      ]
+    },
+    {
+      "name": "Voidweaver",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Prismatic Cannon",
+        "Shuriken Cannon"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Holofield (5+)"
+      ]
+    },
+    {
+      "name": "Starweaver",
+      "type": "LV",
+      "speed": 35,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Shuriken Catapults"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Holofield (5+)",
+        "Transport 1 (May carry Harlequins Troupe, Death Jesters, Mimes, Solitaire)"
+      ]
+    }
+    ]
+  }
+]

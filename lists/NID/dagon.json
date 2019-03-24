@@ -1,0 +1,247 @@
+{
+  "fraction": "Tyranid",
+  "army": "Hive Fleet Dagon",
+  "version": "1.3",
+  "release": "2019-03-10",
+  "strategy": "Tyranid armies have a Strategy Rating of 1.",
+  "Initiative": "All Tyranid formations have an Initiative Rating of 1+",
+
+  "specialRules": [
+                  "Synapse",
+                  "Hive Mind Locus",
+                  "Shoot the Big Ones!",
+                  "Extreme Mobility",
+                  "Gaunts",
+                  "Tunnelers",
+                  "Dagon Vanguard Organisms",
+                  "Heavy Armoured Vehicle (H-AV)"
+          ],
+
+  "usage": [
+    "The following army list allows you to field an army based on the Tyranid Hive Fleet Dagon."
+          ],
+  "units": [
+      {
+        "from": "NIDS.json",
+        "units": [
+          "Brood Lord",
+          "Termagaunts",
+          "Hormagaunts",
+          "Gargoyles",
+          "Raveners",
+          "Genestealers",
+          "Biovore",
+          "Ravener Alphas",
+          "Tyranid Warriors",
+          "Zoanthrope",
+          "Lictor",
+          "Dagon Overlord",
+          "Hive Tyrant",
+          "Carnifex",
+          "Dactylis",
+          "Exocrine",
+          "Haruspex",
+          "Malefactor",
+          "Harpy",
+          "Trygon Prime",
+          "Trygon",
+          "Harridan",
+          "Barbed Hierodule Prime",
+          "Barbed Hierodule",
+          "Scythed Hierodule Prime",
+          "Scythed Hierodule",
+          "Hive Nest",
+          "Hierophant",
+          "Dagon Dominatrix",
+          "Hydraphant"
+        ],
+          "unitRules": [
+        ]
+      },
+      {
+        "from": "nidsNavy.json",
+        "units": [
+          "Mycetic Spore",
+          "Razorfiend",
+          "Hive Ship"
+        ],
+          "unitRules": [
+            ""
+        ]
+      }
+    ],
+"sections": [
+  {
+    "name": "Primary Synapse Swarms",
+    "formations": [
+    {
+          "name": "0-1 Nexus Swarm",
+          "units": "One Dagon Dominatrix",
+          "extraUnits": [
+            "Two to four Instinctive Swarms (except Mycetic Spore)"
+          ],
+          "points": 400
+        },
+        {
+          "name": "Major Swarm",
+              "units": "One Hive Tyrant, four Tyranid Warriors and/or Zoanthropes",
+          "extraUnits": [
+            "Two to four Instinctive Swarms",
+            "0-1 Hive Tyrant in the Army may be replaced with the Dagon Overlord: 100 points",
+            "Any Dagon Overlord, Hive Tyrant, Tyranid Warriors may be upgraded to Shrike (Wings): Free"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Minor Swarm",
+          "units": "Three Tyranid Warriors and/or Zoanthropes",
+          "extraUnits": [
+            "Two to four Instinctive Swarms",
+            "1+ Gaunts, Gargoyles or Biovores must be chosen.",
+            "Any Tyranid Warriors may be upgraded to Shrike (Wings): Free"
+          ],
+          "points": 100
+        }
+      ]
+    },
+    {
+      "name": "Secondary Synapse Swarms",
+      "description": "One for each Primary Synapse Swarm",
+      "formations": [
+        {
+          "name": "Nest Swarm",
+          "units": "One Hive Nest",
+          "extraUnits": [
+            "One to two Instinctive Swarms chosen from Gaunts, Gargoyles, Biovores or Bio-Support",
+            "1+ Gaunts, Gargoyles or Biovores must be chosen"
+          ],
+          "points": 125
+        },
+        {
+          "name": "Attack Swarm",
+          "units": "One Hierodule Prime (Barbed or Scythed)",
+          "extraUnits": [
+            "One to two Instinctive Swarms chosen from Gaunts, Carnifex, Bio-Attack, Bio-Support or Hierodule"
+          ],
+          "points": 150
+        },
+        {
+          "name": "Infestation Swarm",
+          "units": "One Trygon Prime or three Ravener Alphas",
+          "extraUnits": [
+            "One to two Burrower Instinctive Swarms"
+          ],
+          "points": "125 or 150"
+        },
+        {
+          "name": "Harasser Swarm",
+          "units": "One Harridan",
+          "extraUnits": [
+            "One to two Instinctive Swarms chosen from Gargoyles or Bio-Bombers"
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Instinctive Swarms",
+      "description": "It is compulsory to buy the minimum amount of Instinctive Swarms indicated by each Synapse Swarm",
+      "formations": [
+        {
+          "name": "Gaunts",
+          "units": "Five Termagaunts and/or Hormagaunts",
+          "points": 50
+        },
+        {
+          "name": "Biovores",
+          "units": "Four Biovores",
+          "points": 75
+        },
+        {
+          "name": "Gargoyles",
+          "units": "Four Gargoyles",
+          "points": 50
+        },
+        {
+          "name": "Bio-Bombers",
+          "units": "Two Harpies",
+          "points": 100
+        },
+        {
+          "name": "Carnifex",
+          "units": "Three Carnifex",
+          "points": 125
+        },
+        {
+          "name": "Bio-Support",
+          "units": "Three Dactylis or four Exocrine",
+          "points": 125
+        },
+        {
+          "name": "Bio-Attack",
+          "units": "Two Haruspex or two Malefactors",
+          "points": 75
+        },
+        {
+          "name": "Hierodule",
+          "units": "One Barbed Hierodule or one Scythed Hierodule",
+          "points": 125
+        },
+        {
+          "name": "Burrower",
+          "units": "Two Trygons or four Raveners",
+          "points": 100
+        },
+        {
+          "name": "Mycetic Spore (0-1 per Swarm)",
+          "units": "Permits deployment via planetary assault rules if a Razorfiend or Hive Ship has been bought. This option is not allowed if the Dagon Overlord, Hive Tyrant and/or Tyranid Warriors have been upgraded to Shrike (Wings).",
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Common Independent Swarms",
+      "description": "One for each Primary Synapse Swarm, no more than a third of the army",
+      "formations": [
+        {
+          "name": "Genestealer Swarm",
+          "units": "Six Genestealers, one Brood Lord",
+          "upgrades": [
+            "Add 0-3 Genestealers for 25 points each"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Lictor Swarm",
+          "units": "Five Lictors",
+          "upgrades": [
+            "Add 0-2 Lictors for 25 points each"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Rare Independent Swarms",
+      "description": "One for each Primary Synapse Swarm, no more than a third of the army",
+      "formations": [
+        {
+          "name": "Bio-Titan",
+          "units": "One Hierophant Bio-Titan",
+          "upgrades": [
+            "Replace the Hierophant with a Hydraphant Bio-Titan: 225 points"
+          ],
+          "points": 300
+        },
+        {
+          "name": "Bio-Vessel",
+          "units": "One Razorfiend",
+          "upgrades": [
+            "Replace the Razorfiend with a Hive Ship: 50 points"
+          ],
+          "points": 150
+        }
+      ]
+    }
+  ]
+}

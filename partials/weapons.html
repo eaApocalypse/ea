@@ -1,0 +1,23 @@
+<table class="table-sm stats-table">
+    <tbody>
+    <tr>
+        <td>Weapon</td>
+        <td>Range</td>
+        <td>Firepower</td>
+    </tr>
+    {{#each weapons}}
+    {{#each modes}}
+    <tr>
+        <td scope="row">{{#if join}}<i>{{join}}</i>{{else}}{{#if ../count}}{{../count}}x {{/if}}{{../name}}{{/if}}</td>
+        <td>{{appendOnNumber range 'cm'}}</td>
+        <td>
+            {{firepower}}
+            {{#each specialRules}}
+            , <i><abbr title="{{description}}">{{name}}</abbr></i>
+            {{/each}}
+        </td>
+    </tr>
+    {{/each}}
+    {{/each}}
+    </tbody>
+</table>

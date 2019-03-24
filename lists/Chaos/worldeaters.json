@@ -1,0 +1,366 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "World Eaters",
+  "version": "1.5",
+  "release": "2019-02-28",
+  "strategy": "World Eaters armies have a Strategy Rating of 4.",
+  "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "specialRules":
+    [
+      "Summoning",
+      "World Eaters Summoning Rules",
+      "Augment Summoning (+x)",
+      "Daemonic Focus",
+      "Fickle Masters",
+      "World Eaters Dreadclaws"
+    ],
+  "usage": [
+    "The following army list allows you to field an army based on the World Eaters, using their preferred operational methods."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Blood Lord",
+        "Skull Lord",
+        "Champion of Khorne",
+        "Icon Bearer",
+        "Daemon Prince of Khorne",
+        "Chaos Space Marines",
+        "Skullseeker Terminators",
+        "Khorne Berzerkers",
+        "Mutilators",
+        "Khorne Berzerker Assault Bikes",
+        "Juggernaut Riders",
+        "Chaos Rhino",
+        "World Eater Land Raider",
+        "Chaos Predator",
+        "Chaos Vindicator",
+        "World Eaters Dreadnought"
+    ],
+    "unitRules": [
+
+    ]
+    },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Doomblaster",
+            "Hellfire Cannon",
+            "Forgefiend",
+            "Slaughterfiend",
+            "Daemonic Assault Engine",
+            "Greater Brass Scorpion",
+            "Lord of Battles",
+            "Tower of Skulls"
+
+        ],
+        "unitRules": [
+          "Daemon Engine (x)",
+          "God Machine",
+          "Split Fire"
+        ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Bloodletters of Khorne",
+        "Fleshhounds of Khorne",
+        "Bloodcrushers of Khorne",
+        "Bloodthirster"
+      ],
+      "unitRules": [
+    ]
+  },
+  {
+    "from": "chaosnavy.json",
+    "units": [
+        "Heldrake Interceptor",
+        "Baledrake Fighter-Bomber",
+      "Devastation Class Cruiser",
+      "Despoiler Class Battleship"
+  ],
+  "unitRules": [
+      "God Machine Killer (GMK)"
+
+  ]
+  }
+  ],
+  "sections": [
+    {
+      "name": "World Eaters Core Formations",
+      "formations": [
+        {
+          "name": "World Eaters Retinue",
+          "units": "Four Khorne Berzerkers, four Chaos Space Marines, one Skull Lord",
+          "upgrades": [
+            "Supreme Commander",
+            "Transport",
+            "Champion",
+            "Daemonic Pact",
+            "Dreadclaws",
+            "Icon Bearer",
+            "Vindicators",
+            "Berzerkers",
+            "Dreadnoughts",
+            "Predators"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "World Eaters Support Formations",
+      "description": "Two Support formations may be fielded per Core formation",
+      "formations": [
+        {
+          "name": "Skullseeker Terminators",
+          "units": "Four Skullseeker Terminators, one Skull Lord",
+          "upgrades": [
+              "Supreme Commander",
+              "Transport",
+              "Champion",
+              "Daemonic Pact",
+              "Dreadclaws",
+              "Icon Bearer",
+              "Mutilators",
+              "Dreadnoughts"
+          ],
+          "points": 375
+      },
+      {
+        "name": "Juggernaut Riders",
+        "units": "Eight Juggernaut Riders, one Skull Lord, Daemonic Pact",
+        "upgrades": [
+            "Supreme Commander",
+            "Icon Bearer",
+            "Champion"
+        ],
+        "points": 400
+      },
+          {
+            "name": "Berzerker Bikes",
+            "units": "Eight Khorne Berzerker Assault Bikes, one Skull Lord",
+            "upgrades": [
+                "Icon Bearer",
+                "Daemonic Pact"
+            ],
+            "points": 350
+        },
+        {
+          "name": "World Eaters Renegades",
+          "units": "Four Chaos Space Marines, two Chaos Rhinos, Daemonic Pact",
+          "upgrades": [
+            "Predators",
+            "Land Raiders",
+            "Vindicators",
+            "Berzerkers"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Predator Company",
+          "units": "Four Chaos Predators",
+          "upgrades": [
+              "Vindicators"
+          ],
+          "points": 200
+      }
+    ]
+  },
+  {
+    "name": "Minor Daemon Engine Formations",
+    "description": "One Minor Daemon Engine formations may be fielded per Core formation",
+    "formations": [
+      {
+        "name": "Khorne Defiler Pack",
+        "units": "Five Slaughterfiends",
+        "upgrades": [
+          "Add up to three Slaughterfiends for 35 points each"
+        ],
+        "points": 225
+    },
+    {
+      "name": "Daemonic Assault Engines",
+      "units": "Six Daemonic Assault Engines",
+      "upgrades": [
+      ],
+      "points": 275
+  },
+  {
+    "name": "Doomblasters",
+    "units": "Four Doomblasters",
+    "upgrades": [
+        "Forgefiends"
+    ],
+    "points": 225
+    },
+    {
+      "name": "Hell Cannons",
+      "units": "Four Hell Cannons",
+      "upgrades": [
+          "Forgefiends"
+      ],
+      "points": 225
+      }
+    ]
+  },
+        {
+      "name": "Major Daemon Engine and Chaos Navy Formations",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Greater Brass Scorpion",
+            "units": "One Greater Brass Scorpion",
+          "upgrades": [
+            "Add one Greater Brass Scorpion for 175 points"
+          ],
+          "points": 225
+            },
+          {
+            "name": "Lord of Battles",
+            "units": "One Lord of Battles",
+            "upgrades": [
+            ],
+            "points": 375
+          },
+          {
+            "name": "0-1 Tower of Skulls",
+            "units": "One Tower of Skulls, Daemonic Pact",
+            "upgrades": [
+            ],
+            "points": 700
+          },
+        {
+          "name": "Heldrake Wing",
+          "units": "Two Heldrake Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Baledrake Wing",
+          "units": "Two Baledrake Fighter-Bombers",
+          "points": 200
+        },
+
+        {
+          "name": "0-1 Chaos Cruiser",
+          "units": "One Devastation Class Cruiser",
+          "upgrades": [
+            "Battleship"
+          ],
+          "points": 150
+        }
+      ]
+  },
+      {
+        "name": "Daemon Pool",
+        "description": "Any amount may be spent on Daemon Pool points",
+        "formations": [
+            {
+              "name": "Lesser Daemon Pool",
+              "units": "Any amount of Lesser Daemon Pool points",
+              "points": 15
+          },
+          {
+            "name": "Greater Daemon Pool",
+            "units": "Any amount of Greater Daemon Pool points. The first one is free.",
+            "points": 50
+          }
+        ]
+    }
+  ],
+  "upgrades": {
+    "title": "World Eaters Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Battleship",
+        "description": "Replace the Devastation Class Cruiser with a Despoiler Class Battleship",
+        "points": "50 points"
+      },
+      {
+        "name": "0-1 Supreme Commander",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Replace the Skull Lord with a Blood Lord",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace the Skull Lord and its unit with a Daemon Prince of Khorne",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Transport",
+        "options": [
+          {
+            "description": "Add four Chaos Rhinos (Retinue only)",
+            "points": "Free"
+          },
+          {
+            "description": "Add four World Eaters Land Raiders",
+            "points": "200 points each"
+        },
+        {
+          "description": "(No more than needed to transport the formation with no space left over)",
+          "points": ""
+      }
+        ]
+      },
+      {
+        "name": "Land Raiders",
+        "description": "Replace two Chaos Rhinos with two World Eaters Land Raiders",
+        "points": "100 points"
+      },
+      {
+        "name": "Predators",
+        "description": "Add 2 Chaos Predators",
+        "points": "75 points"
+      },
+      {
+        "name": "Daemonic Pact",
+        "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
+        "points": "25 points"
+      },
+      {
+        "name": "Dreadnoughts",
+        "description": "Add two World Eaters Dreadnoughts to the formation",
+        "points": "75 points"
+      },
+      {
+        "name": "Champion",
+        "description": "Add one Champion of Khorne character to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Icon Bearer",
+        "description": "Add one Icon Bearer character",
+        "points": "25 points"
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
+        "points": "Free"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Add two Chaos Vindicators",
+        "points": "50 points"
+      },
+      {
+        "name": "Berzerkers",
+        "description": "Replace four Chaos Space Marines with four Khorne Berzerkers",
+        "points": "Free"
+      },
+      {
+        "name": "Mutilators",
+        "description": "Replace up to two Skullseeker Terminators with Mutilators",
+        "points": "25 points each"
+    }
+    ]
+  }
+}

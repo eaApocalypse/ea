@@ -1,0 +1,460 @@
+[
+  {
+    "name": "Tau Forces",
+    "specialRules": [
+
+    ],
+    "unit": [
+    {
+      "name": "Ethereal",
+      "type": "CH",
+      "weapons": [
+        "Honour Blade"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Inspiring",
+        "Leader",
+        "All units in a formation joined by an Ethereal gain Fearless. If the Ethereal is killed then all these units lose Fearless and the formation receives an additional D3 Blast Markers."
+      ]
+    },
+    {
+      "name": "Shas'el",
+      "type": "CH",
+      "weapons": [
+          "Experimental Weapons"
+      ],
+      "specialRules": [
+        "Coordinated Fire",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Shas'o",
+      "type": "CH",
+      "weapons": [
+        "Experimental Weapons"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Coordinated Fire",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Crisis Battlesuits",
+      "type": "INF",
+      "speed": 20,
+      "armour": 3,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Missile Pods",
+        "Twin Plasma Rifles",
+        "Twin Fusion Blasters"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Tau Jet Packs"
+      ]
+    },
+    {
+      "name": "Fire Warriors",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Pulse Rifles",
+        "Pulse Carbines"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Gun Drones",
+      "type": "INF",
+      "speed": 20,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Twin Pulse Carbines"
+      ],
+      "specialRules": [
+        "Tau Jet Packs"
+      ]
+    },
+    {
+      "name": "Kroot Hounds",
+      "type": "INF",
+      "speed": 20,
+      "cc": 3,
+      "weapons": [
+        "Fangs"
+        ],
+      "specialRules": [
+        "Infiltrators",
+        "Scouts"
+      ]
+    },
+    {
+      "name": "Kroot Master Shapers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 6,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Mercenary Weapons",
+        "Kroot Rifles"
+      ],
+      "specialRules": [
+        "Infiltrators",
+        "Leader",
+        "Scouts"
+      ]
+    },
+    {
+      "name": "Kroot Warriors",
+      "type": "INF",
+      "speed": 15,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Kroot Rifles"
+      ],
+      "specialRules": [
+        "Infiltrators",
+        "Scouts"
+      ]
+    },
+    {
+      "name": "Krootox",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Kroot Guns",
+        "Krootox Claws"
+      ],
+      "specialRules": [
+      ]
+    },
+    {
+      "name": "Pathfinders",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Rail Rifles",
+        "Pulse Carbines"
+      ],
+      "specialRules": [
+        "Coordinated Fire",
+        "Markerlights",
+        "Scouts"
+
+      ]
+    },
+    {
+      "name": "Stealth Battlesuits",
+      "type": "INF",
+      "speed": 20,
+      "armour": 3,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Silenced Burst Cannons"
+      ],
+      "specialRules": [
+        "First Strike",
+        "Markerlights",
+        "Scouts",
+        "Tau Jet Packs",
+        "Teleport"
+
+      ]
+    },
+    {
+      "name": "Sniper Drones",
+      "type": "INF",
+      "speed": 20,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Sniper Drone"
+      ],
+      "specialRules": [
+        "Scout",
+        "Teleport",
+        "Tau Jet Packs",
+        "Counts as Gun Drone for the purpose of being transported."
+      ]
+    },
+    {
+      "name": "Firesight Marksmen",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Sniper Drone"
+      ],
+      "specialRules": [
+        "Teleport",
+        "Markerlights",
+        "Scouts",
+        "Counts as Fire Warrior for the purpose of being transported."
+      ]
+    },
+    {
+      "name": "Broadside Battlesuit",
+      "type": "LV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Twin Railguns",
+       "Smart Missile System"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Piranha",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+       "Burst Cannon & Gun Drones",
+       "Seeker Missiles"
+      ],
+      "specialRules": [
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Tetra",
+      "type": "LV",
+      "speed": 35,
+      "armour": 5,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+       "Tetra Pulse Rifles"
+      ],
+      "specialRules": [
+        "Coordinated Fire",
+        "Markerlights",
+        "Scouts",
+        "Skimmer"
+      ]
+    },
+    {
+      "name": "Devilfish",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+       "Burst Cannon & Gun Drones",
+       "Seeker Missiles"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Transport (Two Fire Warrior or Pathfinder units)"
+      ]
+    },
+    {
+      "name": "Hammerhead",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Smart Missile System",
+       "Seeker Missiles",
+       "Ion Cannon|0-1|",
+       "Twin Fusion Cannon|0-1|",
+       "Railgun|0-1|"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Armed with either a Railgun, Ion Cannon or Twin Fusion Cannon."
+      ]
+    },
+    {
+      "name": "Skyray",
+      "type": "AV",
+      "speed": 30,
+      "armour": 5,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Smart Missile System",
+       "Seeker Missiles|2|",
+       "Hunter Missiles|2|"
+      ],
+      "specialRules": [
+        "Skimmer",
+        "Markerlights"
+      ]
+    },
+    {
+      "name": "Ghostkeel",
+      "type": "AV",
+      "speed": 20,
+      "armour": 3,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+       "Twin Fusion Blasters",
+       "Cyclic Ion Raker"
+      ],
+      "specialRules": [
+        "Invulnerable Save",
+        "Walker",
+        "First Strike",
+        "Teleport",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "KV-104 Riptide",
+      "type": "H-AV",
+      "speed": 25,
+      "armour": 3,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+       "Ion Accelerator",
+       "Heavy Burst Cannons|2|"
+      ],
+      "specialRules": [
+        "Tau Deflector Shield",
+        "Walker",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "XV107 R‘varna",
+      "type": "H-AV",
+      "speed": 20,
+      "armour": 5,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+       "Pulse Submunition Cannons|2|"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Tau Deflector Shield",
+        "Walker",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "XV109 Y‘vahra",
+      "type": "H-AV",
+      "speed": 25,
+      "armour": 3,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+       "Plasma Flamer",
+       "EMP Discharge Cannon"
+      ],
+      "specialRules": [
+        "Tau Deflector Shield",
+        "Walker",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "KX-128 Stormsurge",
+      "type": "H-AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+       "Pulse Driver Cannon",
+       "Destroyer Missiles|2|",
+       "Burst Cannons"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Tau Deflector Shield",
+        "Walker",
+        "Tau Jet Pack"
+      ]
+    },
+    {
+      "name": "KX-139 Supremacy Suit",
+      "type": "WE",
+      "speed": 20,
+      "armour": 5,
+
+      "ff": 4,
+      "weapons": [
+        "Seeker Missiles|2|",
+        "Fusion Eradicators|2|",
+        "Velocity Tracker",
+        "Heavy Rail Cannon|0-1|",
+        "Nexus Missile System|0-1|",
+        "Pulse Ordinance Multi-Driver|0-1|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Reinforced Armour",
+        "Tau Deflector Shield",
+        "Walker",
+        "Armed with either a Heavy Rail Cannon, a Nexus Missile System or a Pulse Ordinance Multi Driver"
+      ],
+      "notes": "Critical Hit Effect: The Supremacy Suit is destroyed."
+    },
+    {
+      "name": "Manta",
+      "type": "WE",
+      "speed": 20,
+      "armour": 5,
+
+      "ff": 4,
+      "weapons": [
+        "Twin Heavy Railcannons",
+        "Heavy Ion Phalanx|3|",
+        "Twin Manta Burst Cannons|4|",
+        "Twin Missile Pods",
+        "Seeker Missiles|2|"
+      ],
+      "specialRules": [
+        "Damage Capacity: 6",
+        "Fearless",
+        "Markerlights",
+        "Planetfall",
+        "Reinforced Armour",
+        "Support Craft",
+        "Tau Deflector Shield",
+        "Transport (up to twenty: Fire Warriors, Pathfinders, Stealth, Gun Drones, Crisis, Broadsides, Kroot, Kroot Master Shaper, Kroot Hounds and Krootox. Crisis units take up two slots each. In addition may carry four vehicles of the following types: Devilfish, Hammerhead, Skyray, Piranha or Tetra. Three Tetras may be carried in each vehicle slot)."
+      ],
+      "notes": "Critical Hit Effect: The Tau Deflector Shield is knocked offline and may not be used for the remainder of the game. Further critical hits cause an additional point of damage."
+    }
+    ]
+  }
+]

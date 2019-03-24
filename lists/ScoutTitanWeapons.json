@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Scout Titan Weapons",
+    "specialRules": [
+
+    ],
+    "unit": [
+        {
+          "name": "Inferno Cannon",
+          "type": "Arm Weapon",
+          "weapons": ["Inferno Cannon"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Plasma Blastgun",
+          "type": "Arm Weapon",
+          "weapons": ["Plasma Blastgun"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Turbo-Laser Destructor",
+          "type": "Arm Weapon",
+          "weapons": ["Turbo-Laser Destructor"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Vulcan Mega Bolter",
+          "type": "Arm Weapon",
+          "weapons": ["Vulcan Mega-Bolter"],
+          "specialRules": [
+
+          ]
+        }
+    ]
+  }
+]

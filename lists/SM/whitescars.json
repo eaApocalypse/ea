@@ -1,0 +1,256 @@
+{
+  "fraction": "Space Marines",
+  "army": "White Scars",
+  "version": "1.0",
+  "release": "2019-01-20",
+  "strategy": "Space Marine armies have a Strategy Rating of 5.",
+  "Initiative": "All formations have an Initiative Rating of 1+.",
+  "specialRules": [
+    {
+      "title": "White Scars Transports",
+      "description": [
+        "The Space Marines are a highly mobile army. Because of this the points cost of a detachment usually includes enough transport vehicles to transport it and any upgrades that have been taken. The number of vehicles will always be the minimum needed to carry the formation, you can’t take extras along to cover any losses! The transport vehicles will be Land Raider Crusaders if the detachment is Terminators, Rhinos for any other form of detachment.",
+        "Note that many formations don’t receive transports, usually because they can’t fit into them. Detachments that come with vehicles will be noted as having plus transport in the Units section of the detachment list below. White Scars detachments must take the transport vehicles for a detachment—you cannot leave them behind in order to use the unit as a garrison or to be deployed from a Thunderhawk gunship.",
+        "In addition you may choose to replace a detachment’s vehicles with drop pods before each game, after the opposing army is known but before objectives are placed. If you choose to do this, all transported detachments in the army must deploy from drop pods—you can’t have some in transport vehicles and some deploying from drop pods. If you do choose to use drop pods, then the affected detachments will enter play in drop pods using the rules for Planetfall (see Planetfall). Note that you will require at least one Space Marine strike cruiser or battle barge to deploy the drop pods from."
+
+      ]
+    }
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on the White Scars, or one of their successor chapters, using their preferred operational methods."
+  ],
+  "units": [
+    {
+      "from": "SM.json",
+      "units": [
+        "Captain","Chaplain","Librarian","Supreme Commander",
+        "Assaults","Scouts","Tacticals","Terminators","White Scars Bikes","White Scars Scout Bikes",
+        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","White Scars Attack Bike","White Scars Melta Bike",
+        "Hunter","Land Raider","Land Raider Crusader","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","White Scar Vindicator",
+        "Landing Craft","Storm Talon Gunship","Thunderhawk","Thunderhawk Transporter",
+        "Battle Barge","Strike Cruiser","Drop Pod"
+      ],
+      "unitRules": ["They Shall Know No Fear"]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": ["Warhound"],
+      "unitRules": ["Void Shields"]
+    }
+  ],
+  "sections": [
+    {
+      "name": "White Scars Core Detachments",
+      "formations": [
+        {
+          "name": "Assaults",
+          "units": "Four Assaults",
+          "upgrades": [
+            "Commander",
+            "Vindicators"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Bikes",
+          "units": "Eight White Scars Bikes",
+          "upgrades": [
+            "Attack Bikes",
+            "Commander"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Scout Bikes",
+          "units": "Five Scout Bikes",
+          "upgrades": [
+            "Attack Bikes",
+            "Commander"
+          ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "White Scars Support Detachments",
+      "description": "Two Support Detachments may be fielded per Core Detachment",
+      "formations": [
+        {
+          "name": "Land Speeder",
+          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+          "upgrades": [
+            "Commander",
+            "Typhoons"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Predator",
+          "units": "Any four of the following units: Predator Annihilator, Predator Destructor",
+          "upgrades": [
+            "Commander",
+            "Hunter",
+            "Vindicators"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Scout",
+          "units": "Four Scouts plus transport",
+          "upgrades": [
+            "Commander",
+            "Razorbacks",
+            "Snipers"
+          ],
+          "points": 150
+        },
+        {
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "upgrades": [
+            "Battle Barge"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
+          "upgrades": [
+            "Commander",
+            "Hunter",
+            "Razorbacks",
+            "Vindicators"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Terminators",
+          "units": "Four Terminators plus transport",
+          "upgrades": [
+            "Commander",
+            "Hunter",
+            "Land Raiders",
+            "Vindicators"
+          ],
+          "points": 475
+        },
+        {
+          "name": "Whirlwind Battery",
+          "units": "Four Whirlwinds",
+          "upgrades": [
+            "Commander",
+            "Hunter"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "White Scars Aircraft & Imperial Allies",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 350
+        },
+        {
+          "name": "Storm Talon Squadron",
+          "units": "Two Storm Talons",
+          "points": 200
+        },
+        {
+          "name": "Thunderhawk",
+          "units": "One Thunderhawk Gunship",
+          "points": 200
+        },
+        {
+          "name": "Thunderhawk Transporter",
+          "units": "One Thunderhawk Transporter",
+          "upgrades": [
+            "Thunderhawk Transporter"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Warhound Pack",
+          "units": "Two Warhound Class Titans",
+          "upgrades": [
+            "Independent"
+          ],
+          "points": 500
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "White Scars Upgrades",
+    "description": "Each upgrade may be taken once per detachment",
+    "items": [
+      {
+        "name": "Attack Bikes",
+        "description": "Replace up to three White Scars Bikes, or one White Scars Scout Bikes, with an equal number of White Scars Attack or Melta Bikes",
+        "points": "Free"
+      },
+      {
+        "name": "Battle Barge",
+        "description": "Replace the Strike Cruiser with a Battle Barge",
+        "points": "150 points"
+      },
+      {
+        "name": "Commander",
+        "description": "Add any one of the following characters to any unit in the formation",
+        "options": [
+          {
+            "description": "Captain, Chaplain, Librarian",
+            "points": "50 points"
+          },
+          {
+            "description": "0–1 Supreme Commander",
+            "points": "100 points"
+          }
+        ]
+      },
+      {
+        "name": "Hunter",
+        "description": "Add one Hunter",
+        "points": "75 points"
+      },
+      {
+        "name": "Independent",
+        "description": "Allows a Warhound Pack to operate as two independent War Engines. If one Warhound is destroyed, the other one in the pack receives a blastmarker",
+        "points": "50 points"
+      },
+      {
+        "name": "Land Raiders",
+        "description": "Replace up to two Land Raider Crusaders with two Land Raiders each",
+        "points": "50 points each"
+      },
+      {
+        "name": "Razorbacks",
+        "description": "Add any number of Razorbacks, up to the number required to transport the formation",
+        "points": "25 points each"
+      },
+      {
+        "name": "Snipers",
+        "description": "Give up to four Scouts Sniper",
+        "points": "10 points each"
+      },
+      {
+        "name": "Thunderhawk Transporter",
+        "description": "Add one Thunderhawk Transporter",
+        "points": "100 points"
+      },
+      {
+        "name": "Typhoons",
+        "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
+        "points": "10 points each"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Add up to two White Scars Vindicators",
+        "points": ["50 points each", "75 points per pair"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "fraction": "Imperial Inquisition",
+  "army": "Adepta Sororitas",
+  "version": "1.0",
+  "release": "2019-01-20",
+  "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
+  "Initiative": "All Sister of Battle formations have an Initiative Rating of 1+. All Inquisitorial Support Detachments and Imperial Navy formations have an Initiative Rating of 2+.",
+  "specialRules": ["Act of Faith"
+                  ],
+  "usage": [
+    "The following army list allows you to field an army based on the Adepta Sororitas from the Ordo Heriticus"
+  ],
+  "units": [
+    {
+      "from": "IQ.json",
+      "units": [
+        "Canoness",
+        "Inquisitor",
+        "Mistress",
+        "Palatine",
+        "Priest",
+        "Living Saint",
+        "Arco-Flagellants",
+        "Battle Sisters",
+        "Celestian Sister",
+        "Dominion Sister",
+        "Retributor Sister",
+        "Redemptionists",
+        "Seraphim Sister",
+        "Death Cult Assassin",
+        "Inquisitorial Storm Trooper",
+        "Repentia Sisters",
+        "Penitent Engine",
+        "Exorcist",
+        "Sororitas Rhino",
+        "Sororitas Hunter",
+        "Repressor",
+        "Immolator"
+      ],
+      "unitRules": [
+
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "Chimera",
+        "Valkyrie"
+      ],
+      "unitRules": [
+
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Lightning Strike Fighter",
+        "Marauder Bomber",
+        "Lunar Class Cruiser"
+      ],
+      "unitRules": [
+
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "name": "Adepta Sororitas Core Detachments",
+      "description": "One Retribution Formation for each one Mission Formation",
+      "formations": [
+        {
+          "name": "Mission",
+          "units": "Eight Battle Sisters",
+          "upgrades": [
+
+            "Exorcist",
+            "Priest",
+            "Superior",
+            "Specialist",
+            "Transport"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Retribution",
+          "units": "Six Retributor Sisters",
+          "upgrades": [
+              "Four Retributor Sisters and two Dominion Sisters (Free)",
+              "Four Retributor Sisters and two Celestian Sisters (15 points)",
+            "Priest",
+            "Palatine",
+            "Transport"
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Adepta Sororita Support Detachments",
+      "description": "Two Support Detachments may be fielded per Core Mission",
+      "formations": [
+        {
+          "name": "Exorcism",
+          "units": "Five Exorcists",
+          "upgrades": [
+            "Exorcist",
+            "Hunter"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Choir",
+          "units": "Six Seraphim Sisters",
+          "upgrades": [
+            "Superior"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Coven",
+          "units": "Four Dominion Sisters",
+          "upgrades": [
+
+            "Transports"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Repentance",
+          "units": "Six Repentia Sisters plus a Mistress character",
+          "upgrades": [
+
+            "Engines",
+            "Priest",
+            "Transport"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Purgeance",
+          "units": "Six Immolators or Repressors",
+          "upgrades": [
+            "Hunter"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Inquisitorial Support Detachments",
+      "description": "Two Inquisitorial Support Detachments may be fielded per Mission",
+      "formations": [
+        {
+          "name": "Penitence",
+          "units": "Four Penitent Engines",
+          "upgrades": [
+            "Engines"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Crusaders",
+          "units": "Ten Redemptionists plus a Priest character",
+          "upgrades": [
+            "Chimeras",
+            "Engines"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Conclave",
+          "units": "Six Arco Flagellants",
+          "upgrades": [
+            "Transport",
+            "Engines"
+          ],
+          "points": 250
+        },
+        {
+          "name": "0-1 per army Inquisitorial Strike Force",
+          "units": "Eight Inqisitorial Storm Troopers plus an Inquisitor character",
+          "upgrades": [
+            "Chimeras or Landing Party",
+            "Priest",
+            "Retinue"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Imperial Navy Formations",
+      "description": "Up to a third of the points available may be spent on Imperial Navy Formations",
+      "formations": [
+        {
+          "name": "Lightning Squadron",
+          "units": "Two Lightning Strike Fighters",
+          "points": 150
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
+        },
+        {
+          "name": "0–1 Orbital Support",
+          "units": "One Lunar Class Cruiser",
+          "points": 150
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Upgrades",
+    "description": "Up to four upgrades may be taken once per formation",
+    "items": [
+      {
+        "name": "Superior",
+        "description": "Add any one of the following characters to any unit in the formation",
+        "options": [
+          {
+            "description": "Add one Cannoness (1 per army)",
+            "points": "100 points"
+          },
+          {
+            "description": "Add one Living Saint (1 per army)",
+            "points": "75 points"
+          },
+          {
+            "description": "Add one Palatine",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Priest",
+        "description": "Add one Priest",
+        "points": "50 points"
+      },
+      {
+        "name": "Chimeras",
+        "description": "Enough Chimeras to transport the entire formation",
+        "points": "25 points each"
+      },
+      {
+        "name": "Engines",
+        "description": "Add up to three Penitent Engines",
+        "points": "35 points each"
+      },
+      {
+        "name": "Exorcist",
+        "description": "Add up to two Exorcists",
+        "points": "50 points"
+      },
+      {
+        "name": "Hunter",
+        "description": "Add one Sororitas Hunter",
+        "points": "50 points"
+      },
+      {
+        "name": "Specialist",
+        "description": "",
+        "options": [
+          {
+            "description": "Replace two Battle Sisters with two Celestians",
+            "points": "25 points"
+          },
+          {
+            "description": "Replace two Battle Sisters with two Dominions or Retributor Sisters",
+            "points": "15 points"
+          }
+        ]
+      },
+      {
+        "name": "Retinue",
+        "description": "Replace up to two Inquisitorial Storm Troopers with Deathcult Assassins",
+        "points": "20 points each"
+      },
+      {
+        "name": "Landing Party",
+        "description": "Add four Valkyries to transport the formation",
+        "points": "150 points"
+      },
+      {
+        "name": "Transport",
+        "description": "",
+        "options": [
+          {
+            "description": "Add up to eight Immolators",
+            "points": "25 points each"
+          },
+          {
+            "description": "Add up to four Repressors",
+            "points": "25 points each"
+          },
+          {
+            "description": "Add Rhinos (In any combination, You must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible)",
+            "points": "Free"
+          }
+        ]
+      }
+    ]
+  }
+}

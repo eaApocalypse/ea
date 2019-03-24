@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Battle Titan Weapons",
+    "specialRules": [
+
+    ],
+    "unit": [
+        {
+          "name": "Gatling Blaster",
+          "type": "Weapon",
+          "weapons": ["Gatling Blaster"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Melta Cannon",
+          "type": "Weapon",
+          "weapons": ["Melta Cannon"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Multiple Rocket Launcher",
+          "type": "Carapace Weapon",
+          "weapons": ["Multiple Rocket Launcher"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Quake Cannon",
+          "type": "Weapon",
+          "weapons": ["Quake Cannon"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Volcano Cannon",
+          "type": "Weapon",
+          "weapons": ["Volcano Cannon"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Sunfury Pattern Plasma Annihilator",
+          "type": "Weapon",
+          "weapons": ["Sunfury Pattern Plasma Annihilator"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Plasma Annihilator",
+          "type": "Weapon",
+          "weapons": ["Plasma Annihilator"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Apocalypse Missile Launcher",
+          "type": "Carapace Weapon",
+          "weapons": ["Apocalypse Missile Launcher "],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Vortex Missile Launcher",
+          "type": "Carapace Weapon",
+          "weapons": ["Vortex Missile Launcher"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Titan Warp Missile Launcher",
+          "type": "Carapace Weapon",
+          "weapons": ["Titan Warp Missile Launcher"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Titan Power Fist",
+          "type": "Arm Weapon",
+          "weapons": ["Titan Power Fist"],
+          "specialRules": [
+
+          ]
+        }
+    ]
+  }
+]

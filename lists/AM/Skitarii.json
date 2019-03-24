@@ -1,0 +1,258 @@
+{
+  "fraction": "Adeptus Mechanicus",
+  "army": "Skitarii",
+  "version": "1.12",
+  "release": "2019-02-22",
+  "strategy": "Explorator Fleets have a Strategy Rating of 3.",
+  "Initiative": "All formations have an Initiative Rating of 2+.",
+
+  "specialRules": [
+          "Automaton"
+  ],
+  "usage": [
+    "The following army list allows you to field an army based on a Adeptus Mechancus Forgeworld Army or a Explorator Fleet of the Adeptus Mechancius"
+  ],
+  "units": [
+    {
+      "from": "AM.json",
+      "units": [
+        "Archmagos",
+        "Magos",
+        "Tech Priest",
+        "Skitarii Vanguard",
+        "Secutarii",
+        "Kataphron Destroyer",
+        "Kataphron Breacher",
+        "Skitarii Rangers",
+        "Electro-Priests",
+        "Sicarian Infiltrators",
+        "Sicarian Ruststalkers",
+
+        "Kastelan Robot",
+        "Ironstrider Ballistarius",
+        "Sydonian Dragoon",
+
+        "Onager Dunecrawler",
+        "Chimeradon",
+        "Terrax Pattern Termite Assault Drill",
+
+        "Avenger Strike Fighters",
+        "Ark Mechanicus Battleship"
+      ],
+        "unitRules": [
+            "God Machine Killer (GMK)"
+      ]
+    },
+    {
+      "from": "QK.json",
+      "units": [
+        "Dominus Knight-Castellan",
+        "Questoris Knight-Paladin",
+        "Questoris Knight-Crusader"
+      ],
+        "unitRules": [
+            "Bravery",
+            "Stubborn",
+            "Ion Shield (X)",
+            "Ignore Shields",
+            "Heavy Armoured Vehicle (H-AV)"
+      ]
+    }
+
+],
+"sections": [
+    {
+      "name": "Skitarii Core Formations",
+      "formations": [
+        {
+          "name": "0-1 Secutarii Guard",
+          "units": "Seven Secutarii",
+          "upgrades": [
+            "Commander, Transports"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Vanguard Maniple",
+          "units": "Nine Skitarii Vanguard and one Tech Preist Dominus.",
+          "upgrades": [
+            "Commander, Transports"
+          ],
+          "points": 225
+        }
+      ]
+    },
+    {
+      "name": "Skitarii Support Formations",
+      "description": "up to two Support Formations for each Core Formation.",
+      "formations": [
+        {
+          "name": "Ranger Centuria",
+          "units": "4 Skitarii Rangers",
+          "upgrades": [
+            "Skitarii Rangers"
+          ],
+          "points": 100
+        },
+        {
+          "name": "Ruststalker Killclade",
+          "units": "6 Sicarian Ruststalkers ",
+          "upgrades": [
+            "Tech-Priest, Subterranean Assault"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Infiltrator Killclade",
+          "units": "6 Sicarian Infiltrators",
+          "upgrades": [
+            "Tech-Priest, Subterranean Assault"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Fulgurite Maniple",
+          "units": "6 Fulgurite Electro-Priests",
+          "upgrades": [
+            "Tech-Priest, Subterranean Assault"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Ironstrider Cavaliers",
+          "units": "6 Ironstrider Ballistarius",
+          "points": 175
+        },
+        {
+          "name": "Sydonian Dragoons",
+          "units": "6 Sydonian Dragoons",
+          "points": 175
+        },
+        {
+          "name": "Onager Cohort",
+          "units": "5 Onager Dunecrawler",
+          "points": 200
+        },
+        {
+          "name": "Kastelan Maniple",
+          "units": "5 Kastelan Robots and 1 Tech Preist Dominus",
+          "points": 200
+        },
+        {
+          "name": "Kataphron Maniple",
+          "units": "6 Kataphron Destroyers or Kataphron Breachers",
+          "upgrades": [
+            "Tech-Priest, Subterranean Assault"
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Imperial Knight Support",
+      "description": "Three Knights for each 3k points. Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations",
+      "formations": [
+        {
+          "name": "0-1 Dominus Knight",
+          "units": "One Dominus Knight",
+          "upgrades": [
+            ""
+          ],
+          "points": 175
+        },
+        {
+          "name": "0-2 Questoris Knight",
+          "units": "One Questoris Knight",
+          "upgrades": [
+            ""
+          ],
+          "points": 150
+        },
+        {
+          "name": "0-2 Crusader Knight",
+          "units": "One Crusader Knight",
+          "upgrades": [
+            ""
+          ],
+          "points": 150
+        }
+
+
+      ]
+    },
+    {
+      "name": "Adeptus Mechanicus Navy Formations",
+      "description": "Up to a third of the points available may be spent on Questoris Mechanicus Banners and Adeptus Mechanicus Navy Formations",
+      "formations": [
+        {
+          "name": "Avenger Strike Fighters",
+          "units": "2 Avenger Strike Fighters",
+          "points": 175
+        },
+        {
+          "name": "Mechanicus Battleship",
+          "units": "1 Ark Mechanicus Battleship",
+          "points": 200
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Skitarii Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Commander",
+        "options": [
+          {
+            "description": "Add 1 of the following:"
+          },
+          {
+            "description": "0-1 per army Archmagos",
+            "points": "75 points"
+          },
+          {
+            "description": "Magos",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Tech Priest",
+        "options": [
+          {
+            "description": "Add 1 Tech Priest Dominus",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Skitarii Rangers",
+        "options": [
+          {
+            "description": "Add 1-2 Skitarii Rangers",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Transports",
+        "options": [
+          {
+            "description": "Add enough Chimeradons to transport the entire formation",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Subterranean Assault",
+        "options": [
+          {
+            "description": "Add enough Terrax Pattern Termite Assault Drills to transport the entire formation",
+            "points": "25 points"
+          }
+        ]
+      }
+    ]
+  }
+}

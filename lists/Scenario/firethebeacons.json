@@ -1,0 +1,84 @@
+{
+  "fraction": "Scenario",
+  "army": "Fire the Beacons",
+  "version": "1.1",
+  "release": "2019-03-01",
+  "strategy": "Epic Apocalypse Scenario - ",
+  "Initiative": "Battle Line",
+
+  "specialRules": [
+        "General Tournament Tiebreaker Rules"
+      ],
+  "usage": [
+    "Epic Armageddon Tournament Rules",
+    "The EA-Apocalypse tournament game rules are designed to be used in conjunction with the EA-Apocalypse army lists. They will allow two players to fight an evenly balanced battle with little or no preparation. They are ideal for pick-up games at clubs or shows, and provide an evenly balanced contest in tournaments. In many ways, tournament games represent the most ‘basic’ form of game play, and are designed to be as easy and accessible as possible in order to allow Epic players to play games with the minimum of fuss. Because of this, the tournament rules require little or no preparation other than picking forces from the army lists. ",
+
+    "This Scenario is played to fire all the beacons to alert commanders above when a large enough bridge head has been secured for a full scale areal landing. Hold as much ground as you can to push the enemy off the landing zone and drive your side to victory.",
+
+    "Set Up",
+    "The tournament table size is 120cm by 180cm (4 feet by 6 feet). The higher Strategy Rating may choose the table edge he sets up on. If both players have the same Strategy Rating, then dice to see who gets the choice of table edge. You can pick a long edge, or a corner (half way up each long and short edge). The opponent sets up on the opposite edge or corner.",
+    "*See deployment examples on the main page.",
+
+    "Pre-game discussion",
+    "This is the time to discuss terrain with your opponent if the tables have not been giving a terrain card describing the table and basic layout. Work out with your opponent what things will be played as. Example, forests, hills, buildings ie. This is also the time to make new guys feel welcome or throw down your heaviest shit talk on veterans. Grab a drink and have fun.",
+
+    "Place Objective Markers",
+    "This scenario requires 8 double side objectives, each side of the objective representing each player. (8 large dice can work if needed with 1 representing a player and 6 the other player).",
+
+    "Take it in turns, starting with the player with the higher Strategy Rating, to place one objective marker on the table. If both players have the same Strategy Rating then dice to see who places the first objective marker. ",
+
+    "Objectives need to be placed 15cm from any board edge and 30cm from any other objective.",
+
+    "Player 1 (highest Strategy Rating) gets to place an objective in the opponents half.",
+    "Player 2 gets to place an objective in the opponents half.",
+    "Player 1 gets to place another objective in the opponents half.",
+    "Player 2 also gets to place another objective in the opponents half.",
+    "Player 1 now gets to place an objective in their half. ",
+    "Player 2 gets to place an objective in their half.",
+    "Player 1 gets to place another objective in their half.",
+    "Player 2 also gets to place another objective in their half.",
+    "Each objective starts the game in possession of the player who's half it is. ",
+
+
+
+    "Setup Spacecraft & Garrisons",
+    "Each player may start up to two of their garrisoned formations on Overwatch. These formations represent sentries deployed as a trip wire and to provide security at the objectives. They are assumed to have gone on Overwatch in their previous Action phase. That Overwatch is ‘carried over’ into the first turn. ",
+
+    "If either player is using spacecraft then they are set up now before any other units. Units entering play via planetfall should be placed to one side at this time too.",
+    "On-table garrison units are set up after spacecraft have been set up. The following types of formations may be set up on the table as ‘garrisons’ at the start of the game:",
+
+    "Formations where half or more of the units (rounding up) are scouts ",
+    "OR ",
+    "Formations where no more than one of the units has a move greater than 15cms, and where none of the units are war engines ",
+    "OR",
+    "Any formations that include units with a speed of 0 (zero).",
+
+    "Players take it in turns to set up one garrison at a time, starting with the player with the higher Strategy Rating. Garrisons must be set up so that they have at least one unit within 15cm of an objective in the player’s own half of the table. No units may be set up in the opponent’s half of the table or in impassable terrain. Units may be set up in dangerous terrain (it’s assumed that they took their time getting into position in order to do so safely!) ",
+
+    "Set-up Remaining Formations",
+    "All of the remaining formations in the players’ armies must be set up within 15cms of their own side’s table edge or be kept back ‘in reserve’. The players take it in turn to set up these formations one at a time, starting with the player with the higher Strategy Rating. ",
+
+    "Units kept in reserve must either be aircraft, or be going to enter play in a transport aircraft or by teleportation. Reserve formations entering play in aircraft or by teleportation should be placed aside with units that will enter play via planetfall. These formations are not ‘secret’ and your opponent may inspect them at any time. ",
+
+    "Units being transported must start the game already loaded into the transport vehicle that will bring them into play (ie, an aircraft or unit with the planetfall ability).",
+
+    "Formations entering play in aircraft or from spacecraft can do so on any turn, following the rules for transport aircraft and planetfall (see 4.2.5 & 4.4) Formations that are in reserve may not carry out any game functions or use special abilities they may have.",
+
+    "Victory Conditions",
+    "Objectives flips sides if the opposing side is the only one that has an unbroken unit within 15cm of it at any point of the turn. This includes having made a complete move as part of an order (for example after the first move in a double. In this case the second move could then take the formation beyond 15cm). Aircraft and spacecraft can’t contest or claim as normal unless it has a transport capacity and has the option of landing. Aircraft that can land may only flip objectives in the end phase if it does not disengage in the end phase. ",
+
+    "Broken formations that rally within 15cm of an objective may not flip them during that turn, but may flip them as normal at the beginning of the next turn.",
+
+    "Each Objective is worth 1 VP in the End Phase. Destroying the enemy BTS is worth a onetime bonus of 3 VP. VPs accumulate from turn to turn. ",
+
+    "Total Victory (32-0) (Lead of 10)",
+    "Major Victory (28-4) (Lead of 6-9)",
+    "Minor Victory (24-8) (Lead of 3-5)",
+    "Winning Draw (20-12) (Lead of 2 or less, difference of 250 BP or more)",
+    "Complete Draw (16-16) (Lead of 2 or less, difference of less than 250 BP)",
+
+    "If a player has reach a lead of 10 or more any turn the game ends. If not then the game finishes at the end of turn 4."
+
+
+  ]
+}

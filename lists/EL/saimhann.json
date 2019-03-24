@@ -1,0 +1,223 @@
+{
+  "fraction": "Eldar",
+  "army": "Saim-Hann",
+  "version": "0.01",
+  "release": "2019-02-22",
+  "strategy": "Saim-Hann Eldar armies have a Strategy Rating of 4.",
+  "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+
+  "specialRules": ["Avatar","Eldar May Not Garrison","Farsight","Hit and Run","Holofields (x)","Lance", "Ignore Shields", "Webway Portal"],
+  "usage": [
+    "The following army list allows you to field an army based on the Eldar Craftworld Saim-Hann."
+  ],
+  "units": [
+    {
+      "from": "EL.json",
+      "units": [
+        "Wild Rider Chieftain",
+        "Avatar",
+        "Eldar Exarch",
+        "Mounted Farseer",
+        "Eldar Rangers",
+        "Saim Hann Wild Riders",
+        "Dire Avengers",
+        "Fire Dragons",
+        "Dark Reapers",
+        "Howling Banshees",
+        "Striking Scorpions",
+        "Shining Spears",
+        "Swooping Hawks",
+        "Warp Spiders",
+        "Hornet",
+        "Vyper",
+        "War Walker",
+        "Wave Serpent",
+        "Falcon",
+        "Fire Prism",
+        "Night Spinner",
+        "Firestorm",
+        "Scorpion",
+        "Cobra",
+        "Storm Serpent",
+        "Revenant Titan"
+      ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "eldarNavy.json",
+      "units": [
+        "Nightwing Interceptor",
+        "Phoenix Bomber",
+        "Vampire Hunter"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Saim-Hann Special",
+      "formations": [
+        {
+          "name": "0-1 Avatar",
+          "units": "One Avatar",
+
+          "points": "free"
+        },
+        {
+          "name": "0-1 Wraithgate",
+          "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
+
+          "points": 50
+        }
+      ]
+    },
+    {
+      "name": "Saim-Hann Hosts",
+      "formations": [
+        {
+          "name": "Wild Rider Host",
+          "units": "One Wild Riders unit and six Saim-Hann Jet Bikes",
+          "extraUnits": [
+            "Add three Saim-Hann Jetbikes for 75 points, or six for 150 points",
+            "Replace any number of Saim-Hann Jetbikes with Saim-Hann Vypers: Free",
+            "Replace one Saim-Hann Jetbike with a Mounted Farseer: 25 points",
+            "(0-1 per army) Add a Wild Rider Chieftain to the Wild Riders unit: 50 points"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Shining Spears Warhost",
+          "description": "One Shining Spear Warhost for each Wild Rider Host.",
+          "units": "Eight Shining Spears",
+          "upgrades": [
+            "Add up to two Exarchs for 50 points each"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Saim-Hann Troupes",
+      "description": "Up to three for each Saim-Hann Host taken",
+      "formations": [
+        {
+          "name": "Mounted Aspect Warrior Troupe",
+          "units": "Three Wave Serpents and six Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Striking Scorpions",
+          "upgrades": [
+            "0-1 Exarch, Replace any number of Wave Serpents with two Eldar Falcons each, for 75 points each Wave Serpent replaced "
+          ],
+          "points": 400
+        },
+        {
+          "name": "Engine of Vaul Troupe",
+          "units": "One Engine of Vaul chosen from the following: Cobra, Scorpion, Storm Serpent",
+          "upgrades": [
+            "Add one or two additional Engine of Vaul for 200 points each, chosen from the following: Cobra, Scorpion, Storm Serpent"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Falcon Troupe",
+          "units": "Five Falcons",
+          "upgrades": [
+            "Firestorm"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Fire Prism Troupe ",
+          "units": "Three Fire Prisms",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Saim-Hann Night Spinner Troupe",
+          "units": "Four Night Spinners",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Ranger Troupe",
+          "units": "Four Eldar Rangers",
+          "upgrades": [
+            "Add up to four Eldar Rangers for 25 points each"
+          ],
+          "points": 100
+        },
+        {
+          "name": "Hornets",
+          "units": "Four Hornets",
+          "upgrades": [
+            "Add up to two Hornets for 35 points each"
+          ],
+          "points": 175
+        },
+        {
+          "name": "War Walker Troupe",
+          "units": "Four War Walkers",
+          "upgrades": [
+          ],
+          "points": 125
+        }
+      ]
+    },
+    {
+      "name": "Saim-Hann Aircraft, Spacecraft and Titans",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+        {
+          "name": "Nightwing Aerie",
+          "units": "Two Nightwing Interceptors",
+          "upgrades": [
+            "Add one Nightwing Interceptor: 75 Points"
+          ],
+          "points": 225
+        },
+        {
+          "name": "Phoenix Aerie",
+          "units": "Two Phoenix Bombers",
+          "upgrades": [
+            "Add one Phoenix Bomber: 75 Points"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Vampire Hunter",
+          "units": "One Vampire Hunter",
+          "upgrades": [
+
+          ],
+          "points": 200
+        },
+        {
+          "name": "Revenants",
+          "units": "Two Revenant Titans",
+          "upgrades": [
+
+          ],
+          "points": 650
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Saim-Hann Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Exarch",
+        "description": "Add up to one Eldar Exarch to a Mounted Aspect Warrior Troupe",
+        "points": "50 points"
+      },
+      {
+        "name": "Firestorm",
+        "description": "Replace one Falcon with a Firestorm",
+        "points": "Free"
+      }
+    ]
+  }
+}

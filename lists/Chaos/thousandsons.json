@@ -1,0 +1,318 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Thousand Sons",
+  "version": "1.42",
+  "release": "2019-02-28",
+  "strategy": "Thousand Sons armies have a Strategy Rating of 4.",
+  "Initiative": "All Thousand Sons Core and Elite formations, as well as the Warphound Pack formation, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "specialRules":
+    [
+      "Summoning",
+      "Thousand Sons Summoning Rules",
+      "Augment Summoning (+x)",
+      "Daemonic Focus",
+      "Fickle Masters",
+      "Teleport Homer"
+    ],
+  "usage": [
+    "The following army list allows you to field an army based on the Thousand Sons with Chaos Mutant allies."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Exalted Sorcerer",
+        "Aspiring Sorcerer",
+        "Daemon Prince of Tzeench",
+        "Chaos Space Marines",
+        "Scarab Occult Terminators",
+        "Rubric Marines",
+        "Chaos Rhino",
+        "Thousand Sons Land Raider",
+        "Thousand Sons Predator",
+        "Chaos Dreadnought"
+    ],
+    "unitRules": [
+
+    ]
+    },
+        {
+        "from": "chaoscultists.json",
+        "units": [
+            "Tzaangors",
+            "Tzaangor Disc Riders",
+            "Winged Chaos Spawn",
+            "Mutalith Vortex Beast"
+        ],
+        "unitRules": [
+        ]
+    },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Deciever",
+            "Mirrorfiend",
+            "Silver Tower",
+            "Warp Palace",
+            "Doomwing Interceptor",
+            "Firelord Bomber"
+        ],
+        "unitRules": [
+          "Daemon Engine (x)"
+        ]
+    },
+    {
+      "from": "daemons.json",
+      "units": [
+        "Horrors of Tzeench",
+        "Flamers of Tzeench",
+        "Screamers of Tzeench",
+        "Lord of Change"
+      ],
+      "unitRules": [
+    ]
+  },
+    {
+      "from": "traitortitanlegions.json",
+      "units": [
+        "Warphound"
+      ],
+      "unitRules": [
+        "Void Shields"
+    ]
+  },
+  {
+    "from": "chaosnavy.json",
+    "units": [
+      "Devastation Class Cruiser"
+
+  ],
+  "unitRules": [
+      "God Machine Killer (GMK)"
+
+  ]
+  }
+  ],
+  "sections": [
+    {
+      "name": "Thousand Sons Core Formations",
+      "formations": [
+        {
+          "name": "Thousand Sons Retinue",
+          "units": "Six Rubric Marines, one Aspiring Sorcerer",
+          "upgrades": [
+            "Supreme Commander",
+            "Transport",
+            "Predators",
+            "Dreadnoughts"
+          ],
+          "points": 275
+        }
+      ]
+    },
+    {
+      "name": "Thousand Sons Elite Formations",
+      "description": "One Elite Formation may be fielded per Core Formation",
+      "formations": [
+        {
+          "name": "Chaos Space Marines",
+          "units": "Four Chaos Space Marines, one Aspiring Sorcerer",
+          "upgrades": [
+            "Dreadnoughts",
+            "Predators",
+            "Transport"
+          ],
+          "points": 175
+        },
+        {
+          "name": "Thousand Sons Terminators",
+          "units": "Four Scarab Occult Terminators, one Aspiring Sorcerer",
+          "upgrades": [
+              "Supreme Commander",
+              "Terminator Transport"
+          ],
+          "points": 350
+      },
+      {
+        "name": "Predator Company",
+        "units": "Four Thousand Sons Predators",
+        "upgrades": [
+            "Predators"
+        ],
+        "points": 200
+    }
+    ]
+  },
+  {
+    "name": "Chaos Cultist and Minor Daemon Engine Formations",
+    "description": "Two Chaos Cultist and Minor Daemon Engine Formations may be fielded per Core Formation",
+    "formations": [
+      {
+        "name": "Tzaangor Warhost",
+        "units": "Nine Tzaangors, Daemonic Pact",
+        "upgrades": [
+          "Beasts of Chaos"
+        ],
+        "points": 200
+    },
+    {
+      "name": "Tzaangor Disc Riders",
+      "units": "Nine Tzaangor Disc Riders, Daemonic Pact",
+      "upgrades": [
+          "Beasts of Chaos"
+      ],
+      "points": 250
+  },
+  {
+    "name": "Tzeench Defilers",
+    "units": "Four Decievers",
+    "upgrades": [
+    ],
+    "points": 250
+    },
+        {
+      "name": "Silver Towers",
+      "units": "Four Silver Towers",
+      "upgrades": [
+      ],
+      "points": 300
+    },
+    {
+    "name": "Mirrorfiends",
+    "units": "Two Mirrorfiends",
+    "upgrades": [
+    ],
+    "points": 300
+    }
+    ]
+  },
+        {
+      "name": "Major Daemon Engines, Traitor Titans and Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Warp Palace",
+            "units": "One Warp Palace",
+          "upgrades": [
+          ],
+          "points": 500
+            },
+          {
+            "name": "Warphound Pack",
+            "units": "Two Warphound Titans",
+            "upgrades": [
+            ],
+            "points": 500
+          },
+          {
+            "name": "Doomwing Squadron",
+            "units": "Three Doomwing Interceptors",
+            "upgrades": [
+            ],
+            "points": 175
+          },
+          {
+            "name": "Firelord Squadron",
+            "units": "Two Firelord Bombers",
+            "upgrades": [
+              "Add one Firelord for 75 points"
+            ],
+            "points": 200
+          },
+        {
+          "name": "0-1 Chaos Cruiser",
+          "units": "One Devastation Class Cruiser",
+          "upgrades": [
+          ],
+          "points": 150
+        }
+      ]
+  },
+      {
+        "name": "Daemon Pool",
+        "description": "Any amount may be spent on Daemon Pool points",
+        "formations": [
+            {
+              "name": "Lesser Daemon Pool",
+              "units": "Any amount of Lesser Daemon Pool points",
+              "points": 15
+          },
+          {
+            "name": "Greater Daemon Pool",
+            "units": "Any amount of Greater Daemon Pool points. The first one is free.",
+            "points": 50
+          }
+        ]
+    }
+  ],
+  "upgrades": {
+    "title": "Thousand Sons Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "0-1 Supreme Commander",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Replace the Aspiring Sorcerer with an Exalted Sorcerer",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace the Aspiring Champion and its unit with a Daemon Prince of Tzeench",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Transport",
+        "options": [
+          {
+            "description": "Chaos Rhinos",
+            "points": "10 points each"
+          },
+          {
+            "description": "Thousand Sons Land Raiders",
+            "points": "50 points each"
+        },
+        {
+          "description": "(No more than needed to transport the formation with no space left over)",
+          "points": ""
+      }
+        ]
+      },
+      {
+        "name": "Terminator Transport",
+        "description": "Add four Thousand Sons Land Raiders",
+        "points": "200 points"
+      },
+      {
+        "name": "Dreadnoughts",
+        "description": "Add two Chaos Dreadnoughts to the formation",
+        "points": "75 points"
+      },
+      {
+        "name": "Predators",
+        "description": "Add up to two Thousand Sons Predators",
+        "points": "50 points each"
+      },
+      {
+        "name": "Beasts of Chaos",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Add one Winged Chaos Spawn to the formation",
+            "points": "35 points"
+          },
+          {
+            "description": "Add one Vortex Beast to the formation",
+            "points": "75 points"
+          }
+        ]
+    }
+    ]
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "fraction": "Astra Militarum",
+  "army": "Catachan Death World",
+  "version": "0.01",
+  "release": "2019-02-22",
+  "strategy": "Catachan Death World armies have a Strategy Rating of 2.",
+  "Initiative": "All formations have a Initiative of 2+.",
+
+  "specialRules": ["Commissars and Catachan Heroism"],
+  "usage": [
+    "The following army list allows you to field an army based on the Catachan Death World Regiment"
+  ],
+  "units": [
+    {
+      "from": "IG.json",
+      "units": [
+        "Catachan Supreme Commander",
+        "Catachan Commander",
+        "Catachan Infantry",
+        "Catachan Mortar Squad",
+        "Catachan Missile Team",
+        "Catachan Snipers",
+        "Catachan Ogryns",
+        "Deathworld Veterans",
+        "Death World Devils",
+        "Death World Sentinel",
+        "Vulture",
+        "Valkyrie",
+        "Vendetta",
+        "Hellhound"
+      ],
+        "unitRules": [
+
+          ]
+    },
+
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt Fighter",
+        "Marauder Bomber",
+        "Marauder Colossus Bomber"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Death World Core Formations",
+      "formations": [
+        {
+          "name": "Air Cavalry Regimental HQ",
+          "units": "One Catachan Supreme Commander unit, seven Catachan Jungle Fighter units and four Valkyries ",
+          "upgrades": [
+            "Valkyries, Vendettas, Missile Team, Ogryns"
+          ],
+          "points": 350
+        },
+        {
+          "name": "Air Cavalry Company",
+          "units": "One Catachan Commander unit, seven Catachan Jungle Fighter units and four Catachan Valkyries",
+          "upgrades": [
+            "Valkyries, Vendettas, Missile Team, Ogryns"
+          ],
+          "points": 300
+        }
+      ]
+    },
+    {
+      "name": "Death World Support Formations",
+      "description": "Up to a Three Support Formations for each Core Formation.",
+      "formations": [
+        {
+          "name": "Death World Veterans",
+          "units": "One Catachan Commander and five Deathworld Veterans.",
+          "upgrades": [
+            "Ogryns, Valkyries, Vendettas"
+          ],
+          "points": 200
+        },
+        {
+          "name": "Deathworld Sentinel Squadron",
+          "units": "Four Catachan Sentinels",
+          "upgrades": [
+
+          ],
+          "points": 100
+        },
+        {
+          "name": "0-1 Death World Devils",
+          "units": "Six Catachan Devil units",
+          "upgrades": [
+            "Valkyries, Vendettas"
+          ],
+          "points": 250
+        },
+        {
+          "name": "Hellhound Platoon",
+          "units": "Six Hellhounds",
+          "upgrades": [
+
+          ],
+          "points": 250
+        },
+        {
+          "name": "Vulture Squadron",
+          "units": "3 Vultures",
+          "points": 225
+        },
+        {
+          "name": "Sniper Team",
+          "units": "4 Catachan Snipers",
+          "upgrades": [
+            "Valkyries, Vendettas"
+          ],
+          "points": 100
+        },
+        {
+          "name": "Missile Team",
+          "units": "Four Catachan Missile Teams and two Vendettas",
+          "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Death World Aircraft, Spacecraft",
+      "description": "Up to a third of the points available may be spent on Heavy Support, Aircraft and Spacecraft",
+      "formations": [
+        {
+          "name": "Thunderbolt Squadron",
+          "units": "Two Thunderbolt Fighters",
+          "points": 150
+        },
+        {
+          "name": "Marauder Squadron",
+          "units": "Two Marauder Bombers",
+          "points": 225
+        },
+        {
+          "name": "Marauder Colossus Squadron",
+          "units": "Two Marauder Colossus Bombers",
+          "points": 275
+        }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Death World Upgrades",
+    "description": "Each upgrade may be taken once per formation with the exception of valkyries and vendetta upgrades.",
+    "items": [
+      {
+        "name": "Missile Team",
+        "options": [
+          {
+            "description": "Add two Catachan Missile Team unit",
+            "points": "50 points"
+          },
+          {
+            "description": "and one Valkyrie",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Mortar Section",
+        "options": [
+          {
+            "description": "Add 3 Catachan Mortar Squad units",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Valkyries",
+        "options": [
+          {
+            "description": "Add enough Valkyries to transport the entire formation",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Vendetta",
+        "options": [
+          {
+            "description": "Swap Valkyries for Vendettas",
+            "points": "+25 points"
+          }
+        ]
+      },
+      {
+        "name": "Ogryns",
+        "options": [
+          {
+            "description": "0-2 Per formation Swap two infantry units for one Catachan Ogryn",
+            "points": "Free"
+          },
+          {
+            "description": "Death World Veterans can also ass 2 Ogryns and 2 Valkyries",
+            "points": "75 points"
+          },
+          {
+            "description": "OR"
+          },
+          {
+            "description": "Death World Veterans can also ass 2 Ogryns and 2 Vendettas",
+            "points": "125 points"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,304 @@
+{
+  "fraction": "Adeptus Mechanicus",
+  "army": "Imperial Knights",
+  "version": "10.01",
+  "release": "2019-03-13",
+  "strategy": "Imperial Knight armies have a Strategy Rating of 2.",
+  "Initiative": "All formations have an Initiative Rating of 2+.",
+
+  "specialRules": [
+          "Bravery",
+          "Fortified Positions"
+  ],
+  "usage": [
+    "The following army list allows you to field a Knight World army with Planetary Defence Force allies"
+  ],
+  "units": [
+    {
+      "from": "QK.json",
+      "units": [
+        "Seneschal",
+        "Baron",
+        "Knight Paladin",
+        "Knight Errant",
+        "Knight Gallant",
+        "Knight Preceptor",
+        "Knight Crusader",
+        "Knight Warden",
+        "Cerastus Knight-Lancer",
+        "Cerastus Knight-Castigator",
+        "Cerastus Knight-Atrapos",
+        "Cerastus Knight-Acheron",
+        "Knight Castellan",
+        "Knight Valiant",
+        "Knight Armiger"
+      ],
+              "unitRules": [
+          "Ion Shield (X)",
+          "Lightning Charge",
+          "Heavy Armoured Vehicle (H-AV)",
+          "Lance"
+      ]
+    },
+    {
+      "from": "IG.json",
+      "units": [
+        "PDF Commander",
+        "PDF Infantry",
+        "Thudd Gun",
+        "Rapier",
+        "Snipers",
+        "Heavy AA Gun",
+        "Howitzer",
+        "Rough Riders",
+        "Centaur"
+    ],
+        "unitRules": [
+      ]
+    },
+    {
+      "from": "ImperialNavy.json",
+      "units": [
+        "Thunderbolt Fighter",
+        "Marauder Bomber"
+      ],
+        "unitRules": [
+      ]
+    }
+],
+"sections": [
+    {
+      "name": "Core Banner",
+      "formations": [
+        {
+          "name": "Knight Banners",
+          "units": "One Seneschal and five of the following knights in any combination",
+          "extraUnits": [
+            "Knight Paladin",
+            "Knight Errant",
+            "Knight Gallant",
+            "Knight Preceptor",
+            "Knight Crusader",
+            "Upgrade Carapace Weapon Mount"
+          ],
+          "points": 475
+        }
+      ]
+    },
+    {
+      "name": "Support Banners",
+      "description": "Up to two Support Households for each Core Household.",
+      "formations": [
+        {
+          "name": "Cerastus Knight-Lancer",
+          "units": "Three Cerastus Knight-Lancers",
+          "upgrades": [
+            "Seneschal, Cerastus Knight-Lancers"
+          ],
+          "points": 325
+      },
+          {
+            "name": "Cerastus Knight-Castigator",
+            "units": "Three Cerastus Knight-Castigator",
+            "upgrades": [
+              "Seneschal, Cerastus Knight-Castigator"
+            ],
+            "points": 325
+        },
+        {
+          "name": "Cerastus Knight-Acheron",
+          "units": "Three Cerastus Knight-Acheron",
+          "upgrades": [
+            "Seneschal, Cerastus Knight-Acheron"
+          ],
+          "points": 325
+      },
+      {
+        "name": "Cerastus Knight-Atrapos",
+        "units": "Three Cerastus Knight-Atrapos",
+        "upgrades": [
+          "Seneschal, Cerastus Knight-Atrapos"
+        ],
+        "points": 325
+    }
+      ]
+    },
+    {
+      "name": "Knight World Retainer Formations",
+      "description": "Up to two Retainer Formations for each Core Household.",
+      "formations": [
+        {
+          "name": "Planetary Defense Company",
+          "units": "One PDF Commander, nine PDF Infantry",
+          "upgrades": [
+              "Thudd Guns", "Rapiers", "Snipers", "Entrenchments"
+          ],
+          "points": 150
+      },
+      {
+        "name": "Flak Battery",
+        "units": "Three Heavy AA Guns, three Gun Emplacements",
+        "upgrades": [
+        ],
+        "points": 125
+    },
+      {
+        "name": "Howitzer Battery",
+        "units": "Three Howitzers, three Gun Emplacements",
+        "upgrades": [
+        ],
+        "points": 150
+    },
+      {
+        "name": "Rough Riders",
+        "units": "Six Rough Riders",
+        "upgrades": [
+        ],
+        "points": 150
+    },
+      {
+        "name": "Light Mechanized",
+        "units": "Three PDF Infantry, three Centaurs",
+        "upgrades": [
+            "Thudd Guns or Rapiers"
+        ],
+        "points": 125
+      }
+      ]
+  },
+
+    {
+      "name": "Imperial Navy Formations",
+      "description": "Up to a fourth of the points available may be spent on Imperial Navy Formations.",
+      "formations": [
+          {
+            "name": "Thunderbolt Squadron",
+            "units": "Two Thunderbolt Fighters",
+            "points": 150
+          },
+          {
+            "name": "Marauder Squadron",
+            "units": "Two Marauder Bombers",
+            "points": 225
+          }
+      ]
+    }
+  ],
+  "upgrades": {
+    "title": "Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Seneschal",
+        "options": [
+          {
+            "description": "Add a Seneschal to the formation",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "0-1 Knight-Baron",
+        "options": [
+          {
+            "description": "Replace the Seneschal with a Baron",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Cerastus Knight-Lancers",
+        "options": [
+          {
+            "description": "Add up to two Cerastus Knight-Lancers",
+            "points": "75 points each"
+          }
+        ]
+      },
+      {
+        "name": "Cerastus Knight-Castigator",
+        "options": [
+          {
+            "description": "Add up to two Cerastus Knight-Castigator",
+            "points": "75 points each"
+          }
+        ]
+      },
+      {
+        "name": "Cerastus Knight-Acheron",
+        "options": [
+          {
+            "description": "Add up to two Cerastus Knight-Acherons",
+            "points": "75 points each"
+          }
+        ]
+      },
+      {
+        "name": "Cerastus Knight-Atrapos",
+        "options": [
+          {
+            "description": "Add up to two Cerastus Knight-Atrapos",
+            "points": "75 points each"
+          }
+        ]
+      },
+      {
+        "name": "Carapace Weapon Mount",
+        "options": [
+          {
+            "description": "Each Knight in the formatin may choose one of the following carapace mount weapons:"
+          },
+          {
+            "description": "Ironstorm Missile Pod",
+            "points": "25 points"
+          },
+          {
+            "description": "Stormspear Rocket Pod",
+            "points": "25 points"
+          },
+          {
+            "description": "Twin Icarus Autocannons",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Rapiers",
+        "options": [
+          {
+            "description": "Add three Rapiers",
+            "points": "50 points"
+          }
+        ]
+      },
+
+      {
+        "name": "Thudd Guns",
+        "options": [
+          {
+            "description": "Add three Thudd Guns",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Snipers",
+        "options": [
+          {
+            "description": "Add up to two Snipers",
+            "points": "25 points each"
+          }
+        ]
+      },
+      {
+        "name": "Entrenchments",
+        "options": [
+          {
+            "description": "60cm Razorwire, 60cm Trenches",
+            "points": "50 points"
+          }
+        ]
+    }
+    ]
+  }
+}
