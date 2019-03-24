@@ -62,38 +62,42 @@
       ]
     },
     {
-      "from": "AM.json",
+      "from": "CSM.json",
       "units": [
-        "Tech Priest",
-        "Skitarii Vanguard",
-        "Avenger Strike Fighters",
-        "Ark Mechanicus Battleship"
+        "Chosen",
+        "Chaos Rhino"
     ],
         "unitRules": [
-         "Automaton",
-         "God Machine Killer (GMK)"
+      ]
+    },
+    {
+      "from": "darkmechanicus.json",
+      "units": [
+        "Defiler"
+    ],
+        "unitRules": [
       ]
     }
 ],
 "sections": [
     {
-      "name": "Battle Titan Formations",
+      "name": "Chaos Cult Titan",
       "formations": [
         {
-          "name": "0-1 Emperor Titan",
-          "units": "One Imperator Titan or Warmonger Titan",
-          "upgrades": [
-            "Legate",
-            "Veteran Princeps",
-            "Vanguard Detachment"
+          "name": "0-1 Cult Titan",
+          "units": "One of the following Titans, no Chaos Warlord Titans may be taken with one of these.",
+          "extraUnits": [
+            "Painlord Titan",
+            "Plaguelord Titan",
+            "Banelord Titan",
+            "Warplord Titan"
           ],
-          "points": 900
+          "points": 825
     },
     {
-      "name": "Warlord Titan",
-      "units": "One Warlord Titan. 4 Weapons from the Battle Titan Weapon list may be taken. Max 2 Arm Weapons and 2 Carapace weapons. Weapons listed as just 'Weapon' maybe count as either.",
+      "name": "Chaos Warlord Titan",
+      "units": "One Chaos Warlord Titan. 4 Weapons from the Battle Titan Weapon list may be taken. Max 2 Arm Weapons and 2 Carapace weapons. Weapons listed as just 'Weapon' maybe count as either.",
       "extraUnits": [
-
         "Gatling Blaster +25",
         "Melta Cannon +25",
         "Multiple Rocket Launcher +25",
@@ -103,18 +107,15 @@
         "Vortex Missile Launcher +25",
         "Titan Warp Missile Launcher +25",
         "Titan Power Fist",
-        "Upgrade Legate",
-        "Upgrade Veteran Princeps",
         "Upgrade Carapace Multilasers",
         "Upgrade Carapace Missiles"
       ],
       "points": 750
   },
   {
-      "name": "Reaver Titan",
-      "units": "One Reaver Titan",
+      "name": "Chaos Reaver Titan",
+      "units": "One Chaos Reaver Titan. 3 Weapons from the Battle Titan Weapon list may be taken. Max 2 Arm Weapons and 2 Carapace weapons. Weapons listed as just 'Weapon' maybe count as either.",
       "extraUnits": [
-        "3 Weapons from the Battle Titan Weapon list may be taken. Max 2 Arm Weapons and 2 Carapace weapons. Weapons listed as just 'Weapon' maybe count as either.",
        "Gatling Blaster +25",
        "Melta Cannon +25",
        "Multiple Rocket Launcher +25",
@@ -138,10 +139,9 @@
       "description": "Up to two Scout Titan formations for each Battle Titan formation",
       "formations": [
         {
-          "name": "Warhound",
-          "units": "One Warhound Titan",
+          "name": "Chaos Warhound",
+          "units": "One Chaos Warhound Titan. 2 Weapons from the Scout Titan Weapon list may be taken.",
           "extraUnits": [
-              "2 Weapons from the Scout Titan Weapon list may be taken.",
               "0-2 Inferno Cannon",
               "0-1 Plasma Blastgun",
               "0-1 Turbo-Laser Destructor +25 points",
@@ -152,25 +152,54 @@
       ]
     },
     {
-      "name": "Adeptus Mechanicus Allies",
+      "name": "Dark Mechancius Support Formations",
       "description": "Up to 1/3 of the points available may be spent on Adeptus Mechanicus Allies.",
       "formations": [
         {
-          "name": "Skitarii Maniple",
-          "units": "One Tech Priest, nine Skitarii Vanguard",
+          "name": "Defiler Pack",
+          "units": "Four Defilers",
+        "upgrades": [
+          "Add up to two Defilers for 50 points each"
+        ],
+        "points": 225
+        },
+        {
+          "name": "Chosen",
+          "units": "Four Chosen, two Chaos Rhinos",
           "upgrades": [
+            "Dreadnoughts",
+            "Daemonic Pact"
           ],
+          "points": 150
+        }
+      ]
+    },
+    {
+      "name": "Chaos Navy",
+      "description": "Up to 1/3 of the points available may be spent on Adeptus Mechanicus Allies.",
+      "formations": [
+        {
+          "name": "Hell Blade Squadron",
+          "units": "Three Hell Blade Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Hell Talon Squadron",
+          "units": "Two Hell Talon Fighter-Bombers",
           "points": 225
         },
         {
-          "name": "Avenger Strike Fighters",
-          "units": "Two Avenger Strike Fighters",
-          "points": 175
+          "name": "0-1 Harbringer",
+          "units": "One Harbringer Bomber",
+          "points": 325
         },
         {
-          "name": "Mechanicus Battleship",
-          "units": "One Ark Mechanicus Battleship",
-          "points": 200
+          "name": "0-1 Chaos Cruiser",
+          "units": "One Devastation Class Cruiser",
+          "upgrades": [
+            "Battleship"
+          ],
+          "points": 150
         }
       ]
     }
@@ -179,24 +208,6 @@
     "title": "Titan Legion Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
-        {
-          "name": "0-1 Supreme Commander",
-          "options": [
-            {
-              "description": "Add one Legate to the formation",
-              "points": "50 points"
-            }
-          ]
-        },
-        {
-          "name": "Veteran Princeps",
-          "options": [
-            {
-              "description": "Add one Veteran Princeps to the formation",
-              "points": "25 points"
-            }
-          ]
-        },
         {
           "name": "Carapace Multilasers",
           "options": [
@@ -216,14 +227,22 @@
           ]
         },
         {
-          "name": "Vanguard Detachment",
-          "options": [
-            {
-              "description": "Add 9 Skitarii Vanguard and 1 Tech Priest",
-              "points": "225 points"
-            }
-          ]
+          "name": "Daemonic Pact",
+          "description": "Add Daemonic Pact to the formation, and one point to the Lesser Daemon Pool",
+          "points": "25 points"
+        },
+        {
+          "name": "Dreadnoughts",
+          "description": "Add two Chaos Dreadnoughts to the formation",
+          "points": "75 points"
+        },
+        {
+          "name": "Daemon Pool",
+          "description": "Add Minor Daemons to a Daemon pool.",
+          "points": "15 points each"
         }
+
+
     ]
   }
 }
