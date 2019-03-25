@@ -57,14 +57,6 @@
       "name": "Skitarii Core Formations",
       "formations": [
         {
-          "name": "0-1 Secutarii Guard",
-          "units": "Seven Secutarii",
-          "upgrades": [
-            "Commander, Transports"
-          ],
-          "points": 200
-        },
-        {
           "name": "Vanguard Maniple",
           "units": "Nine Skitarii Vanguard and one Tech Preist Dominus.",
           "upgrades": [
