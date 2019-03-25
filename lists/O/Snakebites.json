@@ -22,7 +22,6 @@
       "units": [
         "Warlord",
         "Ork Wyrdboy",
-        "Pigdok on Cyboar",
         "Boyz",
         "Grotz",
         "Nobz",
@@ -52,7 +51,7 @@
             "Up to three Squig Catapults +25 points each",
             "Up to one Nobz +35 points each",
             "Up to one Wyrdboy +50 points each",
-            "Any number of Squiggoths +50 points each",
+            "Add enough Squiggoths to transport the formation +75 points each",
             "Up to one Orkeosaurus +175 points each"
           ],
           "pointsOptions": [
@@ -68,7 +67,7 @@
             "Any number of Boarboyz, two Wildboyz +25 points each",
             "Up to three Squig Catapults +25 points each",
             "Up to one Nobz +35 points each",
-            "Enough Squiggoths to transport the formation +50 points each"
+            "Add enough Squiggoths to transport the formation +75 points each"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "125"},
@@ -93,7 +92,6 @@
           "units": "Five Boarboyz",
           "extraUnits": [
             "Any number of Boarboyz +25 points each",
-            "Up to one Pigdok on Cyboar +50 points each"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "100"},

@@ -6,7 +6,7 @@
   "strategy": "Elysian Drop Troop armies have a Strategy Rating of 2.",
   "Initiative": "All formations have a Initiative of 2+.",
 
-  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty", "Cyclops Demolition Vehicles", "Grav Chutes", "Elysian Hit and Run"],
+  "specialRules": ["Lord Commissar", "Voice of Command", "Cyclops Demolition Vehicles", "Grav Chutes", "Elysian Hit and Run"],
   "usage": [
     "The following army list allows you to field an army based on the Elysian Drop Troop Regiment"
   ],

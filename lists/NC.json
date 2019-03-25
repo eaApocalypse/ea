@@ -258,7 +258,7 @@
           "specialRules": [
             "Reinforced Armour",
             "Skimmer",
-            "Enduring"
+            "Stable"
           ],
           "notes": "Transport: 2 Infantry Units"
       },
@@ -276,7 +276,7 @@
           "specialRules": [
             "Reinforced Armour",
             "Skimmer",
-            "Enduring"
+            "Stable"
           ]
       },
       {
@@ -292,7 +292,7 @@
           "specialRules": [
             "Reinforced Armour",
             "Skimmer",
-            "Enduring",
+            "Stable",
             "Commander",
             "Leader"
           ]
@@ -311,7 +311,7 @@
           "specialRules": [
             "Reinforced Armour",
             "Skimmer",
-            "Enduring"
+            "Stable"
           ]
       },
       {

@@ -1,7 +1,7 @@
 {
   "fraction": "Necron",
   "army": "Maynarkh Dynasty",
-  "version": "1.11",
+  "version": "0.01",
   "release": "2019-02-22",
   "strategy": "Maynarkh Dynasty armies have a Strategy Rating of 2.",
   "Initiative": "All Necron formations have an Initiative Rating of 1+.",
@@ -14,7 +14,7 @@
             "Portal",
             "Living Metal",
             "Ponderous",
-            "Enduring",
+            "Stable",
             "Implacable Advance",
             "Phase Out"
           ],

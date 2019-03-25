@@ -1,12 +1,12 @@
 {
   "fraction": "Astra Militarum",
-  "army": "Cadian Shock Troops",
+  "army": "Cadian Shock Troopers",
   "version": "0.01",
   "release": "2019-03-20",
   "strategy": "Cadian Shock Troops armies have a Strategy Rating of 2.",
   "Initiative": "The Regimental HQ, Kasrkin Companies and Titan Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Lord Commissar", "Orders"],
+  "specialRules": ["Lord Commissar", "Commissars", "Voice of Command"],
   "usage": [
     "The following army list allows you to field an army based on a Heavy Armoured Devision of the Cadian Shock Troops Regiment"
   ],
@@ -23,6 +23,7 @@
         "Kasrkin",
         "Cadian Sentinel",
         "Heavy AA Gun",
+        "Trojan",
         "Medusa Gun",
         "Deathstrike",
         "Chimera",
@@ -112,7 +113,7 @@
         },
         {
           "name": "Flak Battery",
-          "units": "Three Heavy AA Guns, three Gun Emplacements",
+          "units": "Three Heavy AA Guns, three Trojans",
           "upgrades": [
           ],
           "points": 150

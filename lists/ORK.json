@@ -817,9 +817,9 @@
     },
     {
       "name": "Ork Squiggoth",
-      "type": "AV",
+      "type": "WE",
       "speed": 20,
-      "armour": 4,
+      "armour": 5,
       "cc": 4,
       "ff": 5,
       "weapons": [
@@ -828,10 +828,11 @@
         "Big Gun"
       ],
       "specialRules": [
+        "Damage Capacity: 2",
         "Reinforced Armour",
-        "Transport (may carry up to four of the following units: Boyz, Nobz, Wildboyz. May carry up to two Grotz in addition to any other units). "
-
-      ]
+        "Transport (may carry up to four of the following units: Boyz, Nobz, Wildboyz. May carry up to two Grotz in addition to any other units)."
+      ],
+      "notes": "Critical Hit Effect: The unit is destoryed."
     },
     {
       "name": "Orkeosaurus",

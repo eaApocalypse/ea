@@ -1,14 +1,14 @@
 {
   "fraction": "Astra Militarum",
-  "army": "Catachan Death World",
+  "army": "Catachan Jungle Fighters",
   "version": "0.01",
   "release": "2019-02-22",
   "strategy": "Catachan Death World armies have a Strategy Rating of 2.",
   "Initiative": "All formations have a Initiative of 2+.",
 
-  "specialRules": ["Commissars and Catachan Heroism"],
+  "specialRules": ["Voice of Command", "Commissars and Catachan Heroism"],
   "usage": [
-    "The following army list allows you to field an army based on the Catachan Death World Regiment"
+    "The following army list allows you to field an army based on the Catachan Jungle fighters Regiment"
   ],
   "units": [
     {
