@@ -46,16 +46,8 @@
     {
       "from": "QK.json",
       "units": [
-        "Dominus Knight-Castellan",
-        "Questoris Knight-Paladin",
-        "Questoris Knight-Crusader"
-      ],
-        "unitRules": [
-            "Bravery",
-            "Stubborn",
-            "Ion Shield (X)",
-            "Ignore Shields",
-            "Heavy Armoured Vehicle (H-AV)"
+        "Knight Castellan",
+        "Knight Valiant"
       ]
     }
 
@@ -150,31 +142,31 @@
     },
     {
       "name": "Imperial Knight Support",
-      "description": "Three Knights for each 3k points. Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations",
+      "description": "Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations",
       "formations": [
         {
-          "name": "0-1 Dominus Knight",
-          "units": "One Dominus Knight",
+          "name": "0-1 Knight Castellan",
+          "units": "One Knight Castellan",
           "upgrades": [
             ""
           ],
-          "points": 175
+          "points": 200
         },
         {
-          "name": "0-2 Questoris Knight",
-          "units": "One Questoris Knight",
+          "name": "0-1 Knight Valiant",
+          "units": "One Knight Valiant",
           "upgrades": [
             ""
           ],
-          "points": 150
+          "points": 200
         },
         {
-          "name": "0-2 Crusader Knight",
-          "units": "One Crusader Knight",
+          "name": "0-1 Knight Paladins",
+          "units": "Two Knight Paladins",
           "upgrades": [
-            ""
+            "Carapace Weapon Mount"
           ],
-          "points": 150
+          "points": 225
         }
 
 
@@ -182,7 +174,7 @@
     },
     {
       "name": "Adeptus Mechanicus Navy Formations",
-      "description": "Up to a third of the points available may be spent on Questoris Mechanicus Banners and Adeptus Mechanicus Navy Formations",
+      "description": "Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations",
       "formations": [
         {
           "name": "Avenger Strike Fighters",
@@ -249,6 +241,26 @@
         "options": [
           {
             "description": "Add enough Terrax Pattern Termite Assault Drills to transport the entire formation",
+            "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Carapace Weapon Mount",
+        "options": [
+          {
+            "description": "Each Knight in the formatin may choose one of the following carapace mount weapons:"
+          },
+          {
+            "description": "Ironstorm Missile Pod",
+            "points": "25 points"
+          },
+          {
+            "description": "Stormspear Rocket Pod",
+            "points": "25 points"
+          },
+          {
+            "description": "Twin Icarus Autocannons",
             "points": "25 points"
           }
         ]

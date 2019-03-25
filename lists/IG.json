@@ -257,11 +257,21 @@
       "cc": 6,
       "ff": 5,
       "weapons": [
-        "Autocannon",
         "Lasguns"
       ],
       "specialRules": [
-        "One in every two units has an Autocannon"
+      ]
+    },
+    {
+      "name": "Conscripts",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Lasguns"
+      ],
+      "specialRules": [
       ]
     },
     {
