@@ -46,8 +46,18 @@
     {
       "from": "QK.json",
       "units": [
+        "Ironstorm Missile Pod",
+        "Stormspear Rocket Pod",
+        "Twin Icarus Autocannon",
+        "Knight Paladin",
         "Knight Castellan",
         "Knight Valiant"
+      ],
+              "unitRules": [
+          "Ion Shield (X)",
+          "Lightning Charge",
+          "Heavy Armoured Vehicle (H-AV)",
+          "Lance"
       ]
     }
 
@@ -252,7 +262,7 @@
             "points": "25 points"
           },
           {
-            "description": "Twin Icarus Autocannons",
+            "description": "Twin Icarus Autocannon",
             "points": "25 points"
           }
         ]

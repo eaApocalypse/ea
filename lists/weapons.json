@@ -7743,6 +7743,18 @@
       ]
     },
     {
+      "name": "Stormspear Rocket Pod",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range":45,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Storm Vortex Projector",
         "modes": [
           {
@@ -7754,6 +7766,7 @@
           }
       ]
     },
+
     {
       "name": "Stranglethorn Cannon",
         "modes": [

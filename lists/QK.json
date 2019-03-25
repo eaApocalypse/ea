@@ -72,6 +72,33 @@
         ]
       },
       {
+        "name": "Ironstorm Missile Pod",
+        "type": "CH",
+        "weapons": [
+            "Ironstorm Missile Pod"
+           ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Stormspear Rocket Pod",
+        "type": "CH",
+        "weapons": [
+            "Stormspear Rocket Pod"
+           ],
+        "specialRules": [
+        ]
+      },
+      {
+        "name": "Twin Icarus Autocannon",
+        "type": "CH",
+        "weapons": [
+            "Twin Icarus Autocannons"
+           ],
+        "specialRules": [
+        ]
+      },
+      {
           "name": "Knight Paladin",
           "type": "H-AV",
           "speed": 25,

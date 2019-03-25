@@ -19,6 +19,9 @@
       "units": [
         "Seneschal",
         "Baron",
+        "Ironstorm Missile Pod",
+        "Stormspear Rocket Pod",
+        "Twin Icarus Autocannon",
         "Knight Paladin",
         "Knight Errant",
         "Knight Gallant",
@@ -257,7 +260,7 @@
             "points": "25 points"
           },
           {
-            "description": "Twin Icarus Autocannons",
+            "description": "Twin Icarus Autocannon",
             "points": "25 points"
           }
         ]
