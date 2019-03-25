@@ -14,6 +14,22 @@
   ],
   "units": [
     {
+      "from": "BattleTitanWeapons.json",
+      "units": [
+        "Gatling Blaster",
+        "Melta Cannon",
+        "Multiple Rocket Launcher",
+        "Quake Cannon",
+        "Volcano Cannon",
+        "Plasma Annihilator",
+        "Apocalypse Missile Launcher ",
+        "Vortex Missile Launcher",
+        "Titan Warp Missile Launcher"
+      ],
+        "unitRules": [
+      ]
+    },
+    {
       "from": "AM.json",
       "units": [
         "Archmagos",
@@ -123,7 +139,7 @@
           "name": "Ordinati Minoris",
           "units": "Add up to two Ordinati Minoris to a formation",
           "extraUnits": [
-            "Add one Battle Titan Weapon listed to each Minorus",
+            "Add one Battle Titan Weapon listed to each Minoris",
             "Gatling Blaster +25",
             "Melta Cannon +25",
             "Multiple Rocket Launcher +25",
@@ -137,10 +153,14 @@
         },
         {
           "name":  "0-1 per army Ordinati Majoris",
-          "units": "Add one Ordinati Majoris",
-          "upgrades": [
+          "units": "Add one Ordinati Majoris from below",
+          "extraUnits": [
+            "Ordinatus Armageddon",
+            "Ordinatus Golgotha",
+            "Ordinatus Mars",
+            "Ordinatus Magentus"
           ],
-          "points": 400
+          "points": 425
         }
       ]
     }

@@ -385,6 +385,21 @@
       ]
     },
     {
+      "name": "Bullgryns",
+      "type": "INF",
+      "speed": 15,
+      "armour": 3,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Grenadier Gauntlet"
+      ],
+      "specialRules": [
+        "Fearless",
+        "Counts as 2 infantry for the purpose of being transported"
+      ]
+    },
+    {
       "name": "Thudd Gun",
       "type": "INF",
       "speed": 10,
@@ -560,6 +575,22 @@
       ]
     },
     {
+      "name": "Heavy Weapon Squads",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Autocannon|0-1",
+        "Lascannon|0-1",
+        "Heavy Bolter|0-1",
+        "Mortar|0-1"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
       "name": "Fire Support Squad",
       "type": "INF",
       "speed": 15,
@@ -590,7 +621,7 @@
       "name": "Death World Sentinel",
       "type": "LV",
       "speed": 20,
-      "armour": 6,
+      "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -620,7 +651,7 @@
       "name": "Sentinel",
       "type": "LV",
       "speed": 20,
-      "armour": 6,
+      "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
@@ -693,6 +724,100 @@
       ],
       "specialRules": [
         "Walker"
+      ]
+    },
+    {
+      "name": "Earthshaker Gun",
+      "type": "LV",
+      "speed": "Immobile",
+      "armour": 6,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Earthshaker Cannon"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Centaur",
+      "type": "LV",
+      "speed": 25,
+      "armour": 6,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+          "Heavy Stubber"
+      ],
+      "specialRules": [
+          "Transport: One Infantry unit, and one Rapier or Thudd Gun"
+      ]
+    },
+    {
+      "name": "Trojan",
+      "type": "LV",
+      "speed": 20,
+      "armour": 6,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+          "Heavy Bolter"
+      ],
+      "specialRules": [
+          "Transport: One Earthshaker Gun, Heavy AA Gun or Medusa Gun"
+      ]
+    },
+    {
+      "name": "Medusa Gun",
+      "type": "LV",
+      "speed": "Immobile",
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Medusa Siege Gun"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Heavy AA Gun",
+      "type": "LV",
+      "speed": "Immobile",
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Heavy AA Gun"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Heavy Mortar",
+      "type": "LV",
+      "speed": 10,
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Heavy Mortar"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Howitzer",
+      "type": "LV",
+      "speed": "Immobile",
+      "cc": 6,
+      "ff": 6,
+      "weapons": [
+        "Howitzer"
+      ],
+      "specialRules": [
+
       ]
     },
     {
@@ -851,100 +976,7 @@
 
       ]
     },
-    {
-      "name": "Earthshaker Gun",
-      "type": "LV",
-      "speed": "Immobile",
-      "armour": 6,
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Earthshaker Cannon"
-      ],
-      "specialRules": [
 
-      ]
-    },
-    {
-      "name": "Centaur",
-      "type": "LV",
-      "speed": 25,
-      "armour": 6,
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-          "Heavy Stubber"
-      ],
-      "specialRules": [
-          "Transport: One Infantry unit, and one Rapier or Thudd Gun"
-      ]
-    },
-    {
-      "name": "Trojan",
-      "type": "LV",
-      "speed": 20,
-      "armour": 6,
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-          "Heavy Bolter"
-      ],
-      "specialRules": [
-          "Transport: One Earthshaker Gun, Heavy AA Gun or Medusa Gun"
-      ]
-    },
-    {
-      "name": "Medusa Gun",
-      "type": "LV",
-      "speed": "Immobile",
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Medusa Siege Gun"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Heavy AA Gun",
-      "type": "LV",
-      "speed": "Immobile",
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Heavy AA Gun"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Heavy Mortar",
-      "type": "LV",
-      "speed": 10,
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Heavy Mortar"
-      ],
-      "specialRules": [
-
-      ]
-    },
-    {
-      "name": "Howitzer",
-      "type": "LV",
-      "speed": "Immobile",
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Howitzer"
-      ],
-      "specialRules": [
-
-      ]
-    },
     {
       "name": "Hellhound",
       "type": "AV",

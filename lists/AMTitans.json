@@ -110,11 +110,7 @@
           "armour": 4,
           "cc": 4,
           "ff": 3,
-          "weapons": [
-            "Volcano Cannon",
-            "Gatling Blaster",
-            "Turbo-Laser Destructor|2"
-          ],
+          "weapons": ["4 Battle Titan Weapons"],
           "specialRules": [
             "Damage Capacity 8",
             "Void Shields 6",
@@ -133,11 +129,7 @@
         "armour": 4,
         "cc": 4,
         "ff": 3,
-        "weapons": [
-          "Turbo-Laser Destructor|2",
-          "Rocket Launcher"
-
-        ],
+        "weapons": ["3 Battle Titan Weapons"],
         "specialRules": [
           "Damage Capacity 6",
           "Void Shields 4",
@@ -155,10 +147,7 @@
         "armour": 5,
         "cc": 4,
         "ff": 4,
-        "weapons": [
-          "Plasma Blastgun",
-          "Vulcan Mega-Bolter"
-        ],
+        "weapons": ["2 Scout Titan Weapons"],
         "specialRules": [
           "Damage Capacity 3",
           "Void Shields 2",

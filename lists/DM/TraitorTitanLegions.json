@@ -4,14 +4,14 @@
   "version": "0.01",
   "release": "2019-03-05",
   "strategy": "Traitor Titan armies have a Strategy Rating of 3.",
-  "Initiative": "Traitor Titan formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
+  "Initiative": "Traitor Titan formations have an Initiative Rating of 2+, all other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
   ],
   "usage": [
     "The following army list allows you to field an army based on the Traitor Titans of the Dark Mechancius",
     "Except for the Battle Titan formations, Titans are listed as Titan Chassis and an ammount of Weapons that could be added. Example a Reaver is listed as 3 Battle Titan weapons. You must add 3 Battle Titan weapons from the list weapons below."
-  ],
+    ],
   "units": [
     {
       "from": "TraitorTitanLegions.json",
@@ -82,6 +82,57 @@
     }
 ],
 "sections": [
+  {
+    "name": "Chaos Allegiance",
+    "description": "Choose one of the following Allegiances and apply the bonus to your army. If you take a Chaos Cult Titan, it must be alligned to your chaos allegiance. Additionall all lesser daemons shall be from this allegiance.",
+    "formations": [
+      {
+        "name": "Undevided",
+        "units": "All Titan formatioins gain +1 inititive. This Applies to Chaos Warlord Titans, Chaos Reaver Titans and Chaos Scout Titan formations.",
+        "points": "Free"
+      },
+      {
+        "name": "Slaanesh",
+        "units": "Slaanesh Allegiance",
+        "extraUnits": [
+          "All Warlord Titans gain EA(+3) 'First Stike' attacks in Base Contact",
+          "All Reaver Titans gain EA(+2) 'First Stike' attacks in Base Contact",
+          "All Scout Titans gain EA(+1) 'First Stike' attacks in Base Contact"
+        ],
+        "points": "Free"
+      },
+      {
+        "name": "Khorne",
+        "units": "Khorne Allegiance",
+        "extraUnits": [
+          "All Warlord Titans gain EA(+3), MW attacks in Base Contact",
+          "All Reaver Titans gain EA(+2), MW attacks in Base Contact",
+          "All Scout Titans gain EA(+1), MW attacks in Base Contact"
+        ],
+        "points": "Free"
+      },
+      {
+        "name": "Tzeentch",
+        "units": "Tzeentch Allegiance",
+        "extraUnits": [
+          "All Warlord Titans gain EA(+3), MW attacks in Fire Fight",
+          "All Reaver Titans gain EA(+2), MW attacks in Fire Fight",
+          "All Scout Titans gain EA(+1), MW attacks in Fire Fight"
+        ],
+        "points": "Free"
+      },
+      {
+        "name": "Nurgle",
+        "units": "Nurgle Allegiance",
+        "extraUnits": [
+          "All Warlord Titans gain Ignore Cover in Fire Fight",
+          "All Reaver Titans gain Ignore Cover in Fire Fight",
+          "All Scout Titans gain Ignore Cover in Fire Fight"
+        ],
+        "points": "Free"
+      }
+    ]
+  },
     {
       "name": "Chaos Cult Titan",
       "formations": [

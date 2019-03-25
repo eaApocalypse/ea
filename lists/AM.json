@@ -348,71 +348,33 @@
           ]
       },
       {
-          "name": "Ordinatus Minoris",
+          "name": "Ordinati Minoris",
           "type": "WE",
-          "speed": 20,
+          "speed": 15,
           "armour": 5,
           "cc": 6,
           "ff": 5,
           "weapons": [
-            "Heavy Bolter|2|",
-            ">Battle Weapons<",
-            "Turbo-Laser Destructor|0-1|FxF",
-            "Apocalypse Missile Launcher|0-1|FxF",
-            "Triple-Twin Hydra Autocannon|0-1|",
-            "Titan Plasma Cannon|0-1|FxF",
-            "Corvus Assault Pod|0-1|",
-            ">Support Weapons<",
-            "Plasma Destructor|0-1|FxF",
-            "Quake Cannon|0-1|FxF",
-            "Volcano Cannon|0-1|FxF",
-            "Ordinatus Landing Pad|0-1|"
-
+            "Volkite Charges|2",
+            "1 Battle Titan Weapon"
           ],
           "specialRules": [
             "Damage Capacity 2",
             "Void Shields 2",
             "Reinforced Armour",
-            "Fearless",
-            "*Corvus Assault Pod* May transport eleven infantry units or Robots; Robots count as two units each"
+            "Fearless"
         ],
-          "notes": "Armed with a single Battle Weapon. May be upgraded to a Support Weapon. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
+          "notes": "Armed with a single Battle Titan Weapon.. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
       {
-          "name": "Ordinatus Minoris ",
-          "type": "WE",
-          "speed": 20,
-          "armour": 5,
-          "cc": 6,
-          "ff": 5,
-          "weapons": [
-            "Heavy Bolter|2|",
-            ">Battle Weapons<",
-            "Turbo-Laser Destructor|0-1|FxF",
-            "Apocalypse Missile Launcher|0-1|FxF",
-            "Triple-Twin Hydra Autocannon|0-1|",
-            "Titan Plasma Cannon|0-1|FxF",
-            "Corvus Assault Pod|0-1|"
-          ],
-          "specialRules": [
-            "Damage Capacity 2",
-            "Void Shields 2",
-            "Reinforced Armour",
-            "Fearless",
-            "*Corvus Assault Pod* May transport eleven infantry units or Robots; Robots count as two units each"
-        ],
-          "notes": "Armed with a single Battle Weapon. ¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
-      },
-      {
-          "name": "Ordinatus Majoris",
+          "name": "Ordinati Majoris",
           "type": "WE",
           "speed": 10,
           "armour": 5,
           "cc": 6,
           "ff": 5,
           "weapons": [
-              "Heavy Bolter|2|",
-              "Lascannon|2|",
+              "Volkite Charges|4",
               ">Ordinatus Armageddon<",
               "Nova Cannon||FxF",
               ">Ordinatus Mars<",
@@ -428,24 +390,6 @@
         ],
         "notes": "¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       },
-      {
-        "name": "AM Gorgon",
-        "type": "WE",
-        "speed": "20cm",
-        "armour": 4,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Gorgon Mortars",
-          "Heavy Bolter|2|"
-        ],
-        "specialRules": [
-          "Damage Capacity 3",
-          "Reinforced Armour",
-          "Transport (May carry 10 infantry units without jump pack or mounted. Praetorians counts as two units each)"
-        ],
-        "notes": "¤Critical Hit Effect¤: The Gorgon takes one additional damage, and D3 transported units takes a hit."
-    },
     {
       "name": "Avenger Strike Fighters",
       "type": "AC",

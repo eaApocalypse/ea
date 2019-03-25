@@ -6,9 +6,9 @@
   "strategy": "Cadian Shock Troops armies have a Strategy Rating of 2.",
   "Initiative": "The Regimental HQ, Kasrkin Companies and Titan Legion formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Lord Commissar", "Courage, Discipline and Loyalty"],
+  "specialRules": ["Lord Commissar", "Orders"],
   "usage": [
-    "The following army list allows you to field an army based on a Cadian Shock Troops Regiment"
+    "The following army list allows you to field an army based on a Heavy Armoured Devision of the Cadian Shock Troops Regiment"
   ],
   "units": [
     {
@@ -22,13 +22,11 @@
         "Infantry",
         "Kasrkin",
         "Cadian Sentinel",
-        "Medusa",
+        "Heavy AA Gun",
+        "Medusa Gun",
         "Deathstrike",
         "Chimera",
         "Hellhound",
-        "Leman Russ",
-        "Leman Russ Exterminator",
-        "Leman Russ Demolisher",
         "Crassus Amoured Assault Transport",
         "Praetor Armoured Assault Launcher",
         "Leviathan Mobile Command Center",
@@ -48,7 +46,7 @@
           "Warhound",
           "Reaver Titan"
         ],
-      "unitRules": ["Void Shields", "Independent"]
+      "unitRules": ["Void Shields"]
     },
 
     {
@@ -96,14 +94,12 @@
           "units": "Two Praetor Armoured Assault Launchers",
           "points": 250,
           "upgrades": [
-            "Add one Hydra: 50 points"
           ]
         },
         {
           "name": "Medusa Company",
-          "units": "One Commissar, six Medusa, six Gun Emplacements",
+          "units": "Six Medusa Platforms, six Gun Emplacements",
           "upgrades": [
-            "Add one Hydra and a Gun Emplacement: 50 points"
         ],
           "points": 350
         },
@@ -116,7 +112,7 @@
         },
         {
           "name": "Flak Battery",
-          "units": "Three Hydras, three Gun Emplacements",
+          "units": "Three Heavy AA Guns, three Gun Emplacements",
           "upgrades": [
           ],
           "points": 150
@@ -126,23 +122,6 @@
           "units": "Six Hellhounds",
           "points": 225,
           "upgrades": [
-            "Add one Hydra: 50 points"
-          ]
-        },
-        {
-          "name": "Mechanized Infantry Company",
-          "units": "One Cadian Commander with a Commissar, nine Infantry and five Chimeras",
-          "upgrades": [
-            "Add one Hydra: 50 points"
-          ],
-          "points": 300
-        },
-        {
-          "name": "Leman Russ Platoon",
-          "units": "Six Leman Russ, Leman Russ Exterminator or Leman Russ Demolisher ",
-          "points": 350,
-          "upgrades": [
-            "Add one Hydra: 50 points"
           ]
         },
         {
@@ -163,7 +142,7 @@
         "units": "One Cadian Commander with a Commissar, seven Kasrkins. Transported in either one Storm Lord OR two Crassus Amoured Assault Transports",
         "points": 350,
         "upgrades": [
-              "All except Lord Commissar"
+              "All"
         ]
       }
 
@@ -173,14 +152,6 @@
       "name": "Titan Legion, Imperial Navy",
       "description": "Up to a third of the points available may be spent on Titan Legion and Imperial Navy formations",
       "formations": [
-        {
-          "name": "Warhound Pack",
-          "units": "Two Warhounds",
-          "upgrades": [
-            "Warhound Pack gains the 'Independent' special rule: 50 points."
-          ],
-          "points": 500
-        },
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
@@ -215,15 +186,6 @@
             }
           ]
       },
-      {
-        "name": "Leman Russ Squadron",
-        "options": [
-          {
-            "description": "Three Leman Russ, Leman Russ Exterminators or Leman Russ Punishers.",
-            "points": "125 points"
-          }
-        ]
-    },
       {
         "name": "Super Heavy Tank",
         "options": [

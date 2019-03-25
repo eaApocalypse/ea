@@ -25,6 +25,14 @@
         ]
       },
       {
+        "name": "1 Battle Titan Weapon",
+          "modes": [
+            {
+              "firepower": "n/a"
+            }
+        ]
+      },
+      {
         "name": "2 Scout Titan Weapons",
           "modes": [
             {
@@ -3704,6 +3712,18 @@
     ]
     },
     {
+      "name": "Grenadier Gauntlet",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 15,
+            "specialRules": [
+              "D"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Grasping Talons",
         "modes": [
           {
@@ -6257,9 +6277,9 @@
         "modes": [
           {
             "firepower": "2BP",
-            "range": 120,
+            "range": 75,
             "specialRules": [
-              "D"
+              "IC"
           ]
         }
       ]

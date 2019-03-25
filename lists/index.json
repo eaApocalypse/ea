@@ -24,24 +24,20 @@
       "lists": [
 
         {
-          "name": "Explorator Fleet",
-          "file": "exploratorFleet"
+          "name": "Centurio Ordinatus",
+          "file": "CenturioOrdinatus"
       },
       {
-        "name": "Knight World",
-        "file": "knightworld"
+        "name": "Colligia Titanica",
+        "file": "CollegiaTitanica"
     },
       {
-        "name": "Questoris Mechanicus",
-        "file": "questorismechanicus"
+        "name": "Imperial Knights",
+        "file": "ImperialKnights"
       },
       {
         "name": "Skitarii",
-        "file": "skitarii"
-    },
-      {
-          "name": "Titan Legion",
-          "file": "amtl"
+        "file": "Skitarii"
       }
       ]
     },
@@ -55,23 +51,23 @@
         },
         {
           "name": "Cadian Shock Troops",
-          "file": "cadianshocktroops"
+          "file": "CadianShockTroopers"
         },
         {
           "name": "Catachan Death World",
-          "file": "catachandeathworld"
+          "file": "CatachJungleFighters"
         },
         {
           "name": "Death Korps of Krieg",
-          "file": "deathkorps"
+          "file": "DeathKorps"
         },
         {
           "name": "Steel Legion",
-          "file": "steellegion"
+          "file": "ArmageddonSteelLegion"
         },
         {
           "name": "Elysian Drop Troops",
-          "file": "elysiandroptroops"
+          "file": "ElysianDropTroops"
         }
       ]
     },
@@ -130,7 +126,7 @@
       "lists": [
       {
         "name": "Traitor Titan Legion",
-        "file": "TTL"
+        "file": "TraitorTitanLegions"
     }
       ]
     },
