@@ -16,6 +16,8 @@
     {
       "from": "TraitorTitanLegions.json",
       "units": [
+        "Chaos Legate",
+        "Chaos Princeps",
         "Carapace Missiles",
         "Carapace Multilasers",
         "Chaos Warhound",
@@ -208,6 +210,24 @@
     "title": "Titan Legion Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
+      {
+        "name": "0-1 Chaos Legate",
+        "options": [
+          {
+            "description": "Add one Legate to the formation",
+            "points": "50 points"
+          }
+        ]
+      },
+      {
+        "name": "Chaos Princeps",
+        "options": [
+          {
+            "description": "Add one Veteran Princeps to the formation",
+            "points": "25 points"
+          }
+        ]
+      },
         {
           "name": "Carapace Multilasers",
           "options": [

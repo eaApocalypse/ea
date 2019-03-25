@@ -6551,7 +6551,7 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range":120,
+            "range":90,
             "specialRules": [
               "MW",
               "IC"
@@ -6564,7 +6564,7 @@
         "modes": [
           {
             "firepower": "3BP",
-            "range":120,
+            "range":90,
             "specialRules": [
               "MW",
               "IC"

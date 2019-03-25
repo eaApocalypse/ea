@@ -31,16 +31,23 @@
     }
     ],
     "unit": [
-        {
-          "name": "Eye of the Gods",
-          "type": "CH",
-          "weapons": ["n/a"],
-          "specialRules": [
-            "Supreme Commander",
-            "Augmented Summoning (+1D3)",
-            "Daemonic Focus"
-          ]
-        },
+      {
+        "name": "Chaos Legate",
+        "type": "CH",
+        "weapons": ["n/a"],
+        "specialRules": [
+          "Supreme Commander",
+        ]
+      },
+      {
+        "name": "Chaos Princeps",
+        "type": "CH",
+        "weapons": ["n/a"],
+        "specialRules": [
+          "Leader",
+          "Commander"
+        ]
+      },
         {
           "name": "Carapace Missiles",
           "type": "CH",
