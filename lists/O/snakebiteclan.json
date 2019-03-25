@@ -91,7 +91,7 @@
           "name": "Boarboyz Horde ",
           "units": "Five Boarboyz",
           "extraUnits": [
-            "Any number of Boarboyz +25 points each",
+            "Any number of Boarboyz +25 points each"
           ],
           "pointsOptions": [
             {"name": "Normal", "points":  "100"},
