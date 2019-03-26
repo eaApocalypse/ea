@@ -33,12 +33,17 @@
           "Units with the God Machine special rule are themselves immune to this effect."
         ]
     },
-        {
-          "title": "Split Fire",
-          "description": [
-            "War Engines with a starting Damage Capacity of 8 or more may declare that they will Split Fire when attempting to perform a Sustain Fire action. If successful, the WE may fire at up to two enemy formations, but may not target more than one formation per individual weapon, and gets no +1 to-hit modifier from performing a Sustain Fire."
-          ]
-      }
+    {
+        "title": "Split Fire",
+        "description": [
+          "Units that have the 'Split Fire' rule may preform split fire. To do this you may activate as normal but may target multiple formations when selecting a target for shooting up to the ammount of Battle Titan weapons the unit has. Before rolling dice to shoot roll a D6 for each weapon to see if under the pressure of split firing the weapons sector have loaded the weapon for firing correctly. On a 3+ nothing happens and you fire as normal. On a 1 or a 2 the weapon has be incorrectly loaded or charged and misfires.",
+          "Roll another D6 and apply what happens in the chart below.",
+          "1 - The Titans weapon has exploded may not be used for the remainder of the game. The Titan also suffers D3 MW hits.",
+          "2 - The Titans weapon has exploded may not be used for the remainder of the game. The Titan also loses D3 Void Shields.",
+          "3 to 5 - The Weapon just misfires. May not shoot this turn or FF for the remainder of the turn.",
+          "6 - Minor miscommunication, the Weapon Fires at -1 to hit for the remainder of the turn."
+        ]
+    }
     ],
     "unit": [
       {
