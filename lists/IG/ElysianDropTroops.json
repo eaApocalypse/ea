@@ -54,7 +54,7 @@
       "formations": [
         {
           "name": "0-1 Regimental HQ",
-          "units": "One Elysian Supreme Commander unit with a Commissar and seven Elysian Drop Troop units.",
+          "units": "One Elysian Supreme Commander and seven Elysian Drop Troop units.",
           "upgrades": [
             "Valkyries",
             "Tauros Venators"
@@ -63,7 +63,7 @@
         },
         {
           "name": "Drop Troop Company",
-          "units": "One Elysian Commander unit with a Commissar and seven Elysian Drop Troop units.",
+          "units": "One Elysian Commander and seven Elysian Drop Troop units.",
           "upgrades": [
             "Valkyries",
             "Tauros Venators"
@@ -78,7 +78,7 @@
       "formations": [
         {
           "name": "Elysian Tempest Scions",
-          "units": "One Tempestor with a Commissar and seven Tempest Scions",
+          "units": "One Tempestor and seven Tempest Scions",
           "upgrades": [
             "Valkyries",
             "Tauros Venators",
@@ -90,7 +90,7 @@
         },
         {
           "name": "Heavy Tauros Company",
-          "units": "One Commissar, eight Heavy Tauros Venators",
+          "units": "Eight Heavy Tauros Venators",
           "upgrades": [
               "Skytalons"
           ],

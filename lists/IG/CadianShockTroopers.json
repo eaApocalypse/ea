@@ -69,7 +69,7 @@
       "formations": [
         {
           "name": "0–1 Regimental HQ",
-          "units": "One Cadian Supreme Commander with a Commissar, seven Kasrkins. Transported in a Leviathan Mobile Command Center.",
+          "units": "One Cadian Supreme Commander, seven Kasrkins. Transported in a Leviathan Mobile Command Center.",
           "upgrades": [
               "All"
           ],
@@ -77,9 +77,9 @@
         },
         {
           "name": "Whiteshield Company",
-          "units": "One Cadian Commander with a Commissar, thirteen Whiteshields. Transported in either two Stormlords OR three Crassus Armoured Assault Transports.",
+          "units": "One Cadian Commander, thirteen Whiteshields. Transported in either two Stormlords OR three Crassus Armoured Assault Transports.",
           "upgrades": [
-              "All except Lord Commissar"
+              "All"
           ],
           "points": 400
         }
@@ -140,10 +140,10 @@
       },
       {
         "name": "Kasrkin Company",
-        "units": "One Cadian Commander with a Commissar, seven Kasrkins. Transported in either one Storm Lord OR two Crassus Amoured Assault Transports",
+        "units": "One Cadian Commander, seven Kasrkins. Transported in either one Storm Lord OR two Crassus Amoured Assault Transports",
         "points": 350,
         "upgrades": [
-              "All"
+              "All except Lord Commissar."
         ]
       }
 

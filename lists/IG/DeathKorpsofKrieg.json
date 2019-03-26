@@ -8,6 +8,7 @@
 
   "specialRules": [
       "Lord Commissar",
+      "Commissars"
       "Voice of Command",
       "Fortified Positions"
   ],
@@ -97,6 +98,7 @@
           "name": "Assault Infantry Company",
           "units": "One DKoK Commander with a Commissar, fourteen Assault Infantry",
           "extraUnits": [
+              "Lord Commissar",
               "Gorgon Assault",
               "Macharius",
               "Trench Support",
@@ -111,6 +113,7 @@
           "name": "Death Rider Company",
           "units": "One Commissar, twelve Death Riders",
           "extraUnits": [
+          "Lord Commissar",
           "Hellhound Platoon"
           ],
           "points": 300
@@ -128,11 +131,12 @@
           ],
           "points": 250
         },
+
         {
           "name": "Earthshaker Battery",
           "units": "Three Earthshaker Guns, three Trojans",
           "upgrades": [
-              "Add three Earthshaker Guns, one Commissar, three Trojans: 200 points"
+              "Add three Earthshaker Guns, three Trojans: 200 points"
           ],
           "points": 200
         },
@@ -196,11 +200,7 @@
       "name": "Titan Legion and Imperial Navy",
       "description": "Up to a third of the points available may be spent on Titan Legion and Imperial Navy formations",
       "formations": [
-          {
-            "name": "Warhound Pack",
-            "units": "Two Warhounds",
-            "points": 500
-          },
+
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
