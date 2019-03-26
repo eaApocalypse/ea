@@ -87,7 +87,7 @@
     "description": "Choose one of the following Allegiances and apply the bonus to your army. If you take a Chaos Cult Titan, it must be alligned to your chaos allegiance. Additionall all lesser daemons shall be from this allegiance.",
     "formations": [
       {
-        "name": "Undevided",
+        "name": "Undivided",
         "units": "All Titan formatioins gain +1 inititive. This Applies to Chaos Warlord Titans, Chaos Reaver Titans and Chaos Scout Titan formations.",
         "points": "Free"
       },

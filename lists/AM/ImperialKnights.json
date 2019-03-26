@@ -74,7 +74,7 @@
       "name": "Core Banner",
       "formations": [
         {
-          "name": "Knight Banners",
+          "name": "Knight Banner",
           "units": "One Seneschal and five of the following knights in any combination",
           "extraUnits": [
             "Knight Paladin",
@@ -127,14 +127,14 @@
       ]
     },
     {
-      "name": "Knight World Retainer Formations",
+      "name": "Imperial Knight Support Formations",
       "description": "Up to two Retainer Formations for each Core Household.",
       "formations": [
         {
           "name": "Planetary Defense Company",
           "units": "One PDF Commander, nine PDF Infantry",
           "upgrades": [
-              "Thudd Guns", "Rapiers", "Snipers", "Entrenchments"
+              "Thudd Guns", "Rapiers", "Snipers", "Chimeras"
           ],
           "points": 150
       },
@@ -294,11 +294,11 @@
         ]
       },
       {
-        "name": "Entrenchments",
+        "name": "Chimeras",
         "options": [
           {
-            "description": "60cm Razorwire, 60cm Trenches",
-            "points": "50 points"
+            "description": "Add 5 Chimeras to the formation, no other upgrades may be taken.",
+            "points": "150 points"
           }
         ]
     }

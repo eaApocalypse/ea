@@ -66,6 +66,8 @@
       "units": [
         "Tech Priest",
         "Secutarii",
+        "Skitarii Vanguard",
+        "Chimeradon",
         "Avenger Strike Fighters",
         "Ark Mechanicus Battleship"
     ],
@@ -159,6 +161,7 @@
           "name": "Skitarii Maniple",
           "units": "One Tech Priest, nine Skitarii Vanguard",
           "upgrades": [
+            "Chimeradons"
           ],
           "points": 225
         },
