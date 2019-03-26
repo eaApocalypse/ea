@@ -96,7 +96,7 @@
           "extraUnits": [
               "All"
           ],
-          "points": 300
+          "points": 350
         },
         {
           "name": "Conscripts Company",
@@ -187,7 +187,7 @@
           ]
         },
         {
-          "name": "Bullgryn",
+          "name": "Bullgryn Platoon",
           "units": "Five Bullgryns",
           "points": 250,
           "extraUnits": [
@@ -201,7 +201,7 @@
       "formations": [
         {
           "name": "Warhound Titan",
-          "units": "One Warhounds",
+          "units": "One Warhound",
           "extraUnits": [
           ],
           "points": 275
@@ -319,7 +319,7 @@
         "name": "Lord Commissar",
         "options": [
           {
-            "description": "Replace one Commissar with Lord Commissar. See Special Rules.",
+            "description": "Replace one Commissar with Lord Commissar in a Company Formation. See Special Rules.",
             "points": "50 points"
           }
         ]
