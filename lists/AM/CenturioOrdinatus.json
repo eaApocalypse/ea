@@ -132,12 +132,12 @@
       ]
     },
     {
-      "name": "Centurio Ordinatus Upgrades",
-      "description": "Add these to upgrade a Vanguard Maniple",
+      "name": "Centurio Ordinatus",
+      "description": "Up to one Centurio Ordinatus for each Core Formation.",
       "formations": [
         {
           "name": "Ordinati Minoris",
-          "units": "Add up to two Ordinati Minoris to a formation",
+          "units": "Two Ordinati Minoris with mounted Battle Titan Weapon from the following",
           "extraUnits": [
             "Add one Battle Titan Weapon listed to each Minoris",
             "Gatling Blaster +25",
@@ -153,7 +153,7 @@
         },
         {
           "name":  "0-1 per army Ordinati Majoris",
-          "units": "Add one Ordinati Majoris from below",
+          "units": "One Ordinati Majoris from below",
           "extraUnits": [
             "Ordinatus Armageddon",
             "Ordinatus Golgotha",
