@@ -12,7 +12,7 @@
         "name": "4 Battle Titan Weapons",
           "modes": [
             {
-              "firepower": "n/a"
+              "firepower": "FwA (Carapace Weapons FxF)"
             }
         ]
       },
@@ -20,7 +20,7 @@
         "name": "3 Battle Titan Weapons",
           "modes": [
             {
-              "firepower": "n/a"
+              "firepower": "FwA (Carapace Weapons FxF)"
             }
         ]
       },
@@ -28,7 +28,7 @@
         "name": "1 Battle Titan Weapon",
           "modes": [
             {
-              "firepower": "n/a"
+              "firepower": "FwA (Carapace Weapons FxF)"
             }
         ]
       },
@@ -44,7 +44,7 @@
         "name": "2 Scout Titan Weapons",
           "modes": [
             {
-              "firepower": "n/a"
+              "firepower": "FwA"
             }
         ]
       },
