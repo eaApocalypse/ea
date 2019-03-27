@@ -6,9 +6,9 @@
     ],
     "unit": [
         {
-          "name": "Inferno Cannon",
+          "name": "Inferno Gun",
           "type": "Arm Weapon",
-          "weapons": ["Inferno Cannon"],
+          "weapons": ["Inferno Gun"],
           "specialRules": [
 
           ]
