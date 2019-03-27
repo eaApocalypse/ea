@@ -92,7 +92,14 @@
       "name": "Support Banners",
       "description": "Up to two Support Households for each Core Household.",
       "formations": [
-        {
+      {
+          "name": "Armiger Banner ",
+          "units": "Four Knight-Armigers",
+          "upgrades": [
+          ],
+          "points": 200
+      },
+      {
           "name": "Cerastus Knight-Lancer",
           "units": "Three Cerastus Knight-Lancers",
           "upgrades": [

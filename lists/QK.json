@@ -99,6 +99,24 @@
         ]
       },
       {
+          "name": "Knight Armiger",
+          "type": "AV",
+          "speed": 30,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Thermal Spear",
+            "Heavy Stubber",
+            "Reaper Chain-Cleaver"
+          ],
+          "specialRules": [
+            "Walker",
+            "Scout",
+            "Ion Shield (5+)"
+          ]
+      },
+      {
           "name": "Knight Paladin",
           "type": "H-AV",
           "speed": 25,
@@ -189,48 +207,6 @@
           ]
       },
       {
-          "name": "Knight Castellan",
-          "type": "H-AV",
-          "speed": 20,
-          "armour": 4,
-          "cc": 4,
-          "ff": 3,
-          "weapons": [
-            "Volcano Lance",
-            "Plasma Decimator",
-            "Twin Siegebreaker Cannon|2|",
-            "Shieldbreaker Missiles|2|"
-          ],
-          "specialRules": [
-            "Stubborn",
-            "Reinforced Armour",
-            "Walker",
-            "Ion Shield (4+)"
-          ]
-      },
-
-      {
-          "name": "Knight Valiant",
-          "type": "H-AV",
-          "speed": 20,
-          "armour": 4,
-          "cc": 4,
-          "ff": 3,
-          "weapons": [
-            "Conflagration Cannon",
-            "Thundercoil Harpoon",
-            "Twin Siegebreaker Cannon",
-            "Shieldbreaker Missiles|4|"
-          ],
-          "specialRules": [
-            "Stubborn",
-            "Reinforced Armour",
-            "Walker",
-            "Ion Shield (4+)"
-          ]
-      },
-
-      {
           "name": "Knight-Custodian",
           "type": "H-AV",
           "speed": 20,
@@ -318,21 +294,44 @@
           ]
       },
       {
-          "name": "Knight Armiger",
-          "type": "AV",
-          "speed": 30,
-          "armour": 5,
-          "cc": 5,
-          "ff": 5,
+          "name": "Knight Castellan",
+          "type": "H-AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
           "weapons": [
-            "Thermal Spear",
-            "Heavy Stubber",
-            "Reaper Chain-Cleaver"
+            "Volcano Lance",
+            "Plasma Decimator",
+            "Twin Siegebreaker Cannon|2|",
+            "Shieldbreaker Missiles|2|"
           ],
           "specialRules": [
+            "Stubborn",
+            "Reinforced Armour",
             "Walker",
-            "Scout",
-            "Ion Shield (5+)"
+            "Ion Shield (4+)"
+          ]
+      },
+
+      {
+          "name": "Knight Valiant",
+          "type": "H-AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 3,
+          "weapons": [
+            "Conflagration Cannon",
+            "Thundercoil Harpoon",
+            "Twin Siegebreaker Cannon",
+            "Shieldbreaker Missiles|4|"
+          ],
+          "specialRules": [
+            "Stubborn",
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
           ]
       }
     ]

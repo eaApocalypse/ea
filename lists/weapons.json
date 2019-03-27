@@ -33,6 +33,14 @@
         ]
       },
       {
+        "name": "Minoris Battle Titan Weapon",
+          "modes": [
+            {
+              "firepower": "FxF"
+            }
+        ]
+      },
+      {
         "name": "2 Scout Titan Weapons",
           "modes": [
             {
