@@ -182,7 +182,7 @@
           "name": "Lord Commissar",
           "options": [
             {
-              "description": "Replace a Commissar with a Lord Commissar (Regimental HQ only).",
+              "description": "Replace a Commissar with a Lord Commissar in a Company Formation.",
               "points": "50 points"
             }
           ]
@@ -192,7 +192,7 @@
         "options": [
           {
             "description": "One Baneblade, Shadowsword, Stormsword or Stormblade",
-            "points": "150 points"
+            "points": "175 points"
           }
         ]
       }
