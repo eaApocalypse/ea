@@ -37,6 +37,7 @@
         "Knight Armiger"
       ],
               "unitRules": [
+          "Stubborn",
           "Ion Shield (X)",
           "Lightning Charge",
           "Heavy Armoured Vehicle (H-AV)",
@@ -89,8 +90,28 @@
       ]
     },
     {
+      "name": "Dominus Knights",
+      "description": "Up to one Dominus Knight for each Core Banners.",
+      "formations": [
+        {
+          "name": "0-1 Knight Castellan",
+          "units": "One Knight Castellan",
+          "extraUnits": [
+          ],
+          "points": 200
+        },
+        {
+          "name": "0-1 Knight Valiant",
+          "units": "One Knight Valiant",
+          "extraUnits": [
+          ],
+          "points": 200
+        }
+      ]
+    },
+    {
       "name": "Support Banners",
-      "description": "Up to two Support Households for each Core Household.",
+      "description": "Up to two Support Households for each Core Banners.",
       "formations": [
       {
           "name": "Armiger Banner ",
@@ -135,7 +156,7 @@
     },
     {
       "name": "Imperial Knight Support Formations",
-      "description": "Up to two Retainer Formations for each Core Household.",
+      "description": "Up to two Retainer Formations for each Core Banners.",
       "formations": [
         {
           "name": "Planetary Defense Company",
