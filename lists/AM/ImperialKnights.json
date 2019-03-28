@@ -200,7 +200,7 @@
 
     {
       "name": "Imperial Navy Formations",
-      "description": "Up to a fourth of the points available may be spent on Imperial Navy Formations.",
+      "description": "Up to a third of the points available may be spent on Imperial Navy Formations.",
       "formations": [
           {
             "name": "Thunderbolt Squadron",
