@@ -1,7 +1,7 @@
 {
   "fraction": "Dark Eldar",
   "army": "Kabal of the Black Heart",
-  "version": "1.2",
+  "version": "0.01",
   "release": "2019-03-17",
   "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
   "Initiative": "Dark Eldar Kabal, Tormentor, Torture Titans, and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
@@ -216,14 +216,6 @@
 
           ],
           "points": 350
-        },
-        {
-          "name": "Torture Class Titan",
-          "units": "One Torture Titan",
-          "upgrades": [
-
-          ],
-          "points": 650
         },
         {
           "name": "Executioner",

@@ -95,9 +95,9 @@
         "name": "Slaanesh",
         "units": "Slaanesh Allegiance",
         "extraUnits": [
-          "All Warlord Titans gain EA(+3) 'First Stike' attacks in Base Contact",
-          "All Reaver Titans gain EA(+2) 'First Stike' attacks in Base Contact",
-          "All Scout Titans gain EA(+1) 'First Stike' attacks in Base Contact"
+          "All Chaos Warlord Titans gain EA(+3) 'First Stike' attacks in Base Contact",
+          "All Chaos Reaver Titans gain EA(+2) 'First Stike' attacks in Base Contact",
+          "All Chaos Scout Titans gain EA(+1) 'First Stike' attacks in Base Contact"
         ],
         "points": "Free"
       },
@@ -105,9 +105,9 @@
         "name": "Khorne",
         "units": "Khorne Allegiance",
         "extraUnits": [
-          "All Warlord Titans gain EA(+3), MW attacks in Base Contact",
-          "All Reaver Titans gain EA(+2), MW attacks in Base Contact",
-          "All Scout Titans gain EA(+1), MW attacks in Base Contact"
+          "All Chaos Warlord Titans gain EA(+3), MW attacks in Base Contact",
+          "All Chaos Reaver Titans gain EA(+2), MW attacks in Base Contact",
+          "All Chaos Scout Titans gain EA(+1), MW attacks in Base Contact"
         ],
         "points": "Free"
       },
@@ -115,9 +115,9 @@
         "name": "Tzeentch",
         "units": "Tzeentch Allegiance",
         "extraUnits": [
-          "All Warlord Titans gain EA(+3), MW attacks in Fire Fight",
-          "All Reaver Titans gain EA(+2), MW attacks in Fire Fight",
-          "All Scout Titans gain EA(+1), MW attacks in Fire Fight"
+          "All Chaos Warlord Titans gain EA(+3), MW attacks in Fire Fight",
+          "All Chaos Reaver Titans gain EA(+2), MW attacks in Fire Fight",
+          "All Chaos Scout Titans gain EA(+1), MW attacks in Fire Fight"
         ],
         "points": "Free"
       },
@@ -125,9 +125,9 @@
         "name": "Nurgle",
         "units": "Nurgle Allegiance",
         "extraUnits": [
-          "All Warlord Titans gain Ignore Cover in Fire Fight",
-          "All Reaver Titans gain Ignore Cover in Fire Fight",
-          "All Scout Titans gain Ignore Cover in Fire Fight"
+          "All Chaos Warlord Titans gain Ignore Cover in Fire Fight",
+          "All Chaos Reaver Titans gain Ignore Cover in Fire Fight",
+          "All Chaos Scout Titans gain Ignore Cover in Fire Fight"
         ],
         "points": "Free"
       }
