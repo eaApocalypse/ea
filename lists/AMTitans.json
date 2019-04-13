@@ -9,27 +9,13 @@
           "Each void shield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by void shields, nor allocate Blast Markers. Once all of the shields have been knocked down, the Titan may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore void shields but units using their firefight values must first knock down any shields before they can damage the Titan.",
           "Void shields that have been knocked down can be repaired. Each Titan can repair one downed void shield in the end phase of each turn. In addition, if a Titan regroups it can use the dice roll to either repair the void shield or remove Blast Markers (e.g., if you rolled a 2 you could repair 2 shields, remove 2 Blast Markers or repair 1 shield and remove 1 Blast Marker)."
         ]
-    },
-    {
-      "title": "God Machine",
-      "description": [
-        "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
-        "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-        "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
-        "Units with the God Machine special rule are themselves immune to this effect."
-      ]
-  },
-    {
-        "title": "Split Fire",
+      },
+      {
+        "title": "God Machine",
         "description": [
-          "Units that have the 'Split Fire' rule may preform split fire. To do this you may activate as normal but may target multiple formations when selecting a target for shooting up to the ammount of Battle Titan weapons the unit has. Before rolling dice to shoot roll a D6 for each weapon to see if under the pressure of split firing the weapons sector have loaded the weapon for firing correctly. On a 3+ nothing happens and you fire as normal. On a 1 or a 2 the weapon has be incorrectly loaded or charged and misfires.",
-          "Roll another D6 and apply what happens in the chart below.",
-          "1 - The Titans weapon has exploded may not be used for the remainder of the game. The Titan also suffers D3 MW hits.",
-          "2 - The Titans weapon has exploded may not be used for the remainder of the game. The Titan also loses D3 Void Shields.",
-          "3 to 5 - The Weapon just misfires. May not shoot this turn or FF for the remainder of the turn.",
-          "6 - Minor miscommunication, the Weapon Fires at -1 to hit for the remainder of the turn."
+          "All Titan Legion formations with a unit with a line of fire to a Battle Titan formation that has been destroyed receive a Blast marker."
         ]
-    }
+      }
     ],
     "unit": [
         {
