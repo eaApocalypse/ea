@@ -7,7 +7,7 @@
         "description": [
           "Tyranid Armoured Vehicles and War Engines units do not take dangerous terrain tests. Tyranid Light Vehicles move through terrain and receive cover as if they were infantry. Fortified positions such as minefields or razorwire, and special terrain features such as lava flows affect Tyranids normally."
         ]
-    }
+      }
     ],
     "unit": [
       {

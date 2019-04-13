@@ -12,22 +12,9 @@
     {
       "title": "God Machine",
       "description": [
-        "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
-        "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-        "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
-        "Units with the God Machine special rule are themselves immune to this effect."
+        "All friendly/allied units with a line of fire to a unit that has the 'God Machine' special rule recieve a blast marker if the unit with 'God Machine' is destroyed.",
+        "Additionally when a Unit with the 'God Machine' Special rule is hit but a Pin Point attack from a space craft, the unit sufferes a TK(D6) instead of the usualy TK(D3) from each Pin Point."
       ]
-  },
-      {
-        "title": "Split Fire",
-        "description": [
-          "Units that have the 'Split Fire' rule may preform split fire. To do this you may activate as normal but may target multiple formations when selecting a target for shooting up to the ammount of Battle Titan weapons the unit has. Before rolling dice to shoot roll a D6 for each weapon to see if under the pressure of split firing the weapons sector have loaded the weapon for firing correctly. On a 3+ nothing happens and you fire as normal. On a 1 or a 2 the weapon has be incorrectly loaded or charged and misfires.",
-          "Roll another D6 and apply what happens in the chart below.",
-          "1 - The Titans weapon has exploded may not be used for the remainder of the game. The Titan also suffers D3 MW hits.",
-          "2 - The Titans weapon has exploded may not be used for the remainder of the game. The Titan also loses D3 Void Shields.",
-          "3 to 5 - The Weapon just misfires. May not shoot this turn or FF for the remainder of the turn.",
-          "6 - Minor miscommunication, the Weapon Fires at -1 to hit for the remainder of the turn."
-          ]
     }
     ],
     "unit": [
@@ -113,7 +100,7 @@
         "specialRules": [
           "Damage Capacity 6",
           "Void Shields 4",
-          "Split Fire",
+
           "Fearless",
           "Reinforced Armour",
           "Walker"
@@ -132,7 +119,7 @@
             "Damage Capacity 8",
             "Void Shields 6",
             "God Machine",
-            "Split Fire",
+
             "Fearless",
             "Reinforced Armour",
             "Walker"
@@ -152,7 +139,7 @@
         "weapons": ["Beam of Ecstasy|0-1|FwA", "Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Paired Sonic Devastators||FxF", "Musk Flail", "Lust Lash"],
         "specialRules": [
           "God Machine",
-          "Split Fire",
+
           "Damage Capacity 8",
           "Void Shields 6",
           "Fearless",
@@ -173,7 +160,7 @@
         "weapons": ["Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Heavy Plague Mortar||FxF", "Corruption Cannon||FxF", "Plague Flail"],
         "specialRules": [
           "God Machine",
-          "Split Fire",
+
           "Damage Capacity 9",
           "Void Shields 5",
           "Fearless",
@@ -194,7 +181,7 @@
           "weapons": ["Hellstrike Cannon|0-1|FwA", "Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Havoc Barrage Missile|6|FxF", "Guntail", "Doomfist"],
           "specialRules": [
             "God Machine",
-            "Split Fire",
+
             "Damage Capacity 8",
             "Void Shields 6",
             "Fearless",
@@ -215,7 +202,7 @@
         "weapons": ["Tzeench Cannon|0-2|FwA", "Plasma Incinerator|0-2|FwA", "Beam Blaster|0-2|FwA", "Beam of Change||FxF", "AA Flame Cannon|3|"],
         "specialRules": [
           "God Machine",
-          "Split Fire",
+
           "Damage Capacity 8",
           "Void Shields 6",
           "Fearless",

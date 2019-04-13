@@ -1,8 +1,8 @@
 {
   "fraction": "Adeptus Mechanicus",
   "army": "Imperial Knights",
-  "version": "10.01",
-  "release": "2019-03-13",
+  "version": "0.01",
+  "release": "Beta Release",
   "strategy": "Imperial Knight armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
@@ -158,14 +158,6 @@
       "name": "Imperial Knight Support Formations",
       "description": "Up to two Retainer Formations for each Core Banners.",
       "formations": [
-        {
-          "name": "Planetary Defense Company",
-          "units": "One PDF Commander, nine PDF Infantry",
-          "upgrades": [
-              "Thudd Guns", "Rapiers", "Snipers", "Chimeras"
-          ],
-          "points": 150
-      },
       {
         "name": "Flak Battery",
         "units": "Three Heavy AA Guns, three Gun Emplacements",
@@ -186,15 +178,7 @@
         "upgrades": [
         ],
         "points": 150
-    },
-      {
-        "name": "Light Mechanized",
-        "units": "Three PDF Infantry, three Centaurs",
-        "upgrades": [
-            "Thudd Guns or Rapiers"
-        ],
-        "points": 125
-      }
+    }
       ]
   },
 
@@ -281,15 +265,15 @@
           },
           {
             "description": "Ironstorm Missile Pod",
-            "points": "25 points"
+            "points": "10 points"
           },
           {
             "description": "Stormspear Rocket Pod",
-            "points": "25 points"
+            "points": "10 points"
           },
           {
             "description": "Twin Icarus Autocannon",
-            "points": "25 points"
+            "points": "15 points"
           }
         ]
       },

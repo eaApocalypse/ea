@@ -3,7 +3,7 @@
     {
       "title": "Heavy Armoured Vehicle (H-AV)",
       "description": [
-        "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to Critically Hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+        "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AVs are treated like normal Armoured Vehicles in all other respects."
       ]
     },
     {

@@ -13,7 +13,8 @@
       {
         "title": "God Machine",
         "description": [
-          "All Titan Legion formations with a unit with a line of fire to a Battle Titan formation that has been destroyed receive a Blast marker."
+          "All friendly/allied units with a line of fire to a unit that has the 'God Machine' special rule recieve a blast marker if the unit with 'God Machine' is destroyed.",
+          "Additionally when a Unit with the 'God Machine' Special rule is hit but a Pin Point attack from a space craft, the unit sufferes a TK(D6) instead of the usualy TK(D3) from each Pin Point."
         ]
       }
     ],
@@ -62,7 +63,7 @@
             "Damage Capacity 10",
             "Void Shields 8",
             "God Machine",
-            "Split Fire",
+
             "Fearless",
             "Reinforced Armour",
             "Walker",
@@ -82,7 +83,7 @@
             "Damage Capacity 10",
             "Void Shields 8",
             "God Machine",
-            "Split Fire",
+
             "Fearless",
             "Reinforced Armour",
             "Walker",
@@ -102,7 +103,7 @@
             "Damage Capacity 8",
             "Void Shields 6",
             "God Machine",
-            "Split Fire",
+
             "Fearless",
             "Reinforced Armour",
             "Walker"
@@ -120,7 +121,7 @@
         "specialRules": [
           "Damage Capacity 6",
           "Void Shields 4",
-          "Split Fire",
+
           "Fearless",
           "Reinforced Armour",
           "Walker"
