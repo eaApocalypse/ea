@@ -1443,12 +1443,13 @@
       ]
     },
     {
-      "name": "2x Barrage Missile",
+      "name": "Barrage Missile",
           "modes": [
             {
-              "firepower": "6BP",
+              "firepower": "10BP",
               "range": "Unlimited",
               "specialRules": [
+                "D",
                 "SS",
                 "Ind"
           ]
@@ -2144,7 +2145,7 @@
           {
             "firepower": "n/a",
             "specialRules": [
-                "Spec"
+              "Spec"
           ]
           }
       ]
@@ -2246,6 +2247,14 @@
             "specialRules": [
           ]
           }
+      ]
+    },
+    {
+      "name": "Close Combat Weapons",
+      "modes": [
+        {
+          "firepower": "Assault Weapons"
+        }
       ]
     },
     {
@@ -4218,6 +4227,30 @@
             "specialRules": [
                 "EA(+1)",
                 "TK(D2)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helfrost Cannon",
+      "modes": [
+        {
+          "firepower": "AP5+/AT5+",
+          "range": 45,
+          "specialRules": [
+            "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Helfrost Destructor",
+      "modes": [
+        {
+          "firepower": "AP3+/AT3+",
+          "range": 60,
+          "specialRules": [
+            "IC"
           ]
         }
       ]
@@ -6988,6 +7021,17 @@
       ]
     },
     {
+      "name": "Sacred Icon",
+        "modes": [
+          {
+            "firepower": "n/a",
+
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Scarab Swarm",
         "modes": [
           {
@@ -7875,6 +7919,7 @@
           }
       ]
     },
+
     {
       "name": "Swarm Strike",
         "modes": [
@@ -8232,7 +8277,7 @@
       "modes": [
         {
           "firepower": "Assault Weapons",
-          "specialRules": ["EA(+1)", "TK(D3+3)"]
+          "specialRules": ["EA(+3)", "TK(D3)"]
         }
       ]
     },
@@ -9251,8 +9296,9 @@
             "firepower": "MW2+",
             "range": "Unlimited",
             "specialRules": [
+                "Ind",
                 "SS",
-                "TK(D6)",
+                "TK(D3)",
                 "Ignore Shields"
             ]
           }
@@ -9361,7 +9407,7 @@
       ]
     },
     {
-      "name": "2x Vortex Missile",
+      "name": "Vortex Missile",
       "modes": [
         {
           "firepower": "3BP",

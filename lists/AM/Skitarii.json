@@ -81,7 +81,7 @@
       "formations": [
         {
           "name": "Ranger Centuria",
-          "units": "4 Skitarii Rangers",
+          "units": "Four Skitarii Rangers",
           "upgrades": [
             "Skitarii Rangers"
           ],
@@ -89,7 +89,7 @@
         },
         {
           "name": "Ruststalker Killclade",
-          "units": "6 Sicarian Ruststalkers ",
+          "units": "Six Sicarian Ruststalkers ",
           "upgrades": [
             "Tech-Priest, Subterranean Assault"
           ],
@@ -97,7 +97,7 @@
         },
         {
           "name": "Infiltrator Killclade",
-          "units": "6 Sicarian Infiltrators",
+          "units": "Six Sicarian Infiltrators",
           "upgrades": [
             "Tech-Priest, Subterranean Assault"
           ],
@@ -105,7 +105,7 @@
         },
         {
           "name": "Fulgurite Maniple",
-          "units": "6 Fulgurite Electro-Priests",
+          "units": "Six Fulgurite Electro-Priests",
           "upgrades": [
             "Tech-Priest, Subterranean Assault"
           ],
@@ -113,12 +113,12 @@
         },
         {
           "name": "Ironstrider Cavaliers",
-          "units": "6 Ironstrider Ballistarius",
+          "units": "Six Ironstrider Ballistarius",
           "points": 175
         },
         {
           "name": "Sydonian Dragoons",
-          "units": "6 Sydonian Dragoons",
+          "units": "Six Sydonian Dragoons",
           "points": 175
         },
         {
@@ -128,7 +128,7 @@
         },
         {
           "name": "Kataphron Maniple",
-          "units": "5 Kataphron Destroyers or Kataphron Breachers",
+          "units": "Five Kataphron Destroyers or Kataphron Breachers",
           "upgrades": [
             "Tech-Priest, Subterranean Assault"
           ],
@@ -136,7 +136,7 @@
         },
         {
           "name": "Kastelan Maniple",
-          "units": "5 Kastelan Robots and 1 Tech Preist Dominus",
+          "units": "Five Kastelan Robots and 1 Tech Preist Dominus",
           "points": 175
         }
 
@@ -180,12 +180,12 @@
       "formations": [
         {
           "name": "Avenger Strike Fighters",
-          "units": "2 Avenger Strike Fighters",
+          "units": "Two Avenger Strike Fighters",
           "points": 175
         },
         {
           "name": "Mechanicus Battleship",
-          "units": "1 Ark Mechanicus Battleship",
+          "units": "One Ark Mechanicus Battleship",
           "points": 200
         }
       ]

@@ -1,13 +1,13 @@
 {
-  "fraction": "Space Marines",
-  "army": "Ravenguard",
-  "version": "1.0",
-  "release": "2019-01-20",
-  "strategy": "Space Marine armies have a Strategy Rating of 5.",
+  "fraction": "Adeptus Astartes",
+  "army": "Raven Guard",
+  "version": "0.01",
+  "release": "Beta Release",
+  "strategy": "Adeptus Astartes armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Space Marine Transports"],
   "usage": [
-    "The following army list allows you to field an army based on the Ravenguard Space Marine army and successor chapters."
+    "The following army list allows you to field an army of Space Marines operating under the Codex Astartes doctrine."
   ],
   "units": [
     {
@@ -18,179 +18,178 @@
         "Librarian",
         "Supreme Commander",
         "Assaults",
-        "Assault Bikes",
-        "Scout",
-        "Sternguard Veterans",
+        "Scouts",
         "Tacticals",
         "Terminators",
-        "Vanguard Assault Veterans",
-        "Vanguard Veterans",
-        "Attack Bike",
+        "Assault Bikes",
         "Land Speeder",
-        "Land Speeder Storm",
-        "Land Speeder Tempest",
         "Land Speeder Tornado",
         "Land Speeder Typhoon",
+        "Attack Bike",
+        "Dreadnought",
+        "Dreadnought",
         "Hunter",
+        "Stalker",
+        "Land Raider",
+        "Predator Annihilator",
+        "Predator Destructor",
         "Razorback",
         "Rhino",
-        "Storm Eagle",
+        "Whirlwind",
+        "Vindicator",
+        "Landing Craft",
         "Storm Talon Gunship",
         "Thunderhawk",
         "Battle Barge",
         "Strike Cruiser",
         "Drop Pod"
       ],
-      "unitRules": [
-        "They Shall Know No Fear"
-      ]
+      "unitRules": ["They Shall Know No Fear"
+
+    ]
     },
     {
       "from": "ImperialAllies.json",
       "units": [
-        "Warhound"
-      ],
-      "unitRules": [
-        "Void Shields"
-      ]
+          "Warhound",
+          "Reaver Titan",
+          "Warlord Titan"
+        ],
+      "unitRules": ["Void Shields"]
     }
   ],
   "sections": [
     {
-      "name": "Ravenguard Core Detachments",
+      "name": "Codex Astartes Detachments",
       "formations": [
         {
           "name": "Assaults",
           "units": "Four Assaults",
           "upgrades": [
             "Commander",
-            "Land Speeders"
+            "Vindicators"
           ],
           "points": 175
         },
         {
-          "name": "Devastators",
-          "units": "Four Devastator units plus transport",
+          "name": "Bikes",
+          "units": "Five Assault Bikes",
           "upgrades": [
-            "Commander",
-            "Land Speeders",
-            "Hunter",
-            "Razorbacks"
+            "Attack Bikes",
+            "Commander"
           ],
-          "points": 250
-        },
-        {
-          "name": "Scout",
-          "units": "Four Scouts plus transport",
-          "upgrades": [
-            "Commander",
-            "Land Speeders",
-            "Snipers",
-            "Storms"
-          ],
-          "points": 150
+          "points": 200
         },
         {
           "name": "Tacticals",
-          "units": "Four Tacticals plus transport",
+          "units": "Six Tacticals plus transport",
           "upgrades": [
+            "Land Raiders",
+            "AA Support",
             "Commander",
-            "Land Speeders",
-            "Hunter",
-            "Razorbacks"
+            "Razorback",
+            "Dreadnoughts",
+            "Vindicators"
           ],
-          "points": 200
-        }
-      ]
+          "points": 275
+      },
+      {
+        "name": "Devastators",
+        "units": "Four Devastators plus transport",
+        "upgrades": [
+          "Land Raiders",
+          "AA Support",
+          "Commander",
+          "Razorback",
+          "Dreadnoughts",
+          "Vindicators"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Land Raiders",
+        "units": "Three Land Raiders",
+        "upgrades": [
+          "AA Support",
+          "Commander"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Predators",
+        "units": "Four Predator Annihilator and/or Predator Destructor",
+        "upgrades": [
+          "AA Support",
+          "Commander"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Land Speeder",
+        "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+        "upgrades": [
+          "Commander",
+          "Typhoons"
+        ],
+        "points": 200
+      },
+      {
+        "name": "Vindicators",
+        "units": "Four Vindicators",
+        "upgrades": [
+          "Commander",
+          "AA Support",
+          "Vindicators"
+        ],
+        "points": 225
+      },
+      {
+        "name": "Scouts",
+        "units": "Four Scouts plus transport",
+        "upgrades": [
+          "Commander",
+          "Razorbacks",
+          "Snipers"
+        ],
+        "points": 150
+      },
+      {
+        "name": "0-1 Orbital Support",
+        "units": "One Strike Cruiser",
+        "upgrades": [
+          "Battle Barge"
+        ],
+        "points": 200
+      },
+      {
+        "name": "Terminators",
+        "units": "Four Terminators",
+        "upgrades": [
+          "Commander",
+          "Land Raiders"
+        ],
+        "points": 350
+      },
+      {
+        "name": "Whirlwinds",
+        "units": "Four Whirlwinds",
+        "upgrades": [
+          "Commander",
+          "AA Support"
+        ],
+        "points": 275
     },
     {
-      "name": "Ravenguard Elite Detachments",
-      "description": "One Elite Detachment may be fielded per Core Detachment",
-      "formations": [
-        {
-          "name": "Sternguard Veteran",
-          "units": "Four Sternguard Veteran units plus transport",
-          "upgrades": [
-            "Ambush",
-            "Commander",
-            "Hunter",
-            "Land Speeders",
-            "Razorbacks"
-          ],
-          "points": 250
-        },
-        {
-          "name": "0-1 Terminators",
-          "units": "Four Terminators",
-          "upgrades": [
-            "Commander"
-          ],
-          "points": 350
-        },
-        {
-          "name": "Vanguard Assault Veteran",
-          "units": "Four Vanguard Assault Veteran units",
-          "upgrades": [
-            "Commander",
-            "Land Speeders"
-          ],
-          "points": 250
-        },
-        {
-          "name": "Vanguard Veteran",
-          "units": "Four Vanguard Veteran units plus transport",
-          "upgrades": [
-            "Commander",
-            "Hunter",
-            "Land Speeders",
-            "Razorbacks"
-          ],
-          "points": 250
-        }
-      ]
+      "name": "Landing Craft",
+      "units": "One Landing Craft",
+      "points": 350
+    }
+    ]
     },
     {
-      "name": "Ravenguard Support Detachments",
-      "description": "One Support Detachment may be fielded per Core Detachment",
-      "formations": [
-        {
-          "name": "Bikes",
-          "units": "Any five of the following units: Attack Bike, Assault Bikes",
-          "upgrades": [
-            "Commander",
-            "Land Speeders"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Land Speeders",
-          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
-            "Commander",
-            "Tempest",
-            "Typhoon"
-          ],
-          "points": 200
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "upgrades": [
-            "Battle Barge"
-          ],
-          "points": 200
-        }
-      ]
-    },
-    {
-      "name": "Ravenguard Aircraft & Imperial Allies",
+      "name": "Codex Astartes Aircraft & Titan Legion Allies",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
-        {
-          "name": "Storm Eagle",
-          "units": "One Storm Eagle",
-          "points": 175
-        },
         {
           "name": "Storm Talon Squadron",
           "units": "Two Storm Talons",
@@ -202,29 +201,54 @@
           "points": 200
         },
         {
-          "name": "Warhound Pack",
-          "units": "Two Warhound Class Titans",
+          "name": "Warhound Scout Titan",
+          "units": "One Warhound Titan",
           "upgrades": [
-            "Independent"
+          ],
+          "points": 275
+        },
+        {
+          "name": "Warhound Pack",
+          "units": "Two Warhound Titans",
+          "upgrades": [
           ],
           "points": 500
-        }
+      },
+      {
+        "name": "Reaver",
+        "units": "One Reaver Titan",
+        "upgrades": [
+        ],
+        "points": 650
+      },
+      {
+        "name": "Warlord",
+        "units": "One Warlord Titan",
+        "upgrades": [
+        ],
+        "points": 825
+      }
       ]
     }
   ],
   "upgrades": {
-    "title": "Ravenguard Upgrades",
+    "title": "Codex Astartes Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
-        "name": "Ambush",
-        "description": "Give all infantry units Self Planetfall; Formations with Ambush will not scatter when deployed.",
-        "points": "50 points"
+        "name": "Attack Bikes",
+        "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
+        "points": "Free"
+      },
+      {
+        "name": "Dreadnoughts",
+        "description": "Add up to two Dreadnoughts",
+        "points": ["50 points each", "75 points per pair"]
       },
       {
         "name": "Battle Barge",
         "description": "Replace the Strike Cruiser with a Battle Barge",
-        "points": "150 points"
+        "points": "75 points"
       },
       {
         "name": "Commander",
@@ -241,32 +265,23 @@
         ]
       },
       {
-        "name": "Hunter",
-        "description": "Add one Hunter",
-        "points": "75 points"
-      },
-      {
-        "name": "Independent",
-        "description": "Allows a Warhound Pack to operate as two independent War Engines. If one Warhound is destroyed, the other one in the pack receives a blastmarker",
-        "points": "50 points"
-      },
-      {
-        "name": "Land Speeders",
-        "description": "Add any two of the following. These units have Planetfall.",
+        "name": "AA Support",
+        "description": "Add any one of the following units to the formation",
         "options": [
           {
-            "description": "Land Speeder, Land Speeder Tornado",
-            "points": "35 points each"
+            "description": "Add one Hunter",
+            "points": "75 points"
           },
           {
-            "description": "Land Speeder Typhoon",
-            "points": "45 points each"
-          },
-          {
-            "description": "Land Speeder Tempest",
-            "points": "50 points each"
+            "description": "Add one Stalker",
+            "points": "75 points"
           }
         ]
+      },
+      {
+        "name": "Land Raiders",
+        "description": "Add any number of Land Raiders, up to the number required to transport the formation",
+        "points": "50 points each"
       },
       {
         "name": "Razorbacks",
@@ -275,26 +290,18 @@
       },
       {
         "name": "Snipers",
-        "description": "Give up to four Scouts Sniper",
-        "points": "10 points each"
-      },
-      {
-        "name": "Storms",
-        "description": "Add any number of Land Speeder Storms, up to the number required to transport the formation",
-        "points": [
-          "25 points each",
-          "75 points for four"
-        ]
-      },
-      {
-        "name": "Tempest",
-        "description": "Replace up to two Land Speeders with an equal number of Land Speeder Tempest",
-        "points": "15 points each"
+        "description": "Give two or four Scouts Sniper",
+        "points": ["25 points for two", "50 points for four"]
       },
       {
         "name": "Typhoons",
         "description": "Replace up to five Land Speeders with an equal number of Land Speeder Typhoons",
         "points": "10 points each"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Add up to two Vindicators",
+        "points": ["50 points each", "75 points per pair"]
       }
     ]
   }

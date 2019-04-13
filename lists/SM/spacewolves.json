@@ -1,33 +1,95 @@
 {
-  "fraction": "Space Marines",
+  "fraction": "Adeptus Astartes",
   "army": "Space Wolves",
-  "version": "0.1.0",
-  "release": "",
-  "strategy": "Space Marine armies have a Strategy Rating of 5.",
+  "version": "0.01",
+  "release": "Beta Release",
+  "strategy": "Adeptus Astartes armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Space Marine Transports"],
   "usage": [
-    "The following army list allows you to field an army of Space Marines from the Space Wolves Chapter."
+    "The following army list allows you to field an army of Space Marines operating under the Space Wolves doctrine."
   ],
   "units": [
     {
       "from": "SM.json",
       "units": [
-        "Wolf Lord","Wolf Priest","Great Wolf",
-        "Blood Claw Assaults", "Grey Hunter Tacticals","Wolf Guard Terminators", "Long Fang Devastators", "Fenrisian Wolves", "Swiftclaw Assault Bikes", "Wolf Scout Bikes",
-        "Dreadnought", "Leman Russ Exterminator", "Hunter", "Land Raider","Land Raider Wrath of Mjalnar","Iron Wolf Knight","Rhino","Whirlwind","Vindicator",
-        "Wulfen", "Wulfen Dreadnought"
-        "Landing Craft","Storm Talon Gunship","Stormwolf Assault Boat",
-        "Battle Barge","Strike Cruiser","Drop Pod"
+        "Captain",
+        "Chaplain",
+        "Librarian",
+        "Supreme Commander",
+        "Assaults",
+        "Scouts",
+        "Fenrisian Wolves",
+        "Wulfen",
+        "Tacticals",
+        "Terminators",
+        "Thunderwolf Cavalry",
+        "Land Speeder",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Attack Bike",
+        "Murderfang",
+        "Hunter",
+        "Stalker",
+        "Land Raider",
+        "Razorback",
+        "Rhino",
+        "Stormwolf",
+        "Stormfang",
+        "Whirlwind",
+        "Vindicator",
+        "Storm Talon Gunship",
+        "Thunderhawk",
+        "Battle Barge",
+        "Strike Cruiser",
+        "Drop Pod"
       ],
       "unitRules": ["They Shall Know No Fear"
 
     ]
+    },
+    {
+      "from": "ImperialAllies.json",
+      "units": [
+          "Warhound",
+          "Reaver Titan",
+          "Warlord Titan"
+        ],
+      "unitRules": ["Void Shields"]
     }
   ],
   "sections": [
     {
-      "name": "Space Wolves Core Detachments",
+      "name": "Space Wolves Detachments",
+      "formations": [
+        {
+          "name": "Fenrisian Wolves",
+          "units": "Six Fenrisian Wolves",
+          "points": 200
+        },
+        {
+          "name": "Wulfen",
+          "units": "Six Wulfen",
+          "points": 225
+        },
+        {
+          "name": "Thunderwolf Cavalry",
+          "units": "Five Thunderwolf Cavalry",
+          "upgrades": [
+          ],
+          "points": 225
+        },
+      {
+        "name": "Stormfang Gunsships",
+        "units": "Four Stormfang Gunships",
+        "upgrades": [
+        ],
+        "points": 250
+      }
+      ]
+    },
+    {
+      "name": "Codex Astartes Detachments",
       "formations": [
         {
           "name": "Assaults",
@@ -52,7 +114,8 @@
           "units": "Six Tacticals plus transport",
           "upgrades": [
             "Land Raiders",
-            "AAA",
+            "Stormwolf Tranports",
+            "AA Support",
             "Commander",
             "Razorback",
             "Dreadnoughts",
@@ -65,100 +128,94 @@
         "units": "Four Devastators plus transport",
         "upgrades": [
           "Land Raiders",
-          "AAA",
+          "Stormwolf Tranports",
+          "AA Support",
           "Commander",
           "Razorback",
           "Dreadnoughts",
           "Vindicators"
         ],
         "points": 250
-    },
+      },
       {
         "name": "Land Raiders",
         "units": "Three Land Raiders",
         "upgrades": [
-          "AAA",
+          "AA Support",
           "Commander"
         ],
         "points": 250
       },
       {
         "name": "Predators",
-        "units": "Four Predator Annihilator or four Predator Destructor",
+        "units": "Four Predator Annihilator and/or Predator Destructor",
         "upgrades": [
-          "AAA",
+          "AA Support",
           "Commander"
         ],
         "points": 250
-      }
-      ]
-    },
-    {
-      "name": "Codex Astartes Support Detachments",
-      "description": "Three Support Detachments may be fielded per Core Detachment",
-      "formations": [
-        {
-          "name": "Land Speeder",
-          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
-          "upgrades": [
-            "Commander",
-            "Typhoons"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Vindicators",
-          "units": "Four Vindicators",
-          "upgrades": [
-            "Commander",
-            "AAA",
-            "Vindicators"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Scouts",
-          "units": "Four Scouts plus transport",
-          "upgrades": [
-            "Commander",
-            "Razorbacks",
-            "Snipers"
-          ],
-          "points": 150
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "upgrades": [
-            "Battle Barge"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Terminators",
-          "units": "Four Terminators",
-          "upgrades": [
-            "Commander",
-            "AAA",
-            "Land Raiders"
-          ],
-          "points": 350
-        },
-        {
-          "name": "Whirlwind Battery",
-          "units": "Four Whirlwinds",
-          "upgrades": [
-            "Commander",
-            "AAA"
-          ],
-          "points": 275
       },
       {
-        "name": "Landing Craft",
-        "units": "One Landing Craft",
+        "name": "Land Speeder",
+        "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+        "upgrades": [
+          "Commander",
+          "Typhoons"
+        ],
+        "points": 200
+      },
+      {
+        "name": "Vindicators",
+        "units": "Four Vindicators",
+        "upgrades": [
+          "Commander",
+          "AA Support",
+          "Vindicators"
+        ],
+        "points": 225
+      },
+      {
+        "name": "Scouts",
+        "units": "Four Scouts plus transport",
+        "upgrades": [
+          "Commander",
+          "Razorbacks",
+          "Snipers"
+        ],
+        "points": 150
+      },
+      {
+        "name": "0-1 Orbital Support",
+        "units": "One Strike Cruiser",
+        "upgrades": [
+          "Battle Barge"
+        ],
+        "points": 200
+      },
+      {
+        "name": "Terminators",
+        "units": "Four Terminators",
+        "upgrades": [
+          "Commander",
+          "Land Raiders"
+        ],
         "points": 350
-      }
-      ]
+      },
+      {
+        "name": "Whirlwinds",
+        "units": "Four Whirlwinds",
+        "upgrades": [
+          "Commander",
+          "AA Support"
+        ],
+        "points": 275
+    },
+    {
+      "name": "Landing Craft",
+      "units": "One Landing Craft",
+      "points": 350
+    }
+    ]
     },
     {
       "name": "Codex Astartes Aircraft & Titan Legion Allies",
@@ -175,8 +232,15 @@
           "points": 200
         },
         {
+          "name": "Warhound Scout Titan",
+          "units": "One Warhound Titan",
+          "upgrades": [
+          ],
+          "points": 275
+        },
+        {
           "name": "Warhound Pack",
-          "units": "Two Warhounds",
+          "units": "Two Warhound Titans",
           "upgrades": [
           ],
           "points": 500
@@ -186,13 +250,20 @@
         "units": "One Reaver Titan",
         "upgrades": [
         ],
-        "points": 600
-    }
+        "points": 650
+      },
+      {
+        "name": "Warlord",
+        "units": "One Warlord Titan",
+        "upgrades": [
+        ],
+        "points": 825
+      }
       ]
     }
   ],
   "upgrades": {
-    "title": "Codex Astartes Upgrades",
+    "title": "Codex Astartes/Space Wolves Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
       {
@@ -202,7 +273,7 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Dreadnoughts or Hellfire Dreadnoughts",
+        "description": "Add up to two Dreadnoughts",
         "points": ["50 points each", "75 points per pair"]
       },
       {
@@ -225,7 +296,7 @@
         ]
       },
       {
-        "name": "AAA",
+        "name": "AA Support",
         "description": "Add any one of the following units to the formation",
         "options": [
           {
@@ -234,7 +305,7 @@
           },
           {
             "description": "Add one Stalker",
-            "points": "50 points"
+            "points": "75 points"
           }
         ]
       },
@@ -244,14 +315,19 @@
         "points": "50 points each"
       },
       {
+        "name": "Stormwolf Tranports",
+        "description": "Add any number of Storm Wolf Transports, up to the number required to transport the formation",
+        "points": "50 points each"
+      },
+      {
         "name": "Razorbacks",
         "description": "Add any number of Razorbacks, up to the number required to transport the formation",
         "points": "25 points each"
       },
       {
         "name": "Snipers",
-        "description": "Give up to four Scouts Sniper",
-        "points": "10 points each"
+        "description": "Give two or four Scouts Sniper",
+        "points": ["25 points for two", "50 points for four"]
       },
       {
         "name": "Typhoons",

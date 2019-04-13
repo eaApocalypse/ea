@@ -13,12 +13,10 @@
     {
       "title": "God Machine",
       "description": [
-        "War Engines with a starting Damage Capacity of 8 or more are subject to the God Machine special rule.",
-        "The magnificence of these awe-inspiring constructs comes at a price, for if such an incarnation of power were to falter or be destroyed, the forces that are there to aid them would become greatly disturbed.",
-        "For this reason, whenever a unit with God Machine special rule is broken, all friendly formations suffer 1 BM. Whenever a unit with God Machine special rule is destroyed, all friendly units suffer D3+1 BMs.",
-        "Units with the God Machine special rule are themselves immune to this effect."
+        "All friendly/allied units with a line of fire to a unit that has the 'God Machine' special rule recieve a blast marker if the unit with 'God Machine' is destroyed.",
+        "Additionally when a Unit with the 'God Machine' Special rule is hit but a Pin Point attack from a space craft, the unit sufferes a TK(D6) instead of the usualy TK(D3) from each Pin Point."
       ]
-  },
+    },
     {
         "title": "Split Fire",
         "description": [
@@ -50,10 +48,11 @@
           ]
         },
         {
-          "name": "Carapace Missiles",
+          "name": "Sacred Icon",
           "type": "CH",
-          "weapons": ["Hellstrike Missiles"],
+          "weapons": ["Sacred Icon"],
           "specialRules": [
+            "Inspiring"
           ]
         },
         {

@@ -258,6 +258,29 @@
         ]
       },
       {
+        "name": "Fenrisian Wolves",
+        "type": "INF",
+        "speed": 30,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Claws"
+        ]
+      },
+      {
+        "name": "Wulfen",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 3,
+        "weapons": [
+          "Close Combat Weapons"
+        ],
+        "specialRules": [
+          "Teleport"
+        ]
+      },
+      {
         "name": "Death Company Marines",
         "type": "INF",
         "speed": "15cm/30cm",
@@ -273,6 +296,22 @@
       ],
       "notes": "Jump Packs increase Speed to 30cm"
       },
+      {
+        "name": "Sanguinary Guard",
+        "type": "INF",
+        "speed": "30cm",
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Bolters"
+      ],
+      "specialRules": [
+          "Fearless",
+          "Invulnerable Save"
+      ],
+      "notes": "Wings (Counts as 'Jump Packs' but can still be transported as normal)."
+      },
 
       {
         "name": "Terminators",
@@ -283,6 +322,22 @@
         "ff": 3,
         "weapons": [
           "Assault Cannon|2",
+          "Power Weapons"
+        ],
+        "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+        ]
+      },
+      {
+        "name": "Blood Angel Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 2,
+        "ff": 3,
+        "weapons": [
           "Power Weapons"
         ],
         "specialRules": [
@@ -459,6 +514,20 @@
         ],
         "specialRules": [
         ]
+      },
+      {
+        "name": "Thunderwolf Cavalry",
+        "type": "INF",
+        "speed": 30,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Power Weapons"
+      ],
+      "specialRules": [
+        "Mounted",
+        "Walker"
+      ]
       },
       {
         "name": "Ravenwing Assault Bikes",
@@ -695,6 +764,21 @@
           "Frag Cannon"
         ],
         "specialRules": [
+          "Walker"
+        ]
+      },
+      {
+        "name": "Murderfang",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Power Weapons|2"
+        ],
+        "specialRules": [
+          "Fearless",
           "Walker"
         ]
       },
@@ -984,6 +1068,35 @@
         "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted. Any unit in the same formation as this unit may ignore the 5cm restriction when using commander. Counts as a Land Raider for the purposes of being transported."
       },
       {
+        "name": "Stormwolf",
+        "type": "AV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Helfrost Cannon",
+          "Lascannon|2"
+        ],
+        "specialRules": [
+          "Transport"
+        ],
+        "notes": "May transport three infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Stormfang",
+        "type": "AV",
+        "speed": 35,
+        "armour": 4,
+        "cc": 6,
+        "ff": 5,
+        "weapons": [
+          "Helfrost Destructor",
+          "Twin Lascannon",
+          "Twin Heavy Bolter|2"
+        ]
+      },
+      {
         "name": "Predator Annihilator",
         "type": "AV",
         "speed": 30,
@@ -995,6 +1108,7 @@
           "Lascannon|2"
         ]
       },
+
       {
         "name": "Predator Destructor",
         "type": "AV",

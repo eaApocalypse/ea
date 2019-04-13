@@ -2,15 +2,15 @@
   "fraction": "Adeptus Mechanicus",
   "army": "Collegia Titanica",
   "version": "0.01",
-  "release": "2019-03-05",
+  "release": "Beta Release",
   "strategy": "Collegia Titanica armies have a Strategy Rating of 3.",
   "Initiative": "All Titan formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
+    "Collegia Titanica Tournament Special Rules"
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Collegia Titanica of the Adeptus Mechancius",
-    "Except for the Battle Titan formations, Titans are listed as Titan Chassis and an ammount of Weapons that could be added. Example a Reaver is listed as 3 Battle Titan weapons. You must add 3 Battle Titan weapons from the list weapons below."
+    "The following army list allows you to field an army based on the Collegia Titanica of the Adeptus Mechancius", "Collegia Titanica formations come in three types: battle titans, scout titans and support formations. Each battle titan you include in the army allows you to field any two scout titan formations. Each battle titan or scout titan formation allows you to field any one support formation. Although you can only take a scout titan or support formation if you first take a battle titan formation, they are treated as separate independent formations during a battle and do not have to move around together.","In addition, certain formations may be given upgrades. Which upgrades a formation may be given are listed in the 'upgrades' column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart."," Note: the upgrades chosen can lead to an additional surcharge (see Collegia Titanica Tournament Special Rules)."
   ],
   "units": [
     {
@@ -18,7 +18,7 @@
       "units": [
         "Legate",
         "Veteran Princeps",
-        "Carapace Missiles",
+        "Sacred Icon",
         "Carapace Multilasers",
         "Warhound",
         "Reaver Titan",
@@ -49,13 +49,19 @@
       "units": [
         "Gatling Blaster",
         "Melta Cannon",
-        "Multiple Rocket Launcher",
         "Quake Cannon",
         "Volcano Cannon",
-        "Plasma Annihilator",
-        "Apocalypse Missile Launcher ",
-        "Vortex Missile Launcher",
-        "Titan Warp Missile Launcher",
+        "Carapace Landing Pad",
+        "Corvus Assault Pod",
+        "Apocalypse Missile Launcher",
+        "Laser Blaster",
+        "Laser Burner",
+        "Plasma Cannon",
+        "Plasma Destructor",
+        "Barrage Missile",
+        "Deathstrike Missile",
+        "Vortex Missile",
+        "Warp Missile",
         "Titan Power Fist"
       ],
         "unitRules": [
@@ -67,6 +73,8 @@
         "Tech Priest",
         "Secutarii",
         "Skitarii Vanguard",
+        "Ironstrider Ballistarius",
+        "Sydonian Dragoon",
         "Chimeradon",
         "Avenger Strike Fighters",
         "Ark Mechanicus Battleship"
@@ -93,45 +101,20 @@
     },
     {
       "name": "Warlord Titan",
-      "units": "One Warlord Titan. 4 Weapons from the Battle Titan Weapon list may be taken. Max 2 Arm Weapons and 2 Carapace weapons. Weapons listed as just 'Weapon' maybe count as either.",
+      "units": "One Warlord Titan.",
       "extraUnits": [
-
-        "Gatling Blaster +25",
-        "Melta Cannon +25",
-        "Multiple Rocket Launcher +25",
-        "Quake Cannon +50",
-        "Volcano Cannon +50",
-        "Plasma Annihilator +50",
-        "Vortex Missile Launcher +25",
-        "Titan Warp Missile Launcher +25",
-        "Titan Power Fist",
-        "Upgrade Legate",
-        "Upgrade Veteran Princeps",
-        "Upgrade Carapace Multilasers",
-        "Upgrade Carapace Missiles"
+        "Mount each weapon mount (4 including 2 Carapace) in the formation with one weapon listed in the battle titan weapons list."
       ],
-      "points": 750
+      "points": 675
   },
   {
       "name": "Reaver Titan",
       "units": "One Reaver Titan",
       "extraUnits": [
-        "3 Weapons from the Battle Titan Weapon list may be taken. Max 2 Arm Weapons and 2 Carapace weapons. Weapons listed as just 'Weapon' maybe count as either.",
-       "Gatling Blaster +25",
-       "Melta Cannon +25",
-       "Multiple Rocket Launcher +25",
-       "Quake Cannon +50",
-       "Volcano Cannon +50",
-       "Plasma Annihilator +50",
-       "Vortex Missile Launcher +25",
-       "Titan Warp Missile Launcher +25",
-       "Titan Power Fist",
-       "Upgrade Veteran Princeps",
-       "Upgrade Carapace Multilasers",
-       "Upgrade Carapace Missiles"
+        "Mount each weapon mount (3 including 1 Carapace) in the formation with one weapon listed in the battle titan weapons list."
 
       ],
-      "points": 600
+      "points": 550
   }
 ]
 },
@@ -150,6 +133,18 @@
               "0-2 Vulcan Mega Bolter"
           ],
           "points": 275
+        },
+        {
+          "name": "Warhound Pack",
+          "units": "Two Warhound Titans",
+          "extraUnits": [
+              "2 Weapons from the Scout Titan Weapon list may be taken for each Titan.",
+              "0-2 Inferno Cannon",
+              "0-1 Plasma Blastgun",
+              "0-1 Turbo-Laser Destructor +25 points",
+              "0-2 Vulcan Mega Bolter"
+          ],
+          "points": 500
         }
       ]
     },
@@ -157,6 +152,16 @@
       "name": "Adeptus Mechanicus Allies",
       "description": "Up to 1/3 of the points available may be spent on Adeptus Mechanicus Allies.",
       "formations": [
+        {
+          "name": "Ironstrider Cavaliers",
+          "units": "Six Ironstrider Ballistarius",
+          "points": 175
+        },
+        {
+          "name": "Sydonian Dragoons",
+          "units": "Six Sydonian Dragoons",
+          "points": 175
+        },
         {
           "name": "Skitarii Maniple",
           "units": "One Tech Priest, nine Skitarii Vanguard",
@@ -174,6 +179,92 @@
           "name": "Mechanicus Battleship",
           "units": "One Ark Mechanicus Battleship",
           "points": 200
+        }
+      ]
+    },
+    {
+      "name": "Battle Titan Weapon Upgrades",
+      "description": "Mount each weapon mount in the formation with one of the following upgrades.",
+      "formations": [
+        {
+          "name": "Apocalypse Missile Launcher",
+          "units": "Apocalypse Missile Launcher",
+          "points": 25
+        },
+        {
+          "name": "Carapace Landing Pad",
+          "units": "Carapace Landing Pad",
+          "points": 0
+        },
+        {
+          "name": "Titan Power Fist",
+          "units": "Titan Power Fist",
+          "points": 25
+        },
+        {
+          "name": "Corvus Assault Pod",
+          "units": "Corvus Assault Pod",
+          "points": 0
+        },
+        {
+          "name": "Gatling Blaster",
+          "units": "Gatling Blaster",
+          "points": 25
+        },
+        {
+          "name": "Laser Blaster",
+          "units": "Laser Blaster",
+          "points": 50
+        },
+        {
+          "name": "Laser Burner",
+          "units": "Laser Burner",
+          "points": 0
+        },
+        {
+          "name": "Melta Cannon",
+          "units": "Melta Cannon",
+          "points": 50
+        },
+        {
+          "name": "Plasma Cannon",
+          "units": "Plasma Cannon",
+          "points": 25
+        },
+        {
+          "name": "Plasma Destructor",
+          "units": "Plasma Destructor (Carapace Weapon only)",
+          "points": 75
+        },
+        {
+          "name": "Quake Cannon",
+          "units": "Quake Cannon",
+          "points": 75
+        },
+        {
+          "name": "Volcano Cannon",
+          "units": "Volcano Cannon",
+          "points": 50
+        },
+        {
+          "name": "Barrage Missile",
+          "units": "Barrage Missile (Carapace Weapon only)",
+          "points": 75
+        },
+        {
+          "name": "Deathstrike Missile",
+          "units": "Deathstrike Missile (Carapace Weapon only)",
+          "points": 75
+        },
+        {
+          "name": "Vortex Missile",
+          "units": "Vortex Missile (Carapace Weapon only)",
+          "points": 75
+        },
+        {
+          "name": "Warp Missile",
+          "units": "Warp Missile (Carapace Weapon only)",
+          "points": 75
         }
       ]
     }

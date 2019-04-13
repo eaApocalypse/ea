@@ -1,9 +1,9 @@
 {
-  "fraction": "Space Marines",
+  "fraction": "Adeptus Astartes",
   "army": "Codex Astartes",
-  "version": "0.9.0",
-  "release": "2019-03-21",
-  "strategy": "Space Marine armies have a Strategy Rating of 5.",
+  "version": "0.01",
+  "release": "Beta Release",
+  "strategy": "Adeptus Astartes armies have a Strategy Rating of 5.",
   "Initiative": "All formations have an Initiative Rating of 1+.",
   "specialRules": ["Space Marine Transports"],
   "usage": [
@@ -13,12 +13,35 @@
     {
       "from": "SM.json",
       "units": [
-        "Captain","Chaplain","Librarian","Supreme Commander",
-        "Assaults","Scouts","Tacticals","Terminators","Assault Bikes",
-        "Land Speeder","Land Speeder Tornado","Land Speeder Typhoon","Attack Bike",
-        "Dreadnought", "Dreadnought, Hellfire", "Hunter","Stalker", "Land Raider","Predator Annihilator","Predator Destructor","Razorback","Rhino","Whirlwind","Vindicator",
-        "Landing Craft","Storm Talon Gunship","Thunderhawk",
-        "Battle Barge","Strike Cruiser","Drop Pod"
+        "Captain",
+        "Chaplain",
+        "Librarian",
+        "Supreme Commander",
+        "Assaults",
+        "Scouts",
+        "Tacticals",
+        "Terminators",
+        "Assault Bikes",
+        "Land Speeder",
+        "Land Speeder Tornado",
+        "Land Speeder Typhoon",
+        "Attack Bike",
+        "Dreadnought",
+        "Hunter",
+        "Stalker",
+        "Land Raider",
+        "Predator Annihilator",
+        "Predator Destructor",
+        "Razorback",
+        "Rhino",
+        "Whirlwind",
+        "Vindicator",
+        "Landing Craft",
+        "Storm Talon Gunship",
+        "Thunderhawk",
+        "Battle Barge",
+        "Strike Cruiser",
+        "Drop Pod"
       ],
       "unitRules": ["They Shall Know No Fear"
 
@@ -28,7 +51,8 @@
       "from": "ImperialAllies.json",
       "units": [
           "Warhound",
-          "Reaver Titan"
+          "Reaver Titan",
+          "Warlord Titan"
         ],
       "unitRules": ["Void Shields"]
     }
@@ -55,113 +79,112 @@
           ],
           "points": 200
         },
-            {
-              "name": "Tacticals",
-              "units": "Six Tacticals plus transport",
-              "upgrades": [
-                "Land Raiders",
-                "AAA",
-                "Commander",
-                "Razorback",
-                "Dreadnoughts",
-                "Vindicators"
-              ],
-              "points": 275
-          },
-          {
-            "name": "Devastators",
-            "units": "Four Devastators plus transport",
-            "upgrades": [
-              "Land Raiders",
-              "AAA",
-              "Commander",
-              "Razorback",
-              "Dreadnoughts",
-              "Vindicators"
-            ],
-            "points": 250
-        },
-          {
-            "name": "Land Raiders",
-            "units": "Three Land Raiders",
-            "upgrades": [
-              "AAA",
-              "Commander"
-            ],
-            "points": 250
-          },
-          {
-            "name": "Predators",
-            "units": "Four Predator Annihilator and/or Predator Destructor",
-            "upgrades": [
-              "AAA",
-              "Commander"
-            ],
-            "points": 250
-        },
         {
-          "name": "Land Speeder",
-          "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+          "name": "Tacticals",
+          "units": "Six Tacticals plus transport",
           "upgrades": [
+            "Land Raiders",
+            "AA Support",
             "Commander",
-            "Typhoons"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Vindicators",
-          "units": "Four Vindicators",
-          "upgrades": [
-            "Commander",
-            "AAA",
+            "Razorback",
+            "Dreadnoughts",
             "Vindicators"
-          ],
-          "points": 225
-        },
-        {
-          "name": "Scouts",
-          "units": "Four Scouts plus transport",
-          "upgrades": [
-            "Commander",
-            "Razorbacks",
-            "Snipers"
-          ],
-          "points": 150
-        },
-        {
-          "name": "0-1 Orbital Support",
-          "units": "One Strike Cruiser",
-          "upgrades": [
-            "Battle Barge"
-          ],
-          "points": 200
-        },
-        {
-          "name": "Terminators",
-          "units": "Four Terminators",
-          "upgrades": [
-            "Commander",
-            "Land Raiders"
-          ],
-          "points": 350
-        },
-        {
-          "name": "Whirlwinds",
-          "units": "Four Whirlwinds",
-          "upgrades": [
-            "Commander",
-            "AAA"
           ],
           "points": 275
       },
       {
-        "name": "Landing Craft",
-        "units": "One Landing Craft",
+        "name": "Devastators",
+        "units": "Four Devastators plus transport",
+        "upgrades": [
+          "Land Raiders",
+          "AA Support",
+          "Commander",
+          "Razorback",
+          "Dreadnoughts",
+          "Vindicators"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Land Raiders",
+        "units": "Three Land Raiders",
+        "upgrades": [
+          "AA Support",
+          "Commander"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Predators",
+        "units": "Four Predator Annihilator and/or Predator Destructor",
+        "upgrades": [
+          "AA Support",
+          "Commander"
+        ],
+        "points": 250
+      },
+      {
+        "name": "Land Speeder",
+        "units": "Any five of the following units: Land Speeder, Land Speeder Tornado",
+        "upgrades": [
+          "Commander",
+          "Typhoons"
+        ],
+        "points": 200
+      },
+      {
+        "name": "Vindicators",
+        "units": "Four Vindicators",
+        "upgrades": [
+          "Commander",
+          "AA Support",
+          "Vindicators"
+        ],
+        "points": 225
+      },
+      {
+        "name": "Scouts",
+        "units": "Four Scouts plus transport",
+        "upgrades": [
+          "Commander",
+          "Razorbacks",
+          "Snipers"
+        ],
+        "points": 150
+      },
+      {
+        "name": "0-1 Orbital Support",
+        "units": "One Strike Cruiser",
+        "upgrades": [
+          "Battle Barge"
+        ],
+        "points": 200
+      },
+      {
+        "name": "Terminators",
+        "units": "Four Terminators",
+        "upgrades": [
+          "Commander",
+          "Land Raiders"
+        ],
         "points": 350
-      }
-      ]
+      },
+      {
+        "name": "Whirlwinds",
+        "units": "Four Whirlwinds",
+        "upgrades": [
+          "Commander",
+          "AA Support"
+        ],
+        "points": 275
     },
-
+    {
+      "name": "Landing Craft",
+      "units": "One Landing Craft",
+      "points": 350
+    }
+    ]
+    },
     {
       "name": "Codex Astartes Aircraft & Titan Legion Allies",
       "description": "Up to a third of the points available may be spent on these formations",
@@ -177,8 +200,15 @@
           "points": 200
         },
         {
+          "name": "Warhound Scout Titan",
+          "units": "One Warhound Titan",
+          "upgrades": [
+          ],
+          "points": 275
+        },
+        {
           "name": "Warhound Pack",
-          "units": "Two Warhounds",
+          "units": "Two Warhound Titans",
           "upgrades": [
           ],
           "points": 500
@@ -188,8 +218,15 @@
         "units": "One Reaver Titan",
         "upgrades": [
         ],
-        "points": 600
-    }
+        "points": 650
+      },
+      {
+        "name": "Warlord",
+        "units": "One Warlord Titan",
+        "upgrades": [
+        ],
+        "points": 825
+      }
       ]
     }
   ],
@@ -204,7 +241,7 @@
       },
       {
         "name": "Dreadnoughts",
-        "description": "Add up to two Dreadnoughts or Hellfire Dreadnoughts",
+        "description": "Add up to two Dreadnoughts",
         "points": ["50 points each", "75 points per pair"]
       },
       {
@@ -227,7 +264,7 @@
         ]
       },
       {
-        "name": "AAA",
+        "name": "AA Support",
         "description": "Add any one of the following units to the formation",
         "options": [
           {
