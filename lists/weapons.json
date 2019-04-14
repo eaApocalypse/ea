@@ -2311,6 +2311,15 @@
       ]
     },
     {
+      "name": "Heavy Conversion Beamer",
+        "modes": [
+          {
+            "firepower": "AP3+/AT4+",
+            "range": 45
+          }
+      ]
+    },
+    {
       "name": "Corruption Cannon",
         "modes": [
           {
@@ -3000,7 +3009,7 @@
               "join": "and",
               "specialRules": [
                 "EA(+1)",
-                "TK(D3+3)"
+                "TK(D6)"
             ]
           }
       ]
@@ -3271,6 +3280,18 @@
             "EA(+1)"
           ]
         }
+      ]
+    },
+    {
+      "name": "Excruciator Cannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AT4+",
+            "range": 45,
+            "specialRules": [
+
+          ]
+          }
       ]
     },
     {
@@ -3961,6 +3982,19 @@
       ]
     },
     {
+      "name": "Havoc Missile Rack",
+        "modes": [
+          {
+            "firepower": "2BP",
+            "range": 60,
+            "specialRules": [
+              "SS",
+              "Ind"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Havoc Warp Missile",
         "modes": [
           {
@@ -4271,6 +4305,18 @@
             "firepower": "Assault Weapons",
             "specialRules": [
                 "EA(+1)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chaos Hellblades",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(D3)"
           ]
         }
       ]
@@ -7276,6 +7322,18 @@
               "range": 45,
               "specialRules": [
                 "IC", "D", "FxF"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Siege Claw",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+                "EA(+1)",
+                "TK(1)"
           ]
         }
       ]

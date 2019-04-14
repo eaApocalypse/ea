@@ -5,6 +5,16 @@
 
     ],
     "unit": [
+
+
+        {
+          "name": "Doomfist",
+          "type": "",
+          "weapons": ["Doomfist"],
+          "specialRules": [
+
+          ]
+        },
         {
           "name": "Gatling Blaster",
           "type": "",
@@ -13,6 +23,23 @@
 
           ]
         },
+        {
+          "name": "Havoc Missile Rack",
+          "type": "",
+          "weapons": ["Havoc Missile Rack|6"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Hellstrike Cannon",
+          "type": "",
+          "weapons": ["Hellstrike Cannon"],
+          "specialRules": [
+
+          ]
+        },
+
         {
           "name": "Melta Cannon",
           "type": "",
@@ -34,15 +61,6 @@
           "type": "",
           "weapons": ["Volcano Cannon"],
           "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Carapace Landing Pad",
-          "type": "",
-          "weapons": ["Carapace Landing Pad"],
-          "specialRules": [
-            "All weapons with a BP firepower in the formation do not need a line of fire when shooting as part of a sustained fire, advance or double action."
 
           ]
         },
@@ -92,14 +110,6 @@
           "name": "Laser Blaster",
           "type": "",
           "weapons": ["Laser Blaster"],
-          "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Laser Burner",
-          "type": "",
-          "weapons": ["Laser Burner"],
           "specialRules": [
 
           ]

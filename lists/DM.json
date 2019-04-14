@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Dark Mechanicus Forces",
+    "specialRules": [
+        {
+          "title": "Automaton",
+          "description": [
+            "Unless they are part of a formation that includes other units that do not have this rule the formation can only take Hold, Engage, Marshall, Sustained Fire and Overwatch actions.",
+            "A formation does not receive a Blast Marker when a unit with Automaton is destroyed, this includes the extra Blast Marker from the first casualty of a crossfire and for units destroyed for being out of formation after a move. Automaton units hit by a weapon with Disrupt do take a Blast Marker however.",
+            "If a hit is inflicted on an Automaton unit because it is in a broken formation which is receiving a Blast Marker then it may attempt to save normally.",
+            "Automaton units killed in an assault count for the purposes of working out its result."
+          ]
+      },
+      {
+            "title": "God Machine Killer (GMK)",
+            "description": [
+              "Has TK(D6) instead of TK(D3) against WE with the God Machine special rule."
+        ]
+      }
+    ],
+    "unit": [
+      {
+          "name": "Dark Magos",
+          "type": "INF",
+          "speed": 15,
+          "armour": 3,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Solar Atomiser",
+            "Omnissian Axe"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Inspiring",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Heretek",
+          "type": "INF",
+          "speed": 15,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Eradication Ray",
+            "Omnissian Axe"
+          ],
+          "specialRules": [
+            "Leader",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Dark Skitarii",
+          "type": "INF",
+          "speed": 15,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Radium Carbine"
+          ],
+          "specialRules": [
+          ]
+      },
+      {
+          "name": "Helstalker",
+          "type": "LV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 3,
+          "ff": 5,
+          "weapons": [
+            "Autocannon",
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Automaton",
+            "Invulnerable Save"
+          ]
+      },
+      {
+          "name": "Venomcrawler",
+          "type": "AV",
+          "speed": 20,
+          "armour": 3,
+          "cc": 3,
+          "ff": 5,
+          "weapons": [
+            "Excruciator Cannon",
+            "Power Weapon"
+          ],
+          "specialRules": [
+            "Infiltrator",
+            "Walker",
+            "Invulnerable Save"
+          ]
+      },
+      {
+        "name": "Defiler",
+        "type": "AV",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Battle Cannon",
+          "Reaper Autocannon",
+          "Heavy Flamer",
+          "Battle Claws"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Walker",
+          "Infiltrators",
+          "Invulnerable Save",
+          "Daemon Engine (Chaos Undivided)"
+        ]
+      },
+      {
+        "name": "Chaos Land Raider",
+        "type": "AV",
+        "speed": 25,
+        "armour": 4,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Lascannon|2|",
+          "Twin Heavy Bolter"
+        ],
+        "specialRules": [
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Transport"
+        ],
+        "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
+      },
+      {
+        "name": "Decimator Knight",
+        "type": "H-AV",
+        "speed": 25,
+        "armour": 5,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+          "Heavy Conversion Beamer",
+          "Siege Claw"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Reinforced Armour",
+          "Walker",
+          "Invulnerable Save"
+        ]
+      },
+      {
+        "name": "Heldrake",
+        "type": "AC",
+        "speed": "Fighter",
+        "armour": 5,
+        "weapons": [
+          "AC Hades Autocannon||FxF",
+          "AC Piston-Driven Claws"
+        ],
+        "specialRules": [
+            "Invulnerable Save"
+        ]
+      }
+
+    ]
+  }
+]

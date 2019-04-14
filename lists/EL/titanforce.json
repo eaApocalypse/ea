@@ -2,7 +2,7 @@
   "fraction": "Eldar",
   "army": "Eldar Titan Force",
   "version": "0.01",
-  "release": "2019-02-22",
+  "release": "Beta Release",
   "strategy": "Eldar Titan Force armies have a Strategy Rating of 4.",
   "Initiative": "Titans and Knights have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -81,7 +81,7 @@
     },
     {
       "name": "Eldar Scout Titans",
-      "description": "Up to one Eldar Scout Titan formation for each 1000 points.",
+      "description": "Up to one pair of Eldar Scout Titans for each 1000 points.",
       "formations": [
         {
           "name": "Revenant Titan",

@@ -14,17 +14,25 @@
           ]
         },
         {
-          "name": "Plasma Blastgun",
+          "name": "Castigator Cannon",
           "type": "Arm Weapon",
-          "weapons": ["Plasma Blastgun"],
+          "weapons": ["Castigator Cannon"],
           "specialRules": [
 
           ]
         },
         {
-          "name": "Turbo-Laser Destructor",
+          "name": "Chaos Hellblades",
           "type": "Arm Weapon",
-          "weapons": ["Turbo-Laser Destructor"],
+          "weapons": ["Chaos Hellblades"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Plasma Blastgun",
+          "type": "Arm Weapon",
+          "weapons": ["Plasma Blastgun"],
           "specialRules": [
 
           ]
