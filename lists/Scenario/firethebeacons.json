@@ -1,10 +1,10 @@
 {
   "fraction": "Scenario",
   "army": "Fire the Beacons",
-  "version": "1.1",
-  "release": "2019-03-01",
+  "version": "0.01",
+  "release": "Beta Release",
   "strategy": "Epic Apocalypse Scenario - ",
-  "Initiative": "Battle Line",
+  "Initiative": "Fire the Beacons",
 
   "specialRules": [
         "General Tournament Tiebreaker Rules"
