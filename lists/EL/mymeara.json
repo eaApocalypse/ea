@@ -2,7 +2,7 @@
   "fraction": "Eldar",
   "army": "Mymeara",
   "version": "0.01",
-  "release": "2019-02-22",
+  "release": "Beta Release",
   "strategy": "Mymeara armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans, Knights and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
@@ -231,7 +231,7 @@
           "units": "One Mymeara Phantom Titan",
           "upgrades": [
           ],
-          "points": 650
+          "points": 725
         },
         {
           "name": "0-1 Spacecraft",
@@ -250,7 +250,7 @@
     "items": [
       {
         "name": "0-1 Phoenix Lord",
-        "description": "Replace opne Eldar Exarch with a Eldar Phoenix Lord character",
+        "description": "Replace one Eldar Exarch with a Eldar Phoenix Lord character",
         "points": "25 points"
       },
       {
