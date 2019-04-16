@@ -1,9 +1,9 @@
 {
   "fraction": "Ork",
-  "army": "EA-A Clan Goffs Warhorde, WAAAGH! Ghazghkull",
-  "version": "0.8.1",
-  "release": "2019-03-21",
-  "strategy": "EA-A Clan Goffs Warhorde, WAAAGH! Ghazghkul armies have a Strategy Rating of 3.",
+  "army": "Goffs Warhorde",
+  "version": "0.01",
+  "release": "Beta Release",
+  "strategy": "Goffs Warhorde armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
       "Mob Rule",

@@ -1,9 +1,9 @@
 {
   "fraction": "Ork",
-  "army": "EA-A Evil Sunz Clan, Burzuruk's Gargant Big Mob",
-  "version": "1.4",
-  "release": "2019-03-09",
-  "strategy": "EA-A Evil Sunz Clan, Burzuruk's Gargant Big Mob armies have a Strategy Rating of 2.",
+  "army": "Bad Moon Gargants",
+  "version": "0.01",
+  "release": "Beta Release",
+  "strategy": "Bad Moon Gargants armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
       "Mob Rule",
@@ -62,7 +62,7 @@
               "upgrades": [
                   "0-1 Big Mob Oddboy: 50 points"
               ],
-          "points": 850
+          "points": 1000
           },
           {
             "name": "Great Gargant",

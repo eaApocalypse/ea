@@ -611,7 +611,7 @@
       "name": "Mega Gargant",
       "type": "WE",
       "speed": 15,
-      "armour": 5,
+      "armour": 4,
       "cc": 4,
       "ff": 4,
       "weapons": [
