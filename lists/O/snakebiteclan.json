@@ -1,14 +1,15 @@
 {
   "fraction": "Ork",
   "army": "Snakebite Clan",
-  "version": "1.1",
-  "release": "2019-02-20",
+  "version": "0.01",
+  "release": "Beta Release",
   "strategy": "Snakebite Clan armies have a Strategy Rating of 3.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
                     "Snakebite Clan Warlords",
                     "Mob Rule",
-                    "Power of the Waaagh!"
+                    "Power of the Waaagh!",
+                    "Heavy Armoured Vehicle (H-AV)"
   ],
   "usage": [
     "Unlike the very rigid formations used by the Imperium, Ork formations vary widely in both size and composition. The rules for creating Ork formations reflect this. The most common type of Ork formation is the warband. Other more specialised formations do exist, such as Kults of Speed and Blitz Brigades. The different types of Ork formations you may choose are shown on the army list that follows. The army list includes the following information:",
