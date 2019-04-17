@@ -1079,6 +1079,7 @@
           "Lascannon|2"
         ],
         "specialRules": [
+          "Skimmer",
           "Transport"
         ],
         "notes": "May transport three infantry units without Jump Packs or Mounted."
@@ -1094,7 +1095,10 @@
           "Helfrost Destructor",
           "Twin Lascannon",
           "Twin Heavy Bolter|2"
-        ]
+        ],
+        "specialRules": [
+          "Skimmer",
+        ],
       },
       {
         "name": "Predator Annihilator",

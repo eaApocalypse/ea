@@ -31,7 +31,8 @@
         "Hunter",
         "Stalker",
         "Land Raider",
-        "Baal Predator",
+        "Baal Predator Hades",
+        "Baal Predator Infernus",
         "Razorback",
         "Rhino",
         "Whirlwind",
@@ -75,7 +76,7 @@
       },
       {
         "name": "Baal Predators",
-        "units": "Four Baal Predators",
+        "units": "Four Baal Predator Hades or four Baal Predator Infurnace",
         "upgrades": [
           "AA Support",
           "Commander"

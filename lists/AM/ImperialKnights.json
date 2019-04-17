@@ -47,15 +47,9 @@
     {
       "from": "IG.json",
       "units": [
-        "PDF Commander",
-        "PDF Infantry",
-        "Thudd Gun",
-        "Rapier",
-        "Snipers",
         "Heavy AA Gun",
         "Howitzer",
-        "Rough Riders",
-        "Centaur"
+        "Rough Riders"
     ],
         "unitRules": [
       ]
@@ -276,44 +270,8 @@
             "points": "15 points"
           }
         ]
-      },
-      {
-        "name": "Rapiers",
-        "options": [
-          {
-            "description": "Add three Rapiers",
-            "points": "50 points"
-          }
-        ]
-      },
+      }
 
-      {
-        "name": "Thudd Guns",
-        "options": [
-          {
-            "description": "Add three Thudd Guns",
-            "points": "75 points"
-          }
-        ]
-      },
-      {
-        "name": "Snipers",
-        "options": [
-          {
-            "description": "Add up to two Snipers",
-            "points": "25 points each"
-          }
-        ]
-      },
-      {
-        "name": "Chimeras",
-        "options": [
-          {
-            "description": "Add 5 Chimeras to the formation, no other upgrades may be taken.",
-            "points": "150 points"
-          }
-        ]
-    }
     ]
   }
 }

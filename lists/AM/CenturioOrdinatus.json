@@ -137,7 +137,7 @@
       "formations": [
         {
           "name": "Ordinati Minoris",
-          "units": "Two Ordinati Minoris with mounted Battle Titan Weapon from the following",
+          "units": "Two or Three Ordinati Minoris with mounted Battle Titan Weapon from the following",
           "extraUnits": [
             "Add one Battle Titan Weapon listed to each Minoris",
             "Gatling Blaster +25",
@@ -149,7 +149,7 @@
             "Vortex Missile Launcher +25",
             "Titan Warp Missile Launcher +25"
           ],
-          "points": 125
+          "points": "125 points per Minoris"
         },
         {
           "name":  "0-1 per army Ordinati Majoris",
