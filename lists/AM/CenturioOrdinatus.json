@@ -14,22 +14,6 @@
   ],
   "units": [
     {
-      "from": "BattleTitanWeapons.json",
-      "units": [
-        "Gatling Blaster",
-        "Melta Cannon",
-        "Multiple Rocket Launcher",
-        "Quake Cannon",
-        "Volcano Cannon",
-        "Plasma Annihilator",
-        "Apocalypse Missile Launcher ",
-        "Vortex Missile Launcher",
-        "Titan Warp Missile Launcher"
-      ],
-        "unitRules": [
-      ]
-    },
-    {
       "from": "AM.json",
       "units": [
         "Archmagos",
@@ -50,7 +34,32 @@
         "Ark Mechanicus Battleship"
       ],
         "unitRules": [
-            "God Machine Killer (GMK)"
+            "God Machine",
+            "God Machine Killer (GMK)",
+            "Void Shields"
+      ]
+    },
+    {
+      "from": "BattleTitanWeapons.json",
+      "units": [
+        "Gatling Blaster",
+        "Melta Cannon",
+        "Quake Cannon",
+        "Volcano Cannon",
+        "Carapace Landing Pad",
+        "Apocalypse Missile Launcher",
+        "Laser Blaster",
+        "Laser Burner",
+        "Plasma Cannon",
+        "Plasma Destructor",
+        "Barrage Missile",
+        "Deathstrike Missile",
+        "Vortex Missile",
+        "Warp Missile",
+        "Titan Power Fist"
+      ],
+        "unitRules": [
+          "Ignore Shields"
       ]
     }
 
@@ -140,14 +149,23 @@
           "units": "Two or Three Ordinati Minoris with mounted Battle Titan Weapon from the following",
           "extraUnits": [
             "Add one Battle Titan Weapon listed to each Minoris",
-            "Gatling Blaster +25",
+            "Gatling Blaster",
             "Melta Cannon +25",
-            "Multiple Rocket Launcher +25",
-            "Quake Cannon +50",
-            "Volcano Cannon +50",
-            "Plasma Annihilator +50",
-            "Vortex Missile Launcher +25",
-            "Titan Warp Missile Launcher +25"
+            "Quake Cannon  +50",
+            "Volcano Cannon  +25",
+            "Carapace Landing Pad +25",
+            "Apocalypse Missile Launcher",
+            "Laser Blaster +25",
+            "Laser Burner",
+            "Plasma Cannon  +25",
+            "Plasma Destructor  +50",
+            "*Barrage Missile  +25",
+            "*Deathstrike Missile  +25",
+            "Vortex Missile  +25",
+            "Warp Missile  +25",
+            "Titan Power Fist",
+            "Weapons Marked with '*' may be taken twice per 3k points."
+
           ],
           "points": "125 points per Minoris"
         },

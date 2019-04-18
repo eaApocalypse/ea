@@ -16,6 +16,12 @@
           "All friendly/allied units with a line of fire to a unit that has the 'God Machine' special rule recieve a blast marker if the unit with 'God Machine' is destroyed.",
           "Additionally when a Unit with the 'God Machine' Special rule is hit but a Pin Point attack from a space craft, the unit sufferes a TK(D6) instead of the usualy TK(D3) from each Pin Point."
         ]
+      },
+      {
+        "title": "Ignore Shields",
+        "description": [
+          "Ignores Powerfields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
+        ]
       }
     ],
     "unit": [
