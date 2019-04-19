@@ -18,7 +18,6 @@
         "Librarian",
         "Supreme Commander",
         "Assaults",
-        "Scouts",
         "Tacticals",
         "Terminators",
         "White Scars Bikes",
@@ -27,7 +26,6 @@
         "Land Speeder Tornado",
         "Land Speeder Typhoon",
         "White Scars Attack Bike",
-        "Dreadnought",
         "Dreadnought",
         "Hunter",
         "Stalker",
@@ -44,9 +42,9 @@
         "Strike Cruiser",
         "Drop Pod"
       ],
-      "unitRules": ["They Shall Know No Fear"
-
-    ]
+      "unitRules": [
+        "They Shall Know No Fear"
+        ]
     },
     {
       "from": "ImperialAllies.json",

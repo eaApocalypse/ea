@@ -22,10 +22,10 @@
         "Tacticals",
         "Terminators",
         "Assault Bikes",
-        "Land Speeder",
-        "Land Speeder Tornado",
-        "Land Speeder Typhoon",
         "Attack Bike",
+        "Ravenwing Bikes",
+        "Deathwing Terminators",
+        "Land Speeder Vengeance",
         "Dreadnought",
         "Hunter",
         "Stalker",
@@ -36,8 +36,8 @@
         "Rhino",
         "Whirlwind",
         "Vindicator",
-        "Landing Craft",
-        "Storm Talon Gunship",
+        "Nephilim Interceptor",
+        "Dark Talon Fighter-Bomber",
         "Thunderhawk",
         "Battle Barge",
         "Strike Cruiser",
@@ -62,26 +62,26 @@
       "name": "Dark Angels Detachments",
       "formations": [
         {
-          "name": "Ravenwing Darkshroud Squad",
-          "units": "0-1 Five Darkshroud Squads",
-          "upgrades": [
-          ],
-          "points": 300
-        },
-        {
           "name": "0-1 Ravenwing Bike Squad",
           "units": "Eight Ravenwing Bikes",
+          "upgrades": [
+            "Commander"
+          ],
           "points": 325
         },
         {
           "name": "Deathwing Terminators",
           "units": "Four Deathwing Terminators",
+          "upgrades": [
+            "Commander"
+          ],
           "points": 375
         },
         {
-          "name": "Land Speeder Squad",
+          "name": "Dark Angels Land Speeder Squad",
           "units": "Five Land Speeder Vengeance",
           "upgrades": [
+            "Commander"
           ],
           "points": 225
         }
@@ -206,11 +206,6 @@
           "AA Support"
         ],
         "points": 275
-    },
-    {
-      "name": "Landing Craft",
-      "units": "One Landing Craft",
-      "points": 350
     }
     ]
     },
@@ -219,9 +214,14 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
-          "name": "Storm Talon Squadron",
-          "units": "Two Storm Talons",
-          "points": 200
+          "name": "Nephilim Interceptor Squadron",
+          "units": "Two Nephilim Interceptor",
+          "points": 225
+        },
+        {
+          "name": "Dark Talon Fighter-Bomber Squadron",
+          "units": "Two Dark Talon Fighter-Bombers",
+          "points": 225
         },
         {
           "name": "Thunderhawk",

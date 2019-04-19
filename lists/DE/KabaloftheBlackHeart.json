@@ -2,7 +2,7 @@
   "fraction": "Dark Eldar",
   "army": "Kabal of the Black Heart",
   "version": "0.01",
-  "release": "2019-03-17",
+  "release": "Beta Release",
   "strategy": "Kabal of the Black Heart armies have a Strategy Rating of 4.",
   "Initiative": "Dark Eldar Kabal, Tormentor, Torture Titans, and Executioner formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+. Partisans receive a +1 modifier when attempting an engage action.",
 
@@ -187,11 +187,11 @@
       "formations": [
         {
           "name": "Razorwing Cast",
-          "units": "Two to Three Razorwing Fighters",
+          "units": "Two Razorwing Fighters",
           "upgrades": [
 
           ],
-          "points": "100 points each"
+          "points": 200
         },
         {
           "name": "Voidraven Cast",

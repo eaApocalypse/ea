@@ -1,14 +1,14 @@
 {
   "fraction": "Eldar",
-  "army": "Biel-Tan",
+  "army": "Exodite Maiden World",
   "version": "0.01",
   "release": "Beta Release",
-  "strategy": "Biel-Tan Eldar armies have a Strategy Rating of 4.",
+  "strategy": "Exodite Maiden World Eldar armies have a Strategy Rating of 4.",
   "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": ["Avatar","Eldar Garrisons","Farsight","Hit and Run","Holofields (x)","Lance", "Ignore Shields","Shield Disruptor", "Webway Portal"],
   "usage": [
-    "The following army list allows you to field an army based on the Eldar Craftworld Biel-Tan."
+    "The following army list allows you to field an army based on an Eldar Exodite Maiden World."
   ],
   "units": [
     {
@@ -68,7 +68,7 @@
 ],
 "sections": [
     {
-      "name": "Biel-Tan Special",
+      "name": "Exodite Maiden World Special",
       "formations": [
         {
           "name": "0-1 Avatar",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "name": "Biel-Tan Hosts",
+      "name": "Exodite Maiden World Hosts",
       "formations": [
         {
           "name": "Aspect Warrior Warhost",
@@ -109,8 +109,8 @@
       ]
     },
     {
-      "name": "Biel-Tan Troupes",
-      "description": "Up to three for each Biel-Tan host taken",
+      "name": "Exodite Maiden World Troupes",
+      "description": "Up to three for each Exodite Maiden World host taken",
       "formations": [
 
         {
@@ -178,7 +178,7 @@
       ]
     },
     {
-      "name": "Biel-Tan Aircraft, Spacecraft and Titans",
+      "name": "Exodite Maiden World Aircraft, Spacecraft and Titans",
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
@@ -241,7 +241,7 @@
     }
   ],
   "upgrades": {
-    "title": "Biel-Tan Upgrades",
+    "title": "Exodite Maiden World Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {

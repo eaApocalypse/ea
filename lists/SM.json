@@ -335,10 +335,10 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 2,
-        "ff": 3,
+        "cc": 3,
+
         "weapons": [
-          "Power Weapons"
+          "Lightning Claws"
         ],
         "specialRules": [
           "Reinforced Armour",
@@ -530,7 +530,7 @@
       ]
       },
       {
-        "name": "Ravenwing Assault Bikes",
+        "name": "Ravenwing Bikes",
         "type": "INF",
         "speed": 35,
         "armour": 4,
@@ -691,9 +691,9 @@
         ]
       },
       {
-        "name": "Ravenwing Land Speeder Tornado",
+        "name": "Land Speeder Vengeance",
         "type": "LV",
-        "speed": 30,
+        "speed": 35,
         "armour": 4,
         "cc": 6,
         "ff": 4,
@@ -704,8 +704,7 @@
         "specialRules": [
           "Scout",
           "Skimmer",
-          "Invulnerable Save",
-          "Teleport Homer"
+          "Invulnerable Save"
         ]
       },
       {
@@ -1097,8 +1096,8 @@
           "Twin Heavy Bolter|2"
         ],
         "specialRules": [
-          "Skimmer",
-        ],
+          "Skimmer"
+        ]
       },
       {
         "name": "Predator Annihilator",
@@ -1373,21 +1372,21 @@
       "notes": "May transport two infantry units without Mounted; Terminators and Dreadnoughts count as two units each."
       },
       {
-        "name": "Ravenwing Nephilim Interceptor",
+        "name": "Nephilim Interceptor",
         "type": "AC",
         "speed": "Fighter",
         "armour": 6,
         "weapons": [
           "AC Twin Heavy Bolter||FxF",
-          "AC Twin Lascannon||FxF",
-          "AC Blacksword Missiles||FxF"
+          "AC Lascannon||FxF",
+          "AC Underwing Rockets||FxF"
       ],
       "specialRules": [
         "Invulnerable Save"
     ]
     },
       {
-        "name": "Ravenwing Dark Talon Fighter-Bomber",
+        "name": "Dark Talon Fighter-Bomber",
         "type": "AC",
         "speed": "Fighter-Bomber",
         "armour": 6,

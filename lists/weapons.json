@@ -659,10 +659,11 @@
       "name": "AC Stasis Bomb",
         "modes": [
           {
-            "firepower": "1BP",
+            "firepower": "2BP",
             "range": 15,
             "specialRules": [
-              "D"
+              "IC",
+              "SS"
           ]
         }
       ]
@@ -1009,7 +1010,7 @@
       "name": "AC Underwing Rockets",
       "modes": [
         {
-          "firepower": "AT4+ FxF",
+          "firepower": "AT4+",
           "range": 30
         }
       ]
@@ -5191,6 +5192,25 @@
       ]
     },
     {
+      "name": "Lightning Claws",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)"
+          ]
+        },
+        {
+          "firepower": "Assault Weapons",
+          "join": "and",
+          "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Liquefiers",
         "modes": [
           {
@@ -6895,7 +6915,7 @@
       "name": "Reaper Missile Launchers",
       "modes": [
         {
-          "firepower": "2x AP5+",
+          "firepower": "AP4+/AT4+",
           "range": 45,
           "specialRules": [
           ]
@@ -8645,7 +8665,7 @@
       "name": "AC Twin Heavy Bolter",
       "modes": [
         {
-          "firepower": "AP5+/AA5+",
+          "firepower": "AP4+/AA5+",
           "range": 15
         }
       ]
@@ -9508,7 +9528,7 @@
       "name": "Wraith Cannons",
         "modes": [
           {
-            "firepower": "MW5+",
+            "firepower": "2x MW5+",
             "range": 15
           },
           {
