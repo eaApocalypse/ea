@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Black Legion",
-  "version": "1.32",
-  "release": "2019-02-26",
+  "version": "0.01",
+  "release": "Beta Release",
   "strategy": "Black Legion armies have a Strategy Rating of 4.",
   "Initiative": "All Black Legion Core, Elite and Support formations, as well as all Traitor Titan formations, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
@@ -78,16 +78,15 @@
     ]
   },
     {
-      "from": "traitortitanlegions.json",
+      "from": "TraitorTitanLegions.json",
       "units": [
         "Chaos Warhound",
-        "Chaos Reaver",
-        "Chaos Warlord"
+        "Ravager Titan",
+        "Banelord Titan"
       ],
       "unitRules": [
         "Void Shields",
-        "God Machine",
-        "Split Fire"
+        "God Machine"
     ]
   },
   {
@@ -139,7 +138,7 @@
           "name": "Chosen",
           "units": "Four Chosen",
           "upgrades": [
-            "Transport",
+            "Transport (Chaos Rhinos only)",
             "Dreadclaws",
             "Dreadnoughts",
             "Daemonic Pact"
@@ -316,7 +315,7 @@
             "points": "50 points"
           },
           {
-            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Chaos Undivided",
+            "description": "Replace the Chaos Lord and its unit with a Daemon Prince",
             "points": "75 points"
           }
         ]

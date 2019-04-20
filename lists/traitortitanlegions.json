@@ -100,7 +100,28 @@
         "specialRules": [
           "Damage Capacity 6",
           "Void Shields 4",
-
+          "Fearless",
+          "Reinforced Armour",
+          "Walker"
+        ],
+        "notes": "(May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.) *Critical Hit Effect*: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+        },
+        {
+        "name": "Ravager Titan",
+        "type": "WE",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "ff": 3,
+        "weapons": [
+          "Doom Burner",
+          "Death Storm|2",
+          "Battlehead",
+          "Guntail"
+        ],
+        "specialRules": [
+          "Damage Capacity 6",
+          "Void Shields 4",
           "Fearless",
           "Reinforced Armour",
           "Walker"
@@ -119,7 +140,6 @@
             "Damage Capacity 8",
             "Void Shields 6",
             "God Machine",
-
             "Fearless",
             "Reinforced Armour",
             "Walker"
@@ -139,7 +159,6 @@
         "weapons": ["Beam of Ecstasy|0-1|FwA", "Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Paired Sonic Devastators||FxF", "Musk Flail", "Lust Lash"],
         "specialRules": [
           "God Machine",
-
           "Damage Capacity 8",
           "Void Shields 6",
           "Fearless",
@@ -160,7 +179,6 @@
         "weapons": ["Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Heavy Plague Mortar||FxF", "Corruption Cannon||FxF", "Plague Flail"],
         "specialRules": [
           "God Machine",
-
           "Damage Capacity 9",
           "Void Shields 5",
           "Fearless",
@@ -170,8 +188,8 @@
           "Must be armed with either a Plasma Incinerator, Cyclone Cannon or Beam Blaster"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
-    },
-        {
+      },
+      {
           "name": "Banelord Titan",
           "type": "WE",
           "speed": 15,
@@ -181,7 +199,6 @@
           "weapons": ["Hellstrike Cannon|0-1|FwA", "Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Havoc Barrage Missile|6|FxF", "Guntail", "Doomfist"],
           "specialRules": [
             "God Machine",
-
             "Damage Capacity 8",
             "Void Shields 6",
             "Fearless",
@@ -202,7 +219,6 @@
         "weapons": ["Tzeench Cannon|0-2|FwA", "Plasma Incinerator|0-2|FwA", "Beam Blaster|0-2|FwA", "Beam of Change||FxF", "AA Flame Cannon|3|"],
         "specialRules": [
           "God Machine",
-
           "Damage Capacity 8",
           "Void Shields 6",
           "Fearless",
@@ -212,7 +228,113 @@
           "Must be armed with either two Tzeench Cannons, two Plasma Incinerators or two Beam Blasters"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
-    }
+      },
+      {
+"name": "Plaguehound",
+"type": "WE",
+"speed": 25,
+"armour": 5,
+"cc": 4,
+"ff": 5,
+"weapons": ["Pus Cannon||FwA", "Boil Cannon||FwA"],
+"specialRules": [
+"Damage Capacity 4",
+"Void Shields 2",
+"Fearless",
+"Reinforced Armour",
+"Walker"
+],
+"notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+},
+{
+"name": "Bloodhound",
+"type": "WE",
+"speed": 30,
+"armour": 5,
+"cc": 4,
+"ff": 5,
+"weapons": ["Death Storm|0-1|FwA", "Plasma Furnace|0-1|FwA", "Ursus Claw", "Battlehead"],
+"specialRules": [
+"Damage Capacity 3",
+"Void Shields 2",
+"Fearless",
+"Reinforced Armour",
+"Walker",
+"Must be armed with either Death Storm or Plasma Furnace"
+],
+"notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+},
+{
+"name": "Warphound",
+"type": "WE",
+"speed": 30,
+"armour": 5,
+"cc": 5,
+"ff": 5,
+"weapons": ["Arcane Cannons||FwA", "Gaze of Tzeench||FwA", "Daemon Maw"],
+"specialRules": [
+"Damage Capacity 3",
+"Void Shields 2",
+"Fearless",
+"Reinforced Armour",
+"Walker"
+],
+"notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the titan into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
+},
+{
+"name": "Reviler Titan",
+"type": "WE",
+"speed": 20,
+"armour": 4,
+"cc": 3,
+"ff": 3,
+"weapons": ["Hex Cannon|0-1|FwA", "Turbo Blaster|0-1|FwA", "Plasma Cremator|0-1|FwA", "Sonic Devastator||FxF", "Musk Flail", "Lust Lash"],
+"specialRules": [
+"Damage Capacity 6",
+"Void Shields 4",
+"Fearless",
+"Reinforced Armour",
+"Walker",
+"Must be armed with either Hex Cannon, Turbo Blaster or Plasma Cremator"
+],
+"notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+},
+{
+"name": "Repugnant Titan",
+"type": "WE",
+"speed": 20,
+"armour": 4,
+"cc": 3,
+"ff": 3,
+"weapons": ["Rot Cannon|0-1|FwA", "Turbo Blaster|0-1|FwA", "Plasma Cremator|0-1|FwA", "Plague Mortar||FxF", "Plague Flail"],
+"specialRules": [
+"Damage Capacity 7",
+"Void Shields 3",
+"Fearless",
+"Reinforced Armour",
+"Walker",
+"Must be armed with either Rot Cannon, Turbo Blaster or Plasma Cremator"
+],
+"notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+},
+{
+"name": "Mutator Titan",
+"type": "WE",
+"speed": 20,
+"armour": 4,
+"cc": 4,
+"ff": 3,
+"weapons": ["Hex Cannon|0-1|FwA", "Turbo Blaster|0-1|FwA", "Coruscant Hail|0-1|FwA", "Beam of Change||FwA", "AA Flame Cannon"],
+"specialRules": [
+"Damage Capacity 6",
+"Void Shields 4",
+"Fearless",
+"Reinforced Armour",
+"Walker",
+"Must be armed with either Hex Cannon, Turbo Blaster or Coruscant Hail"
+],
+"notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+},
 
      ]
   }

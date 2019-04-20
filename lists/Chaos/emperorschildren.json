@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Space Marines",
   "army": "Emperor's Children",
-  "version": "1.5",
-  "release": "2019-02-27",
+  "version": "0.01",
+  "release": "Beta Release",
   "strategy": "Emperor's Children armies have a Strategy Rating of 4.",
   "Initiative": "All Emperor's Children Core, Elite and Support formations, as well as the Chaos Thunderhawk, have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
   "specialRules":
