@@ -139,7 +139,7 @@
         ]
       },
       {
-        "name": "Champion of Chaos Undivided",
+        "name": "Champion of Chaos",
         "type": "CH",
         "weapons": [
           "Daemonic Bolt"
@@ -200,7 +200,7 @@
         ]
       },
       {
-        "name": "Daemon Prince of Chaos Undivided",
+        "name": "Daemon Prince",
         "type": "INF",
         "speed": 30,
         "armour": 4,
@@ -613,7 +613,7 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 2,
+        "cc": 3,
         "weapons": [
           "Manifested Melee Weapons"
         ],
@@ -625,7 +625,7 @@
         ]
       },
       {
-        "name": "Chaos Space Marine Assault Bikes",
+        "name": "Chaos Space Marine Bikes",
         "type": "INF",
         "speed": 35,
         "armour": 4,

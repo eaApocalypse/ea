@@ -218,8 +218,8 @@
           "cc": 5,
           "ff": 3,
           "weapons": [
-            "Battle Cannon|2|FxF",
-            "Reaper Autocannon|4|FxF"
+            "Battle Cannon|2|FwA",
+            "Reaper Autocannon|4|FwA"
           ],
           "specialRules": [
               "Damage Capacity 4",
