@@ -58,7 +58,7 @@
         "unitRules": [
           "Daemon Engine (x)",
           "God Machine",
-          "Split Fire"
+
         ]
     },
     {
@@ -77,8 +77,8 @@
     "units": [
         "Heldrake Interceptor",
         "Baledrake Fighter-Bomber",
-      "Devastation Class Cruiser",
-      "Despoiler Class Battleship"
+        "Devastation Class Cruiser",
+        "Despoiler Class Battleship"
   ],
   "unitRules": [
       "God Machine Killer (GMK)"
@@ -298,7 +298,7 @@
         "name": "Transport",
         "options": [
           {
-            "description": "Add four Chaos Rhinos (Retinue only)",
+            "description": "Add up to four Chaos Rhinos",
             "points": "Free"
           },
           {

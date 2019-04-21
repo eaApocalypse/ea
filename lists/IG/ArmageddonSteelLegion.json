@@ -61,7 +61,7 @@
           "Reaver Titan",
           "Warlord Titan"
         ],
-      "unitRules": ["Void Shields", "Independent", "God Machine", "Split Fire"]
+      "unitRules": ["Void Shields", "Independent", "God Machine", ]
     },
 
     {

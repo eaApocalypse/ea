@@ -115,14 +115,14 @@
       "description": "One Elite Formation may be fielded per Core Formation",
       "formations": [
         {
-          "name": "Chaos Space Marines",
-          "units": "Four Chaos Space Marines, one Aspiring Sorcerer",
+          "name": "Chosen",
+          "units": "Four Chosen",
           "upgrades": [
+            "Transport (Chaos Rhinos only)",
             "Dreadnoughts",
-            "Predators",
-            "Transport"
+            "Daemonic Pact"
           ],
-          "points": 175
+          "points": 125
         },
         {
           "name": "Thousand Sons Terminators",
