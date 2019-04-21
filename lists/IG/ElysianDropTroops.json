@@ -1,8 +1,8 @@
 {
   "fraction": "Astra Militarum",
   "army": "Elysian Drop Troops",
-  "version": "1.2",
-  "release": "2019-03-11",
+  "version": "0.01",
+  "release": "Beta Release",
   "strategy": "Elysian Drop Troop armies have a Strategy Rating of 2.",
   "Initiative": "All formations have a Initiative of 2+.",
 

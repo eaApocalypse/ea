@@ -74,7 +74,7 @@
     ]
   },
     {
-      "from": "TraitorTitanLegions.json",
+      "from": "traitortitanlegions.json",
       "units": [
         "Plaguehound",
         "Repugnant Titan"

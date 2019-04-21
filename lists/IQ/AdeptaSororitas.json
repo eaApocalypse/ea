@@ -2,7 +2,7 @@
   "fraction": "Imperial Inquisition",
   "army": "Adepta Sororitas",
   "version": "0.01",
-  "release": "2019-01-20",
+  "release": "Beta Release",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "All Sister of Battle formations have an Initiative Rating of 1+. All Inquisitorial Support Detachments and Imperial Navy formations have an Initiative Rating of 2+.",
   "specialRules": ["Act of Faith"

@@ -73,7 +73,7 @@
     ]
   },
     {
-      "from": "TraitorTitanLegions.json",
+      "from": "traitortitanlegions.json",
       "units": [
         "Warphound"
       ],
@@ -115,14 +115,14 @@
       "description": "One Elite Formation may be fielded per Core Formation",
       "formations": [
         {
-          "name": "Chosen",
-          "units": "Four Chosen",
+          "name": "Chaos Space Marines",
+          "units": "Four Chaos Space Marines, one Aspiring Sorcerer",
           "upgrades": [
-            "Transport (Chaos Rhinos only)",
             "Dreadnoughts",
-            "Daemonic Pact"
+            "Predators",
+            "Transport"
           ],
-          "points": 125
+          "points": 175
         },
         {
           "name": "Thousand Sons Terminators",

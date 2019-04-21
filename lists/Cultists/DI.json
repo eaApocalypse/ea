@@ -1,8 +1,8 @@
 {
   "fraction": "Chaos Cultists",
   "army": "Daemonic Incursion",
-  "version": "2.6",
-  "release": "2019-03-15",
+  "version": "0.01",
+  "release": "Beta Release",
   "strategy": "Daemonic Incursion armies have a Strategy Rating of 0.",
   "Initiative": "All Daemon formations have an Initiative Rating of 1+. Dark Mechanicus and Chaos Cultist formations have an Initiative Rating of 2+.",
   "specialRules":
