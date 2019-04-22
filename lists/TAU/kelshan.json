@@ -4,7 +4,7 @@
   "version": "1.2",
   "release": "2019-02-22",
   "strategy": "Ke’lshan armies have a Strategy Rating of 3.",
-  "Initiative": "Ke’lshan Tau armies have a Strategy Rating of 3. Riptide, Specialist Battle Suits, Stormsurge, Supremacy Suits and Manta Dropship formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Ke’lshan Tau armies have a Strategy Rating of 3. Riptide, Specialist Battle Suits, Stormsurg, Supremacy Suits and Manta Dropship formations have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
             "Coordinated Fire",
@@ -102,7 +102,7 @@
           "upgrades": [
 
           ],
-          "points": 250
+          "points": 300
         },
         {
           "name": "Sniper Drone team",
