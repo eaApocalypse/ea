@@ -64,7 +64,7 @@
 
 
 
-        {
+      {
           "title": "Spirit of the Ancients",
           "description": [
             "As long as he is alive, a Living Ancestor confers Invulnerable Save to all units in the formation."
@@ -732,14 +732,13 @@
       "title": "Patriarch Host",
       "description": [
           "A Genestealer army must include a Patriarch Host. This formation is always considered to be the BTS even if it not the most expensive formation.",
-          "While the Patriarch Brood Coven unit is on the table all units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediatly loses Fearless.",
-          "In addition, while the Patriarch Host is alive and on the table, all units in a 'Cult Guard' formation with a Genestealer Primus are considered Expendable (except for the unit with the Genestealer Primus). If the Genestealer Primus dies, the 'Cult Guard' units immediately loses Expendable"
+          "While the Patriarch Brood Coven unit is on the table all infantry units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediatly loses Fearless."
       ]
     },
     {
-      "title": "Expert Tunneler",
+      "title": "Genestealer Primus",
       "description": [
-        "Formations with 'Expert Tunneler' have the tunneler special rule except they can be placed anywhere on the table from turn 2 instead of being limited to they friendly half."
+        "While the Patriarch Host is alive and on the table, all infantry units in a 'Cult Guard' formation with a Genestealer Primus are considered Super Expendable (except for the unit with the Genestealer Primus). If the Genestealer Primus dies, the 'Cult Guard' units immediately loses Expendable. If the Genestealer Primus dies in an assault, all units are counted for casualties as normal."
       ]
     },
     {

@@ -6,7 +6,15 @@
   "strategy": "Cult of the Four Armed Emperor armies have a Strategy Rating of 1.",
   "Initiative": "All formations have an Initiative Rating of 1+. All Cult Guard formantions have an initative rating 2+.",
 
-  "specialRules": ["Patriarch Host","Genestealer Magus","Cult Guard","Cult Ambush","Expert Tunneler","Extreme Mobility"],
+  "specialRules": [
+                   "Patriarch Host",
+                   "Genestealer Primus",
+                   "Genestealer Magus",
+                   "Cult Guard",
+                   "Cult Ambush",
+                   "Expert Tunneler",
+                   "Extreme Mobility"
+                 ],
   "usage": [
     "The first major such cult encountered by the Imperium, the Cult of the Four-Armed Emperor appeared on Ghosar Quintus in 680.M41 by quietly taking over the planet's ruling Trysst Dynasty. The Cult was ultimately thought eliminated by a Deathwatch Kill-Team led by Ortan Cassius.",
     "However the truth is far more disturbing, for before the arrival of the Deathwatch on Ghosar Quintus the Cult of the Four-Armed Emperor had its members infiltrate work groups which were then shipped across the galaxy by the Departmento Munitorum. The corrupted Trysst dynasty has endured, and the Cult of the Four-Armed Emperor now exists across many worlds in Ultima Segmentum. The Cult has come to specialize in mining, burrowing, and subterranean exploration and in war are known for their ambush, demolition, and mining tactics. They are one of the few Genestealer cults that plan to spread on a galactic level as opposed to merely planetary.",
