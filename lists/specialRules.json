@@ -804,12 +804,6 @@
       ]
     },
     {
-      "title": "Ponderous",
-      "description": [
-        "Units with this rule are very slow even by Necron standards. When broken they may only make a single withdrawal move, not the usual two."
-        ]
-    },
-    {
       "title": "Stable",
       "description": [
         "Formations containing units with 'Stable' don’t phase out in the end phase. If the formation has lost all the units with 'Stable' they phase out as normal and are considered destroyed as normal."

@@ -204,8 +204,8 @@
             "Portal",
             "Skimmer",
             "Teleport",
-            "Thick Rear Armour",
-            "Ponderous"
+            "Thick Rear Armour"
+
           ]
       },
       {
@@ -223,8 +223,8 @@
             "Living Metal",
             "Skimmer",
             "Teleport",
-            "Thick Rear Armour",
-            "Ponderous"
+            "Thick Rear Armour"
+
           ]
       },
       {
@@ -397,7 +397,7 @@
             "Gauss Flux Arc"
           ],
           "specialRules": [
-            "Damage Capacity 2",
+            "Damage Capacity 3",
             "Fearless",
             "Living Metal",
             "Teleport",
@@ -422,7 +422,6 @@
             "Damage Capacity 3",
             "Commander",
             "Fearless",
-            "Ponderous",
             "Leader",
             "Living Metal",
             "Portal",
@@ -434,7 +433,7 @@
       },
       {
           "name": "C’tan Shard",
-          "type": "WE",
+          "type": "H-AV",
           "speed": 20,
           "armour": 3,
           "cc": 4,
@@ -445,17 +444,16 @@
             "Pyreshards"
           ],
           "specialRules": [
-            "Damage Capacity 2",
             "Inspiring",
             "Living Metal",
-            "C'tans can use portals. If the C’tan Shard becomes broken at any point it is immediatly removed from play, removing it in this way does not cause Blast Markers for hackdowns."
+            "C'tans can use portals. If the C’tan Shard becomes broken at any point it is immediatly removed from play, removing it in this way does not cause Blast Markers or hackdowns."
           ],
-          "notes": "Critical Hit Effect: The C'tan is destroyed and removed from play."
+          "notes": "May use Portals."
       },
       {
           "name": "Seraptek Heavy Construct",
-          "type": "WE",
-          "speed": 25,
+          "type": "H-AV",
+          "speed": 20,
           "armour": 3,
           "cc": 4,
           "ff": 4,
@@ -464,12 +462,11 @@
             "Titanic Forelimbs"
           ],
           "specialRules": [
-            "Damage Capacity 2",
             "Fearless",
             "Living Metal",
             "Walker"
           ],
-          "notes": "Critical Hit Effect: The unit is destroyed. All units within 5cm suffer a macro-weapon hit on a roll of 4+."
+          "notes": "May use Portals."
       }
 
 

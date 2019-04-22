@@ -13,7 +13,7 @@
             "Necron",
             "Portal",
             "Living Metal",
-            "Ponderous",
+
             "Stable",
             "Implacable Advance",
             "Phase Out"
@@ -87,10 +87,15 @@
       "name": "Sautekh Dynasty Phalanx’s",
       "formations": [
         {
-          "name": "Ghost Ark Phalanx",
+          "name": "Ghost Ark Mechanised Phalanx",
           "units": "Three Ghost Arks, six Necron Warrior one Necron Lord.",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+            "Add one Cryptek and one Ghost Ark for 100 points",
+            "Add up to three Annihilation Barges for 50 points each",
+            "Add up to three Doomsday Arks for 50 points each",
+            "Add up to three Wraiths for 50 points each",
+            "Add up to three Triarch Stalkers for 50 points each",
+            "Swap up to 3 Necron Warriors for Immortals for 25 points each"
           ],
           "points": 275
         }
@@ -98,20 +103,24 @@
     },
     {
       "name": "Sautekh Dynasty Support Formations",
-      "description": "Up to three for each Maynarkh Dynasty Phalanx taken",
+      "description": "Up to three for each Maynarkh Dynasty Mechanised Phalanx taken",
       "formations": [
         {
           "name": "Infantry Phalanx",
           "units": "Eight Necron Warriors and one Necron Lord",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+            "Add up to three Tomb Spyders for 50 points each",
+            "Add up to three Wraiths for 50 points each",
+            "Add one Cryptek for 50 points",
+            "Swap up to 3 Necron Warriors for Immortals for 25 points each",
+            "Add One C'tan Shard for 100 points"
           ],
           "points": 275
         },
         {
           "name": "Blade Maniple",
           "units": "Six Tomb Blades",
-          "upgrades": [
+          "extraUnits": [
             "Listed Below"
           ],
           "points": 200
@@ -119,56 +128,62 @@
         {
           "name": "Iudicium Maniple",
           "units": "Five Doomsday Arks or five Annihilation Barges",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+            "Add one Command barge with a Lord Character for 50 points"
           ],
           "points": 225
         },
         {
           "name": "Eques Maniple",
           "units": "Any six of the following units: Destroyers, Heavy Destroyers",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+          "Add One Necron Lord for 25 points",
+          "Add up to three Wraiths for 50 points each"
           ],
           "points": 300
         },
         {
           "name": "Monolith Maniple",
-          "units": "Two Monoliths and two Obelisks",
-          "upgrades": [
-            "Listed Below"
+          "units": "Three Monoliths and two Obelisks",
+          "extraUnits": [
+            "Add one Obelisk for 50 points",
+            "Add up to one Monolith for 75 points"
           ],
           "points": 250
         },
         {
           "name": "Stalker Maniple",
           "units": "Four Triarch Stalkers",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+            "Add 0-2 Seraptek Heavy Construct for 125 points each"
           ],
           "points": 200
         },
         {
           "name": "Sentry Maniple",
           "units": "Four Sentry Pylons.",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+
           ],
           "points": 225
         },
         {
           "name": "Triarch Phalanx",
           "units": "Four Triarch Praetorian Units",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+            "Add one Necron Lord unit for 25 points",
+            "Add one Cryptek character for 50 points",
+            "Add two Triarch Praetorian unit for 125 points",
+            "Add up to three Triarch Stalkers for 50 points each",
+            "Add One C'tan Shard 100 points"
           ],
           "points": 275
         },
         {
           "name": "Letum Maniple",
           "units": "Four Death Marks ",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+
           ],
           "points": 200
         }
@@ -181,40 +196,40 @@
         {
           "name": "0–1 Harvester Engine",
           "units": "One of the following units: Abattoir, Æonic Orb",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
           "points": 600
         },
         {
           "name": "0–1 Spacecraft",
           "units": "One Scythe Class Harvester",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
           "points": 350
         },
         {
           "name": "Night Scythes",
           "units": "Two Night Scythes",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
           "points": 175
         },
         {
           "name": "Doom Scythes",
           "units": "Two Doom Scythe units",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
           "points": 225
         },
         {
           "name": "Night Shroud Bomber",
           "units": "Two Night Shroud Bomber",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
           "points": 275
         }
@@ -222,131 +237,9 @@
     }
   ],
   "upgrades": {
-    "title": "Sautekh Dynasty Upgrades",
+    "title": "",
     "items": [
-      {
-        "name": "Ghost Ark Phalanx",
-        "options": [
-          {
-            "description": "Add one Cryptek and one Ghost Ark",
-            "points": "100 Points"
-          },
-          {
-            "description": "Add up to three Annihilation Barges",
-            "points": "50 pts each"
-          },
-          {
-            "description": "Add up to three Doomsday Arks",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add up to three Wraiths",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add up to three Triarch Stalkers",
-            "points": "50 points each"
-          },
-          {
-            "description": "Swap up to 3 Necron Warriors for Immortals",
-            "points": "25 points each"
-          }
-        ]
-      },
-      {
-        "name": "Infantry Phalanx",
-        "options": [
-          {
-            "description": "Add up to three Tomb Spyders",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add up to three Wraiths",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add one Cryptek",
-            "points": "50 points each"
-          },
-          {
-            "description": "Swap up to 3 Necron Warriors for Immortals",
-            "points": "25 points each"
-          },
-          {
-            "description": "Add One C'tan Shard",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Iudicium Maniple",
-        "options": [
-          {
-            "description": "Add one Command barge with a Lord Character",
-            "points": "50 points"
-          }
-        ]
-      },
-      {
-        "name": "Eques Maniple",
-        "options": [
-          {
-            "description": "Add One Necron Lord",
-            "points": "25 points"
-          },
-          {
-            "description": "Add up to three Wraiths",
-            "points": "50 points each"
-          }
-        ]
-      },
-      {
-        "name": "Monolith Maniple",
-        "options": [
-          {
-            "description": "Add one Obelisk",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add up to one Monolith ",
-            "points": "75 points each"
-          }
-        ]
-      },
-      {
-        "name": "Stalker Maniple",
-        "options": [
-          {
-            "description": "Add 0-2 Seraptek Heavy Construct",
-            "points": "125 points each"
-          }
-        ]
-      },
-      {
-        "name": "Triarch Phalanx",
-        "options": [
-          {
-            "description": "Add one Necron Lord unit",
-            "points": "50 points"
-          },
-          {
-            "description": "Add one Cryptek unit",
-            "points": "50 points"
-          },
-          {
-            "description": "Add two Triarch Praetorian unit",
-            "points": "125 points"
-          },
-          {
-            "description": "Add up to three Triarch Stalkers ",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add One C'tan Shard",
-            "points": "100 points"
-          }
-        ]
-      }
+
     ]
   }
 }

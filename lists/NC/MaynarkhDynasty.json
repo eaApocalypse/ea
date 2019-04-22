@@ -13,7 +13,7 @@
             "Necron",
             "Portal",
             "Living Metal",
-            "Ponderous",
+
             "Stable",
             "Implacable Advance",
             "Phase Out"
@@ -80,8 +80,12 @@
         {
           "name": "Infantry Phalanx",
           "units": "Eight Necron Warriors and one Necron Lord",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+            "Add up to three Tomb Spyders for 50 points each",
+            "Add up to three Wraiths for 50 points each",
+            "Add one Cryptek for 50 points",
+            "Swap up to 3 Necron Warriors for Immortals for 25 points each",
+            "Add One C'tan Shard for 100 points"
           ],
           "points": 275
         }
@@ -94,32 +98,37 @@
         {
           "name": "Armoued Phalanx",
           "units": "Five Obelisks",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Eques Maniple",
           "units": "Any six of the following units: Destroyers, Heavy Destroyers",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+          "Add One Necron Lord for 25 points",
+          "Add up to three Wraiths for 50 points each"
           ],
           "points": 300
         },
         {
           "name": "Monolith Maniple",
-          "units": "Two Monoliths and two Obelisks",
-          "upgrades": [
-            "Listed Below"
+          "units": "Three Monoliths and two Obelisks",
+          "extraUnits": [
+            "Add one Obelisk for 50 points",
+            "Add up to one Monolith for 75 points"
           ],
           "points": 250
         },
         {
           "name": "Venator Maniple",
           "units": "Six Flayed Ones",
-          "upgrades": [
-            "Listed Below"
+          "extraUnits": [
+	          "Add one Necron Lord for 25 points.",
+            "Add up to three Tomb Spyders for 50 points each",
+            "Add up to three Wraiths for 50 points each",
+            "Add one Cryptek for 50 points"
           ],
           "points": 200
         }
@@ -132,113 +141,43 @@
         {
           "name": "0–1 Harvester Engine",
           "units": "One of the following units: Abattoir, Æonic Orb",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
           "points": 600
         },
         {
           "name": "0–1 Spacecraft",
           "units": "One Scythe Class Harvester",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
           "points": 350
         },
         {
           "name": "Pylon",
           "units": "One Pylon",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
-          "points": 200
+          "points": 225
         },
         {
           "name": "0–2 Warbarque",
           "units": "One Warbarque",
-          "upgrades": [
-            "None"
+          "extraUnits": [
+
           ],
           "points": 275
         }
       ]
     }
   ],
-  "upgrades": {
-    "title": "Maynarkh Dynasty Upgrades",
+  "extraUnits": {
+    "title": "",
     "items": [
-      {
-        "name": "Infantry Phalanx",
-        "options": [
-          {
-            "description": "Add up to three Tomb Spyders",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add up to three Wraiths",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add one Cryptek",
-            "points": "50 points each"
-          },
-          {
-            "description": "Swap up to three Necron Warriors for Immortals",
-            "points": "25 points each"
-          },
-          {
-            "description": "(0-1 per army) Add one C'tan Shard",
-            "points": "100 points"
-          }
-        ]
-      },
-      {
-        "name": "Eques Maniple",
-        "options": [
-          {
-            "description": "Add one Necron Lord",
-            "points": "25 points"
-          },
-          {
-            "description": "Add up to three Wraiths",
-            "points": "50 points each"
-          }
-        ]
-      },
-      {
-        "name": "Monolith Maniple",
-        "options": [
-          {
-            "description": "Add one Obelisk",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add one Monolith ",
-            "points": "75 points each"
-          }
-        ]
-      },
-      {
-        "name": "Venator Maniple",
-        "options": [
-          {
-            "description": "Add one Necron Lord",
-            "points": "25 points"
-          },
-          {
-            "description": "Add up to three Tomb Spyders",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add up to three Wraiths",
-            "points": "50 points each"
-          },
-          {
-            "description": "Add one Cryptek",
-            "points": "50 points each"
-          }
-        ]
-      }
+
+
     ]
   }
 }
