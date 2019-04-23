@@ -37,6 +37,7 @@
         "Rhino",
         "Whirlwind",
         "Vindicator",
+        "Storm Raven Gunship",
         "Storm Talon Gunship",
         "Thunderhawk",
         "Battle Barge",
@@ -65,6 +66,7 @@
           "name": "0-1 Sanguinary Guard",
           "units": "Six Sanguinary Guard plus transport",
           "upgrades": [
+            "Storm Raven Gunships",
             "Land Raiders",
             "AA Support",
             "Commander",
@@ -119,6 +121,7 @@
           "name": "Tacticals",
           "units": "Six Tacticals plus transport",
           "upgrades": [
+            "Storm Raven Gunships",
             "Land Raiders",
             "AA Support",
             "Commander",
@@ -132,6 +135,7 @@
         "name": "Devastators",
         "units": "Four Devastators plus transport",
         "upgrades": [
+          "Storm Raven Gunships",
           "Land Raiders",
           "AA Support",
           "Commander",
@@ -247,6 +251,7 @@
     "title": "Codex Astartes/Blood Angel Upgrades",
     "description": "Each upgrade may be taken once per detachment",
     "items": [
+
       {
         "name": "Attack Bikes",
         "description": "Replace any number of Assault Bikes with an equal number of Attack Bikes",
@@ -293,6 +298,11 @@
       {
         "name": "Land Raiders",
         "description": "Add any number of Land Raiders, up to the number required to transport the formation",
+        "points": "50 points each"
+      },
+      {
+        "name": "Storm Raven Gunships",
+        "description": "Add any number of Storm Raven Gunships up to the number required to transport the formation",
         "points": "50 points each"
       },
       {

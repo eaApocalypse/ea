@@ -1239,6 +1239,24 @@
         "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
+        "name": "Storm Raven Gunship",
+        "type": "AV",
+        "speed": 35,
+        "armour": 5,
+        "cc": 6,
+        "ff": 4,
+        "weapons": [
+          "Twin Assault Cannon",
+          "Twin Heavy Bolter",
+          "Hurricane Bolter|2"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Transport"
+      ],
+      "notes": "May transport two infantry units without Mounted."
+      },
+      {
         "name": "Vindicator",
         "type": "AV",
         "speed": 25,
@@ -1351,26 +1369,7 @@
           "AC Twin Heavy Bolter||FxF"
         ]
       },
-      {
-        "name": "Storm Raven Gunship",
-        "type": "AC/WE",
-        "speed": "Bomber",
-        "armour": 4,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "AC Twin Assault Cannon||FxF",
-          "AC Twin Heavy Bolter||FxF",
-          "Hurricane Bolter|2|"
-      ],
-      "specialRules": [
-        "Damage Capacity 1",
-        "Reinforced Armour",
-        "Planetfall",
-        "Transport"
-      ],
-      "notes": "May transport two infantry units without Mounted; Terminators and Dreadnoughts count as two units each."
-      },
+
       {
         "name": "Nephilim Interceptor",
         "type": "AC",
