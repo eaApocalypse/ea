@@ -18,7 +18,7 @@
         "Supreme Commander",
         "Invulnerable Save",
         "Inspiring",
-        "Expert Tunneler"
+        "Tunneler"
       ]
     },
     {
@@ -77,7 +77,7 @@
         "Seismic Cannons","Claws"
       ],
       "specialRules": [
-        "Expert Tunneler",
+        "Tunneler",
         "One in every two has a Seismic Cannon."
       ]
     },
@@ -92,7 +92,7 @@
        "Mining Laser","Claws"
       ],
       "specialRules": [
-        "Expert Tunneler",
+        "Tunneler",
         "Cult Ambush"
       ]
     },
@@ -131,7 +131,7 @@
         "Giant Mauls"
       ],
       "specialRules": [
-        "Expert Tunneler",
+        "Tunneler",
         "Cult Ambush"
       ]
     },
@@ -159,7 +159,7 @@
         "Purestrain Rending Claws"
       ],
       "specialRules": [
-        "Expert Tunneler",
+        "Tunneler",
         "Cult Ambush",
         "Infiltraitors"
       ]
@@ -175,7 +175,7 @@
         "Metamorph Guns","Metamorph Claws"
       ],
       "specialRules": [
-        "Expert Tunneler",
+        "Tunneler",
         "Cult Ambush",
         "Infiltraitors"
       ]
