@@ -227,8 +227,8 @@
     {
       "name": "Armoured Limousine",
       "type": "LV",
-      "speed": 35,
-      "armour": 4,
+      "speed": 30,
+      "armour": 5,
       "cc": 6,
       "ff": 5,
       "weapons": [
