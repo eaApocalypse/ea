@@ -114,12 +114,12 @@
         },
         {
           "name": "Monolith Maniple",
-          "units": "Three Monoliths and two Obelisks",
+          "units": "Two Monoliths and two Obelisks",
           "extraUnits": [
             "Add one Obelisk for 50 points",
             "Add up to one Monolith for 75 points"
           ],
-          "points": 250
+          "points": 225
         },
         {
           "name": "Venator Maniple",
