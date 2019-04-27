@@ -4570,10 +4570,13 @@
       "name": "Hydraulic Claw",
         "modes": [
           {
-            "firepower": "Assault Weapons"
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "MW"
+            ]
           }
-      ]
-    },
+        ]
+      },
     {
       "name": "Hyperios Launcher",
       "modes": [

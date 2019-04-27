@@ -141,14 +141,14 @@
         "name": "Ork Aircraft formations",
         "description": "Up to a fourth of the points available may be spent on these formations",
         "formations": [
-            {
-              "name": "Evil Sunz Fighta Skwadron",
-              "units": "Three Speed Freek Fightas",
-              "upgrades": [
-                  "Add up to six Speed Freek Fightas for 50 points each"
-              ],
-              "points": 175
-          },
+          {
+            "name": "Fighta Skwadron",
+            "units": "Three Fighta-Bommers",
+            "upgrades": [
+                "Add up to six Fighta-Bommers for 50 points each"
+            ],
+            "points": 150
+        },
           {
             "name": "Bommer",
             "units": "One Bommer",

@@ -563,7 +563,6 @@
           "Damage Capacity 10",
           "Power Fields 1D3+6",
           "God Machine",
-
           "Fearless",
           "Reinforced Armour",
           "Walker",
@@ -600,7 +599,6 @@
           "Damage Capacity 10",
           "Power Fields 1D3+6",
           "God Machine",
-
           "Fearless",
           "Reinforced Armour",
           "Walker"
@@ -610,7 +608,7 @@
     {
       "name": "Mega Gargant",
       "type": "WE",
-      "speed": 15,
+      "speed": 10,
       "armour": 4,
       "cc": 4,
       "ff": 4,

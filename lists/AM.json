@@ -149,6 +149,7 @@
             "Transuranic Arquebus"
           ],
           "specialRules": [
+            "Scout"
           ]
       },
       {
@@ -296,7 +297,6 @@
             "Twin Lascannon|0-1|"
           ],
           "specialRules": [
-            "Scout",
             "Walker",
             "Invulnerable Save"
           ]
@@ -313,8 +313,6 @@
             "Taser Lance"
           ],
           "specialRules": [
-            "Infiltrator",
-            "Scout",
             "Walker",
             "Invulnerable Save"
           ]
