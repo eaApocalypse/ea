@@ -22,409 +22,449 @@
         "Invulnerable Save"
       ]
     },
-      {
-      "name": "Termagaunts",
-      "type": "INF",
-      "speed": 20,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Fleshborers"
-      ],
-      "specialRules": [
-        "Gaunts",
-        "Expendable"
-      ]
-      },
-      {
-      "name": "Hormagaunts",
-      "type": "INF",
-      "speed": 20,
-      "cc": 3,
-      "weapons": [
-        "Claws"
-      ],
-      "specialRules": [
-        "Gaunts",
-        "Infiltrators",
-        "Expendable"
-      ]
-      },
-      {
-      "name": "Gargoyles",
-      "type": "INF",
-      "speed": 30,
-      "cc": 6,
-      "ff": 6,
-      "weapons": [
-        "Swarm Strike"
-      ],
-      "specialRules": [
-        "Gaunts",
-        "Jump Packs",
-        "Expendable"
-      ]
-      },
-      {
-      "name": "Raveners",
-      "type": "INF",
-      "speed": 20,
-      "armour": 5,
-      "cc": 4,
-
-      "weapons": [
-        "Burrowclaws"
-      ],
-      "specialRules": [
-        "Gaunts",
-        "Tunneler",
-        "Infiltrators",
-        "Expendable"
-      ]
-      },
-      {
-      "name": "Genestealers",
-      "type": "INF",
-      "speed": 20,
-      "armour": 6,
-      "cc": 2,
-
-      "weapons": [
-        "Rending Claws"
-      ],
-      "specialRules": [
-        "Scout",
-        "Infiltrators"
-      ]
-      },
-      {
-      "name": "Biovore",
-      "type": "INF",
-      "speed": 15,
-      "armour": 6,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Spore Mines"
-      ],
-      "specialRules": [
-        ""
-      ]
-      },
-      {
-      "name": "Ravener Alphas",
-      "type": "LV",
-      "speed": 20,
-      "armour": 4,
-      "cc": 4,
-
-      "weapons": [
-        "Burrowclaws"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Tunneler",
-        "Infiltrators"
-      ]
-      },
-      {
-      "name": "Tyranid Warriors",
-      "type": "LV",
-      "speed": "20cm/30cm",
-      "armour": "5+/6",
-      "cc": 2,
-      "ff": 5,
-      "weapons": [
-        "Deathspitters"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Jump Packs (Shrike)"
+    {
+    "name": "Biovore",
+    "type": "INF",
+    "speed": 15,
+    "armour": 6,
+    "cc": 6,
+    "ff": 5,
+    "weapons": [
+      "Spore Mines"
     ],
-    "notes": "Gains Speed 30cm, Jump Pack and Armour 6+ if upgraded to Shrike (Wings)"
-      },
-      {
-      "name": "Zoanthrope",
-      "type": "LV",
-      "speed": 15,
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "Warp Blast"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Invulnerable Save"
-      ]
-      },
-      {
-      "name": "Lictor",
-      "type": "LV",
-      "speed": 15,
-      "armour": "5",
-      "cc": 3,
-      "ff": 6,
-      "weapons": [
-        "Flesh Hooks", "Scythed Claws"
-      ],
-      "specialRules": [
-        "First Strike",
-        "Infiltrators",
-        "Scout",
-        "Invulnerable Save",
-        "Teleport"
-      ]
-      },
-      {
-      "name": "Dagon Overlord",
-      "type": "AV",
-      "speed": "20cm/30cm",
-      "armour": "3+/4",
-      "cc": 2,
-
-      "weapons": [
-        "Boneswords"
-      ],
-      "specialRules": [
-        "Hive Mind Locus",
-        "Inspiring",
-        "Synapse",
-        "Fearless",
-        "Reinforced Armour",
-        "Commander",
-        "Leader",
-        "Jump Packs (Shrike)"
-    ],
-        "notes": "Gains Speed 30cm, Jump Pack and Armour 4+ if upgraded to Shrike (Wings)"
-      },
-      {
-      "name": "Swarmlord",
-      "type": "AV",
-      "speed": "20cm/30cm",
-      "armour": "4+/5",
-      "cc": 3,
-      "ff": 5,
-      "weapons": [
-        "Venom Cannon",
-        "Large Claws"
-      ],
-      "specialRules": [
-        "Hive Mind Locus",
-        "Inspring",
-        "Synapse",
-        "Fearless",
-        "Reinforced Armour",
-        "Commander",
-        "Leader",
-        "Jump Packs (Shrike)"
-    ],
-            "notes": "Gains Speed 30cm, Jump Pack and Armour 5+ if upgraded to Shrike (Wings)"
-      },
-      {
-      "name": "Hive Tyrant",
-      "type": "AV",
-      "speed": "20cm/30cm",
-      "armour": "4+/5",
-      "cc": 3,
-      "ff": 5,
-      "weapons": [
-        "Venom Cannon",
-        "Large Claws"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Reinforced Armour",
-        "Commander",
-        "Leader",
-        "Jump Packs (Shrike)"
-    ],
-            "notes": "Gains Speed 30cm, Jump Pack and Armour 5+ if upgraded to Shrike (Wings)"
-      },
-      {
-      "name": "Carnifex",
-      "type": "AV",
-      "speed": 20,
-      "armour": 4,
-      "cc": 3,
-      "ff": 4,
-      "weapons": [
-        "Bio-Plasma",
-        "Large Claws"
-      ],
-      "specialRules": [
-        "Reinforced Armour"
-      ]
-      },
-      {
-      "name": "Dactylis",
-      "type": "AV",
-      "speed": 25,
-      "armour": 5,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Bio-Acid-Venom Pods"
-      ],
-      "specialRules": [
-
-      ]
-      },
-      {
-      "name": "Exocrine",
-      "type": "AV",
-      "speed": 25,
-      "armour": 5,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Bio-Plasmic Cannon"
-      ],
-      "specialRules": [
-
-      ]
-      },
-      {
-      "name": "Haruspex",
-      "type": "AV",
-      "speed": 25,
-      "armour": 5,
-      "cc": 4,
-      "ff": 5,
-      "weapons": [
-        "Acid Jets",
-        "Massive Claws"
-      ],
-      "specialRules": [
-        "Reinforced Armour"
-      ]
-      },
-      {
-      "name": "Malefactor",
-      "type": "AV",
-      "speed": 25,
-      "armour": 5,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Frag Spines",
-        "Large Claws"
-      ],
-      "specialRules": [
-        "Reinforced Armour",
-        "Transport 2 (Termagaunts, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes takes 2 spaces each)"
-      ]
-      },
-      {
-      "name": "Harpy",
-      "type": "AV",
-      "speed": 35,
-      "armour": 5,
-      "cc": 4,
-      "ff": 5,
-      "weapons": [
-        "Stranglethorn Cannon",
-        "Spore Cyst",
-        "Grasping Talons"
-      ],
-      "specialRules": [
-        "Reinforced Armour",
-        "Skimmer"
-      ]
-      },
-      {
-      "name": "Tervigon Prime",
-      "type": "H-AV",
-      "speed": 25,
-      "armour": 4,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Gaunt Pouch",
-        "Frag Spines",
-        "Large Claws"
-      ],
-      "specialRules": [
-         "Synapse",
-         "Fearless",
-        "Reinforced Armour",
-        "Swarm (2)"
-      ]
-      },
-      {
-      "name": "Tervigon",
-      "type": "H-AV",
-      "speed": 25,
-      "armour": 5,
-      "cc": 5,
-      "ff": 5,
-      "weapons": [
-        "Gaunt Pouch",
-        "Frag Spines",
-        "Large Claws"
-      ],
-      "specialRules": [
-        "Reinforced Armour",
-        "Swarm (2)"
-      ]
-      },
-      {
-      "name": "Trygon Prime",
-      "type": "H-AV",
-      "speed": 25,
-      "armour": 4,
-      "cc": 3,
-      "ff": 6,
-      "weapons": [
-        "Large Claws"
-      ],
-      "specialRules": [
-        "Synapse",
-        "Fearless",
-        "Reinforced Armour",
-        "Tunneler"
+    "specialRules": [
+      ""
     ]
     },
     {
-    "name": "Trygon",
+    "name": "Gargoyles",
+    "type": "INF",
+    "speed": 30,
+    "cc": 6,
+    "ff": 6,
+    "weapons": [
+      "Swarm Strike"
+    ],
+    "specialRules": [
+      "Gaunts",
+      "Jump Packs",
+      "Expendable"
+    ]
+    },
+    {
+    "name": "Genestealers",
+    "type": "INF",
+    "speed": 20,
+    "armour": 6,
+    "cc": 2,
+
+    "weapons": [
+      "Rending Claws"
+    ],
+    "specialRules": [
+      "Scout",
+      "Infiltrators"
+    ]
+    },
+    {
+    "name": "Hormagaunts",
+    "type": "INF",
+    "speed": 20,
+    "cc": 3,
+    "weapons": [
+      "Claws"
+    ],
+    "specialRules": [
+      "Gaunts",
+      "Infiltrators",
+      "Expendable"
+    ]
+    },
+    {
+    "name": "Raveners",
+    "type": "INF",
+    "speed": 20,
+    "armour": 5,
+    "cc": 4,
+
+    "weapons": [
+      "Burrowclaws"
+    ],
+    "specialRules": [
+      "Gaunts",
+      "Tunneler",
+      "Infiltrators",
+      "Expendable"
+    ]
+    },
+
+    {
+    "name": "Termagaunts",
+    "type": "INF",
+    "speed": 20,
+    "cc": 6,
+    "ff": 5,
+    "weapons": [
+      "Fleshborers"
+    ],
+    "specialRules": [
+      "Gaunts",
+      "Expendable"
+    ]
+    },
+    {
+    "name": "Lictor",
+    "type": "LV",
+    "speed": 15,
+    "armour": "5",
+    "cc": 3,
+    "ff": 6,
+    "weapons": [
+      "Flesh Hooks", "Scythed Claws"
+    ],
+    "specialRules": [
+      "First Strike",
+      "Infiltrators",
+      "Scout",
+      "Invulnerable Save",
+      "Teleport"
+    ]
+    },
+    {
+    "name": "Ravener Alphas",
+    "type": "LV",
+    "speed": 20,
+    "armour": 4,
+    "cc": 4,
+
+    "weapons": [
+      "Burrowclaws"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Tunneler",
+      "Infiltrators"
+    ]
+    },
+    {
+    "name": "Tyranid Warriors",
+    "type": "LV",
+    "speed": "20cm/30cm",
+    "armour": "5+/6",
+    "cc": 2,
+    "ff": 5,
+    "weapons": [
+      "Deathspitters"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Jump Packs (Shrike)"
+    ],
+    "notes": "Gains Speed 30cm, Jump Pack and Armour 6+ if upgraded to Shrike (Wings)"
+    },
+    {
+    "name": "Zoanthrope",
+    "type": "LV",
+    "speed": 15,
+    "armour": 4,
+    "cc": 6,
+    "ff": 5,
+    "weapons": [
+      "Warp Blast"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Invulnerable Save"
+    ]
+    },
+    {
+    "name": "Carnifex",
+    "type": "AV",
+    "speed": 20,
+    "armour": 4,
+    "cc": 3,
+    "ff": 4,
+    "weapons": [
+      "Bio-Plasma",
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Reinforced Armour"
+    ]
+    },
+    {
+    "name": "Dactylis",
+    "type": "AV",
+    "speed": 25,
+    "armour": 5,
+    "cc": 5,
+    "ff": 5,
+    "weapons": [
+      "Bio-Acid-Venom Pods"
+    ],
+    "specialRules": [
+
+    ]
+    },
+    {
+    "name": "Dagon Overlord",
+    "type": "AV",
+    "speed": "20cm/30cm",
+    "armour": "3+/4",
+    "cc": 2,
+
+    "weapons": [
+      "Boneswords"
+    ],
+    "specialRules": [
+      "Hive Mind Locus",
+      "Inspiring",
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour",
+      "Commander",
+      "Leader",
+      "Jump Packs (Shrike)"
+    ],
+      "notes": "Gains Speed 30cm, Jump Pack and Armour 4+ if upgraded to Shrike (Wings)"
+    },
+    {
+    "name": "Exocrine",
+    "type": "AV",
+    "speed": 25,
+    "armour": 5,
+    "cc": 5,
+    "ff": 5,
+    "weapons": [
+      "Bio-Plasmic Cannon"
+    ],
+    "specialRules": [
+
+    ]
+    },
+    {
+    "name": "Harpy",
+    "type": "AV",
+    "speed": 35,
+    "armour": 5,
+    "cc": 4,
+    "ff": 5,
+    "weapons": [
+      "Stranglethorn Cannon",
+      "Spore Cyst",
+      "Grasping Talons"
+    ],
+    "specialRules": [
+      "Reinforced Armour",
+      "Skimmer"
+    ]
+    },
+    {
+    "name": "Haruspex",
+    "type": "AV",
+    "speed": 25,
+    "armour": 5,
+    "cc": 4,
+    "ff": 5,
+    "weapons": [
+      "Acid Jets",
+      "Massive Claws"
+    ],
+    "specialRules": [
+      "Reinforced Armour"
+    ]
+    },
+    {
+    "name": "Hive Tyrant",
+    "type": "AV",
+    "speed": "20cm/30cm",
+    "armour": "4+/5",
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Venom Cannon",
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour",
+      "Commander",
+      "Leader",
+      "Jump Packs (Shrike)"
+  ],
+          "notes": "Gains Speed 30cm, Jump Pack and Armour 5+ if upgraded to Shrike (Wings)"
+    },
+    {
+    "name": "Malefactor",
+    "type": "AV",
+    "speed": 25,
+    "armour": 5,
+    "cc": 5,
+    "ff": 5,
+    "weapons": [
+      "Frag Spines",
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Reinforced Armour",
+      "Transport 2 (Termagaunts, Hormagaunts, Gargoyles, Raveners, Biovores. Tyranid Warriors and Zoanthropes takes 2 spaces each)"
+    ]
+    },
+    {
+    "name": "Swarmlord",
+    "type": "AV",
+    "speed": "20cm/30cm",
+    "armour": "4+/5",
+    "cc": 3,
+    "ff": 5,
+    "weapons": [
+      "Venom Cannon",
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Hive Mind Locus",
+      "Inspring",
+      "Synapse",
+      "Fearless",
+      "Reinforced Armour",
+      "Commander",
+      "Leader",
+      "Jump Packs (Shrike)"
+    ],
+          "notes": "Gains Speed 30cm, Jump Pack and Armour 5+ if upgraded to Shrike (Wings)"
+    },
+    {
+    "name": "Tervigon Prime",
+    "type": "H-AV",
+    "speed": 25,
+    "armour": 4,
+    "cc": 5,
+    "ff": 5,
+    "weapons": [
+      "Gaunt Pouch",
+      "Frag Spines",
+      "Large Claws"
+    ],
+    "specialRules": [
+       "Synapse",
+       "Fearless",
+      "Reinforced Armour",
+      "Swarm (2)"
+    ]
+    },
+    {
+    "name": "Tervigon",
     "type": "H-AV",
     "speed": 25,
     "armour": 5,
+    "cc": 5,
+    "ff": 5,
+    "weapons": [
+      "Gaunt Pouch",
+      "Frag Spines",
+      "Large Claws"
+    ],
+    "specialRules": [
+      "Reinforced Armour",
+      "Swarm (2)"
+    ]
+    },
+    {
+    "name": "Trygon Prime",
+    "type": "H-AV",
+    "speed": 25,
+    "armour": 4,
     "cc": 3,
     "ff": 6,
     "weapons": [
       "Large Claws"
     ],
     "specialRules": [
+      "Synapse",
+      "Fearless",
       "Reinforced Armour",
       "Tunneler"
   ]
-    },
-    {
-    "name": "Harridan",
-    "type": "WE",
-    "speed": 35,
-    "armour": 5,
-    "cc": 5,
-    "ff": 5,
-    "weapons": [
-      "Bio-Cannon",
-      "Large Claws"
-    ],
-    "specialRules": [
-      "Damage Capacity: 3",
-      "Synapse",
-      "Fearless",
-      "Skimmer",
-      "Reinforced Armour",
-      "Transport 4 (Gargoyles)"
-    ],
-    "notes": "¤Critical Hit Effect¤: The Harridan is destroyed."
-    },
+  },
+  {
+  "name": "Trygon",
+  "type": "H-AV",
+  "speed": 25,
+  "armour": 5,
+  "cc": 3,
+  "ff": 6,
+  "weapons": [
+    "Large Claws"
+  ],
+  "specialRules": [
+    "Reinforced Armour",
+    "Tunneler"
+]
+  },
+  {
+  "name": "Barbed Hierodule Prime",
+  "type": "WE",
+  "speed": 30,
+  "armour": 5,
+  "cc": 4,
+  "ff": 5,
+  "weapons": [
+    "Twin Bio-Cannon",
+    "Large Claws"
+  ],
+  "specialRules": [
+    "Damage Capacity: 3",
+    "Synapse",
+    "Fearless",
+    "Reinforced Armour",
+    "Invulnerable Save"
+  ],
+  "notes": "¤Critical Hit Effect¤: The Hierodule Prime is destroyed."
+  },
+  {
+  "name": "Barbed Hierodule",
+  "type": "WE",
+  "speed": 30,
+  "armour": 5,
+  "cc": 4,
+  "ff": 5,
+  "weapons": [
+    "Twin Bio-Cannon",
+    "Large Claws"
+  ],
+  "specialRules": [
+    "Damage Capacity: 3",
+    "Reinforced Armour"
+
+  ],
+  "notes": "¤Critical Hit Effect¤: The Hierodule is destroyed."
+
+  },
+  {
+  "name": "Harridan",
+  "type": "WE",
+  "speed": 35,
+  "armour": 5,
+  "cc": 5,
+  "ff": 5,
+  "weapons": [
+    "Bio-Cannon",
+    "Large Claws"
+  ],
+  "specialRules": [
+    "Damage Capacity: 3",
+    "Synapse",
+    "Fearless",
+    "Skimmer",
+    "Reinforced Armour",
+    "Transport 4 (Gargoyles)"
+  ],
+  "notes": "¤Critical Hit Effect¤: The Harridan is destroyed."
+  },
     {
     "name": "Spawn Harridan",
     "type": "WE",
@@ -447,45 +487,7 @@
     ],
     "notes": "¤Critical Hit Effect¤: The Harridan is destroyed."
     },
-    {
-    "name": "Barbed Hierodule Prime",
-    "type": "WE",
-    "speed": 30,
-    "armour": 5,
-    "cc": 4,
-    "ff": 5,
-    "weapons": [
-      "Twin Bio-Cannon",
-      "Large Claws"
-    ],
-    "specialRules": [
-      "Damage Capacity: 3",
-      "Synapse",
-      "Fearless",
-      "Reinforced Armour",
-      "Invulnerable Save"
-    ],
-    "notes": "¤Critical Hit Effect¤: The Hierodule Prime is destroyed."
-    },
-    {
-    "name": "Barbed Hierodule",
-    "type": "WE",
-    "speed": 30,
-    "armour": 5,
-    "cc": 4,
-    "ff": 5,
-    "weapons": [
-      "Twin Bio-Cannon",
-      "Large Claws"
-    ],
-    "specialRules": [
-      "Damage Capacity: 3",
-      "Reinforced Armour"
 
-    ],
-    "notes": "¤Critical Hit Effect¤: The Hierodule is destroyed."
-
-    },
     {
     "name": "Scythed Hierodule Prime",
     "type": "WE",
@@ -506,8 +508,6 @@
 
     ],
     "notes": "¤Critical Hit Effect¤: The Scythed Hierodule Prime is destroyed."
-
-
     },
     {
     "name": "Scythed Hierodule",
@@ -527,8 +527,6 @@
 
     ],
     "notes": "¤Critical Hit Effect¤: The Scythed Hierodule is destroyed."
-
-
     },
     {
     "name": "Hive Nest",
