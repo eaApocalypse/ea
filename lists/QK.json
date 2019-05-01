@@ -231,7 +231,7 @@
           "speed": 25,
           "armour": 4,
           "cc": 4,
-          "ff": 5,
+          "ff": 4,
           "weapons": [
             "Battle Cannon",
             "Knight Power Lance"
@@ -248,7 +248,7 @@
           "speed": 25,
           "armour": 4,
           "cc": 4,
-          "ff": 5,
+          "ff": 4,
           "weapons": [
             "Castigator Cannon",
             "Tempest Warblade"
@@ -265,7 +265,7 @@
           "speed": 25,
           "armour": 4,
           "cc": 4,
-          "ff": 5,
+          "ff": 4,
           "weapons": [
             "Flame Cannon",
             "Reaper Chainfist"
@@ -282,7 +282,7 @@
           "speed": 25,
           "armour": 4,
           "cc": 4,
-          "ff": 5,
+          "ff": 4,
           "weapons": [
             "Graviton Singularity Cannon",
             "Atrapos Lascutter"
@@ -298,7 +298,7 @@
           "type": "H-AV",
           "speed": 20,
           "armour": 4,
-          "cc": 4,
+          "cc": 3,
           "ff": 3,
           "weapons": [
             "Volcano Lance",
@@ -319,7 +319,7 @@
           "type": "H-AV",
           "speed": 20,
           "armour": 4,
-          "cc": 4,
+          "cc": 3,
           "ff": 3,
           "weapons": [
             "Conflagration Cannon",

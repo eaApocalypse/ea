@@ -105,7 +105,7 @@
     },
     {
       "name": "Support Banners",
-      "description": "Up to two Support Households for each Core Banners.",
+      "description": "One Support Banner for each Core Banners.",
       "formations": [
       {
           "name": "Armiger Banner ",
