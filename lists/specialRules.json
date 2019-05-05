@@ -77,6 +77,17 @@
         ]
     },
 
+
+
+
+
+
+
+
+
+
+
+
     {
       "title": "Bravery",
       "description": [
@@ -90,11 +101,16 @@
       ]
     },
     {
+      "title": "Ion Gauntlet (X)",
+      "description": [
+        "Grants a (x+) save vs Normal, MW & TK shooting and FF hits and a (x+) save against Normal, MW and TK CC hits.",
+        "Each point of TK damage must be saved. Failed saves may use RA rerolls against the Knights armour if not negated by TK, MW or Lance special rules. May not be used in a crossfire."
+      ]
+    },
+    {
       "title": "Ion Shield (X)",
       "description": [
-        "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
-        "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately) If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
-        "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields)."
+        "Grants a (X) save vs Normal, MW & TK shooting and FF hits. Each point of TK damage must be saved. Failed saves may use RA rerolls against the Knights armour if not negated by TK, MW or Lance special rules. May not be used in a crossfire."
       ]
     },
     {
@@ -104,9 +120,21 @@
       ]
     },
     {
-      "title": "Lightning Charge",
+      "title": "Chain",
       "description": [
-        "Weapon gains First Strike when the wielder's formation initiated the Engage"
+        "Applies to Weapons marked with (Ch)",
+        "A natural roll of 6 on the first roll to hit with this weapon generates a further roll that hits as MW4+.",
+        "This additional roll does not generate any further hits."
+      ]
+    },
+    {
+      "title": "Tow",
+      "description": [
+        "Applies to Weapons marked with (T)",
+        "Any INF, LV, AV, H-AV and WE with DC3 or lower hit by this weapon may either take one point of damage, saved as allowed.",
+        "Or can be moved by the shooting player to any point, in a direct line, up to base contact with any unit in between the shooter and target up to base contact with the shooter.",
+        "Barging through as permitted at the choice of the shooter.",
+        "The towed unit must take any terrain tests as though it were moving normally."
       ]
     },
     {
@@ -840,6 +868,7 @@
         "Every Gargant Big Mob army must include a Supreme Command character called a Big Mek, which is free. If the army includes any Mega Gargant, then the Big Mek must be placed in it. If there are no Mega Gargants in the army then the Big Mek will join a Great Gargant."
       ]
     },
+
     {
       "title": "Snakebite Clan Warlords",
       "description": [
@@ -868,6 +897,12 @@
 
     {
       "title": "Clan Goffs Warlord",
+      "description": [
+        "Every Warhorde army must include a Supreme Commander character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. If the army includes any Gargants, then the Warlord must be placed in one of them. If there are no Gargants in the army then the Warlord will join a Supa-Stompa or Nobz unit."
+        ]
+    },
+    {
+      "title": "Ork Warlord",
       "description": [
         "Every Warhorde army must include a Supreme Commander character called a Warlord. The Warlord character is free, you don’t have to pay any points for it. If the army includes any Gargants, then the Warlord must be placed in one of them. If there are no Gargants in the army then the Warlord will join a Supa-Stompa or Nobz unit."
         ]

@@ -17,27 +17,44 @@
         {
           "title": "Stubborn",
           "description": [
-            "These Knights have the 'They Shall Know No Fear' Special rule."
+            "Reduce the damage caused by Blast Markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
+          ]
+        },
+        {
+          "title": "Ion Gauntlet (X)",
+          "description": [
+            "Grants a (x+) save vs Normal, MW & TK shooting and FF hits and a (x+) save against Normal, MW and TK CC hits.",
+            "Each point of TK damage must be saved. Failed saves may use RA rerolls against the Knights armour if not negated by TK, MW or Lance special rules. May not be used in a crossfire."
           ]
         },
         {
           "title": "Ion Shield (X)",
           "description": [
-            "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
-            "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately) If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
-            "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields)."
+            "Grants a (X) save vs Normal, MW & TK shooting and FF hits. Each point of TK damage must be saved. Failed saves may use RA rerolls against the Knights armour if not negated by TK, MW or Lance special rules. May not be used in a crossfire."
           ]
         },
         {
           "title": "Ignore Shields",
           "description": [
-            "Ignores Power Fields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
+            "Ignores Powerfields, Shadowfields, Ion Shields & Void Shields (Shadowfields still provide cover from shooting)."
           ]
         },
         {
-          "title": "Lightning Charge",
+          "title": "Chain",
           "description": [
-            "Weapon gains First Strike when the wielder's formation initiated the Engage"
+            "Applies to Weapons marked with (Ch)",
+            "A natural roll of 6 on the first roll to hit with this weapon generates a further roll that hits as MW4+.",
+            "This additional roll does not generate any further hits."
+          ]
+        },
+        {
+          "title": "Tow",
+          "description": [
+            "Applies to Weapons marked with (T)",
+            "Any INF, LV, AV, H-AV and WE with DC3 or lower hit by this weapon may either take one point of damage, saved as allowed.",
+            "Or can be moved by the shooting player to any point, in a direct line, up to base contact with any unit in between the shooter and target up to base contact with the shooter.",
+            "Barging through as permitted at the choice of the shooter.",
+            "The towed unit must take any terrain tests as though it were moving normally."
           ]
         },
         {
