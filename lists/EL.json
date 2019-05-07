@@ -1260,7 +1260,7 @@
       "notes": "Critical Hit Effect: The Holofield projector mounted in the Giant Carnosaur is badly damaged and will no longer work. The Megadon loses its Holofield save for the rest of the battle. Any further critical hits will cause an additional point of damage."
     },
     {
-      "name": "Giant Magadon",
+      "name": "Giant Megadon",
       "type": "WE",
       "speed": 25,
       "armour": 5,
