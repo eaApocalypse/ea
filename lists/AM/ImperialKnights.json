@@ -105,7 +105,7 @@
     },
     {
       "name": "Support Banners",
-      "description": "One Support Banner for each Core Banners.",
+      "description": "Up to two Support Banner for each Core Banners.",
       "formations": [
       {
           "name": "Armiger Banner ",
@@ -150,7 +150,7 @@
     },
     {
       "name": "Imperial Knight Support Formations",
-      "description": "Up to two Retainer Formations for each Core Banners.",
+      "description": "Up to one Retainer Formations for each Core Banners.",
       "formations": [
       {
         "name": "Flak Battery",
