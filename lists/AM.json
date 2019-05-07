@@ -94,7 +94,7 @@
           "name": "Skitarii Vanguard",
           "type": "INF",
           "speed": 15,
-          "armour": 5,
+          "armour": 6,
           "cc": 5,
           "ff": 5,
           "weapons": [
@@ -169,7 +169,7 @@
           "name": "Electro-Priests",
           "type": "INF",
           "speed": 15,
-          "armour": 4,
+          "armour": 5,
           "cc": 4,
           "ff": 4,
           "weapons": [
@@ -352,7 +352,7 @@
           ]
       },
       {
-          "name": "Terrax Pattern Termite Assault Drill",
+          "name": "Termite Assault Drill",
           "type": "AV",
           "speed": 20,
           "armour": 5,

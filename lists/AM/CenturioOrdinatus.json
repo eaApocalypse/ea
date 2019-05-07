@@ -27,7 +27,7 @@
         "Sydonian Dragoon",
         "Onager Dunecrawler",
         "Chimeradon",
-        "Terrax Pattern Termite Assault Drill",
+        "Termite Assault Drill",
         "Ordinati Minoris",
         "Ordinati Majoris",
         "Avenger Strike Fighters",
@@ -224,7 +224,7 @@
         "name": "Subterranean Assault",
         "options": [
           {
-            "description": "Add enough Terrax Pattern Termite Assault Drills to transport the entire formation",
+            "description": "Add enough Termite Assault Drills to transport the entire formation",
             "points": "25 points"
           }
         ]

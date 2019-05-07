@@ -30,7 +30,9 @@
         {
           "title": "Ion Shield (X)",
           "description": [
-            "Grants a (X) save vs Normal, MW & TK shooting and FF hits. Each point of TK damage must be saved. Failed saves may use RA rerolls against the Knights armour if not negated by TK, MW or Lance special rules. May not be used in a crossfire."
+            "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
+            "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately) If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
+            "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields)."
           ]
         },
         {

@@ -2526,7 +2526,7 @@
       "name": "Conqueror Cannon",
         "modes": [
           {
-            "firepower": "AT5+/AT5+",
+            "firepower": "AP5+/AT5+",
             "range": 45,
             "specialRules": [
           ]
@@ -4859,7 +4859,7 @@
             "specialRules": [
               "EA(+1)",
               "Lance",
-              "Lightning Charge"
+              "FS"
           ]
         }
       ]
