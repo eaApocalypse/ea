@@ -4,6 +4,8 @@
     "specialRules": [
     ],
     "unit": [
+
+
     {
       "name": "Wild Rider Chieftain",
       "type": "CH",
@@ -15,6 +17,209 @@
         "Supreme Commander",
         "Invulnerable Save",
         "Inspiring"
+      ]
+    },
+    {
+      "name": "Exodite Lord",
+      "type": "CH",
+      "weapons": [
+        "Exodite Lord Sacred Weapons"
+      ],
+      "specialRules": [
+        "Supreme Commander",
+        "Inspiring",
+        "Reinforced Armour",
+        "Invulnerable Save"
+
+      ]
+    },
+    {
+      "name": "Exodite Noble",
+      "type": "CH",
+      "weapons": [
+        "Exodite Sacred Weapons"
+      ],
+      "specialRules": [
+        "Inspiring"
+      ]
+    },
+    {
+      "name": "Exodite Warriors",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Shuriken Catapults"
+      ],
+      "specialRules": [
+        "Scouts"
+      ]
+    },
+    {
+      "name": "Megadon Mounted Scatter Laser",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "Scatter Laser"
+      ],
+      "specialRules": [
+        "Megadon"
+      ]
+    },
+    {
+      "name": "Megadon Mounted D-Cannon",
+      "type": "INF",
+      "speed": 15,
+      "cc": 6,
+      "ff": 5,
+      "weapons": [
+        "D-Cannon"
+      ],
+      "specialRules": [
+        "Megadon"
+      ]
+    },
+    {
+      "name": "Jungle Creatures and Tamers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 5,
+      "cc": 2,
+      "ff": 5,
+      "weapons": [
+        "Shuriken Pistols",
+        "Claws"
+      ],
+      "specialRules": [
+
+      ]
+    },
+    {
+      "name": "Desert Creatures and Tamers",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Shuriken Pistols",
+        "Claws"
+      ],
+      "specialRules": [
+        "Infiltraitors"
+
+      ]
+    },
+    {
+      "name": "Raptor Riders",
+      "type": "INF",
+      "speed": 30,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Shuriken Pistols"
+      ],
+      "specialRules": [
+        "Scouts",
+        "Mounted",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Dragon Riders",
+      "type": "INF",
+      "speed": 30,
+      "armour": 4,
+      "cc": 3,
+      "ff": 6,
+      "weapons": [
+        "Power Lances"
+      ],
+      "specialRules": [
+        "Mounted",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Pteradon Riders",
+      "type": "INF",
+      "speed": 35,
+      "armour": 5,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Lasblasters"
+      ],
+      "specialRules": [
+        "Scouts",
+        "Skimmers",
+        "Teleport"
+      ]
+    },
+    {
+      "name": "Wraithskulls",
+      "type": "LV",
+      "speed": 30,
+      "armour": 4,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Scatter Laser"
+      ],
+      "specialRules": [
+        "Scouts",
+        "Mounted",
+        "Walker"
+      ]
+    },
+    {
+      "name": "Megadon",
+      "type": "AV",
+      "speed": 20,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Pulse Laser",
+        "Scatter Laser"
+      ],
+      "specialRules": [
+        "Walker",
+        "Megadon"
+      ]
+    },
+    {
+      "name": "Heavy Weapon Megadon",
+      "type": "AV",
+      "speed": 20,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Crystal Cannon"
+      ],
+      "specialRules": [
+        "Walker",
+        "Megadon"
+      ]
+    },
+    {
+      "name": "Skywatcher Megadon",
+      "type": "AV",
+      "speed": 20,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Skywatcher Battery"
+      ],
+      "specialRules": [
+        "Walker",
+        "Megadon"
       ]
     },
     {
@@ -995,7 +1200,106 @@
         "Walker"
       ],
       "notes": "Critical Hit Effect: The Warlock’s Holofields are destroyed. Any further critical hits cause an additional point of damage."
+    },
+    {
+      "name": "Maiden Sword Megadon",
+      "type": "WE",
+      "speed": 20,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Maiden Sword Pulsar"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Reinforced Armour",
+        "Walker",
+        "Megadon"
+
+      ],
+      "notes": "Critical Hit Effect: The Megadon roars in pain as one of its vital organs is pierced. It tramples 2D6cm in a random direction before its legs give out and it dies. Any units in the path of the Megadon suffer a hit that counts as having been inflicted by a macro-weapon."
+    },
+    {
+      "name": "Maiden Spirit Megadon",
+      "type": "WE",
+      "speed": 20,
+      "armour": 5,
+      "cc": 4,
+      "ff": 5,
+      "weapons": [
+        "Warpstorm D-Cannon"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Reinforced Armour",
+        "Walker",
+        "Megadon"
+
+      ],
+      "notes": "Critical Hit Effect: The Megadon roars in pain as one of its vital organs is pierced. It tramples 2D6cm in a random direction before its legs give out and it dies. Any units in the path of the Megadon suffer a hit that counts as having been inflicted by a macro-weapon."
+    },
+    {
+      "name": "Giant Carnosaur",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+        "Pulse Laser|2",
+        "Giant Claws"
+      ],
+      "specialRules": [
+        "Damage Capacity: 3",
+        "Holofield(3+)",
+        "Walker",
+        "Fearless"
+
+      ],
+      "notes": "Critical Hit Effect: The Holofield projector mounted in the Giant Carnosaur is badly damaged and will no longer work. The Megadon loses its Holofield save for the rest of the battle. Any further critical hits will cause an additional point of damage."
+    },
+    {
+      "name": "Giant Magadon",
+      "type": "WE",
+      "speed": 25,
+      "armour": 5,
+      "cc": 3,
+      "ff": 3,
+      "weapons": [
+        "Pulsar Lasers|2",
+        "Snipers Rifles",
+        "Exodite Warriors",
+        "Twin Eldar Missile Launcher|2"
+      ],
+      "specialRules": [
+        "Damage Capacity: 5",
+        "Holofield(3+)",
+        "Reinforced Armour",
+        "Walker",
+        "Megadon"
+
+      ],
+      "notes": "Critical Hit Effect: The Holofield projector mounted in the Megadon’s wing is badly damaged and will no longer work. The Megadon loses its Holofield save for the rest of the battle. Any further critical hits will cause an additional point of damage."
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ]
   }
 ]

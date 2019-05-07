@@ -4,50 +4,57 @@
   "version": "0.01",
   "release": "Beta Release",
   "strategy": "Exodite Maiden World Eldar armies have a Strategy Rating of 4.",
-  "Initiative": "Aspect Warrior formations, Titans and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
+  "Initiative": "Massive Creatures have an initiative rating of 1+. All other Exodite formations have an initiative rating of 2+.",
 
-  "specialRules": ["Avatar","Eldar Garrisons","Farsight","Hit and Run","Holofields (x)","Lance", "Ignore Shields","Shield Disruptor", "Webway Portal"],
+  "specialRules": [
+            "Eldar Garrisons",
+            "Farsight",
+            "Hit and Run",
+            "Holofields (x)",
+            "Lance",
+            "Ignore Shields",
+            "Shield Disruptor",
+            "Webway Portal",
+            "Megadon",
+            "World Spirit"
+          ],
   "usage": [
-    "The following army list allows you to field an army based on an Eldar Exodite Maiden World."
+    "Eldar Exodite Maiden World formations come in three types; the first two are warhost and troupe formations. Each warhost you include in the army allows you to field any three troupe formations. Although you can only take a troupe formation if you first take a warhost, they are treated as separate independent formations during a battle and do not have to move around together. The third types of formation are Exodite Maiden World support, allies & massive creatures. A maximum of up to a third of the points available to the army may be spent on these formations.",
+    "Finally, Exodite Maiden World Individuals includes special characters, formations and objective options. Each individual may only be taken once by the army. The rules for using each individual are listed in the “Notes” column.",
+    "The army list includes the following information:",
+    "Formation: The name of the formation.",
+    "Units: The core units that make up the formation.",
+    "Extras: An Eldar formation may include any of the extra units listed in the “Extras” column. You may include any number of extra units in a formation unless it is specifically noted otherwise. All of the core and extra units in a formation count as being part of one formation. The different units may not move off on their own.",
+    "Cost: The points value of the formation."
   ],
   "units": [
     {
       "from": "EL.json",
       "units": [
-        "Eldar Autarch",
-        "Avatar",
-        "Eldar Exarch",
-        "Eldar Farseer",
-        "Eldar Warlock",
-        "Eldar Guardians",
-        "Eldar Heavy Weapons Platform",
-        "Support Weapons Platform",
+        "Exodite Lord",
+        "Exodite Noble",
+        "Farseer",
+        "Exodite Warriors",
+        "Megadon Mounted Scatter Laser",
+        "Megadon Mounted D-Cannon",
+        "Jungle Creature and Tamers",
+        "Raptor Riders",
         "Eldar Rangers",
-        "Eldar Jetbikes",
-        "Dire Avengers",
-        "Fire Dragons",
-        "Dark Reapers",
-        "Howling Banshees",
-        "Striking Scorpions",
-        "Shining Spears",
-        "Swooping Hawks",
-        "Warp Spiders",
-        "Wraithguards",
-        "Vyper",
+        "Dragon Riders",
+        "Desert Creature and Tamers",
+        "Pteradon Riders",
+        "Wraithskull",
         "War Walker",
-        "Wraithlord",
-        "Wave Serpent",
-        "Falcon",
-        "Fire Prism",
-        "Night Spinner",
-        "Firestorm",
-        "Scorpion",
-        "Cobra",
-        "Storm Serpent",
-        "Void Spinner",
-        "Revenant Titan",
-        "Phantom Titan",
-        "Warlock Titan"
+        "Megadon",
+        "Heavy Weapon Magadon",
+        "Skywatcher Megadon",
+        "Maiden Sword Megadon",
+        "Maiden Spirit Megadon",
+        "Fire Gale",
+        "Bright Stallion",
+        "Wraithknight",
+        "Great Carnosaur",
+        "Giant Megadon"
       ],
         "unitRules": [
       ]
@@ -57,7 +64,6 @@
       "units": [
         "Nightwing Interceptor",
         "Phoenix Bomber",
-        "Vampire Raider",
         "Wraithship",
         "Dragonship"
       ],
@@ -71,13 +77,13 @@
       "name": "Exodite Maiden World Special",
       "formations": [
         {
-          "name": "0-1 Avatar",
-          "units": "One Avatar",
+          "name": "0-1 Exodite Lord",
+          "units": "You may add an Exodite Lord Character to any Dragon Rider stand. If an Exodite Lord is taken then he counts as one of the Exodite Nobles in the Dragon Rider formation (see the entry for the Dragon Rider Warhosts below).",
 
-          "points": "free"
+          "points": 100
         },
         {
-          "name": "0-1 Wraithgate",
+          "name": "0–2 Wraithgate",
           "units": "Replace one objective marker in the Eldar player's half of the table with a Wraithgate, this counts as an objective marker and a Webway Portal which may not be attacked or damaged in any way. ",
 
           "points": 50
@@ -88,23 +94,20 @@
       "name": "Exodite Maiden World Hosts",
       "formations": [
         {
-          "name": "Aspect Warrior Warhost",
-          "units": "Eight Aspect Warrior units chosen from the following: Dark Reapers, Dire Avengers, Fire Dragons, Howling Banshees, Shining Spears, Striking Scorpions, Swooping Hawks, Warp Spiders",
-          "upgrades": [
-            "Autarch, Exarchs, Transport"
+          "name": "Dragon Rider Warhost",
+          "units": "Eight dragon rider units chosen from the following list: Dragon Riders, Pteradon Riders.",
+          "extraUnits": [
+            "The formation may include up to 1 Exodite Noble character upgrades for +25 points each."
           ],
           "points": 300
         },
         {
-          "name": "Guardian Warhost",
-          "units": "One Warlock unit and seven Guardians",
+          "name": "Creature Tamer Warhost",
+          "units": "Eight creature tamer units chosen from the following list: Desert Tamers, Jungle Tamers.",
           "extraUnits": [
-            "Heavy Weapons, Support Weapons, Wraithguard, Wraithlord.",
-            "OR",
-            "Heavy Weapons, Transport",
-            "Replace the Warlock with a Farseer +25 points."
+            "The formation may include up to 1 Exodite Noble character upgrades for +25 points each."
           ],
-          "points": 150
+          "points": 300
         }
       ]
     },
@@ -114,57 +117,61 @@
       "formations": [
 
         {
-          "name": "Ranger Troupe",
-          "units": "Four Eldar Rangers",
-          "upgrades": [
-            "Add up to four Eldar Rangers for 25 points each"
-          ],
-          "points": 100
-        },
-        {
-          "name": "War Walker Troupe",
-          "units": "Four War Walkers",
-          "upgrades": [
-              "Add up to two War Walkers for 25 points each"
-          ],
-          "points": 125
-        },
-        {
-          "name": "Wind Rider Troupe ",
-          "units": "Six Jetbike units",
-          "upgrades": [
-            "Vypers"
+          "name": "Raptor Rider Troupe",
+          "units": "Six Raptor Riders",
+          "extraUnits": [
+            "Any number of Raptors can be replaced with Wraithskulls at no additional cost."
           ],
           "points": 200
         },
         {
-          "name": "Falcon Troupe",
-          "units": "Five Falcons",
-          "upgrades": [
-            "Firestorm"
+          "name": "Megadons Troupe",
+          "units": "Five Megadons",
+          "extraUnits": [
+              "Up to two Megadons may be replaced with Skywatcher Megadons at no additional cost."
           ],
-          "points": 250
+          "points": 200
         },
         {
-          "name": "Fire Prism Troupe ",
-          "units": "Three Fire Prisms",
-          "upgrades": [
+          "name": "Ranger",
+          "units": "Four Rangers",
+          "extraUnits": [
+            "Add up to four Ranger units for +25 points each"
           ],
-          "points": 250
+          "points": 100
         },
         {
-          "name": "Night Spinner Troupe",
-          "units": "Three Night Spinners",
-          "upgrades": [
+          "name": "Megadon Guard Troupe",
+          "units": "Three Exodite Heavy Weapon Megadons",
+          "extraUnits": [
+            ""
           ],
-          "points": 175
+          "points": 200
         },
         {
-          "name": "Void Spinner Troupe",
-          "units": "One Void Spinner",
-          "upgrades": [
+          "name": "War Walker",
+          "units": "Four War Walkers",
+          "extraUnits": [
+            "Add up to two War Walkers for +25 points each"
           ],
-          "points": 300
+          "points": 150
+        },
+        {
+          "name": "Sacred Megadon Troupe",
+          "units": "Maiden Sword or Maiden Spirit Megadons",
+          "upgrades": [
+            "Add up to 2 additional Maiden Sword or Maiden Spirit Megadons in any combination for 200 points each."
+          ],
+          "points": 200
+        },
+        {
+          "name": "Exodite Warriors",
+          "units": "An Exodite Warrior Warhost consists of one Farseer unit and five Warrior units.",
+          "extraUnits": [
+            "Up to three Guardians may be replaced with Megadon Mounted Heavy Weapons at no additional cost in points.",
+            "In addition the formation may include 3 Megadon Mounted Heavy Weapons for +50 points."
+          ],
+          "points": 150
         },
         {
           "name": "Engine of Vaul Troupe",
@@ -198,36 +205,28 @@
           "points": 250
         },
         {
-          "name": "Vampire",
-          "units": "One Vampire Raider",
+          "name": "Giant Carnosaur",
+          "units": "One Giant Carnosaur",
           "upgrades": [
 
           ],
-          "points": 200
+          "points": 350
         },
         {
-          "name": "Revenants",
-          "units": "Two Revenant Titans",
+          "name": "Giant Megadon",
+          "units": "One Giant Megadon",
           "upgrades": [
 
           ],
-          "points": 650
+          "points": 600
         },
         {
-          "name": "Phantom",
-          "units": "One Phantom Titan",
+          "name": "Eldar Knights",
+          "units": "Three Fire Gales or Towering Destroyers in any combination (Any number of units may be exchanged for Bright Stallions for +25 points each.)",
           "upgrades": [
 
           ],
-          "points": 700
-        },
-        {
-          "name": "0-1 Warlock Titan",
-          "units": "One Warlock Titan",
-          "upgrades": [
-
-          ],
-          "points": 800
+          "points": 300
         },
         {
           "name": "0-1 Spacecraft",
@@ -239,56 +238,5 @@
         }
       ]
     }
-  ],
-  "upgrades": {
-    "title": "Exodite Maiden World Upgrades",
-    "description": "Each upgrade may be taken once per formation",
-    "items": [
-      {
-        "name": "0-1 Autarch",
-        "description": "Replace one Eldar Exarch character with an Eldar Autarch character",
-        "points": "25 points"
-      },
-      {
-        "name": "Exarch",
-        "description": "Add up to two Eldar Exarch characters to Eldar Aspect Warrior units",
-        "points": "50 points each"
-      },
-      {
-        "name": "Firestorm",
-        "description": "Replace one Falcon with a Firestorm",
-        "points": "Free"
-      },
-      {
-        "name": "Heavy Weapons",
-        "description": "Replace up to three Eldar Guardians with Eldar Heavy Weapon Platform units",
-        "points": "Free"
-      },
-      {
-        "name": "Support Weapons",
-        "description": "Add three Eldar Support Weapon Platform units",
-        "points": "50 points"
-      },
-      {
-        "name": "Transport",
-        "description": "Add enough Wave Serpents to transport all the units in the formation with no transport spaces left over if at all possible after any upgrades have been added to the formation.",
-        "points": "50 points each"
-      },
-      {
-        "name": "Vypers",
-        "description": "Replace any number of Eldar Jetbikes with Eldar Vypers",
-        "points": "Free"
-      },
-      {
-        "name": "Wraithguard",
-        "description": "Add three Eldar Wraithguards",
-        "points": "125 points"
-      },
-      {
-        "name": "Wraithlord",
-        "description": "Add three Eldar Wraithlords",
-        "points": "175 points"
-      }
-    ]
-  }
+  ]
 }

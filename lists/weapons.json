@@ -775,7 +775,7 @@
             "range": 15,
             "specialRules": [
               "TK(D2)",
-              "Shield Disruptor",
+              "Ignore Shields",
               "FxF"
               ]
           }
@@ -2582,7 +2582,7 @@
             "range": 15,
             "specialRules": [
               "TK(1)",
-              "Shield Disruptor"
+              "Ignore Shields"
           ]
         }
       ]
@@ -4873,7 +4873,7 @@
             "specialRules": [
               "IC",
               "TK(1)",
-              "Shield Disruptor"
+              "Ignore Shields"
           ]
           },
           {
@@ -6576,7 +6576,7 @@
             "specialRules": [
               "IC",
               "TK(D3)",
-              "Shield Disruptor"
+              "Ignore Shields"
           ]
           },
           {
@@ -9708,7 +9708,7 @@
       "description": "Rear Arc"
     },
     {
-      "name": "Shield Disruptor",
+      "name": "Ignore Shields",
       "description": "A weapon with Shield Disruptor ignores Ion Shields. In addition, each hit with will knock down two Powerfields, Shadowfields or Void Shields. When only one field/shield remains, a Shield Disruptor hit will knock it down and must then be saved as a normal hit (it loses TK, MW or Lance)."
     },
     {
