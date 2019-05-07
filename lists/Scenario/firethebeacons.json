@@ -69,13 +69,15 @@
 
     "Broken formations that rally within 15cm of an objective may not flip them during that turn, but may flip them as normal at the beginning of the next turn.",
 
+    "Aircraft with ability to land can only flip objectives at the end of turn if they do not disengage."
+
     "Each Objective is worth 1 VP in the End Phase. Destroying the enemy BTS is worth a onetime bonus of 3 VP. VPs accumulate from turn to turn. ",
 
-    "Total Victory (32-0) (Lead of 10)",
+    "Total Victory (32-0) (Lead of 10+)",
     "Major Victory (28-4) (Lead of 6-9)",
     "Minor Victory (24-8) (Lead of 3-5)",
-    "Winning Draw (20-12) (Lead of 2 or less, difference of 250 BP or more)",
-    "Complete Draw (16-16) (Lead of 2 or less, difference of less than 250 BP)",
+    "Winning Draw (20-12) (Lead of 0-2)",
+    "Complete Draw (16-16) (0-0)",
 
     "If a player has reach a lead of 10 or more any turn the game ends. If not then the game finishes at the end of turn 4."
 
