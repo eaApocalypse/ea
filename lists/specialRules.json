@@ -813,7 +813,8 @@
       "title": "Necron",
       "description": [
         "Necron technology allows many of its units to repair themselves at an accelerated rate. This is reflected as the Necron ability in a unit’s datasheet.",
-        "Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only."
+        "Units with Necron that have been destroyed can regenerate. Formations can return one previously destroyed Necron unit in the end phase of each turn either on or off the board. In addition, if a formation regroups on board it can use the dice rolls to either return units with the Necron ability to play or to remove Blast Markers or both (e.g., if you rolled a 2 you could return 2 units to play, remove 2 Blast Markers, or return 1 unit and remove 1 Blast Marker). Formations off board are restricted to using their regroup function to remove Blast Markers only.",
+        "There must be one unit with the 'Necron' special rule left in the formation to benitfit from these special rules."
       ]
     },
     {
