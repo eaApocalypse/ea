@@ -7,189 +7,140 @@
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-          "Bravery",
-          "Fortified Positions"
+          "Imperial Knights Tournament Special Rules",
+          "Lance"
   ],
   "usage": [
-    "The following army list allows you to field a Knight World army with Planetary Defence Force allies"
+    "The following army list allows you to field a army based on the Imperial Knights."
   ],
   "units": [
     {
       "from": "QK.json",
       "units": [
-        "Seneschal",
         "Baron",
-        "Ironstorm Missile Pod",
-        "Stormspear Rocket Pod",
-        "Twin Icarus Autocannon",
-        "Knight Paladin",
+        "Seneschal",
+
+        "Knight Helverin",
+        "Knight Warglaive",
+
+        "Knight Crusader",
         "Knight Errant",
         "Knight Gallant",
-        "Knight Preceptor",
-        "Knight Crusader",
+        "Knight Magaera",
+        "Knight Paladin",
+        "Knight Styrix",
         "Knight Warden",
-        "Cerastus Knight-Lancer",
-        "Cerastus Knight-Castigator",
-        "Cerastus Knight-Atrapos",
+
         "Cerastus Knight-Acheron",
+        "Cerastus Knight-Atrapos",
+        "Cerastus Knight-Castigator",
+        "Cerastus Knight-Lancer",
+
         "Knight Castellan",
         "Knight Valiant",
-        "Knight Armiger"
+
+        "Knight Asterius",
+        "Knight Porphyrion"
       ],
               "unitRules": [
-          "Stubborn",
-          "Ion Shield (X)",
-
-          "Heavy Armoured Vehicle (H-AV)",
-          "Lance"
+                "Heavy Armoured Vehicle (H-AV)",
+                "Bravery",
+                "Ion Gauntlet (X)",
+                "Ion Shield (X)",
+                "Ignore Shields",
+                "Chain",
+                "Unstable"
       ]
     },
     {
-      "from": "IG.json",
+      "from": "AM.json",
       "units": [
-        "Heavy AA Gun",
-        "Howitzer",
-        "Rough Riders"
-    ],
-        "unitRules": [
-      ]
-    },
-    {
-      "from": "ImperialNavy.json",
-      "units": [
-        "Thunderbolt Fighter",
-        "Marauder Bomber"
+        "Avenger Strike Fighters",
+        "Ark Mechanicus Battleship"
       ],
         "unitRules": [
+          "GMK"
       ]
     }
 ],
 "sections": [
     {
-      "name": "Core Banner",
+      "name": "Questoris Banner",
       "formations": [
         {
-          "name": "Knight Banner",
-          "units": "One Seneschal and five of the following knights in any combination",
+          "name": "Questoris Banner",
+          "units": "One Seneschal and three of the following knights in any combination",
           "extraUnits": [
-            "Knight Paladin",
+            "Knight Crusader +25 points each",
             "Knight Errant",
             "Knight Gallant",
-            "Knight Preceptor +25 points each",
-            "Knight Crusader +25 points each",
-            "Upgrade Carapace Weapon Mount"
+            "Knight Magaera (R)",
+            "Knight Paladin",
+            "Knight Styrix (R)",
+            "Knight Warden"
           ],
-          "points": 425
+          "points": 300
         }
       ]
     },
     {
-      "name": "Dominus Knights",
-      "description": "Up to one Dominus Knight for each Core Banners.",
+      "name": "Armiger Banner",
       "formations": [
         {
-          "name": "0-1 Knight Castellan",
-          "units": "One Knight Castellan",
-          "extraUnits": [
-          ],
-          "points": 200
-        },
-        {
-          "name": "0-1 Knight Valiant",
-          "units": "One Knight Valiant",
-          "extraUnits": [
-          ],
-          "points": 200
+            "name": "Armiger Banner",
+            "units": "Four Knight Helverins or four Knight Warglaive.",
+            "upgrades": [
+            ],
+            "points": 200
         }
       ]
     },
     {
-      "name": "Support Banners",
+      "name": "Cerastus Banner",
+      "description": "Up to one Cerasus Banner for each Questoris Banner.",
+      "formations": [
+        {
+          "name": "Cerasus Banner",
+          "units": "One Seneschal and three of the following knights in any combination",
+          "extraUnits": [
+            "Cerastus Knight-Acheron",
+            "Cerastus Knight-Atrapos (R)",
+            "Cerastus Knight-Castigator",
+            "Cerastus Knight-Lancer"
+          ],
+          "points": 350
+        }
+      ]
+    },
+    {
+      "name": "Relic Lances",
       "description": "Up to two Support Banner for each Core Banners.",
       "formations": [
       {
-          "name": "Armiger Banner ",
-          "units": "Four Knight-Armigers",
-          "upgrades": [
+          "name": "Acastus Reliquae",
+          "units": "One Seneschal and two of the following knights in any combination",
+          "extraUnits": [
+            "Knight Asterius (R)",
+            "Knight Porphyrion (R)"
           ],
-          "points": 200
-      },
-      {
-          "name": "Cerastus Knight-Lancer",
-          "units": "Three Cerastus Knight-Lancers",
-          "upgrades": [
-            "Seneschal, Cerastus Knight-Lancers"
-          ],
-          "points": 325
-      },
-          {
-            "name": "Cerastus Knight-Castigator",
-            "units": "Three Cerastus Knight-Castigator",
-            "upgrades": [
-              "Seneschal, Cerastus Knight-Castigator"
-            ],
-            "points": 325
+          "points": 375
+      }
+      ]
+    },
+    {
+      "name": "Adeptus Mechanicus Navy Formations",
+      "description": "Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations",
+      "formations": [
+        {
+          "name": "Avenger Strike Fighters",
+          "units": "Two Avenger Strike Fighters",
+          "points": 175
         },
         {
-          "name": "Cerastus Knight-Acheron",
-          "units": "Three Cerastus Knight-Acheron",
-          "upgrades": [
-            "Seneschal, Cerastus Knight-Acheron"
-          ],
-          "points": 325
-      },
-      {
-        "name": "Cerastus Knight-Atrapos",
-        "units": "Three Cerastus Knight-Atrapos",
-        "upgrades": [
-          "Seneschal, Cerastus Knight-Atrapos"
-        ],
-        "points": 325
-    }
-      ]
-    },
-    {
-      "name": "Imperial Knight Support Formations",
-      "description": "Up to one Retainer Formations for each Core Banners.",
-      "formations": [
-      {
-        "name": "Flak Battery",
-        "units": "Three Heavy AA Guns, three Gun Emplacements",
-        "upgrades": [
-        ],
-        "points": 125
-    },
-      {
-        "name": "Howitzer Battery",
-        "units": "Three Howitzers, three Gun Emplacements",
-        "upgrades": [
-        ],
-        "points": 150
-    },
-      {
-        "name": "Rough Riders",
-        "units": "Six Rough Riders",
-        "upgrades": [
-        ],
-        "points": 150
-    }
-      ]
-  },
-
-    {
-      "name": "Imperial Navy Formations",
-      "description": "Up to a third of the points available may be spent on Imperial Navy Formations.",
-      "formations": [
-          {
-            "name": "Thunderbolt Squadron",
-            "units": "Two Thunderbolt Fighters",
-            "points": 150
-          },
-          {
-            "name": "Marauder Squadron",
-            "units": "Two Marauder Bombers",
-            "points": 225
-          }
+          "name": "Mechanicus Battleship",
+          "units": "One Ark Mechanicus Battleship",
+          "points": 200
+        }
       ]
     }
   ],
@@ -198,80 +149,26 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
       {
-        "name": "Seneschal",
-        "options": [
-          {
-            "description": "Add a Seneschal to the formation",
-            "points": "25 points"
-          }
-        ]
-      },
-      {
         "name": "0-1 Knight-Baron",
         "options": [
           {
-            "description": "Replace the Seneschal with a Baron",
+            "description": "Replace a Seneschal in the army with a Baron",
             "points": "25 points"
-          }
-        ]
-      },
-      {
-        "name": "Cerastus Knight-Lancers",
-        "options": [
-          {
-            "description": "Add up to two Cerastus Knight-Lancers",
-            "points": "75 points each"
-          }
-        ]
-      },
-      {
-        "name": "Cerastus Knight-Castigator",
-        "options": [
-          {
-            "description": "Add up to two Cerastus Knight-Castigator",
-            "points": "75 points each"
-          }
-        ]
-      },
-      {
-        "name": "Cerastus Knight-Acheron",
-        "options": [
-          {
-            "description": "Add up to two Cerastus Knight-Acherons",
-            "points": "75 points each"
-          }
-        ]
-      },
-      {
-        "name": "Cerastus Knight-Atrapos",
-        "options": [
-          {
-            "description": "Add up to two Cerastus Knight-Atrapos",
-            "points": "75 points each"
-          }
-        ]
-      },
-      {
-        "name": "Carapace Weapon Mount",
-        "options": [
-          {
-            "description": "Each Knight in the formatin may choose one of the following carapace mount weapons:"
           },
           {
-            "description": "Ironstorm Missile Pod",
-            "points": "10 points"
+            "description": "Add up to two Knights to a Questoris Banner. Note: apply points as listed if not free.",
+            "points": "90 points each"
           },
           {
-            "description": "Stormspear Rocket Pod",
-            "points": "10 points"
+            "description": "Add up to two Knights to a Cerasus Banner. Note: apply points as listed if not free.",
+            "points": "100 points each"
           },
           {
-            "description": "Twin Icarus Autocannon",
-            "points": "15 points"
+            "description": "Add up to one Knight Valiant or Knight Castellan to a Questoris Banner or a Cerasus Banner. Note: One Knight Valiant or Knight Castellan for every 1500 points.",
+            "points": "125 points each"
           }
         ]
       }
-
     ]
   }
 }

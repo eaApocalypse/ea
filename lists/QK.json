@@ -15,24 +15,15 @@
           ]
         },
         {
-          "title": "Stubborn",
-          "description": [
-            "Reduce the damage caused by Blast Markers to a broken formation where all units have Stubborn by 1, and reduce the number of extra hits to a Stubborn formation that loses an assault by 1."
-          ]
-        },
-        {
           "title": "Ion Gauntlet (X)",
           "description": [
-            "Grants a (x+) save vs Normal, MW & TK shooting and FF hits and a (x+) save against Normal, MW and TK CC hits.",
-            "Each point of TK damage must be saved. Failed saves may use RA rerolls against the Knights armour if not negated by TK, MW or Lance special rules. May not be used in a crossfire."
+            "Units with a Ion Gauntlet may make a saving throw on a (X) when they are hit instead of using their armour value. No modifiers ever apply to this saving throw and it is unaffected by macro-weapon, lance and titan killer hits. However, each point of damage from a titan killer hit must be saved separately. If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a macro-weapon, lance or titan killer. Finally, none of these benefits apply to units in a crossfire or to hits from supporting fire."
           ]
         },
         {
           "title": "Ion Shield (X)",
           "description": [
-            "Knights make use of Ion Shields to deflect shooting attacks. This allows them to make a saving throw on the number within brackets when they are hit by ranged fire instead of using their armour value.",
-            "No modifiers ever apply to this saving throw and it is unaffected by Macro-Weapon, Lance and Titan Killer hits (However, each point of damage from a Titan Killer hit must be saved separately) If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a Macro-Weapon, Lance or Titan killer.",
-            "None of these benefits apply to units in a crossfire, hits from supporting fire, or CC attacks (the Ion Shield save can still be used against FF attacks. If relevant, roll CC and FF dice separately when attacking units equipped with Ion Shields)."
+            "Units with a Knight Shield may make a saving throw on a (X) when they are hit instead of using their armour value. No modifiers ever apply to this saving throw and it is unaffected by macro-weapon, lance and titan killer hits. However, each point of damage from a titan killer hit must be saved separately. If the unit has reinforced armour as well then it is allowed to re-roll a failed save using its armour value unless the hit was a macro-weapon, lance or titan killer. Finally, none of these benefits apply to units in a crossfire, base to base hits or to hits from supporting fire."
           ]
         },
         {
@@ -44,19 +35,7 @@
         {
           "title": "Chain",
           "description": [
-            "Applies to Weapons marked with (Ch)",
-            "A natural roll of 6 on the first roll to hit with this weapon generates a further roll that hits as MW4+.",
-            "This additional roll does not generate any further hits."
-          ]
-        },
-        {
-          "title": "Tow",
-          "description": [
-            "Applies to Weapons marked with (T)",
-            "Any INF, LV, AV, H-AV and WE with DC3 or lower hit by this weapon may either take one point of damage, saved as allowed.",
-            "Or can be moved by the shooting player to any point, in a direct line, up to base contact with any unit in between the shooter and target up to base contact with the shooter.",
-            "Barging through as permitted at the choice of the shooter.",
-            "The towed unit must take any terrain tests as though it were moving normally."
+            "Grants D3 damage vs War Engines"
           ]
         },
         {
@@ -91,42 +70,30 @@
         ]
       },
       {
-        "name": "Ironstorm Missile Pod",
-        "type": "CH",
-        "weapons": [
-            "Ironstorm Missile Pod"
-           ],
-        "specialRules": [
-        ]
-      },
-      {
-        "name": "Stormspear Rocket Pod",
-        "type": "CH",
-        "weapons": [
-            "Stormspear Rocket Pod"
-           ],
-        "specialRules": [
-        ]
-      },
-      {
-        "name": "Twin Icarus Autocannon",
-        "type": "CH",
-        "weapons": [
-            "Twin Icarus Autocannons"
-           ],
-        "specialRules": [
-        ]
-      },
-      {
-          "name": "Knight Armiger",
+          "name": "Knight Helverin",
           "type": "AV",
-          "speed": 30,
+          "speed": 25,
+          "armour": 5,
+          "cc": 5,
+          "ff": 5,
+          "weapons": [
+            "Autocannon|2"
+          ],
+          "specialRules": [
+            "Walker",
+            "Scout",
+            "Ion Shield (5+)"
+          ]
+      },
+      {
+          "name": "Knight Warglaive",
+          "type": "AV",
+          "speed": 25,
           "armour": 5,
           "cc": 5,
           "ff": 5,
           "weapons": [
             "Thermal Spear",
-            "Heavy Stubber",
             "Reaper Chain-Cleaver"
           ],
           "specialRules": [
@@ -136,16 +103,16 @@
           ]
       },
       {
-          "name": "Knight Paladin",
+          "name": "Knight Crusader",
           "type": "H-AV",
           "speed": 25,
           "armour": 5,
-          "cc": 4,
+          "cc": 5,
           "ff": 5,
           "weapons": [
+            "Avenger Gatling Cannon",
             "Rapid Fire Battle Cannon",
-            "Reaper Chainsword",
-            "Hull Mounted Support Weapons"
+            "Twin Icarus Autocannon"
           ],
           "specialRules": [
             "Reinforced Armour",
@@ -162,13 +129,12 @@
           "ff": 5,
           "weapons": [
             "Thermal Cannon",
-            "Thunderstrike Gauntlet",
-            "Hull Mounted Support Weapons"
+            "Thunderstrike Gauntlet"
           ],
           "specialRules": [
             "Reinforced Armour",
             "Walker",
-            "Ion Shield (4+)"
+            "Thunderstrike Gauntlet (4+)"
           ]
       },
       {
@@ -180,8 +146,24 @@
           "ff": 5,
           "weapons": [
             "Reaper Chainsword",
-            "Thunderstrike Gauntlet",
-            "Hull Mounted Support Weapons"
+            "Thunderstrike Gauntlet"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Thunderstrike Gauntlet (4+)"
+          ]
+      },
+      {
+          "name": "Knight Magaera",
+          "type": "H-AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 4,
+          "ff": 5,
+          "weapons": [
+            "Lightning Cannon",
+            "Siege Claw"
           ],
           "specialRules": [
             "Reinforced Armour",
@@ -190,16 +172,15 @@
           ]
       },
       {
-          "name": "Knight Preceptor",
+          "name": "Knight Paladin",
           "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 4,
           "ff": 5,
           "weapons": [
-            "Reaper Chainsword",
-            "Las Impulsor",
-            "Hull Mounted Support Weapons"
+            "Rapid Fire Battle Cannon",
+            "Reaper Chainsword"
           ],
           "specialRules": [
             "Reinforced Armour",
@@ -207,17 +188,36 @@
             "Ion Shield (4+)"
           ]
       },
+
       {
-          "name": "Knight Crusader",
+          "name": "Knight Styrix",
           "type": "H-AV",
           "speed": 25,
           "armour": 5,
           "cc": 4,
           "ff": 5,
           "weapons": [
-            "Thermal Cannon",
+            "Volkite Chierovile",
+            "Siege Claw"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+
+      {
+          "name": "Knight Warden",
+          "type": "H-AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 4,
+          "ff": 5,
+          "weapons": [
             "Avenger Gatling Cannon",
-            "Hull Mounted Support Weapons"
+            "Thunderstrike Gauntlet",
+            "Ironstorm Missile Pod"
           ],
           "specialRules": [
             "Reinforced Armour",
@@ -225,65 +225,18 @@
             "Ion Shield (4+)"
           ]
       },
-      {
-          "name": "Knight-Custodian",
-          "type": "H-AV",
-          "speed": 20,
-          "armour": 4,
-          "cc": 5,
-          "ff": 5,
-          "weapons": [
-            "Long Cannon",
-            "Multi-Barreled Autocannon|0-1|",
-            "Twin Lascannon|0-1|"
-          ],
-          "specialRules": [
-            "Stubborn",
-            "Reinforced Armour",
-            "Walker",
-            "Ion Shield (4+)"
-          ]
-      },
-      {
-          "name": "Cerastus Knight-Lancer",
-          "type": "H-AV",
-          "speed": 25,
-          "armour": 4,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            "Battle Cannon",
-            "Knight Power Lance"
-          ],
-          "specialRules": [
-            "Reinforced Armour",
-            "Walker",
-            "Ion Shield (4+)"
-          ]
-      },
-      {
-          "name": "Cerastus Knight-Castigator",
-          "type": "H-AV",
-          "speed": 25,
-          "armour": 4,
-          "cc": 4,
-          "ff": 4,
-          "weapons": [
-            "Castigator Cannon",
-            "Tempest Warblade"
-          ],
-          "specialRules": [
-            "Reinforced Armour",
-            "Walker",
-            "Ion Shield (4+)"
-          ]
-      },
+
+
+
+
+
+
       {
           "name": "Cerastus Knight-Acheron",
           "type": "H-AV",
           "speed": 25,
-          "armour": 4,
-          "cc": 4,
+          "armour": 5,
+          "cc": 3,
           "ff": 4,
           "weapons": [
             "Flame Cannon",
@@ -299,8 +252,8 @@
           "name": "Cerastus Knight-Atrapos",
           "type": "H-AV",
           "speed": 25,
-          "armour": 4,
-          "cc": 4,
+          "armour": 5,
+          "cc": 3,
           "ff": 4,
           "weapons": [
             "Graviton Singularity Cannon",
@@ -312,6 +265,54 @@
             "Ion Shield (4+)"
           ]
       },
+      {
+          "name": "Cerastus Knight-Castigator",
+          "type": "H-AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Castigator Cannon",
+            "Tempest Warblade"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ]
+      },
+
+
+      {
+          "name": "Cerastus Knight-Lancer",
+          "type": "H-AV",
+          "speed": 25,
+          "armour": 5,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Cerastus Shock Lance"
+          ],
+          "specialRules": [
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (3+)"
+          ]
+      },
+
+
+
+
+
+
+
+
+
+
+
+
+
       {
           "name": "Knight Castellan",
           "type": "H-AV",
@@ -326,7 +327,6 @@
             "Shieldbreaker Missiles|2|"
           ],
           "specialRules": [
-            "Stubborn",
             "Reinforced Armour",
             "Walker",
             "Ion Shield (4+)"
@@ -344,15 +344,54 @@
             "Conflagration Cannon",
             "Thundercoil Harpoon",
             "Twin Siegebreaker Cannon",
-            "Shieldbreaker Missiles|4|"
+            "Shieldbreaker Missiles"
           ],
           "specialRules": [
-            "Stubborn",
             "Reinforced Armour",
             "Walker",
             "Ion Shield (4+)"
           ]
+      },
+      {
+          "name": "Knight Asterius",
+          "type": "WE",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Acastus Twin Conversion Beamer|2"
+          ],
+          "specialRules": [
+            "Damage Capacity: 3",
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ],
+          "notes": "Critical Hit Effect: The Knight is destroyed."
+      },
+      {
+          "name": "Knight Porphyrion",
+          "type": "WE",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 4,
+          "weapons": [
+            "Twin Magna Lascannon|2",
+            "Autocannon|2",
+            "Helios Defense Missiles"
+          ],
+          "specialRules": [
+            "Damage Capacity: 3",
+            "Reinforced Armour",
+            "Walker",
+            "Ion Shield (4+)"
+          ],
+          "notes": "Critical Hit Effect: The Knight is destroyed."
       }
+
+
     ]
   }
 ]

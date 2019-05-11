@@ -1112,11 +1112,11 @@
           ]
                 },
     {
-      "name": "Acastus Conversion Beamer",
+      "name": "Acastus Twin Conversion Beamer",
         "modes": [
           {
             "firepower": "MW3+",
-              "range": 90,
+              "range": 75,
             "specialRules": [
               "FxF"
           ]
@@ -2244,7 +2244,7 @@
           "specialRules": [
           "EA(+1)",
           "Lance",
-          "Lightning Charge"
+          "FS"
         ]
     },
         {
@@ -2252,8 +2252,8 @@
           "join": "and",
           "specialRules": [
             "EA(+1)",
-            "TK(1)",
-            "Lightning Charge"
+            "Lance",
+            "FS"
           ]
         }
       ]
@@ -7426,7 +7426,7 @@
             "firepower": "Assault Weapons",
             "specialRules": [
                 "EA(+1)",
-                "TK(1)"
+                "TK(D3)"
           ]
         }
       ]
@@ -8353,7 +8353,7 @@
       "name": "Thermal Spear",
       "modes": [
         {
-          "firepower": "MW4+",
+          "firepower": "MW5+",
           "range": 15,
           "specialRules": [
           ]
@@ -9351,11 +9351,11 @@
       "name": "Volkite Chierovile",
         "modes": [
           {
-            "firepower": "3x AP3+/AT4+",
+            "firepower": "4x AP3+/AT4+",
             "range": 45,
             "specialRules": [
-              "IC",
-              "D"
+              "IC"
+
           ]
           }
       ]
