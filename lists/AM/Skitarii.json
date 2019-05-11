@@ -32,7 +32,7 @@
         "Sydonian Dragoon",
 
         "Onager Dunecrawler",
-        "Chimeradon",
+        "Dunerider",
         "Termite Assault Drill",
 
         "Avenger Strike Fighters",
@@ -45,17 +45,25 @@
     {
       "from": "QK.json",
       "units": [
-        "Ironstorm Missile Pod",
-        "Stormspear Rocket Pod",
-        "Twin Icarus Autocannon",
+        "Seneschal",
+        "Knight Crusader",
+        "Knight Errant",
+        "Knight Gallant",
+        "Knight Magaera",
         "Knight Paladin",
+        "Knight Styrix",
+        "Knight Warden",
         "Knight Castellan",
         "Knight Valiant"
       ],
               "unitRules": [
-          "Ion Shield (X)",
-          "Heavy Armoured Vehicle (H-AV)",
-          "Lance"
+                "Heavy Armoured Vehicle (H-AV)",
+                "Bravery",
+                "Ion Gauntlet (X)",
+                "Ion Shield (X)",
+                "Ignore Shields",
+                "Chain",
+                "Unstable"
       ]
     }
 
@@ -68,7 +76,7 @@
           "name": "Vanguard Maniple",
           "units": "Eight Skitarii Vanguard and one Tech Preist Dominus.",
           "upgrades": [
-            "Commander, Chimeradons"
+            "Commander, Duneriders"
           ],
           "points": 225
         }
@@ -90,7 +98,7 @@
           "name": "Ruststalker Killclade",
           "units": "Six Sicarian Ruststalkers ",
           "upgrades": [
-            "Tech-Priest, Subterranean Assault"
+            "Tech-Priest, Subterranean Assault, Duneriders"
           ],
           "points": 200
         },
@@ -98,7 +106,7 @@
           "name": "Infiltrator Killclade",
           "units": "Six Sicarian Infiltrators",
           "upgrades": [
-            "Tech-Priest, Subterranean Assault"
+            "Tech-Priest, Subterranean Assault, Duneriders"
           ],
           "points": 200
         },
@@ -106,7 +114,7 @@
           "name": "Fulgurite Maniple",
           "units": "Six Fulgurite Electro-Priests",
           "upgrades": [
-            "Tech-Priest, Subterranean Assault"
+            "Tech-Priest, Subterranean Assault, Duneriders"
           ],
           "points": 225
         },
@@ -146,31 +154,24 @@
       "description": "Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations",
       "formations": [
         {
-          "name": "0-1 Knight Castellan",
-          "units": "One Knight Castellan",
-          "upgrades": [
-            ""
-          ],
-          "points": 200
-        },
-        {
-          "name": "0-1 Knight Valiant",
-          "units": "One Knight Valiant",
-          "upgrades": [
-            ""
-          ],
-          "points": 200
-        },
-        {
-          "name": "0-1 Knight Paladins",
-          "units": "Two Knight Paladins",
-          "upgrades": [
-            "Carapace Weapon Mount"
-          ],
-          "points": 225
+          "name": "Questoris Banner",
+          "formations": [
+            {
+              "name": "Questoris Banner",
+              "units": "One Seneschal and three of the following knights in any combination",
+              "extraUnits": [
+                "Knight Crusader +25 points each",
+                "Knight Errant",
+                "Knight Gallant",
+                "Knight Magaera (R)",
+                "Knight Paladin",
+                "Knight Styrix (R)",
+                "Knight Warden"
+              ],
+              "points": 300
+            }
+          ]
         }
-
-
       ]
     },
     {
@@ -229,10 +230,10 @@
         ]
       },
       {
-        "name": "Transports",
+        "name": "Duneriders",
         "options": [
           {
-            "description": "Add enough Chimeradons to transport the entire formation",
+            "description": "Add enough Duneriders to transport the entire formation",
             "points": "25 points"
           }
         ]
@@ -247,24 +248,14 @@
         ]
       },
       {
-        "name": "Carapace Weapon Mount",
-        "options": [
-          {
-            "description": "Each Knight in the formatin may choose one of the following carapace mount weapons:"
-          },
-          {
-            "description": "Ironstorm Missile Pod",
-            "points": "10 points"
-          },
-          {
-            "description": "Stormspear Rocket Pod",
-            "points": "10 points"
-          },
-          {
-            "description": "Twin Icarus Autocannon",
-            "points": "15 points"
-          }
-        ]
+        "name": "Dominus Knights",
+        "description": "Add up to one Knight Valiant or Knight Castellan to a Questoris Banner or a Cerasus Banner. Note: One Knight Valiant or Knight Castellan for every 1500 points.",
+        "points": "125 points each"
+      },
+      {
+        "name": "Questoris Banner Upgrades",
+        "description": "Add up to two Knights from the Questoris Banner list to a Questoris Banner. Note: apply points as listed if not free.",
+        "points": "90 points each"
       }
     ]
   }

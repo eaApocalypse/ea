@@ -33,12 +33,6 @@
           ]
         },
         {
-          "title": "Chain",
-          "description": [
-            "Grants D3 damage vs War Engines"
-          ]
-        },
-        {
           "title": "Unstable",
           "description": [
             "If a natural 1 is rolled when rolling to hit, roll another dice. If the result is yet another natural 1, the wielder is destroyed."

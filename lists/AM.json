@@ -328,7 +328,7 @@
             "Eradication Beamer|0-1|",
             "Neutron Laser|0-1|",
             "Twin Heavy Phosphor Blaster|0-1|",
-            "Icarus Array|0-1|"
+            "Twin-Icarus Array|0-1|"
           ],
           "specialRules": [
             "Walker",
@@ -337,15 +337,14 @@
         "notes": "Must choose either an Eradication Beamer, Icarus Array, Neutron Laser or Twin Heavy Phosphor Blaster."
       },
       {
-          "name": "Chimeradon",
+          "name": "Dunerider",
           "type": "AV",
-          "speed": 30,
+          "speed": 25,
           "armour": 5,
           "cc": 6,
           "ff": 5,
           "weapons": [
-            "Conqueror Cannon",
-            "Heavy Bolter"
+            "Icarus Array"
           ],
           "specialRules": [
             "Transport: May transport two infantry units without Jump Packs or Mounted."

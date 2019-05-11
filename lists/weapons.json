@@ -4653,7 +4653,16 @@
       "name": "Icarus Array",
         "modes": [
           {
-            "firepower": "2x AP5+/AT6+/AA5+",
+            "firepower": "AP5+/AT6+/AA6+",
+            "range": 30
+          }
+      ]
+    },
+    {
+      "name": "Twin-Icarus Array",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+/AA5+",
             "range": 30
           }
       ]
