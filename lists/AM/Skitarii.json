@@ -7,10 +7,11 @@
   "Initiative": "All formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-          "Automaton"
+    "Imperial Knights Tournament Special Rules",
+    "Automaton"
   ],
   "usage": [
-    "The following army list allows you to field an army based on a Adeptus Mechancus Forgeworld Army or a Explorator Fleet of the Adeptus Mechancius"
+    "The following army list allows you to field an army based on a Adeptus Mechancus Forgeworld Army or a Explorator Fleet of the Adeptus Mechancius."
   ],
   "units": [
     {
