@@ -155,20 +155,23 @@
             "description": "Replace a Seneschal in the army with a Baron",
             "points": "25 points"
           },
-          {
-            "description": "Add up to two Knights to a Questoris Banner. Note: apply points as listed if not free.",
-            "points": "90 points each"
-          },
-          {
-            "description": "Add up to two Knights to a Cerasus Banner. Note: apply points as listed if not free.",
-            "points": "100 points each"
-          },
-          {
-            "description": "Add up to one Knight Valiant or Knight Castellan to a Questoris Banner or a Cerasus Banner. Note: One Knight Valiant or Knight Castellan for every 1500 points.",
-            "points": "125 points each"
-          }
         ]
-      }
+      },
+      {
+        "name": "Dominus Knights",
+        "description": "Add up to one Knight Valiant or Knight Castellan to a Questoris Banner or a Cerasus Banner. Note: One Knight Valiant or Knight Castellan for every 1500 points.",
+        "points": "125 points each"
+      },
+      {
+        "name": "Cerasus Banner Upgrades",
+        "description": "Add up to two Knights from the Cerasus Banner list to a Cerasus Banner. Note: apply points as listed if not free.",
+        "points": "100 points each"
+      },
+      {
+        "name": "Questoris Banner Upgrades",
+        "description": "Add up to two Knights from the Questoris Banner list to a Questoris Banner. Note: apply points as listed if not free.",
+        "points": "90 points each"
+      },
     ]
   }
 }
