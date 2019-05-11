@@ -154,7 +154,7 @@
           {
             "description": "Replace a Seneschal in the army with a Baron",
             "points": "25 points"
-          },
+          }
         ]
       },
       {
@@ -171,7 +171,7 @@
         "name": "Questoris Banner Upgrades",
         "description": "Add up to two Knights from the Questoris Banner list to a Questoris Banner. Note: apply points as listed if not free.",
         "points": "90 points each"
-      },
+      }
     ]
   }
 }
