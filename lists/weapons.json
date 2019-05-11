@@ -2353,7 +2353,7 @@
       "name": "Conflagration Cannon",
         "modes": [
           {
-            "firepower": "3x AP3+",
+            "firepower": "5x AP3+",
             "range": 30,
             "specialRules": [
               "IC"
@@ -6176,10 +6176,10 @@
       "name": "Plasma Decimator",
         "modes": [
           {
-            "firepower": "2x MW3+",
+            "firepower": "MW3+",
             "range": 30,
             "specialRules": [
-              "Slw"
+
           ]
           }
       ]
@@ -7334,7 +7334,6 @@
             "firepower": "AT4+",
             "range": 75,
             "specialRules": [
-                "Ignore Shields",
               "SS"
           ]
           }
@@ -8386,7 +8385,7 @@
             "firepower": "Small Arms",
             "specialRules": [
                 "EA(+1)",
-                "TK(1)",
+                "TK(D3)",
                 "Ignore Shields"
           ]
           }

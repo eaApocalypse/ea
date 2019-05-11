@@ -356,7 +356,7 @@
           "name": "Knight Asterius",
           "type": "WE",
           "speed": 20,
-          "armour": 4,
+          "armour": 5,
           "cc": 4,
           "ff": 4,
           "weapons": [
@@ -374,7 +374,7 @@
           "name": "Knight Porphyrion",
           "type": "WE",
           "speed": 20,
-          "armour": 4,
+          "armour": 5,
           "cc": 4,
           "ff": 4,
           "weapons": [
