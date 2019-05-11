@@ -85,6 +85,7 @@
     },
     {
       "name": "Armiger Banner",
+      "description": "Up to one Armiger Banner for each Questoris Banner.",
       "formations": [
         {
             "name": "Armiger Banner",
@@ -113,8 +114,8 @@
       ]
     },
     {
-      "name": "Relic Lances",
-      "description": "Up to two Support Banner for each Core Banners.",
+      "name": "Relic Banner",
+      "description": "Up to one Relic Banner for each Questoris Banner.",
       "formations": [
       {
           "name": "Acastus Reliquae",

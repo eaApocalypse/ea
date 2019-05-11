@@ -1116,7 +1116,7 @@
         "modes": [
           {
             "firepower": "MW3+",
-              "range": 75,
+              "range": 90,
             "specialRules": [
               "FxF"
           ]
