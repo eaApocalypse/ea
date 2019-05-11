@@ -352,6 +352,24 @@
           ]
       },
       {
+          "name": "Forge Knight",
+          "type": "AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 5,
+          "weapons": [
+            "Arc Lance",
+            "Manipulators"
+          ],
+          "specialRules": [
+            "Infiltrator",
+            "Invulnerable Save",
+            "Reinforced Armour",
+            "Walker"
+          ]
+      },
+      {
           "name": "Termite Assault Drill",
           "type": "AV",
           "speed": 20,

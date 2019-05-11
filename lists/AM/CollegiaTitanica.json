@@ -7,10 +7,13 @@
   "Initiative": "All Titan formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-    "Collegia Titanica Tournament Special Rules"
+    "Collegia Titanica Tournament Special Rules",
+    "Weapon Mount"
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Collegia Titanica of the Adeptus Mechancius", "Collegia Titanica formations come in three types: battle titans, scout titans and support formations. Each battle titan you include in the army allows you to field any two scout titan formations. Each battle titan or scout titan formation allows you to field any one support formation. Although you can only take a scout titan or support formation if you first take a battle titan formation, they are treated as separate independent formations during a battle and do not have to move around together.","In addition, certain formations may be given upgrades. Which upgrades a formation may be given are listed in the 'upgrades' column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart."," Note: the upgrades chosen can lead to an additional surcharge (see Collegia Titanica Tournament Special Rules)."
+    "The following army list allows you to field an army based on one of the War Griffons Titan Legion. It can also be used as a 'stand in' army list for other Titan Legions as well.",
+    "War Griffons Titan Legion formations come in three types: battle titans, scout titans and support formations. Each battle titan you include in the army allows you to field any two scout titan formations. Each battle titan or scout titan formation allows you to field any one support formation. Although you can only take a scout titan or support formation if you first take a battle titan formation, they are treated as separate independent formations during a battle and do not have to move around together.",
+    "In addition, certain formations may be given upgrades. Which upgrades a formation may be given are listed in the 'upgrades' column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart. Note: the upgrades chosen can lead to an additional surcharge."
   ],
   "units": [
     {
@@ -46,16 +49,17 @@
     {
       "from": "BattleTitanWeapons.json",
       "units": [
+        "Apocalypse Missile Launcher",
         "Gatling Blaster",
         "Melta Cannon",
         "Quake Cannon",
         "Volcano Cannon",
         "Carapace Landing Pad",
         "Corvus Assault Pod",
-        "Apocalypse Missile Launcher",
+
         "Laser Blaster",
         "Laser Burner",
-        "Plasma Cannon",
+        "Titan Plasma Cannon",
         "Plasma Destructor",
         "Barrage Missile",
         "Deathstrike Missile",
@@ -74,6 +78,7 @@
         "Skitarii Vanguard",
         "Ironstrider Ballistarius",
         "Sydonian Dragoon",
+        "Forge Knight",
         "Chimeradon",
         "Avenger Strike Fighters",
         "Ark Mechanicus Battleship"
@@ -94,15 +99,16 @@
           "upgrades": [
             "Legate",
             "Veteran Princeps",
-            "Secutarii Detachment"
+            "Sacred Icon",
+            "Carapace Multilasers"
           ],
-          "points": 1000
+          "points": 1250
     },
     {
       "name": "Warlord Titan",
       "units": "One Warlord Titan.",
       "extraUnits": [
-        "Mount each weapon mount (4 including 2 Carapace) in the formation with one weapon listed in the battle titan weapons list."
+        "All"
       ],
       "points": 675
   },
@@ -110,7 +116,7 @@
       "name": "Reaver Titan",
       "units": "One Reaver Titan",
       "extraUnits": [
-        "Mount each weapon mount (3 including 1 Carapace) in the formation with one weapon listed in the battle titan weapons list."
+        "All"
 
       ],
       "points": 550
@@ -119,17 +125,13 @@
 },
   {
       "name": "Scout Titan Formations",
-      "description": "Up to two Scout Titan formations for each Battle Titan formation",
+      "description": "Any two scout titan formations may be fielded per each battle titan.",
       "formations": [
         {
           "name": "Warhound",
           "units": "One Warhound Titan",
           "extraUnits": [
-              "2 Weapons from the Scout Titan Weapon list may be taken.",
-              "0-2 Inferno Cannon",
-              "0-1 Plasma Blastgun",
-              "0-1 Turbo-Laser Destructor +25 points",
-              "0-2 Vulcan Mega Bolter"
+              "Inferno Gun, Plasma Blastgun, Turbo-Laser Destructor, Veteran Princeps, Vulcan Mega-Bolter"
           ],
           "points": 275
         },
@@ -137,11 +139,7 @@
           "name": "Warhound Pack",
           "units": "Two Warhound Titans",
           "extraUnits": [
-              "2 Weapons from the Scout Titan Weapon list may be taken for each Titan.",
-              "0-2 Inferno Cannon",
-              "0-1 Plasma Blastgun",
-              "0-1 Turbo-Laser Destructor +25 points",
-              "0-2 Vulcan Mega Bolter"
+              "Inferno Gun, Plasma Blastgun, Turbo-Laser Destructor, Veteran Princeps, Vulcan Mega-Bolter"
           ],
           "points": 500
         }
@@ -170,6 +168,22 @@
           "points": 225
         },
         {
+          "name": "Forge Knight Maniple",
+          "units": "Five Forge Knights",
+          "upgrades": [
+          ],
+          "points": 250
+        },
+        {
+          "name": "Secutarii Detachment (1 per Corvus Assault Pod or Emperor Titan.)",
+          "options": [
+            {
+              "description": "Add 9 Secutarii and 1 Tech Priest",
+              "points": "225 points"
+            }
+          ]
+        },
+        {
           "name": "Avenger Strike Fighters",
           "units": "Two Avenger Strike Fighters",
           "points": 175
@@ -182,7 +196,7 @@
       ]
     },
     {
-      "name": "Battle Titan Weapon Upgrades",
+      "name": "Battle Titan Weapons",
       "description": "Mount each weapon mount in the formation with one of the following upgrades.",
       "formations": [
         {
@@ -266,6 +280,32 @@
           "points": 75
         }
       ]
+    },
+    {
+      "name": "Scout Titan Weapons",
+      "description": "Mount each weapon mount in the formation with one of the following upgrades.",
+      "formations": [
+        {
+          "name": "Inferno Gun",
+          "units": "Inferno Gun",
+          "points": 0
+        },
+        {
+          "name": "Plasma Blastgun",
+          "units": "Plasma Blastgun",
+          "points": 0
+        },
+        {
+          "name": "Turbo-Laser Destructor",
+          "units": "Turbo-Laser Destructor",
+          "points": 25
+        },
+        {
+          "name": "Vulcan Mega-Bolter",
+          "units": "Vulcan Mega-Bolter",
+          "points": 0
+        }
+      ]
     }
   ],
   "upgrades": {
@@ -273,7 +313,7 @@
     "description": "Each upgrade may be taken once per formation",
     "items": [
         {
-          "name": "0-1 Supreme Commander",
+          "name": "0–1 Legate per army",
           "options": [
             {
               "description": "Add one Legate to the formation",
@@ -300,20 +340,11 @@
           ]
         },
         {
-          "name": "Carapace Missiles",
+          "name": "Sacred Icon",
           "options": [
             {
-              "description": "Add two Carapace Missiles",
-              "points": "25 points"
-            }
-          ]
-        },
-        {
-          "name": "Secutarii Detachment",
-          "options": [
-            {
-              "description": "Add 9 Secutarii and 1 Tech Priest",
-              "points": "225 points"
+              "description": "Add a Sacred Icon to the Titan",
+              "points": "50 points"
             }
           ]
         }

@@ -27,33 +27,9 @@
     ],
     "unit": [
         {
-          "name": "Gatling Blaster",
+          "name": "Apocalypse Missile Launcher",
           "type": "",
-          "weapons": ["Gatling Blaster"],
-          "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Melta Cannon",
-          "type": "",
-          "weapons": ["Melta Cannon"],
-          "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Quake Cannon",
-          "type": "",
-          "weapons": ["Quake Cannon"],
-          "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Volcano Cannon",
-          "type": "",
-          "weapons": ["Volcano Cannon"],
+          "weapons": ["Apocalypse Missile Launcher"],
           "specialRules": [
 
           ]
@@ -76,6 +52,71 @@
 
           ]
         },
+        {
+          "name": "Gatling Blaster",
+          "type": "",
+          "weapons": ["Gatling Blaster"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Laser Blaster",
+          "type": "",
+          "weapons": ["Laser Blaster"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Laser Burner",
+          "type": "",
+          "weapons": ["Laser Burner"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Melta Cannon",
+          "type": "",
+          "weapons": ["Melta Cannon"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Titan Plasma Cannon",
+          "type": "",
+          "weapons": ["Titan Plasma Cannon"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Plasma Destructor",
+          "type": "Note: Carapace weapon mounts only.",
+          "weapons": ["Plasma Destructor"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Quake Cannon",
+          "type": "",
+          "weapons": ["Quake Cannon"],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Volcano Cannon",
+          "type": "",
+          "weapons": ["Volcano Cannon"],
+          "specialRules": [
+
+          ]
+        },
+
         {
           "name": "Barrage Missile",
           "type": "Note: Carapace weapon mounts only.",
@@ -109,38 +150,6 @@
           ]
         },
 
-        {
-          "name": "Laser Blaster",
-          "type": "",
-          "weapons": ["Laser Blaster"],
-          "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Laser Burner",
-          "type": "",
-          "weapons": ["Laser Burner"],
-          "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Plasma Cannon",
-          "type": "",
-          "weapons": ["Plasma Cannon"],
-          "specialRules": [
-
-          ]
-        },
-        {
-          "name": "Plasma Destructor",
-          "type": "Note: Carapace weapon mounts only.",
-          "weapons": ["Plasma Destructor"],
-          "specialRules": [
-
-          ]
-        },
         {
           "name": "Support Missile",
           "type": "Note: Carapace weapon mounts only.",

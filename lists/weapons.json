@@ -8,6 +8,44 @@
             }
         ]
       },
+
+      {
+        "name": "2x Carapace Weapon Mount",
+          "modes": [
+            {
+              "firepower": "2x Carapace Weapon Mount, FxF"
+            }
+        ]
+      },
+      {
+        "name": "Carapace Weapon Mount",
+          "modes": [
+            {
+              "firepower": "Carapace Weapon Mount, FxF"
+            }
+        ]
+      },
+      {
+        "name": "2x Arm Weapon Mount",
+          "modes": [
+            {
+              "firepower": "2x Arm Weapon Mount, FwA"
+            }
+        ]
+      },
+      {
+        "name": "Arm Weapon Mount",
+          "modes": [
+            {
+              "firepower": "2x Arm Weapon Mount, FwA"
+            }
+        ]
+      },
+
+
+
+
+
       {
         "name": "4 Battle Titan Weapons",
           "modes": [
@@ -1207,6 +1245,18 @@
             "specialRules": [
               "EA(+1)",
               "MW"
+          ]
+        }
+      ]
+    },
+    {
+          "name": "Arc Lance",
+          "modes": [
+            {
+            "firepower": "AT4+",
+            "range": 30,
+            "specialRules": [
+
           ]
         }
       ]
@@ -3578,7 +3628,7 @@
       "name": "Gatling Blaster",
         "modes": [
           {
-            "firepower": "4x AP4+/AT4+",
+            "firepower": "6x AP4+/AT4+",
             "range": 60,
             "specialRules": [
 
@@ -5029,8 +5079,8 @@
       "name": "Laser Blaster",
       "modes": [
         {
-          "firepower": "7x AP5+/AT3+",
-          "range": 45,
+          "firepower": "6x AP5+/AT3+",
+          "range": 60,
           "specialRules": [
           ]
         }
@@ -5051,10 +5101,17 @@
       "name": "Laser Burner",
       "modes": [
         {
-          "firepower": "Small Arms",
+          "firepower": "Assault Weapons",
           "specialRules": [
-              "EA(+3)",
-              "MW"
+            "EA(+4)"
+          ]
+        },
+        {
+          "firepower": "Small Arms",
+          "join": "or",
+          "specialRules": [
+              "EA(+2)"
+
           ]
         }
       ]
@@ -5389,6 +5446,18 @@
                 "MW"
           ]
         }
+      ]
+    },
+    {
+      "name": "Manipulators",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+          }
       ]
     },
     {
@@ -6085,6 +6154,7 @@
             "firepower": "3x MW2+",
             "range": 60,
             "specialRules": [
+              "Slw"
 
           ]
           }
@@ -6141,8 +6211,8 @@
       "name": "Plasma Destructor",
         "modes": [
           {
-            "firepower": "4x MW3+",
-            "range": 90,
+            "firepower": "5x MW2+",
+            "range": 75,
             "specialRules": [
                 "Slw"
           ]
@@ -6696,8 +6766,8 @@
             "firepower": "3BP",
             "range":90,
             "specialRules": [
-              "MW",
-              "IC"
+              "MW"
+
           ]
           }
       ]
@@ -8199,6 +8269,17 @@
       ]
     },
     {
+      "name": "Tertitary Arms",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "EA(+2)"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Tesla Cannon",
         "modes": [
           {
@@ -9114,6 +9195,18 @@
       ]
     },
     {
+      "name": "Vengence Cannon",
+      "modes": [
+        {
+            "firepower": "MW2+",
+            "range": 90,
+            "specialRules": [
+                "TK(D6+1)"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Vengeance Launcher",
       "modes": [
         {
@@ -9648,6 +9741,10 @@
       "description": "Extra Attack +3"
     },
     {
+      "name": "EA(+4)",
+      "description": "Extra Attack +4"
+    },
+    {
       "name": "EA(+D3)",
       "description": "Extra Attack +D3"
     },
@@ -9766,6 +9863,10 @@
   {
     "name": "Spec",
     "description": "Special Rule"
+  },
+  {
+    "name": "WM",
+    "description": "Weapon Mount"
   }
 
   ]

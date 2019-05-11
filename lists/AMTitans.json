@@ -53,7 +53,7 @@
         {
           "name": "Carapace Multilasers",
           "type": "CH",
-          "weapons": ["Carapace Multilaser"],
+          "weapons": ["Carapace Multilaser|2"],
           "specialRules": [
           ]
         },
@@ -64,18 +64,16 @@
           "armour": 4,
           "cc": 4,
           "ff": 3,
-          "weapons": ["Hellstorm Cannon||FwA", "Plasma Annihilator||FwA", "Quake Cannon||FxF", "Defense Laser||", "Battle Cannon|4|", "Leg Bastions"],
+          "weapons": ["Plasma Annihilator", "Hellstorm Cannon||FwA", "Defense Laser", "Quake Cannon", "Battle Cannon|4|", "Tertitary Arms"],
           "specialRules": [
-            "Damage Capacity 10",
-            "Void Shields 8",
-            "God Machine",
-
+            "Damage Capacity 12",
+            "8 Void Shields",
             "Fearless",
+            "Inspiring",
             "Reinforced Armour",
-            "Walker",
-            "*Leg Bastions*: May transport up to ten infantry units without Jump Packs or Mounted."
+            "Walker"
           ],
-          "notes": "(May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.) ¤Critical Hit Effect¤: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+          "notes": "May transport ten infantry units without Jump Packs or Mounted. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. ¤Critical Hit Effect:¤ The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
         },
         {
           "name": "Warmonger Titan",
@@ -83,51 +81,55 @@
           "speed": 15,
           "armour": 4,
           "cc": 4,
-          "ff": 3,
-          "weapons": ["Venegance Cannon||FwA", "Doomstrike Missile|8|FwA", "Quad Hydra Autocannon|4|", "Head Gun||FxF", "Leg Bastions"],
+          "ff": 5,
+          "weapons": ["Vengence Cannon||FwA", "Barrage Missile|0-8|FwA", "Deathstrike Missile|0-8|FwA", "Vortex Missile|0-8|FwA", "Warp Missile|0-8|FwA", "Twin Hydra Autocannon|4|", "Head Gun||FxF", "Tertitary Arms"],
           "specialRules": [
-            "Damage Capacity 10",
-            "Void Shields 8",
-            "God Machine",
-
+            "Damage Capacity 12",
+            "8 Void Shields",
             "Fearless",
+            "Inspiring",
             "Reinforced Armour",
             "Walker",
-            "*Leg Bastions*: May transport up to ten infantry units without Jump Packs or Mounted."
+            "May transport ten infantry units without Jump Packs or Mounted",
+            "Armed with any eight of the following: Barrage Missile, Deathstrike Missile, Vortex Missile or Warp Missile. Only one missile may be fired per turn. Warp Missiles ignore Imperial Void Shields and Power Fields"
           ],
-          "notes": "(May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.) ¤Critical Hit Effect¤: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+          "notes": " The unit’s fire control center allows it to re-roll one failed to-hit roll per turn. May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. ¤Critical Hit Effect¤: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
         },
         {
           "name": "Warlord Titan",
           "type": "WE",
           "speed": 15,
           "armour": 4,
-          "cc": 4,
+          "cc": 2,
           "ff": 3,
-          "weapons": ["4 Battle Titan Weapons"],
+          "weapons": [
+            "2x Carapace Weapon Mount|WM",
+            "2x Arm Weapon Mount|WM"
+            ],
           "specialRules": [
             "Damage Capacity 8",
-            "Void Shields 6",
-            "God Machine",
-
+            "6 Void Shields",
             "Fearless",
             "Reinforced Armour",
+            "Thick Rear Armour",
             "Walker"
           ],
-          "notes": "(May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide.) ¤Critical Hit Effect¤: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. ¤Critical Hit Effect¤: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 4+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage. "
         },
         {
         "name": "Reaver Titan",
         "type": "WE",
         "speed": 20,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 3,
-        "weapons": ["3 Battle Titan Weapons"],
+        "weapons": [
+          "Carapace Weapon Mount|WM",
+          "2x Arm Weapon Mount|WM"
+          ],
         "specialRules": [
           "Damage Capacity 6",
-          "Void Shields 4",
-
+          "4 Void Shields",
           "Fearless",
           "Reinforced Armour",
           "Walker"
@@ -141,7 +143,7 @@
         "armour": 5,
         "cc": 4,
         "ff": 4,
-        "weapons": ["2 Scout Titan Weapons"],
+        "weapons": ["Arm Weapon Mount|2"],
         "specialRules": [
           "Damage Capacity 3",
           "Void Shields 2",
