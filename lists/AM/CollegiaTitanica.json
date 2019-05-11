@@ -56,7 +56,6 @@
         "Volcano Cannon",
         "Carapace Landing Pad",
         "Corvus Assault Pod",
-
         "Laser Blaster",
         "Laser Burner",
         "Titan Plasma Cannon",
@@ -73,7 +72,7 @@
     {
       "from": "AM.json",
       "units": [
-        "Tech Priest",
+        "Tech Priest Domninus",
         "Secutarii",
         "Skitarii Vanguard",
         "Ironstrider Ballistarius",
