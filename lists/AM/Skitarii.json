@@ -75,7 +75,7 @@
       "formations": [
         {
           "name": "Vanguard Maniple",
-          "units": "Eight Skitarii Vanguard and one Tech Preist Dominus.",
+          "units": "Nine Skitarii Vanguard and one Tech Preist Dominus.",
           "upgrades": [
             "Commander, Duneriders"
           ],
@@ -97,7 +97,7 @@
         },
         {
           "name": "Ruststalker Killclade",
-          "units": "Six Sicarian Ruststalkers ",
+          "units": "Seven Sicarian Ruststalkers ",
           "upgrades": [
             "Tech-Priest, Subterranean Assault, Duneriders"
           ],
@@ -105,7 +105,7 @@
         },
         {
           "name": "Infiltrator Killclade",
-          "units": "Six Sicarian Infiltrators",
+          "units": "Seven Sicarian Infiltrators",
           "upgrades": [
             "Tech-Priest, Subterranean Assault, Duneriders"
           ],
@@ -200,15 +200,15 @@
         "name": "Commander",
         "options": [
           {
-            "description": "Add 1 of the following:"
+            "description": "Replace the Tech Priest Dominus with one of the following:"
           },
           {
             "description": "0-1 per army Archmagos",
-            "points": "75 points"
+            "points": "25 points"
           },
           {
             "description": "Magos",
-            "points": "50 points"
+            "points": "free"
           }
         ]
       },

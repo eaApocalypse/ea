@@ -5,7 +5,8 @@
   "release": "Beta Release",
   "strategy": "Adepta Sororitas armies have a Strategy Rating of 3.",
   "Initiative": "All Sister of Battle formations have an Initiative Rating of 1+. All Inquisitorial Support Detachments and Imperial Navy formations have an Initiative Rating of 2+.",
-  "specialRules": ["Act of Faith"
+  "specialRules": [
+                  "Act of Faith"
                   ],
   "usage": [
     "The following army list allows you to field an army based on the Adepta Sororitas from the Ordo Heriticus"
@@ -15,27 +16,7 @@
       "from": "IQ.json",
       "units": [
         "Canoness",
-        "Inquisitor",
-        "Mistress",
-        "Palatine",
-        "Priest",
-        "Living Saint",
-        "Arco-Flagellants",
-        "Battle Sisters",
-        "Celestian Sister",
-        "Dominion Sister",
-        "Retributor Sister",
-        "Redemptionists",
-        "Seraphim Sister",
-        "Death Cult Assassin",
-        "Inquisitorial Storm Trooper",
-        "Repentia Sisters",
-        "Penitent Engine",
-        "Exorcist",
-        "Sororitas Rhino",
-        "Sororitas Hunter",
-        "Repressor",
-        "Immolator"
+
       ],
       "unitRules": [
 
