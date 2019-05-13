@@ -7957,10 +7957,9 @@
       "name": "Stormspear Rocket Pod",
         "modes": [
           {
-            "firepower": "1BP",
+            "firepower": "2xAT5+",
             "range":45,
             "specialRules": [
-              "D"
           ]
           }
       ]
