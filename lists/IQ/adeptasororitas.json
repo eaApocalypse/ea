@@ -16,7 +16,27 @@
       "from": "IQ.json",
       "units": [
         "Canoness",
-
+        "Inquisitor",
+        "Mistress",
+        "Palatine",
+        "Priest",
+        "Living Saint",
+        "Arco-Flagellants",
+        "Battle Sisters",
+        "Celestian Sister",
+        "Dominion Sister",
+        "Retributor Sister",
+        "Redemptionists",
+        "Seraphim Sister",
+        "Death Cult Assassin",
+        "Inquisitorial Storm Trooper",
+        "Repentia Sisters",
+        "Penitent Engine",
+        "Exorcist",
+        "Sororitas Rhino",
+        "Sororitas Hunter",
+        "Repressor",
+        "Immolator"
       ],
       "unitRules": [
 

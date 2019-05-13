@@ -81,7 +81,7 @@
       "formations": [
         {
           "name": "Regimental HQ",
-          "units": "One DKoK Supreme Commander with a Commissar, fourteen Assault Infantry",
+          "units": "One DKoK Supreme Commander, fourteen Assault Infantry",
           "extraUnits": [
               "Lord Commissar",
               "Gorgon Assault",
@@ -96,7 +96,7 @@
         },
         {
           "name": "Assault Infantry Company",
-          "units": "One DKoK Commander with a Commissar, fourteen Assault Infantry",
+          "units": "One DKoK Commander, fourteen Assault Infantry",
           "extraUnits": [
               "Lord Commissar",
               "Gorgon Assault",
@@ -111,7 +111,7 @@
     },
         {
           "name": "Death Rider Company",
-          "units": "One Commissar, twelve Death Riders",
+          "units": "Twelve Death Riders",
           "extraUnits": [
           "Lord Commissar",
           "Hellhound Platoon"
@@ -161,7 +161,7 @@
         },
         {
           "name": "Super-Heavy Tank Company",
-          "units": "One Commissar, and any three chosen from Shadowsword, Baneblade, Stormsword",
+          "units": "Any three chosen from Shadowsword, Baneblade, Stormsword",
           "upgrades": [
           ],
           "points": 500
@@ -175,7 +175,7 @@
         },
         {
           "name": "Macharius Company",
-          "units": "One Macharius Command with a Commissar, two Macharius",
+          "units": "One Macharius Command and two Macharius",
           "upgrades": [
           ],
           "points": 325
