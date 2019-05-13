@@ -8323,7 +8323,7 @@
       "name": "Thermal Cannon",
       "modes": [
         {
-          "firepower": "MW3+",
+          "firepower": "MW4+",
           "range": 30,
           "specialRules": [
           ]

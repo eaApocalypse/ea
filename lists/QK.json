@@ -133,7 +133,7 @@
           "speed": 25,
           "armour": 5,
           "cc": 4,
-          "ff": 5,
+          "ff": 4,
           "weapons": [
             "Thermal Cannon",
             "Thunderstrike Gauntlet"
