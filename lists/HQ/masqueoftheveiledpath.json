@@ -7,8 +7,8 @@
   "Initiative": "Aspect Warrior formations, Titans, and the Avatar have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-    "Avatar (Lugganath)",
-    "May Not Garrison (Lugganath)",
+    "Avatar",
+    "Eldar Garrisons",
     "Farsight",
     "Hit and Run",
     "Lance",
@@ -31,7 +31,7 @@
         "Eldar Farseer",
         "Eldar Guardians",
         "Ghost Walkers",
-        "Lugganath Jetbikes",
+        "Jetbikes",
         "Dire Avengers",
         "Dark Reapers",
         "Warp Spiders",
@@ -294,7 +294,7 @@
       },
       {
         "name": "Windriders",
-        "description": "Add up to six Lugganath Jetbikes to the formation",
+        "description": "Add up to six Jetbikes to the formation",
         "points": "25 points each"
       }
     ]
