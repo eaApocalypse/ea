@@ -72,7 +72,7 @@
         {
           "name": "Mission",
           "units": "Eight Battle Sisters",
-          "upgrades": [
+          "extraUnits": [
 
             "Exorcist",
             "Priest",
@@ -85,9 +85,9 @@
         {
           "name": "Retribution",
           "units": "Six Retributor Sisters",
-          "upgrades": [
-              "Four Retributor Sisters and two Dominion Sisters (Free)",
-              "Four Retributor Sisters and two Celestian Sisters (15 points)",
+          "extraUnits": [
+            "Swap for Four Retributor Sisters and two Dominion Sisters (Free)",
+            "Swap for Four Retributor Sisters and two Celestian Sisters (15 points)",
             "Priest",
             "Palatine",
             "Transport"
@@ -103,7 +103,7 @@
         {
           "name": "Exorcism",
           "units": "Five Exorcists",
-          "upgrades": [
+          "extraUnits": [
             "Exorcist",
             "Hunter"
           ],
@@ -112,7 +112,7 @@
         {
           "name": "Choir",
           "units": "Six Seraphim Sisters",
-          "upgrades": [
+          "extraUnits": [
             "Superior"
           ],
           "points": 225
@@ -120,7 +120,7 @@
         {
           "name": "Coven",
           "units": "Four Dominion Sisters",
-          "upgrades": [
+          "extraUnits": [
 
             "Transports"
           ],
@@ -129,8 +129,7 @@
         {
           "name": "Repentance",
           "units": "Six Repentia Sisters plus a Mistress character",
-          "upgrades": [
-
+          "extraUnits": [
             "Engines",
             "Priest",
             "Transport"
@@ -140,7 +139,7 @@
         {
           "name": "Purgeance",
           "units": "Six Immolators or Repressors",
-          "upgrades": [
+          "extraUnits": [
             "Hunter"
           ],
           "points": 225
@@ -154,7 +153,7 @@
         {
           "name": "Penitence",
           "units": "Four Penitent Engines",
-          "upgrades": [
+          "extraUnits": [
             "Engines"
           ],
           "points": 175
@@ -162,7 +161,7 @@
         {
           "name": "Crusaders",
           "units": "Ten Redemptionists plus a Priest character",
-          "upgrades": [
+          "extraUnits": [
             "Chimeras",
             "Engines"
           ],
@@ -171,7 +170,7 @@
         {
           "name": "Conclave",
           "units": "Six Arco Flagellants",
-          "upgrades": [
+          "extraUnits": [
             "Transport",
             "Engines"
           ],
@@ -180,7 +179,7 @@
         {
           "name": "0-1 per army Inquisitorial Strike Force",
           "units": "Eight Inqisitorial Storm Troopers plus an Inquisitor character",
-          "upgrades": [
+          "extraUnits": [
             "Chimeras or Landing Party",
             "Priest",
             "Retinue"
