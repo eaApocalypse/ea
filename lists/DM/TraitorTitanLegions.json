@@ -1,32 +1,46 @@
 {
   "fraction": "Dark Mechanicus",
-  "army": "Traitor Titans",
+  "army": "Traitor Titanica",
   "version": "0.01",
   "release": "Beta Release",
-  "strategy": "Traitor Titans armies have a Strategy Rating of 3.",
-  "Initiative": "All Titan formations have an Initiative Rating of 1+, all other formations have an Initiative Rating of 2+.",
+  "strategy": "Traitor Titanica armies have a Strategy Rating of 3.",
+  "Initiative": "All Titan formations have an Initiative Rating of 2+.",
 
   "specialRules": [
-    "Traitor Titans Tournament Special Rules"
+    "Traitor Titanica Tournament Special Rules",
+    "Weapon Mount"
   ],
   "usage": [
-    "The following army list allows you to field an army based on the Traitor Titans of the Adeptus Mechancius", "Traitor Titan formations come in three types: battle titans, scout titans and support formations. Each battle titan you include in the army allows you to field any two scout titan formations. Each battle titan or scout titan formation allows you to field any one support formation. Although you can only take a scout titan or support formation if you first take a battle titan formation, they are treated as separate independent formations during a battle and do not have to move around together.","In addition, certain formations may be given upgrades. Which upgrades a formation may be given are listed in the 'upgrades' column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart."," Note: the upgrades chosen can lead to an additional surcharge (see Traitor Titans Tournament Special Rules)."
+    "The following army list allows you to field an army based on one of the Dark Mechancius Titan Legions.",
+    "Traitor Titanica's formations come in three types: battle titans, scout titans and support formations. Each battle titan you include in the army allows you to field any two scout titan formations. Each battle titan or scout titan formation allows you to field any one support formation. Although you can only take a scout titan or support formation if you first take a battle titan formation, they are treated as separate independent formations during a battle and do not have to move around together.",
+    "In addition, certain formations may be given upgrades. Which upgrades a formation may be given are listed in the 'upgrades' column. Upgrades are added to the formation and are not a separate formation. Each upgrade that is taken adds to the cost of the formation, as shown on the upgrade chart. Note: the upgrades chosen can lead to an additional surcharge."
   ],
   "units": [
     {
       "from": "DMTitans.json",
       "units": [
-        "Legate",
-        "Veteran Princeps",
-        "Sacred Icon",
+        "Chaos Legate",
+        "Chaos Princeps",
+        "Chaos Icon",
         "Carapace Multilasers",
-        "Warhound",
-        "Reaver Titan",
-        "Warlord Titan"
+        "Chaos Warhound (Undivided)",
+        "Chaos Warhound (Nurgle)",
+        "Chaos Warhound (Khorne)",
+        "Chaos Warhound (Slaanesh)",
+        "Chaos Warhound (Tzeentch)",
+        "Chaos Reaver Titan (Undivided)",
+        "Chaos Reaver Titan (Nurgle)",
+        "Chaos Reaver Titan (Khorne)",
+        "Chaos Reaver Titan (Slaanesh)",
+        "Chaos Reaver Titan (Tzeentch)",
+        "Chaos Warlord (Undivided)",
+        "Chaos Warlord (Nurgle)",
+        "Chaos Warlord (Khorne)",
+        "Chaos Warlord (Slaanesh)",
+        "Chaos Warlord (Tzeentch)"
       ],
         "unitRules": [
             "God Machine",
-
             "Ignore Shields",
             "Void Shields"
       ]
@@ -34,8 +48,6 @@
     {
       "from": "DMScoutTitanWeapons.json",
       "units": [
-        "Castigator Cannon",
-        "Chaos Hellblades",
         "Inferno Gun",
         "Plasma Blastgun",
         "Turbo-Laser Destructor",
@@ -47,19 +59,16 @@
     {
       "from": "DMBattleTitanWeapons.json",
       "units": [
-        "Hellstrike Cannon",
-        "Havoc Missile Rack",
-        "Doomfist",
+        "Apocalypse Missile Launcher",
         "Gatling Blaster",
         "Melta Cannon",
         "Quake Cannon",
         "Volcano Cannon",
         "Carapace Landing Pad",
         "Corvus Assault Pod",
-        "Apocalypse Missile Launcher",
         "Laser Blaster",
         "Laser Burner",
-        "Plasma Cannon",
+        "Titan Plasma Cannon",
         "Plasma Destructor",
         "Barrage Missile",
         "Deathstrike Missile",
@@ -76,143 +85,115 @@
         "Heretek",
         "Dark Skitarii",
         "Helstalker",
-        "Venomcrawler",
-        "Defiler",
-        "Decimator Knight",
         "Chaos Land Raider",
+        "Decimator Knight",
         "Heldrake"
     ],
         "unitRules": [
-         "Automaton",
-         "God Machine Killer (GMK)"
+
       ]
     }
 ],
 "sections": [
   {
-    "name": "Battle Titan Formations",
-    "formations": [
-
-  {
-    "name": "Warlord Titan",
-    "units": "One Warlord Titan.",
-    "extraUnits": [
-      "Mount each weapon mount (4 including 2 Carapace) in the formation with one weapon listed in the battle titan weapons list."
-    ],
-    "points": 675
-},
-{
-    "name": "Reaver Titan",
-    "units": "One Reaver Titan",
-    "extraUnits": [
-      "Mount each weapon mount (3 including 1 Carapace) in the formation with one weapon listed in the battle titan weapons list."
-
-    ],
-    "points": 550
-}
-]
-},
-  {
-      "name": "Scout Titan Formations",
-      "description": "Up to two Scout Titan formations for each Battle Titan formation",
+      "name": "Chaos Scout Titan Formations",
+      "description": "Any two scout titan formations may be fielded per each battle titan.",
       "formations": [
         {
-          "name": "Warhound",
-          "units": "One Warhound Titan",
+          "name": "Chaos Warlord Titan",
+          "units": "One Chaos Warlord Titan.",
           "extraUnits": [
-              "2 Weapons from the Scout Titan Weapon list may be taken.",
-              "0-2 Inferno Cannon",
-              "0-1 Plasma Blastgun",
-              "0-2 Castigator Cannon",
-              "0-2 Chaos Hellblades",
-              "0-2 Vulcan Mega Bolter"
+            "All"
           ],
-          "points": 275
-        },
+          "points": 675
+      },
         {
-          "name": "Warhound Pack",
-          "units": "Two Warhound Titans",
-          "extraUnits": [
-              "2 Weapons from the Scout Titan Weapon list may be taken for each Titan.",
-              "0-2 Inferno Cannon",
-              "0-1 Plasma Blastgun",
-              "0-2 Castigator Cannon",
-              "0-2 Chaos Hellblades",
-              "0-2 Vulcan Mega Bolter"
-          ],
-          "points": 500
+            "name": "Chaos Reaver Titan",
+            "units": "One Chaos Reaver Titan",
+            "extraUnits": [
+              "All"
+
+            ],
+            "points": 550
         }
       ]
     },
+    {
+        "name": "Chaos Scout Titan Formations",
+        "description": "Any two scout titan formations may be fielded per each battle titan.",
+        "formations": [
+          {
+            "name": "Chaos Warhound",
+            "units": "One Chaos Warhound Titan",
+            "extraUnits": [
+                "Inferno Gun, Plasma Blastgun, Turbo-Laser Destructor, Veteran Princeps, Vulcan Mega-Bolter"
+            ],
+            "points": 275
+          },
+          {
+            "name": "Chaos Warhound Pack",
+            "units": "Two Chaos Warhound Titans",
+            "extraUnits": [
+                "Inferno Gun, Plasma Blastgun, Turbo-Laser Destructor, Veteran Princeps, Vulcan Mega-Bolter"
+            ],
+            "points": 500
+          }
+        ]
+      },
     {
       "name": "Dark Mechanicus Allies",
-      "description": "Up to 1/3 of the points available may be spent on Dark Mechanicus Allies.",
+      "description": "Up to 1/3 of the points available may be spent on Adeptus Mechanicus Allies.",
       "formations": [
         {
-          "name": "Venomcrawlers",
-          "units": "Five Venomcrawler",
-          "points": 225
-        },
-        {
           "name": "Helstalkers",
-          "units": "Four Helstalkers",
-          "points": 150
+          "units": "Six Helstalker",
+          "points": 175
         },
         {
-          "name": "Dark Skitarii",
+          "name": "Dark Skitarii Maniple",
           "units": "One Heretek, nine Dark Skitarii",
           "upgrades": [
-            "Add 3 Chaos Land Raider +150 points"
+            "Add 5 Chaos Land Raiders +250 points"
           ],
           "points": 225
         },
         {
-          "name": "Defilers",
-          "units": "Four Defiler",
+          "name": "Decimator Knight Maniple",
+          "units": "2 Decimator Knights",
           "upgrades": [
           ],
           "points": 225
         },
         {
-          "name": "Decimator Knights",
-          "units": "Three Decimator Knights",
-          "points": 300
-        },
-        {
-          "name": "Heldrakes",
+          "name": "Heldrake Fighters",
           "units": "Two Heldrakes",
-          "points": 175
+          "points": 200
         }
       ]
     },
     {
-      "name": "Battle Titan Weapon Upgrades",
+      "name": "Chaos Battle Titan Weapons",
       "description": "Mount each weapon mount in the formation with one of the following upgrades.",
       "formations": [
-        {
-          "name": "Havoc Missile Rack",
-          "units": "Havoc Missile Rack",
-          "points": 75
-        },
-        {
-          "name": "Hellstrike Cannon",
-          "units": "Hellstrike Cannon",
-          "points": 50
-        },
-        {
-          "name": "Doomfist",
-          "units": "Doomfist",
-          "points": 25
-        },
         {
           "name": "Apocalypse Missile Launcher",
           "units": "Apocalypse Missile Launcher",
           "points": 25
         },
         {
+          "name": "Carapace Landing Pad",
+          "units": "Carapace Landing Pad",
+          "points": 0
+        },
+        {
           "name": "Titan Power Fist",
           "units": "Titan Power Fist",
           "points": 25
+        },
+        {
+          "name": "Corvus Assault Pod",
+          "units": "Corvus Assault Pod",
+          "points": 0
         },
         {
           "name": "Gatling Blaster",
@@ -223,6 +204,11 @@
           "name": "Laser Blaster",
           "units": "Laser Blaster",
           "points": 50
+        },
+        {
+          "name": "Laser Burner",
+          "units": "Laser Burner",
+          "points": 0
         },
         {
           "name": "Melta Cannon",
@@ -270,14 +256,40 @@
           "points": 75
         }
       ]
+    },
+    {
+      "name": "Chaos Scout Titan Weapons",
+      "description": "Mount each weapon mount in the formation with one of the following upgrades.",
+      "formations": [
+        {
+          "name": "Inferno Gun",
+          "units": "Inferno Gun",
+          "points": 0
+        },
+        {
+          "name": "Plasma Blastgun",
+          "units": "Plasma Blastgun",
+          "points": 0
+        },
+        {
+          "name": "Turbo-Laser Destructor",
+          "units": "Turbo-Laser Destructor",
+          "points": 25
+        },
+        {
+          "name": "Vulcan Mega-Bolter",
+          "units": "Vulcan Mega-Bolter",
+          "points": 0
+        }
+      ]
     }
   ],
   "upgrades": {
-    "title": "Titan Legion Upgrades",
+    "title": "Traitor Titan Legion Upgrades",
     "description": "Each upgrade may be taken once per formation",
     "items": [
         {
-          "name": "0-1 Supreme Commander",
+          "name": "0–1 Chaos Legate per army",
           "options": [
             {
               "description": "Add one Legate to the formation",
@@ -286,7 +298,7 @@
           ]
         },
         {
-          "name": "Veteran Princeps",
+          "name": "Chaos Princeps",
           "options": [
             {
               "description": "Add one Veteran Princeps to the formation",
@@ -304,20 +316,11 @@
           ]
         },
         {
-          "name": "Carapace Missiles",
+          "name": "Chaos Icon",
           "options": [
             {
-              "description": "Add two Carapace Missiles",
-              "points": "25 points"
-            }
-          ]
-        },
-        {
-          "name": "Secutarii Detachment",
-          "options": [
-            {
-              "description": "Add 9 Secutarii and 1 Tech Priest",
-              "points": "225 points"
+              "description": "Add a Chaos Icon to the Titan",
+              "points": "50 points"
             }
           ]
         }

@@ -7180,6 +7180,17 @@
       ]
     },
     {
+      "name": "Chaos Icon",
+        "modes": [
+          {
+            "firepower": "n/a",
+
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Scarab Swarm",
         "modes": [
           {
