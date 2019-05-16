@@ -1,6 +1,10 @@
 [
   {
     "name": "Space Marine Forces",
+    "armyStats": {
+        "strategy": "Adeptus Astartes armies have a Strategy Rating of 5",
+        "initiative": "All formations have an Initiative Rating of 1+"
+    },
     "specialRules": [
       {
         "title": "Bionics",
