@@ -4,7 +4,6 @@
     "specialRules": [
     ],
     "unit": [
-
     {
       "name": "Mycetic Spore",
       "type": "Special",
@@ -21,35 +20,23 @@
       "name": "Razorfiend",
       "type": "SC",
       "weapons": [
-          {
-            "name": "Orbital Bombardment",
-            "modes": [
-              {
-                "firepower": "3BP, MW"
-              }
-            ]
-        }
+		"Orbital Bombardment 3BP"
       ],
       "specialRules": [
         "Transport (2 Mycetic Spores including cargo)"
-      ]
+      ],
+	  "notes":"May carry 2 Mycetic Spores including cargo"
     },
     {
       "name": "Hive Ship",
       "type": "SC",
       "weapons": [
-          {
-            "name": "Orbital Bombardment",
-            "modes": [
-              {
-                "firepower": "6BP, MW"
-              }
-            ]
-        }
+		"Orbital Bombardment 6BP"
       ],
       "specialRules": [
         "Slow to Arrive", "(Can only arrive from turn 2 onwards) Transport (3 Mycetic Spores including cargo)"
-      ]
+      ],
+  	  "notes":"May carry 5 Mycetic Spores including cargo"
     }
 
     ]
