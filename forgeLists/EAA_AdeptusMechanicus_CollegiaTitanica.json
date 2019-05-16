@@ -3,6 +3,28 @@
 	"version":"0.01",
 	"notes":["If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased. A maximum of one Skitarii Demi-Century may be purchased for each Corvus Assault pod taken"],
 	"by":"EA-Eternal War",
+	"includeFiles": {
+		"primary": "./lists/AMTitans.json",
+		"allies": [
+					"./lists/AM.json",
+					"./lists/BattleTitanWeapons.json",
+					"./lists/ScoutTitanWeapons.json",
+					"./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+		]
+	},
+		"specialRules": [
+							{ "title":"Imperial Knights Tournament Special Rules"},
+							{ "title":"Lance"},
+							{ "title":"Heavy Armoured Vehicle (H-AV)"},
+							{ "title":"Bravery"},
+							{ "title":"Ion Gauntlet (X)"},
+							{ "title":"Ion Shield (X)"},
+							{ "title":"Ignore Shields"},
+							{ "title":"Unstable"}
+	],
 	"sections":[
 		{"name":"BATTLE TITANS", "formations":[
 			{"id":502, "name":"Emperor Titan", 		"pts":1250,"upgrades":[81,82,83,84],       		 "xref":[]},
