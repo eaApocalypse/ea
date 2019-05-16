@@ -70,9 +70,9 @@
       "formations": [
         {
           "name": "Vanguard Maniple",
-          "units": "Eight Skitarii Vanguard and one Tech Preist Dominus.",
+          "units": "Nine Skitarii Vanguard and one Tech Preist Dominus.",
           "upgrades": [
-            "Commander, Chimeradons"
+            "Commander, Duneriders"
           ],
           "points": 225
         }
@@ -94,7 +94,7 @@
           "name": "Ruststalker Killclade",
           "units": "Seven Sicarian Ruststalkers ",
           "upgrades": [
-            "Tech-Priest, Subterranean Assault"
+            "Tech-Priest, Duneriders, Subterranean Assault"
           ],
           "points": 200
         },
@@ -102,7 +102,7 @@
           "name": "Infiltrator Killclade",
           "units": "Seven Sicarian Infiltrators",
           "upgrades": [
-            "Tech-Priest, Subterranean Assault"
+            "Tech-Priest, Duneriders, Subterranean Assault"
           ],
           "points": 200
         },
@@ -146,9 +146,8 @@
       "formations": [
         {
           "name": "Ordinati Minoris",
-          "units": "Two or Three Ordinati Minoris with mounted Battle Titan Weapon from the following",
+          "units": "Two or Three Ordinati Minoris with mounted one Battle Titan Weapon each from the following",
           "extraUnits": [
-            "Add one Battle Titan Weapon listed to each Minoris",
             "Gatling Blaster",
             "Melta Cannon +25",
             "Quake Cannon  +50",
@@ -164,7 +163,7 @@
             "Vortex Missile  +25",
             "Warp Missile  +25",
             "Titan Power Fist",
-            "Weapons Marked with '*' may be taken twice per 3k points."
+            "Weapons Marked with '*' may be only taken twice per 3k points."
 
           ],
           "points": "125 points per Minoris"
@@ -190,15 +189,15 @@
         "name": "Commander",
         "options": [
           {
-            "description": "Add 1 of the following:"
+            "description": "Replace the Tech Priest Dominus with one of the following:"
           },
           {
             "description": "0-1 per army Archmagos",
-            "points": "75 points"
+            "points": "25 points"
           },
           {
             "description": "Magos",
-            "points": "50 points"
+            "points": "free"
           }
         ]
       },
@@ -212,10 +211,10 @@
         ]
       },
       {
-        "name": "Transports",
+        "name": "Duneriders",
         "options": [
           {
-            "description": "Add enough Chimeradons to transport the entire formation",
+            "description": "Add enough Duneriders to transport the entire formation",
             "points": "25 points"
           }
         ]

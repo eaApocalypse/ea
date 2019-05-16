@@ -1,56 +1,57 @@
 {
 	"id":"Collegia Titanica",
 	"version":"0.01",
-	"notes":["If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased."],
+	"notes":["If a Titan uses one weapon type only, then a Single Weapon System Surcharge upgrade must be purchased. A maximum of one Skitarii Demi-Century may be purchased for each Corvus Assault pod taken"],
 	"by":"EA-Eternal War",
 	"sections":[
 		{"name":"BATTLE TITANS", "formations":[
-			{"id":502, "name":"Emperor Titan", 		"pts":1000,"upgrades":[81,82,83,84]},
-			{"id":503, "name":"Warlord Titan", 		"pts":675, "upgrades":[80,81,82,83,84]},
-			{"id":504, "name":"Reaver Titan",			"pts":550, "upgrades":[80,81,82,83,84]}
+			{"id":502, "name":"Emperor Titan", 		"pts":1250,"upgrades":[81,82,83,84],       		 "xref":[]},
+			{"id":503, "name":"Warlord Titan", 		"pts":675, "upgrades":[80,81,82,83,84],        "xref":["Warlord Titan"]},
+			{"id":504, "name":"Reaver Titan",			"pts":550, "upgrades":[80,81,82,83,84],        "xref":["Reaver Titan"]}
 		]},
 		{"name":"SCOUT TITANS", "formations":[
-			{"id":551, "name":"Warhound Titan",		"pts":275, "upgrades":[80,82]},
-			{"id":552, "name":"Warhound Titan Pack",	"pts":500, "upgrades":[80,82]}
+			{"id":551, "name":"Warhound Titan",		"pts":275, "upgrades":[80,82],       					 "xref":["Warhound Titan"]},
+			{"id":552, "name":"Warhound Titan Pack",	"pts":500, "upgrades":[80,82],      		   "xref":["Warhound Titan"]}
 		]},
 		{"name":"SUPPORT FORMATIONS", "formations":[
-			{"id":561, "name":"Ironstrider Cavaliers",			"pts":175, "units":" 6 Ironstrider Ballistarius", "upgrades":[]},
-			{"id":562, "name":"Sydonian Dragoons",			"pts":175, "units":"6 Sydonian Dragoons", "upgrades":[]},
-			{"id":563, "name":"Skitarii Maniple",	"pts":225, "units":"One Tech Priest, nine Skitarii Vanguard", "upgrades":[]},
-			{"id":564, "name":"Avenger Strike Fighters",		"pts":175, "units":"2 Avenger Strike Fighters", "upgrades":[]},
-			{"id":565, "name":"Orbital Support",		"pts":200, "units":"One Ark Mechanicus Battleship", "upgrades":[]}
+			{"id":901, "name":"Vanguard Maniple", 					"pts":175, "units":"9 Skitarii Vanguard",    						"upgrades":[16],        									"xref":["Skitarii Vanguard"]},
+			{"id":902, "name":"Ironstrider Cavaliers", 			"pts":225, "units":"6 Ironstrider Ballistarius",     	  "upgrades":[],        										"xref":["Ironstrider Ballistarius"]},
+			{"id":903, "name":"Sydonian Dragoons", 					"pts":225, "units":"6 Sydonian Dragoons",     				  "upgrades":[],        										"xref":["Sydonian Dragoon"]},
+			{"id":904, "name":"Questoris Banner",	          "pts":5,              																  "upgrades":[21,22,23,24,25,26,27,41,42]},
+			{"id":905, "name": "Avenger Strike Fighters",   "pts":175, "units":"2 Avenger Strike Fighters", 				"upgrades":[],        										"xref":["Avenger Strike Fighters"]},
+			{"id":906, "name": "Mechanicus Battleship",     "pts":200, "units":"1 Ark Mechanicus Battleship ",  	  "upgrades":[],        										"xref":["Ark Mechanicus Battleship"]}
+
 		]}
 	],
 	"upgrades":[
-		{"id":11, "name":"Imperator Configuration",	"pts":0},
-		{"id":12, "name":"Warmonger Configuration",	"pts":0},
-		{"id":13, "name":"Inferno Gun", 		"pts":0},
-		{"id":14, "name":"Vulcan Megabolter",		"pts":0},
-		{"id":15, "name":"Plasma Blastgun",		"pts":0},
-		{"id":16, "name":"Turbo-laser Destructor",	"pts":25},
-		{"id":30, "name":"Apocalypse Missile Launcher",	"pts":25},
-		{"id":25, "name":"Laser Burner",		"pts":0},
-		{"id":26, "name":"Corvus Assault Pod",		"pts":0},
-		{"id":27, "name":"Carapace Landing Pad",	"pts":0},
-		{"id":28, "name":"Plasma Cannon",		"pts":25},
-		{"id":29, "name":"Gatling Blaster",		"pts":25},
-		{"id":31, "name":"Close Combat Weapon",		"pts":25},
-		{"id":32, "name":"Melta Cannon",		"pts":50},
-		{"id":33, "name":"Laser Blaster",		"pts":50},
-		{"id":34, "name":"Volcano Cannon",		"pts":50},
-		{"id":35, "name":"Plasma Destructor",		"pts":75},
-		{"id":36, "name":"Support Missile",		"pts":75},
-		{"id":37, "name":"Quake Cannon",		"pts":75},
-		{"id":80, "name":"Single Weapon System Surcharge", 	"pts":25},
-		{"id":81, "name":"Legate",			"pts":50},
-		{"id":82, "name":"Veteran Princeps",		"pts":25},
-		{"id":83, "name":"Carapace Multi-Lasers",	"pts":50},
-		{"id":84, "name":"Sacred Icon",			"pts":50}
+		{"id":11, "name":"Imperator Configuration",				"pts":0,       			 "xref":["Imperator Configuration"]},
+		{"id":12, "name":"Warmonger Configuration",				"pts":0,       			 "xref":["Warmonger Configuration"]},
+		{"id":13, "name":"Inferno Gun", 									"pts":0,       			 "xref":["Inferno Gun"]},
+		{"id":14, "name":"Vulcan Megabolter",							"pts":0,       			 "xref":["Vulcan Megabolter"]},
+		{"id":15, "name":"Plasma Blastgun",								"pts":0,       			 "xref":["Plasma Blastgun"]},
+		{"id":16, "name":"Turbo-laser Destructor",				"pts":25,       		 "xref":["Turbo-laser Destructor"]},
+		{"id":30, "name":"Apocalypse Missile Launcher",		"pts":25,       		 "xref":["Apocalypse Missile Launcher"]},
+		{"id":25, "name":"Laser Burner",									"pts":0,       			 "xref":["Laser Burner"]},
+		{"id":26, "name":"Corvus Assault Pod",						"pts":0,       			 "xref":["Corvus Assault Pod"]},
+		{"id":27, "name":"Carapace Landing Pad",					"pts":0,       			 "xref":["Carapace Landing Pad"]},
+		{"id":28, "name":"Plasma Cannon",									"pts":25,       		 "xref":["Plasma Cannon"]},
+		{"id":29, "name":"Gatling Blaster",								"pts":25,       		 "xref":["Gatling Blaster"]},
+		{"id":31, "name":"Close Combat Weapon",						"pts":25,       		 "xref":["Close Combat Weapon"]},
+		{"id":32, "name":"Melta Cannon",									"pts":50,       		 "xref":["Melta Cannon"]},
+		{"id":33, "name":"Laser Blaster",									"pts":50,       		 "xref":["Laser Blaster"]},
+		{"id":34, "name":"Volcano Cannon",								"pts":50,       		 "xref":["Volcano Cannon"]},
+		{"id":35, "name":"Plasma Destructor",							"pts":75,       		 "xref":["Plasma Destructor"]},
+		{"id":36, "name":"Support Missile",								"pts":75,       		 "xref":["Support Missile"]},
+		{"id":37, "name":"Quake Cannon",									"pts":75,       		 "xref":["Quake Cannon"]},
+		{"id":80, "name":"Single Weapon System Surcharge","pts":25,       		 "xref":[]},
+		{"id":81, "name":"Legate",												"pts":50,       		 "xref":["Legate"]},
+		{"id":82, "name":"Veteran Princeps",							"pts":25,       		 "xref":["Veteran Princeps"]},
+		{"id":83, "name":"Carapace Multi-Lasers",					"pts":50,       		 "xref":["Carapace Multi-Lasers"]},
+		{"id":84, "name":"Sacred Icon",										"pts":50,       		 "xref":["Sacred Icon"]}
 	],
 	"formationConstraints":[
 		{"max":1, "from":[565]},
-		{"max":1, "name":"Support Formation", "from":[561,562,563,564,565,566,567], "forEach":[502,503,504,551,552], "name2":"Titan Formation"},
-		{"maxPercent":100, "from":[561,562,563,564,565,566,567]},
+		{"maxPercent":33, "from":[905,906]},
 		{"max":2, "name":"Scout Titan Formations", "from":[551,552], "forEach":[502,503,504], "name2":"Battle Titan"}
 	],
 	"upgradeConstraints":[
