@@ -1,0 +1,129 @@
+{
+	"id":"Black Legion",
+	"version":"0.01",
+	"notes":
+		["Add one free Lesser Daemon to Daemon pool per Daemonic Pact"],
+		"by":"EA-Eternal War",
+	"sections":[
+		{"name":"DAEMONS", "formations":[
+			{"id":500, "name":"Daemon Pool", "pts":0, "upgrades":[71,72,73]}
+		]},
+		{"name":"BLACK LEGION CORE FORMATIONS", "formations":[
+			{"id":501, "name":"Black Legion Retinue", "pts":275, "upgrades":[14,15,40,41,42,43,44,70,80]}
+		]},
+		{"name":"BLACK LEGION ELITE FORMATIONS", "formations":[
+			{"id":502, "name":"Chaos Terminators", "pts":275, "upgrades":[14,15,41,42,70,80]},
+			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42,70]}
+		]},
+		{"name":"BLACK LEGION SUPPORT FORMATIONS", "formations":[
+			{"id":504, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
+			{"id":505, "name":"Raptor Cult",	"pts":225, "units":"6 Chaos Raptors", "upgrades":[70]},
+			{"id":506, "name":"Predator Company", "units":"4 Chaos Predators", "pts":200, "upgrades":[43,44] },
+			{"id":507, "name":"Havocs",	"pts":200, "units":"4 Havocs", "upgrades":[43,44,70]}
+		]},
+		{"name":"BLACK LEGION DAEMON ENGINE, TITAN AND CHAOS NAVY FORMATIONS", "formations":[
+			{"id":511, "name":"Deathwheels",	"pts":50, "upgrades":[60]},
+			{"id":512, "name":"Decimators", "pts":50, "upgrades":[61]},
+			{"id":513, "name":"Defilers", "pts":25, "upgrades":[63]},
+			{"id":514, "name":"Chaos Warhounds",	"pts":50, "upgrades":[62]},
+			{"id":515, "name":"Chaos Reaver",		"units": "1 Chaos Reaver Titan", 	"pts":600, "upgrades":[]},
+			{"id":516, "name":"Chaos Warlord",	"units": "1 Chaos Warlord Titan",	"pts":750, "upgrades":[]},
+			{"id":517, "name":"Harbinger", 	"pts":325, "units": "1 Harbinger Bomber", "upgrades":[]},
+			{"id":518, "name":"Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades":[]},
+			{"id":519, "name":"Hell Talons",	"pts":225, "units":"2 Hell Talon Bombers", "upgrades":[]},
+			{"id":520, "name":"Devastation Class Cruiser",	"pts":150,  "units":"1 Devastation Class Cruiser",  "upgrades":[]},
+			{"id":521, "name":"Despoiler Class Battleship","pts":200,   "units":"1 Despoiler Class Battleship", "upgrades":[]}
+			]}
+	],
+	"upgrades":[
+		{"id":10, "name":"Chaos Lord", 		"pts":0},
+		{"id":11, "name":"Sorcerer Lord", 		"pts":0},
+		{"id":12, "name":"Chaos Warlord", 		"pts":50},
+		{"id":13, "name":"Daemon Prince (replaces one unit of Chaos Space Marines or Havocs)", 		"pts":75},
+		{"id":16, "name":"Daemon Prince (replaces one unit of Chaos Terminators)", 		"pts":75},
+
+		{"id":14, "name":"Icon Bearer", "pts":25},
+		{"id":15, "name":"Chaos Champion", "pts":50},
+
+		{"id":20, "name":"4 Chaos Space Marines", 		"pts":0},
+
+		{"id":38, "name":"2 Chaos Rhinos", 	"pts":25},
+		{"id":39, "name":"2 Chaos Land Raiders", 	"pts":100},
+
+		{"id":40, "name":"Chaos Rhino", 	"pts":10},
+		{"id":41, "name":"Chaos Land Raider", 	"pts":50},
+
+		{"id":42, "name":"2 Chaos Dreadnoughts", "pts":75},
+		{"id":43, "name":"2 Chaos Vindicators", "pts":50},
+		{"id":44, "name":"Chaos Stalker", "pts":50},
+
+		{"id":45, "name":"4 Noise Marines", "pts":50},
+		{"id":46, "name":"4 Plague Marines", "pts":50},
+		{"id":47, "name":"4 Khorne Berzerkers", "pts":25},
+		{"id":48, "name":"4 Rubric Marines", "pts":50},
+
+		{"id":49, "name":"4 Havocs", "pts":50},
+
+		{"id":50, "name":"Chaos Terminators", "pts":0},
+		{"id":51, "name":"Obliterators", "pts":35},
+
+		{"id":60, "name":"Deathwheel", "pts":225},
+		{"id":61, "name":"Decimator", "pts":150},
+		{"id":62, "name":"Chaos Warhound Scout Titan", "pts":225},
+		{"id":63, "name":"Defiler", "pts":50},
+
+		{"id":70, "name":"Daemonic Pact", "pts":25},
+
+		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
+		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
+		{"id":73, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0},
+
+		{"id":80, "name":"Dreadclaw Drop Pod", "pts":5}
+
+
+	],
+	"formationConstraints":[
+		{"max":1, "name":"Spacecraft", "from":[520,521]},
+		{"max":1, "name":"Harbringer", "from":[517]},
+		{"max":1, "name":"Black Legion Elite Formation", "from":[502,503], "forEach":[501], "name2":"Black Legion Core Formation"},
+		{"max":2, "name":"Black Legion Support Formations", "from":[504,505,506,507], "forEach":[501], "name2":"Black Legion Core Formation"},
+		{"max":1, "from":[500]},
+		{"maxPercent":34, "name":"Daemon Engines, Titans & Chaos Navy", "from":[511,512,513,514,515,516,517,518,519,520,521]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "perArmy":true, "from":[12,13,16]},
+
+		{"min":0, "max":1, "from":[70], "appliesTo":[501,502,503,504,505,507]},
+
+		{"min":1, "max":1, "from":[10,11,12,13], "appliesTo":[501]},
+		{"min":0, "max":1, "from":[14], "appliesTo":[501,502,504]},
+		{"min":0, "max":1, "from":[15], "appliesTo":[501,502]},
+
+		{"min":2, "max":2, "from":[20,45,46,47,48,49], "appliesTo":[501]},
+		{"max":1, "from":[45,46,47,48], "appliesTo":[501]},
+		{"max":1, "from":[49], "appliesTo":[501]},
+		{"min":0, "max":4, "from":[40,41], "appliesTo":[501]},
+		{"min":0, "max":10, "from":[80], "appliesTo":[501,502]},
+
+		{"min":1, "max":1, "from":[10,11,12,16], "appliesTo":[502]},
+		{"min":4, "max":4, "from":[50,51], "appliesTo":[502]},
+		{"min":0, "max":2, "from":[51], "appliesTo":[502]},
+		{"min":0, "max":4, "from":[41], "appliesTo":[502]},
+
+		{"min":1, "max":1, "from":[10,11], "appliesTo":[504,505,507]},
+
+		{"min":0, "max":1, "from":[80], "appliesTo":[505]},
+
+		{"min":0, "max":1, "from":[42], "appliesTo":[501,502,503]},
+		{"min":0, "max":1, "from":[43], "appliesTo":[501,506,507]},
+		{"min":0, "max":1, "from":[44], "appliesTo":[501,506,507]},
+
+		{"min":1, "max":1, "from":[38,39], "appliesTo":[507]},
+
+		{"min":1, "max":2, "from":[60], "appliesTo":[511]},
+		{"min":1, "max":2, "from":[61], "appliesTo":[512]},
+		{"min":4, "max":6, "from":[63], "appliesTo":[513]},
+		{"min":1, "max":2, "from":[62], "appliesTo":[514]}
+
+	]
+}

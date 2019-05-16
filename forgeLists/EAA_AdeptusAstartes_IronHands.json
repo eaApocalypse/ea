@@ -1,0 +1,206 @@
+{
+	"id":"EAA Iron Hands",
+	"version":"0.1",
+	"by":"EA-Eternal War",
+
+	"includeFiles": {
+		"primary": "./lists/SM.json",
+		"allies": [
+					"./lists/ImperialAllies.json",
+					"./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+					]
+	},
+	"specialRules": [
+		{ "title": "They Shall Know No Fear" },
+		{ "title": "Space Marine Transports" },
+		{ "title": "Cult of the Machine" },
+		{ "title": "Bionics" }
+	],
+	"sections":[
+		{"name":"IRON HANDS CORE DETACHMENTS",
+		 "formations":[
+			{"id":500, "name":"Dreadnought Clan",        "pts":300,  "upgrades":[25,26,27,28,  60,61,  99,  30,  42,43,44,45,  140]},
+			{"id":510, "name":"Mechanized Clan",         "pts":300,  "upgrades":[60,61,  99,  33,34,35,36,  30,  42,43,44,45,  95,96]}
+		]},
+		{"name":"IRON HANDS SUPPORT DETACHMENTS",
+		 "notes":"(Two Support Detachments may be taken for each Core Detachment)",
+		 "formations":[
+			{"id":520, "name":"Dreadnought Talon",       "pts":225,                                    "upgrades":[25,26,27,  140,143]},
+			{"id":530, "name":"Land Raiders",            "pts":250, "units":"3 Land Raiders",          "upgrades":[60,61, 40,41,  95,96],   "xref":["Land Raider"]},
+			{"id":540, "name":"Land Speeders",           "pts":200,                                    "upgrades":[]},
+			{"id":560, "name":"Predator",                "pts":250,                                    "upgrades":[60,61,  93,94,95]},
+			{"id":570, "name":"Scouts",                  "pts":150,                                    "upgrades":[60,61, 35,36,  30,  151,152]},
+			{"id":580, "name":"Vindicators",             "pts":225, "units":"4 Vindicators",           "upgrades":[60,61,  95,96],          "xref":["Vindicator"]},
+			{"id":590, "name":"Whirlwinds",              "pts":275, "units":"4 Whirlwinds",            "upgrades":[60,61],                  "xref":["Whirlwind"]}
+		]},
+		{"name":"IRON HANDS AIRCRAFT AND IMPERIAL ALLIES",
+		 "notes":"(Max 33%)",
+		 "formations":[
+			{"id":610, "name":"Thunderhawk Transporter", "pts":200, "units":"Thunderhawk Transporter",  "upgrades":[120],                   "xref":["Thunderhawk Transporter"]},
+			{"id":600, "name":"Storm Talon Squadron",    "pts":200, "units":"2 Storm Talons Gunships",	"upgrades":[],                      "xref":["Storm Talon Gunship"]},
+			{"id":550, "name":"Orbital Support",         "pts":0,                                      "upgrades":[]},
+			{"id":620, "name":"Warhound Pack",           "pts":500, "upgrades":[]},
+			{"id":630, "name":"Reaver Titan",            "pts":600, "upgrades":[]}
+		]}
+	],
+	"upgrades":[
+		{"id":1, "name":"Veteran Sergeant",                                               "pts":0,    "xref":["Iron Hands Veteran Sergeant"]},
+		{"id":2, "name":"Iron Captain",                                                   "pts":25,   "xref":["Iron Captain"]},
+		{"id":3, "name":"Iron Hands Techmarine",                                          "pts":25,   "xref":["Iron Hands Techmarine"]},
+		{"id":4, "name":"Venerable Dreadnaught (Supreme Commander)",                      "pts":50,   "xref":["Dreadnought, Venerable"]},
+		{"id":5, "name":"Venerable Dreadnaught (Supreme Commander) plus LR Anvilarum",    "pts":75,   "xref":["Dreadnought, Venerable","Land Raider Anvilarum"]},
+
+		{"id":10, "name":"4 Tacticals",                                                   "pts":0,    "xref":["Iron Hands Tacticals"]},
+		{"id":11, "name":"4 Devastators",                                                 "pts":0,   "xref":["Iron Hands Devastators"]},
+
+
+		{"id":20, "name":"Tactical Dreadnought",                        "pts":0,    "xref":["Dreadnought, Tactical"]},
+		{"id":21, "name":"Hellfire Dreadnought",                        "pts":0,    "xref":["Dreadnought, Hellfire"]},
+		{"id":22, "name":"Siege Dreadnought",                           "pts":0,    "xref":["Dreadnought, Siege"]},
+		{"id":23, "name":"Ironclad Dreadnaught",                        "pts":25,   "xref":["Dreadnought, Ironclad"]},
+		{"id":24, "name":"Venerable Dreadnaught",                       "pts":50,   "xref":["Dreadnought, Venerable"]},
+
+		{"id":25,  "name":"Tactical Dreadnought",                       "pts":50,   "xref":["Dreadnought, Tactical"],        "addweight":2},
+		{"id":26,  "name":"Hellfire Dreadnought",                       "pts":50,   "xref":["Dreadnought, Hellfire"],        "addweight":2},
+		{"id":27,  "name":"Siege Dreadnought",                          "pts":50,   "xref":["Dreadnought, Siege"],           "addweight":2},
+		{"id":28,  "name":"Ironclad Dreadnaught",                       "pts":75,   "xref":["Dreadnought, Venerable"],       "addweight":2},
+		{"id":29,  "name":"Venerable Dreadnaught",                      "pts":100,  "xref":["Dreadnought, Ironclad"],        "addweight":2},
+
+
+		{"id":30, "name":"Rhino",                                       "pts":0,    "xref":["Rhino"],                         "weight":2},
+		{"id":33, "name":"Razorback (THB)",                             "pts":25,   "xref":["Razorback, Twin Heavy Bolter"],  "weight":1},
+		{"id":34, "name":"Razorback (TL)",                              "pts":25,   "xref":["Razorback, Twin Lascannon"],     "weight":1},
+		{"id":35, "name":"4x Razorbacks (THB)",                         "pts":75,   "xref":["Razorback, Twin Heavy Bolter"],  "weight":4},
+		{"id":36, "name":"4x Razorbacks (TL)",                          "pts":75,   "xref":["Razorback, Twin Lascannon"],     "weight":4},
+
+
+		{"id":60, "name":"Hunter",                                      "pts":75,   "xref":["Hunter"]},
+		{"id":61, "name":"2 Hunters",                                   "pts":125,  "xref":["Hunter"]},
+
+		{"id":99, "name":"Bionics",					                    "pts":25},
+
+
+		{"id":40, "name":"Land Raider",				                    "pts":75,   "xref":["Land Raider"]},
+		{"id":41, "name":"Land Raider Helios",		                    "pts":100,  "xref":["Land Raider Helios"]},
+
+		{"id":42, "name":"Land Raider",				                    "pts":50,   "xref":["Land Raider"],                   "weight":2},
+		{"id":43, "name":"Land Raider Anvilarum",                       "pts":25,   "xref":["Land Raider Anvilarum"],         "weight":2},
+		{"id":44, "name":"Land Raider Helios",                          "pts":75,   "xref":["Land Raider Helios"],            "weight":2},
+		{"id":45, "name":"Land Raider Prometheus",                      "pts":75,   "xref":["Land Raider Prometheus"],        "weight":2},
+
+		{"id":140, "name":"Dreadnought Transport (may add 1 per included dreadnought only)",  "pts":25,   "xref":["Land Raider Anvilarum"]},
+		{"id":143, "name":"Dreadnought Drop Pod (may add 1 per included dreadnought only)",   "pts":15,   "xref":["Drop Pod"]},
+
+
+
+		{"id":90, "name":"Predator Annihilator",	                    "pts":0,    "xref":["Predator Annihilator"]},
+		{"id":91, "name":"Predator Destructor",		                    "pts":0,    "xref":["Predator Destructor"]},
+		{"id":92, "name":"Vindicator",				                    "pts":0,    "xref":["Vindicator"]},
+
+		{"id":93, "name":"Predator Annihilator",	                    "pts":50,   "xref":["Predator Annihilator"]},
+		{"id":94, "name":"Predator Destructor",		                    "pts":50,   "xref":["Predator Destructor"]},
+		{"id":95, "name":"Vindicator",                                  "pts":50,   "xref":["Vindicator"]},
+		{"id":96, "name":"2x Vindicator",                               "pts":75,   "xref":["Vindicator"]},
+
+
+		{"id":151, "name":"Scouts",                                     "pts":0,    "xref":["Scouts"]},
+		{"id":152, "name":"Scouts Sniper",                              "pts":10,   "xref":["Scouts Sniper"]},
+
+		{"id":120, "name":"Thunderhawk Transporter",                     "pts":100},
+
+		{"id":70, "name":"Strike Cruiser",                              "pts":200,  "xref":["Strike Cruiser"]},
+		{"id":71, "name":"Battle Barge",                          	    "pts":275,  "xref":["Battle Barge"]},
+
+		{"id":80, "name":"Land Speeder",                                "pts":0,    "xref":["Land Speeder"]},
+		{"id":81, "name":"Land Speeder Tornado",                        "pts":0,    "xref":["Land Speeder Tornado"]},
+		{"id":82, "name":"Land Speeder Typhoon",                        "pts":10,   "xref":["Land Speeder Typhoon"]},
+
+
+		{"id":100, "name":"Warhound Pack (Standard Configuration)",	    "pts":0,  "xref":["Warhound"]},
+		{"id":101, "name":"Warhound Pack (Support Configuration)",	    "pts":0,  "xref":["Warhound"]},
+		{"id":102, "name":"Warhound Pack (Tank Hunter Configuration)",	"pts":50, "xref":["Warhound"]},
+
+		{"id":110, "name":"Reaver Titan (Standard Configuration)",	    "pts":0,  "xref":["Reaver Titan"]},
+		{"id":111, "name":"Reaver Titan (Close Assault Configuration)",	"pts":25, "xref":["Reaver Titan"]},
+		{"id":112, "name":"Reaver Titan (Support Configuration)",	    "pts":0,  "xref":["Reaver Titan"]}
+	],
+	"formationConstraints":[
+		{"max":1, "from":[550]},
+		{"max":1, "from":[520]},
+
+		{"max":2, "name":"Support Detachments", "from":[520,530,540,560,570,580,590], "forEach":[500,510], "name2":"Core Detachments"},
+
+		{"maxPercent":33, "name":"Aircraft and Imperial Allies", "from":[600,610,620,630,550]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "perArmy":true, "name":"Supreme Commander", "from":[4]},
+
+
+		{"min":1, "max":1, "from":[1,2,3,4,5],        "appliesTo":[500],     "composite":true},
+		{"min":1, "max":1, "from":[10,11],            "appliesTo":[500],     "composite":true},
+		{"min":2, "max":2, "from":[20,21,22],         "appliesTo":[500],     "composite":true},
+
+		{"min":0, "max":4, "weighted":true,  "from":[30, 42,43,44,45], "appliesTo":[500]},
+		{"min":0, "max":4, "from":[140],             "appliesTo":[500]},
+
+		{"max":1, "from":[24,29,4,5], "appliesTo":[500]},
+		{"max":1, "from":[23,28], "appliesTo":[500]},
+		{"max":1, "from":[25,26,27], "appliesTo":[500]},
+
+
+		{"min":1, "max":1, "from":[1,2,3,4,5],        "appliesTo":[510], "composite":true},
+		{"min":1, "max":1, "from":[10,11],            "appliesTo":[510], "composite":true},
+		{"min":2, "max":2, "from":[90,91,92],         "appliesTo":[510], "composite":true},
+
+		{"min":0, "max":4, "weighted":true,  "from": [33,34, 35,36, 30, 42,43,44,45], "appliesTo":[510]},
+		{"min":0, "max":1, "exclusive":true, "from": [35,30], "appliesTo":[510]},
+		{"min":0, "max":1, "exclusive":true, "from": [36,30], "appliesTo":[510]},
+
+
+		{"min":3, "max":3, "from":[20,21,22,23,24], "appliesTo":[520], "composite":true},
+		{"min":0, "max":2, "from":[25,26,27], "appliesTo":[520], "composite":true},
+
+		{"min":0, "max":5, "from":[140],    "appliesTo":[520]},
+		{"min":0, "max":5, "from":[143],    "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [140,143], "appliesTo":[520]},
+
+		{"max":1, "from":[24], "appliesTo":[520]},
+		{"max":1, "from":[23], "appliesTo":[520]},
+
+
+		{"max":1, "from":[99], "appliesTo":[500,510]},
+		{"max":1, "from":[60,61], "appliesTo":[500,510,530,560,580,590]},
+		{"max":1, "from":[45], "appliesTo":[500,510]},
+		{"max":1, "from":[35,36], "appliesTo":[510,570]},
+		{"max":1, "from":[95,96], "appliesTo":[510,530,580]},
+
+
+		{"min":0, "max":1, "from":[40,41],       "appliesTo":[530]},
+
+		{"min":5, "max":5, "from":[80,81,82],    "appliesTo":[540], "composite":true},
+
+
+		{"min":4, "max":4, "from":[90,91],    "appliesTo":[560], "composite":true},
+		{"min":0, "max":2, "from":[93,94,95], "appliesTo":[560]},
+
+
+		{"min":4, "max":4, "from":[151,152], "appliesTo":[570], "composite":true},
+
+		{"min":0, "max":4, "weighted":true,  "from": [33,34, 35,36, 30], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [35,30], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [36,30], "appliesTo":[570]},
+
+
+		{"min":1, "max":1, "from":[70,71], "appliesTo":[550]},
+
+		{"min":0, "max":2, "from":[120], "appliesTo":[610] , "composite":true},
+
+
+		{"min":1, "max":2, "from":[100,101,102], "appliesTo":[620]},
+
+		{"min":1, "max":2, "from":[110,111,112], "appliesTo":[630]}
+	]
+}

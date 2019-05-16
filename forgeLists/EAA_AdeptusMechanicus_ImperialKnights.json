@@ -1,0 +1,100 @@
+{
+	"id":"Adeptus Mechanicus - Imperial Knights",
+	"version":"0.01",
+	"notes":["Please check upgrade constaints on 'Rare Knights' and 'Dominus Knights' when writing lists."],
+	"by":"EA-Eternal War",
+
+	"includeFiles": {
+		"primary": "./lists/QK.json",
+		"allies": [
+					"./lists/AM.json",
+					"./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+		]
+	},
+    "specialRules": [
+					    { "title":"Imperial Knights Tournament Special Rules"},
+	          	{ "title":"Lance"},
+	            { "title":"Heavy Armoured Vehicle (H-AV)"},
+	            { "title":"Bravery"},
+	            { "title":"Ion Gauntlet (X)"},
+	            { "title":"Ion Shield (X)"},
+	            { "title":"Ignore Shields"},
+	            { "title":"Unstable"}
+	],
+	"sections":[
+		{"name":"Questoris Banner",
+		 "formations":[
+			{"id":500, "name":"Questoris Banner",	          "pts":5,               "upgrades":[21,22,23,24,25,26,27,41,42]}
+		]},
+		{"name":"Armiger Banner",
+	   "notes":"(Up to one Armiger Banner for each Questoris Banner. )",
+		 "formations":[
+			{"id":600, "name":"Knight Helverins",	            "pts":200, "units":"4 Knight Helverins",              "upgrades":[], "xref":["Knight Helverins"]},
+			{"id":610, "name":"Knight Warglaive",	            "pts":200, "units":"4 Knight Warglaive",              "upgrades":[], "xref":["Knight Warglaive"]}
+		]},
+		{"name":"Cerastus Banner",
+ 		 "notes":"(Up to one Cerasus Banner for each Questoris Banner.)",
+		 "formations":[
+			{"id":700, "name":"Cerasus Banner",	            "pts":25,               "upgrades":[31,32,33,34,41,42]}
+		]},
+		{"name":"Relic Banner",
+ 		 "notes":"(Up to one Relic Banner for each Questoris Banner.)",
+		 "formations":[
+			{"id":800, "name":"Acastus Reliquae",           "pts":50,               "upgrades":[]}
+		]},
+		{"name":"Adeptus Mechanicus Navy Formations",
+ 		 "notes":"(Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations.)",
+		 "formations":[
+			{"id":900, "name":"Avenger Strike Fighters",      "pts":175, "units":"2 Avenger Strike Fighters",          "upgrades":[], "xref":["Avenger Strike Fighters"]},
+			{"id":910, "name":"Ark Mechanicus Battleship ",   "pts":200, "units":"1 Ark Mechanicus Battleship",    "upgrades":[], "xref":["Ark Mechanicus Battleship"]}
+		]}
+	],
+	"upgrades":[
+		{"id":10, "name":"Seneschal",                       "pts":25, "xref":["Seneschal"]},
+		{"id":11, "name":"Baron",                           "pts":50, "xref":["Baron"]},
+
+		{"id":12, "name":"Knight Helverin",                 "pts":50, "xref":["Knight Helverin"]},
+		{"id":13, "name":"Knight Warglaive",                "pts":50, "xref":["Knight Warglaive"]},
+
+		{"id":21, "name":"Knight Crusader",                 "pts":90,  "xref":["Knight Crusader"]},
+		{"id":22, "name":"Knight Errant",                   "pts":90,  "xref":["Knight Errant"]},
+		{"id":23, "name":"Knight Gallant",                  "pts":90,  "xref":["Knight Gallant"]},
+		{"id":24, "name":"Knight Magaera (R)",              "pts":90,  "xref":["Knight Magaera"]},
+		{"id":25, "name":"Knight Paladin",                  "pts":90,  "xref":["Knight Paladin"]},
+		{"id":26, "name":"Knight Styrix (R)",               "pts":90,  "xref":["Knight Styrix"]},
+		{"id":27, "name":"Knight Warden",                   "pts":90,  "xref":["Knight Warden"]},
+
+		{"id":31, "name":"Cerastus Knight-Lancers",         "pts":100,  "xref":["Cerastus Knight-Lancer"]},
+		{"id":32, "name":"Cerastus Knight-Castigator",      "pts":100,  "xref":["Cerastus Knight-Castigator"]},
+		{"id":33, "name":"Cerastus Knight-Acherons",        "pts":100,  "xref":["Cerastus Knight-Acheron"]},
+		{"id":34, "name":"Cerastus Knight-Atrapos (R)",     "pts":100,  "xref":["Cerastus Knight-Atrapos"]},
+
+		{"id":41, "name":"Knight Castellan",                "pts":125, "xref":["Knight Castellan"]},
+		{"id":42, "name":"Knight Valiant",                  "pts":125, "xref":["Knight Valiant"]},
+
+		{"id":51, "name":"Knight Asterius (R)",             "pts":150, "xref":["Knight Asterius"]},
+		{"id":52, "name":"Knight Porphyrion (R)",           "pts":150, "xref":["Knight Porphyrion"]}
+	],
+
+	"formationConstraints":[
+		{"max":1, "name":"Armiger Banner",         			   "from":[600,610],             "forEach":[500], "name2":"Questoris Banner"},
+		{"max":1, "name":"Cerasus Banner",           			 "from":[700],                 "forEach":[500], "name2":"Questoris Banner"},
+		{"max":1, "name":"Acastus Reliquae",         			 "from":[800], 							   "forEach":[500], "name2":"Questoris Banner"},
+		{"maxPercent":33, "name":"Imperial Navy",    			 "from":[900,910]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "from":[10,11]},
+		{"max":1, "perArmy":true,  "from":[11]},
+		{"max":1, "perPoints":1000, "from":[24,26,34,51,52]},
+		{"max":1, "perPoints":1500, "from":[41,42]},
+		{"min":1, "max":1, "from":[10,11],							   "appliesTo":[500,700,800]},
+		{"min":3, "max":5, "from":[21,22,23,24,25,26,27],  "appliesTo":[500], "composite":true},
+		{"min":3, "max":5, "from":[31,32,33,34],					 "appliesTo":[700], "composite":true},
+		{"min":2, "max":2, "from":[51,52],								 "appliesTo":[800], "composite":true},
+
+		{"min":0, "max":1, "from":[41,42], "appliesTo":[500,700]}
+	]
+}

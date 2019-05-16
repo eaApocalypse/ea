@@ -1,0 +1,129 @@
+{
+	"id":"Genestealer Cult - Cult of the Four Armed Emperor",
+	"version":"0.01",
+	"by":"EA-Eternal War",
+	"notes":[""],
+	"sections":[
+
+
+		{"name":"Genestealer Cult Broods", "formations": [
+			{ "id":500, "name":"Patriarch Host", "units":"1 Patriarch Brood Coven, 3 Purestrain Genestealers and 6 Hybrid Metamorphs.", "pts":325, "upgrades":[63,44]},
+			{ "id":501, "name":"Hybrid Brood", "pts":200, "upgrades":[13,32,46,47] },
+			{ "id":502, "name":"Brood Brothers", "pts":200, "upgrades":[24,48,57,12] },
+			{ "id":503, "name":"Genestealer Brood", "pts":175, "upgrades":[43] }
+		]},
+
+		{"name":"Cult Support Forces", "formations": [
+			{ "id":504, "name":"Lictors", "pts":100, "upgrades":[54]},
+			{ "id":505, "name":"Purestrain Genestealers", "units":"6 Purestrain Genestealer Units, 1 Broodlord", "pts":250, "upgrades":[]},
+			{ "id":506, "name":"Atalan Jackals", "pts":200,"units":"1 Jackel Alphus", "upgrades":[]},
+			{ "id":507, "name":"Hybrid Metamorphs", "pts":275, "units":"8 Hybrid Metamorphs", "upgrades":[14,63]},
+			{ "id":508, "name":"Achilles Ridgerunner", "pts":200, "units":"6 Achilles Ridgerunners", "upgrades":[]},
+			{ "id":521, "name":"Super Heavy Tank", "pts":200, "units":"Baneblade", "upgrades":[12] },
+			{ "id":522, "name":"Leman Russ", "pts":290, "upgrades":[48,12] },
+			{ "id":523, "name":"Artillery", "pts":225, "upgrades":[48,12] },
+			{ "id":524, "name":"Sentinels", "pts":100, "units":"4 Sentinels", "upgrades":[12] },
+			{ "id":525, "name":"Deathstrikes", "units":"2 Deathstrike Missiles", "pts":200, "upgrades":[12]}
+
+
+		]},
+
+		{"name":"Genestealer Cult Aircraft", "formations": [
+			{ "id":526, "name":"Thunderbolts", "units":"2 Thunderbolt Fighters", "pts":150, "upgrades":[] }
+		]}
+
+
+	],
+	"upgrades":[
+		{"id":11, "name":"Genestealer Patriarch.",				"pts":75},
+		{"id":12, "name":"Genestealer Magus",					"pts":0},
+		{"id":13, "name":"Genestealer Primus",					"pts":50},
+		{"id":14, "name":"Genestealer Primus",					"pts":50},
+		{"id":15, "name":"Broodlord",						"pts":0},
+
+		{"id":21, "name":"Acolyte Hybrids ",					"pts":0},
+		{"id":22, "name":"Neophyte Hybrids",					"pts":10},
+
+		{"id":23, "name":"Hybrids Units",					"pts":0},
+		{"id":24, "name":"4 Cult Fire Support Units",				"pts":100},
+		{"id":25, "name":"Primus", 				   		"pts":75},
+
+		{"id":32, "name":"2 Aberrations ",					"pts":50},
+
+		{"id":40, "name":"10 Brood Brothers",					"pts":0},
+		{"id":41, "name":"16 Brood Brothers",					"pts":75},
+		{"id":42, "name":"Add 4 Genesetealer Hybrid Units",			"pts":100},
+		{"id":43, "name":"3 Genestealers",					"pts":75},
+		{"id":44, "name":"Aberrations",						"pts":25},
+		{"id":45, "name":"Add 4 Fire Support Units",				"pts":100},
+		{"id":46, "name":"Goliath Truck ",					"pts":25},
+		{"id":47, "name":"Goliath Rockgrinders",				"pts":25},
+		{"id":48, "name":"Hydra",						"pts":50},
+		{"id":49, "name":"Add 3 Leman Russ Ryza pattern",			"pts":175},
+		{"id":50, "name":"Brood Demagogue",					"pts":0},
+		{"id":51, "name":"Add 1 Broodlord to Formation",			"pts":75},
+		{"id":52, "name":"Hybrid Demagogue ",					"pts":0},
+		{"id":53, "name":"Infiltrate",						"pts":50},
+		{"id":54, "name":"Lictors",						"pts":25},
+		{"id":55, "name":"Leman Russ Ryza pattern",				"pts":0},
+		{"id":56, "name":"Leman Russ",						"pts":10},
+		{"id":57, "name":"5 Cult Chimeras",					"pts":125},
+		{"id":58, "name":"6 Genestealers",					"pts":0},
+		{"id":59, "name":"9 Genestealers",					"pts":75},
+		{"id":61, "name":"Atalan Jackals ",					"pts":0},
+		{"id":62, "name":"Woldquads",						"pts":0},
+		{"id":63, "name":"Armored Limousines",					"pts":0},
+		{"id":64, "name":"No Transports",					"pts":0},
+
+		{"id":66, "name":"3 Bombards",						"pts":0}
+
+
+
+	],
+	"formationConstraints":[
+		{"min":1, "from":[500]},
+		{"max":1, "from":[500]},
+		{"max":1, "from":[525]},
+		{"max":2, "name":"Cult Support Formations", "from":[521,522,523,524,525,504,505,506,507,508], "forEach":[500,501,502,503], "name2":"Cult Broods"},
+		{"max":1, "name":"Genestealer Brood formations", "from":[503], "forEach":[500,501,502], "name2":"Hybrid Brood and Brood Brother formations"}
+	],
+	"upgradeConstraints":[
+ 		{"max":1, "perArmy":true, "from":[11]},
+		{"min":8, "max":8, "from":[21,22], "appliesTo":[501]},
+		{"min":1, "max":1, "from":[40,41], "appliesTo":[502]},
+		{"min":1, "max":1, "from":[14], "appliesTo":[502]},
+		{"min":1, "max":1, "from":[58,59], "appliesTo":[503]},
+		{"min":1, "max":1, "from":[15], "appliesTo":[503]},
+		{"min":10, "max":10, "from":[61,62], "appliesTo":[506]},
+		{"min":5, "max":7, "from":[54], "appliesTo":[504]},
+		{"min":1, "max":1, "from":[66], "appliesTo":[523]},
+		{"min":6, "max":6, "from":[56], "appliesTo":[522]},
+		{"max":1, "from":[12], "appliesTo":[502,521,522,523,524,525]},
+
+		{"max":1, "perArmy":true, "from":[64]},
+		{"max":3, "perArmy":true, "from":[12]},
+		{"max":1, "perArmy":true, "from":[505]},
+		{"max":1, "from":[32]},
+		{"max":1, "from":[41]},
+		{"max":1, "from":[57]},
+		{"max":4, "from":[31]},
+		{"max":1, "from":[11]},
+		{"max":1, "from":[63]},
+		{"max":3, "from":[12]},
+		{"max":1, "from":[53]},
+		{"max":1, "from":[13]},
+		{"max":1, "from":[14]},
+		{"max":1, "from":[23]},
+		{"max":1, "from":[24]},
+		{"max":1, "from":[25]},
+		{"max":1, "from":[42]},
+		{"max":1, "from":[43]},
+		{"max":2, "from":[44]},
+		{"max":1, "from":[45]},
+		{"max":1, "from":[48]},
+		{"max":1, "from":[49]},
+		{"max":1, "from":[50]},
+		{"max":1, "from":[51]},
+		{"max":1, "from":[52]}
+	]
+}

@@ -1,0 +1,157 @@
+{
+	"id":"Hive Fleet Dagon",
+	"version":"0.01",
+	"by":"EA-Eternal War",
+
+	"includeFiles":{
+		"primary":"./lists/NIDS.json",
+		"allies":[
+					"./lists/nidsNavy.json"
+					],
+		"common":[
+					"./lists/weapons.json"
+					]
+	},
+    "specialRules":[
+		{ "title":"Synapse" },
+		{ "title":"Hive Mind Locus" },
+		{ "title":"Shoot the Big Ones!" },
+		{ "title":"Extreme Mobility" },
+		{ "title":"Gaunts" },
+		{ "title":"Dagon Vanguard Organisms" }
+	],
+	"sections":[
+		{ "name":"Primary Synapse Swarms",
+		  "formations":[
+			{"id":500,  "name":"Nexus Swarm",       "pts":400,  "upgrades":[100,101,102,103,104,105, 108,109, 107,110,111,112,113,114,115,116,117,118]},
+			{"id":510,  "name":"Major Swarm",       "pts":175,  "upgrades":[100,101,102,103,104,105, 108,109, 107,110,111,112,113,114,115,116,117,118,120]},
+			{"id":520,  "name":"Minor Swarm",       "pts":100,  "upgrades":[100,101,102,103,104,105, 108,109, 107,110,111,112,113,114,115,116,117,118,120]}
+        ]},
+	    { "name":"Secondary Synapse Swarms",
+		  "notes":"(One Secondary Synapse Swarm may be taken for each Primary Synapse Swarm)",
+          "formations":[
+			{"id":530,  "name":"Hive Swarm",        "pts":0,    "upgrades":[100,101,102,103,104,105, 108,109, 111,112]},
+			{"id":540,  "name":"Attack Swarm",      "pts":0,    "upgrades":[100,101,102,103,104,105, 110,     111,112,113,114,115,116]},
+			{"id":550,  "name":"Infestation Swarm", "pts":0,    "upgrades":[118,117]},
+			{"id":560,  "name":"Harasser Swarm",    "pts":0,    "upgrades":[109,107]}
+		]},
+		{ "name":"Common Independent Swarms",
+		  "notes":"(One Common Independent Swarm may be taken for each Primary Synapse Swarm.</br>Max 33% of the list may be taken from this section)",
+		  "formations":[
+			{"id":570,  "name":"Genestealer Swarm", "pts":0,                                               "upgrades":[140,141], "xref":["Brood Lord","Genestealers"]},
+			{"id":580,  "name":"Lictor Swarm",      "pts":225, "units":"5 Lictors",                        "upgrades":[142],     "xref":["Lictor"]}
+		]},
+		{ "name":"Rare Independent Swarms",
+		  "notes":"(One Rare Independent Swarm may be taken for each Primary Synapse Swarm.</br>Max 33% of the list may be taken from this section)",
+		  "formations":[
+			{"id":590,  "name":"Bio-Titan",                                  "pts":0,                                               "upgrades":[]},
+			{"id":600,  "name":"Bio-Vessel",                                 "pts":0,                                               "upgrades":[]}
+		]}
+	],
+	"upgrades":[
+		{"id":444, "name":"Dagon Dominatrix",                      "pts":0,   "xref":["Dagon Dominatrix"]},
+
+		{"id":100, "name":"Gaunts (5 Termagaunts)",                "pts":50,  "xref":["Termagaunts"]},
+		{"id":101, "name":"Gaunts (4 Termagaunts, 1 Hormagaunt)",  "pts":50,  "xref":["Termagaunts","Hormagaunts"]},
+		{"id":102, "name":"Gaunts (3 Termagaunts, 2 Hormagaunt)",  "pts":50,  "xref":["Termagaunts","Hormagaunts"]},
+	    {"id":103, "name":"Gaunts (2 Termagaunts, 3 Hormagaunts)", "pts":50,  "xref":["Termagaunts","Hormagaunts"]},
+	    {"id":104, "name":"Gaunts (1 Termagaunts, 4 Hormagaunts)", "pts":50,  "xref":["Termagaunts","Hormagaunts"]},
+	    {"id":105, "name":"Gaunts (5 Hormagaunts)",                "pts":50,  "xref":["Hormagaunts"]},
+		{"id":108, "name":"Biovores (4 Biovores)",                 "pts":75,  "xref":["Biovore"]},
+		{"id":109, "name":"Gargoyles (4 Gargoyles)",               "pts":50,  "xref":["Gargoyles"]},
+
+		{"id":107, "name":"Bio-Bomber (2 Harpies)",                "pts":100,  "xref":["Harpy"]},
+		{"id":110, "name":"Carnifex (3 Carnifex)",                 "pts":125,  "xref":["Carnifex"]},
+		{"id":111, "name":"Bio-Support (3 Dactylis)",              "pts":125,  "xref":["Dactylis"]},
+		{"id":112, "name":"Bio-Support (4 Exocrine)",              "pts":125,  "xref":["Exocrine"]},
+		{"id":113, "name":"Bio-Attack (2 Haruspex)",               "pts":75,   "xref":["Haruspex"]},
+		{"id":114, "name":"Bio-Attack (2 Malefactors)",            "pts":75,   "xref":["Malefactor"]},
+		{"id":115, "name":"Hierodule (1 Barbed Hierodule)",        "pts":125,  "xref":["Barbed Hierodule"]},
+		{"id":116, "name":"Hierodule (1 Scythed Hierodule)",       "pts":125,  "xref":["Scythed Hierodule"]},
+		{"id":117, "name":"Burrower (2 Trygons)",                  "pts":100,  "xref":["Trygon"]},
+		{"id":118, "name":"Burrower (4 Raveners)",                 "pts":100,  "xref":["Raveners"]},
+
+
+		{"id":120, "name":"Mycetic Spore",                         "pts":50,  "xref":["Mycetic Spore"]},
+		{"id":130, "name":"Harridan",                              "pts":150, "xref":["Harridan"]},
+
+		{"id":140, "name":"Genestealers",                          "pts":25},
+		{"id":141, "name":"Brood Lord",                            "pts":25},
+
+		{"id":142, "name":"Lictors",                               "pts":25},
+
+		{"id":150, "name":"2 Harpies",                             "pts":100,  "xref":["Harpy"]},
+
+		{"id":160, "name":"Hierophant",                            "pts":300,  "xref":["Hierophant"]},
+		{"id":161, "name":"Hydraphant",                            "pts":525,  "xref":["Hydraphant"]},
+		{"id":170, "name":"Razorfiend",                            "pts":150,  "xref":["Razorfiend"]},
+		{"id":171, "name":"Hive Ship",                             "pts":250,  "xref":["Hive Ship"]},
+
+
+		{"id":203, "name":"Hive Tyrant",                           "pts":0,    "xref":["Hive Tyrant"]},
+		{"id":213, "name":"Hive Tyrant Shrike",           		   "pts":0,    "xref":["Hive Tyrant Shrike"]},
+		{"id":204, "name":"Dagon Overlord",                        "pts":100,  "xref":["Dagon Overlord"]},
+		{"id":205, "name":"Dagon Overlord Shrike",                 "pts":100,  "xref":["Dagon Overlord Shrike"]},
+
+		{"id":201, "name":"Tyranid Warriors",                      "pts":0,    "xref":["Tyranid Warriors"]},
+		{"id":211, "name":"Tyranid Warrior Shrikes",               "pts":0,    "xref":["Tyranid Warrior Shrikes"]},
+		{"id":202, "name":"Zoanthrope",                            "pts":0,    "xref":["Zoanthrope"]},
+
+		{"id":209, "name":"Barbed Hierodule",                      "pts":0,    "xref":["Barbed Hierodule"]},
+		{"id":210, "name":"Scythed Hierodule",                     "pts":0,    "xref":["Scythed Hierodule"]},
+		{"id":214, "name":"Trygon Prime",                          "pts":150,    "xref":["Trygon Prime"]},
+		{"id":215, "name":"3 Ravener Alphas",                      "pts":100,    "xref":["Ravener Alphas"]},
+		{"id":216, "name":"Barbed Hierodule Prime",                "pts":150,    "xref":["Barbed Hierodule Prime"]},
+		{"id":217, "name":"Scythed Hierodule Prime",               "pts":150,    "xref":["Scythed Hierodule Prime"]},
+		{"id":218, "name":"Hive Nest",                             "pts":125,    "xref":["Hive Nest"]}
+  ],
+  "formationConstraints":[
+    {"max":1, "from":[500]},
+    {"max":1, "from":[600]},
+    {"maxPercent":33, "name":"Common Independent Swarms", "from":[570,580]},
+    {"max":1,         "name":"Secondary Nexus Swarms", "from":[550,560,540,530], "forEach":[500,510,520], "name2":"Primary Nexus Swarm"},
+    {"max":1,         "name":"Common Independent Swarms", "from":[570,580], "forEach":[500,510,520], "name2":"Primary Nexus Swarm"},
+	{"maxPercent":33, "name":"Rare Independent Swarms", "from":[590,600]},
+    {"max":1,         "name":"Rare Independent Swarms", "from":[590,600], "forEach":[500,510,520], "name2":"Primary Nexus Swarm"},
+
+	{"mandatoryUpgrade":true, "name":"(gaunt/biovore/gargoyle)", "from":[520,530], "includeUpgrade":[100,101,102,103,104,105,108,109]}
+
+  ],
+  "upgradeConstraints":[
+    {"max":1,                 "name":"Mycetic Spore", "from":[120], "appliesTo":[510,520]},
+    {"max":5, "perArmy":true, "name":"Mycetic Spore", "from":[120]},
+	{"max":1, "perArmy":true, "from":[204,205]},
+
+    {"min":1, "max":1, "from":[444], "appliesTo":[500], "composite":true},
+	{"min":2, "max":4, "from":[100,101,102,103,104,105,  108,109, 107,110,111,112,113,114,115,116,117,118], "appliesTo":[500], "composite":true},
+
+    {"min":1, "max":1, "from":[203,204,205,213], "appliesTo":[510], "composite":true},
+    {"min":4, "max":4, "from":[201,202,211], "appliesTo":[510], "composite":true},
+	{"min":2, "max":4, "from":[100,101,102,103,104,105,  108,109, 107,110,111,112,113,114,115,116,117,118], "appliesTo":[510], "composite":true},
+
+    {"min":3, "max":3, "from":[201,202,211], "appliesTo":[520], "composite":true},
+    {"min":2, "max":3, "from":[100,101,102,103,104,105,  108,109, 107,110,111,112,113,114,115,116,117,118,120], "appliesTo":[520], "composite":true},
+
+
+	{"min":1, "max":1, "from":[218], "appliesTo":[530], "composite":true},
+	{"min":1, "max":2, "from":[100,101,102,103,104,105,  108,109, 111,112], "appliesTo":[530], "composite":true},
+
+	{"min":1, "max":1, "from":[216,217], "appliesTo":[540], "composite":true},
+	{"min":1, "max":2, "from":[100,101,102,103,104,105,  110,111,112,113,114,115,116], "appliesTo":[540], "composite":true},
+
+	{"min":1, "max":1, "from":[215,214], "appliesTo":[550], "composite":true},
+    {"min":1, "max":2, "from":[118,117], "appliesTo":[550], "composite":true},
+
+    {"min":1, "max":1, "from":[130],     "appliesTo":[560], "composite":true},
+    {"min":1, "max":2, "from":[107,109], "appliesTo":[560], "composite":true},
+
+
+    {"min":6, "max":9, "from":[140],     "appliesTo":[570]},
+    {"min":1, "max":1, "from":[141],     "appliesTo":[570]},
+
+    {"min":0, "max":2, "from":[142],     "appliesTo":[580]},
+
+    {"min":1, "max":1, "from":[160,161], "appliesTo":[590]},
+    {"min":1, "max":1, "from":[170,171], "appliesTo":[600]}
+  ]
+}

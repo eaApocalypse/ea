@@ -1,0 +1,63 @@
+{
+   "id": "Titan Force",
+   "version": "0.01",
+   "by": "EA-Eternal War",
+   "sections": [
+      {"name": "Eldar Titan Special", "formations": [
+	    {"id": 500, "name": "Wraithgate", "pts": 50, "upgrades": []}
+      ]},
+      {"name": "Eldar Titans", "formations": [
+      {"id": 511, "name": "Warlock Titan", "pts": 850, "units": "One Warlock Titan", "upgrades": [11]},
+      {"id": 512, "name": "Phantom Titan", "pts": 750, "upgrades": [11]}
+      ]},
+      {"name": "Eldar Scout Titans", "formations": [
+      {"id": 521, "name": "Revenant Titan Twins", "pts": 150, "upgrades": [25]}
+
+	 ]},
+      {"name": "Eldar Titan Support", "formations": [
+	    {"id": 531, "name": "Engines of Vaul Troupe", "pts": 50, "upgrades": [17,18,19]},
+      {"id": 532, "name": "Fire Gale Troupe", "pts": 300, "units": "Two Fire Gale Knights", "upgrades": []},
+      {"id": 533, "name": "Bright Stallion Troupe", "pts": 250, "units": "Two Bright Stallion Knights", "upgrades": []},
+	    {"id": 534, "name": "Towering Destroyer", "pts": 325, "units": "Three Towering Destroyer Knights", "upgrades": []},
+	    {"id": 535, "name": "Spirit Troupe", "pts": 250, "units": "Four Wraithlords and one Spiritseer", "upgrades": [15,16]}
+	]},
+      {"name": "SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
+            {"id": 541, "name": "Nightwings", "pts": 75, "upgrades": [20]}
+        ]}
+   ],
+   "upgrades": [
+      {"id": 11, "name": "Bonesinger", 				"pts": 0},
+      {"id": 12, "name": "Yme-Loc Phantom Titan (1-2x Pulsar, 0-1 Power Fist)", 		"pts": 0},
+      {"id": 13, "name": "Fir Iolarion Phantom Titan (1-2x Distortion Cannon, 0-1 Ashuna-Valcry'le)", 		"pts": 0},
+      {"id": 14, "name": "Revenant Titan", 			"pts": 250},
+      {"id": 15, "name": "Wraithblade units", 		"pts": 25},
+      {"id": 16, "name": "3 Wraithguard units", 		"pts": 100},
+      {"id": 17, "name": "Cobra", 				"pts": 200},
+      {"id": 18, "name": "Storm Serpent",			"pts": 200},
+      {"id": 19, "name": "Scorpion", 				"pts": 200},
+      {"id": 20, "name": "Nightwings", 				"pts": 75},
+      {"id": 25, "name": "Independent Twins", 			"pts": 50},
+      {"id": 26, "name": "Kinshara Phantom Titan (1-2x Vibro Cannon, 0-1x Star Pulsar)", 		"pts": 0},
+      {"id": 27, "name": "Mymeara Phantom Titan (1-2x Dire Pulsar, 0-1x Distortion Cannon)", 		"pts": 0}
+
+   ],
+   "formationConstraints": [
+      {"max": 1, "from": [500]},
+      {"max": 3, "from": [521]},
+      {"max": 1, "from": [511,512]},
+      {"max": 2, "name": "Aircraft", "from": [541]},
+      {"max": 3, "name": "Support", "from": [531,532,533,534,535],  "forEach": [521], "name2": "Scout Titan" }
+   ],
+   "upgradeConstraints": [
+      {"max": 3, "min": 1, "from": [17,18,19], "appliesTo": [531]},
+      {"max": 2, "min": 2, "from": [14], "appliesTo": [521]},
+      {"max": 4, "min": 0, "from": [15], "appliesTo": [535]},
+      {"max": 1, "min": 0, "from": [16], "appliesTo": [535]},
+      {"max": 3, "min": 2, "from": [20], "appliesTo": [541]},
+      {"max": 1, "min": 0, "from": [25], "appliesTo": [521]},
+      {"max": 1, "min": 1, "from": [12,13,26,27], "appliesTo": [512]},
+      {"max": 1, "perArmy": true, "from": [11]}
+
+
+   ]
+}

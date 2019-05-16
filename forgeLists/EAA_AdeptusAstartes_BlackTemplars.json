@@ -1,0 +1,168 @@
+{
+	"id":"Black Templars",
+	"version":"0.01",
+	"by":"EA-Eternal War",
+
+	"includeFiles": {
+		"primary": "./lists/SM.json",
+		"allies": [
+					"./lists/ImperialAllies.json",
+					"./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+					]
+	},
+    "specialRules": [
+		{ "title": "They Shall Know No Fear" },
+		{ "title": "Space Marine Transports" },
+		{ "title": "Crusaders of the Emperor" },
+		{ "title": "Emperors Champion" },
+		{ "title": "Zeal" }
+	],
+	"sections":[
+	    {"name": "BLACK TEMPLARS CORE DETACHMENTS",
+		 "formations": [
+			{"id":500, "name":"Crusaders",              "pts":275, "units":"6 Tacticals",            "upgrades":[10,11,12,13, 27,28,29,30, 31,32, 37,38, 15,16, 33,34,35,36,60,61], "xref":["Tacticals"]}
+		]},
+		{"name":"BLACK TEMPLARS SUPPORT DETACHMENTS",
+ 		 "notes":"(Two Support Detachments may be taken for each Core Detachment)",
+		 "formations":[
+			{"id":510, "name":"Assault Terminators",    "pts":350, "units":"4 Assault Terminators",  "upgrades":[10,11,13, 33],                                  "xref":["Assault Terminators"]},
+			{"id":520, "name":"Bikes",                  "pts":200,                                   "upgrades":[10,11,13, 64]},
+			{"id":530, "name":"Land Raiders",           "pts":250, "units":"3 Land Raiders",         "upgrades":[10,11,13, 31,32],                               "xref":["Land Raider"]},
+			{"id":540, "name":"Land Speeders",          "pts":200,                                   "upgrades":[10,11,13]},
+			{"id":550, "name":"Predators",              "pts":250,                                   "upgrades":[10,11,13, 31,32, 37,38]},
+			{"id":560, "name":"Stormraven Gunships",    "pts":300, "units":"4 Stormraven Gunships",  "upgrades":[],                                              "xref":["Black Templars Storm Raven Gunship"]},
+			{"id":570, "name":"Sword Brethren",         "pts":250, "units":"6 Sword Brethren",       "upgrades":[10,11,12,13, 31,32, 37,38, 33,34,35,36,60,61],  "xref":["Sword Brethren"]},
+			{"id":580, "name":"Terminators",            "pts":350, "units":"4 Terminators",          "upgrades":[10,11,13, 33],                                  "xref":["Terminators"]},
+			{"id":590, "name":"Vindicators",            "pts":225, "units":"4 Vindicators",          "upgrades":[10,11,13, 31,32, 37,38],                        "xref":["Vindicator"]},
+			{"id":600, "name":"Whirlwinds",   	        "pts":275, "units":"4 Whirlwinds",           "upgrades":[10,11,13, 31,32],                               "xref":["Whirlwind"]}
+		]},
+		{"name":"BLACK TEMPLARS CRUSADE FLEET SUPPORT",
+		 "notes":"(Max 33%)",
+		 "formations":[
+			{"id":650, "name":"Thunderhawk",	        "pts":200, "units":"Thunderhawk Gunship",      "upgrades":[],    "xref":["Thunderhawk"]},
+			{"id":620, "name":"Landing Craft",          "pts":350, "units":"1 Landing Craft",          "upgrades":[],    "xref":["Landing Craft"]},
+			{"id":610, "name":"Deathstorm Drop Pod",    "pts":200,                                     "upgrades":[73]},
+			{"id":640, "name":"Storm Talon Squadron",   "pts":150, "units":"2 Storm Talon Gunships",   "upgrades":[],    "xref":["Storm Talon Gunship"]},
+			{"id":630, "name":"Orbital Support",        "pts":0,                                       "upgrades":[]}
+		]}
+	],
+	"upgrades":[
+		{"id":10, "name":"Castellan",                   "pts":50,  "xref":["Castellan"]},
+		{"id":11, "name":"Chaplain",                    "pts":50,  "xref":["Chaplain"]},
+		{"id":12, "name":"Emperors Champion",           "pts":50,  "xref":["Emperors Champion"]},
+		{"id":13, "name":"Marshal",                     "pts":100, "xref":["Marshal"]},
+
+		{"id":15, "name":"2 Neophyte",                  "pts":30, "xref":["Neophytes"],                      "addweight":2 },
+		{"id":16, "name":"4 Neophyte",                  "pts":60, "xref":["Neophytes"],                      "addweight":4 },
+
+		{"id":20, "name":"Assault Bike",                "pts":0,   "xref":["Assault Bike"]},
+		{"id":21, "name":"Attack Bike",                 "pts":0,   "xref":["Attack Bike"]},
+		{"id":64, "name":"Neophyte Assault Bike",       "pts":20,  "xref":["Neophyte Assault Bike"]},
+
+		{"id":22, "name":"Predator Annihilator",        "pts":0,   "xref":["Predator Annihilator"]},
+		{"id":23, "name":"Predator Destructor",         "pts":0,   "xref":["Predator Destructor"]},
+
+		{"id":24, "name":"Land Speeder",                "pts":0,   "xref":["Land Speeder"]},
+		{"id":25, "name":"Land Speeder Tornado",        "pts":0,   "xref":["Land Speeder Tornado"]},
+		{"id":26, "name":"Land Speeder Typhoon",        "pts":10,  "xref":["Land Speeder Typhoon"]},
+
+		{"id":27, "name":"Dreadnought Hellfire",        "pts":50,  "xref":["Dreadnought, Hellfire"]},
+		{"id":28, "name":"Dreadnought Tactical",        "pts":50,  "xref":["Dreadnought, Tactical"]},
+		{"id":29, "name":"2x Dreadnought Hellfire",     "pts":75,  "xref":["Dreadnought, Hellfire"]},
+		{"id":30, "name":"2x Dreadnought Tactical",     "pts":75,  "xref":["Dreadnought, Tactical"]},
+
+		{"id":31, "name":"Hunter",                      "pts":75,  "xref":["Hunter"]},
+		{"id":32, "name":"Stalker",                     "pts":75,  "xref":["Stalker"]},
+
+		{"id":33, "name":"Land Raider",                 "pts":50,  "xref":["Land Raider"],                           "weight":2},
+		{"id":34, "name":"Razorback (THB)",             "pts":25,  "xref":["Razorback, Twin Heavy Bolter"],          "weight":1},
+		{"id":35, "name":"Razorback (TL)",              "pts":25,  "xref":["Razorback, Twin Lascannon"],             "weight":1},
+		{"id":36, "name":"Rhino",                       "pts":0,   "xref":["Rhino"],                                 "weight":2},
+		{"id":61, "name":"Stormraven Transport",        "pts":55,  "xref":["Black Templars Storm Raven Transport"],  "weight":2},
+		{"id":60, "name":"6 Drop pods",                 "pts":0,   "xref":["Drop Pod"]},
+
+		{"id":70, "name":"4 Deathstorm Whirlwind",      "pts":0,   "xref":["Deathstorm, Whirlwind Launcher"]},
+		{"id":71, "name":"4 Deathstorm Assault Cannon", "pts":0,   "xref":["Deathstorm, Assault Cannon"]},
+		{"id":72, "name":"4 Deathstorm Flack Launcher", "pts":0,   "xref":["Deathstorm, Flack Launcher"]},
+		{"id":73, "name":"Extra Deathstorm",            "pts":50},
+
+
+		{"id":37, "name":"Vindicator",                  "pts":50,  "xref":["Vindicator"]},
+		{"id":38, "name":"2x Vindicator",               "pts":75,  "xref":["Vindicator"]},
+
+		{"id":50, "name":"Strike Cruiser",              "pts":200, "xref":["Strike Cruiser"]},
+		{"id":51, "name":"Battle Barge",                "pts":275, "xref":["Battle Barge"]}
+	],
+	"formationConstraints":[
+		{"min":1, "max":1,"perArmy":true, "name":"Spacecraft",          "from":[630]},
+		{"min":0, "max":1,"perArmy":true, "name":"Assault Terminators", "from":[510]},
+		{"min":0, "max":1,"perArmy":true, "name":"Deathstorm",          "from":[610]},
+		{"maxPercent":33, "name":"Crusade Fleet Support",               "from":[610,620,640,650]},
+
+		{"max": 2, "name": "Support Detachments", "from": [510,520,530,540,550,560,570,580,590,600],  "forEach": [500], "name2": "Crusaders" },
+
+		{"mandatoryUpgrade":true, "perArmy":true, "name":"Emperors Champion",           "from":[], "includeUpgrade":[12]},
+		{"transportsExceeded":true,               "name":"Transport Capacity Exceeded", "from":[500]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "perArmy":true, "from":[13]},
+		{"max":1, "perArmy":true, "from":[12]},
+
+		{"min":0, "max":1, "from":[10,11,12,13], "appliesTo":[500,510,520,530,540,550,570,580,590,600]},
+
+		{"min":5, "max":5, "from":[20,21],       "appliesTo":[520], "composite":true},
+
+		{"min":4, "max":4, "from":[22,23],       "appliesTo":[550], "composite":true},
+
+		{"min":5, "max":5, "from":[24,25,26],    "appliesTo":[540], "composite":true},
+
+		{"min":0, "max":1, "from":[27,28,29,30], "appliesTo":[500]},
+
+		{"min":0, "max":1, "from":[15,16],       "appliesTo":[500]},
+
+		{"min":0, "max":4, "from":[64],          "appliesTo":[520]},
+
+		{"min":0, "max":4, "from":[33],          "appliesTo":[580,510]},
+
+
+		{"min":0, "max":1, "from":[31,32],      "appliesTo":[500,530,550,570,590,600]},
+		{"min":0, "max":1, "from":[37,38],      "appliesTo":[500,550,570,590]},
+
+
+		{"min":0, "max":6, "weighted":true, "from": [ 36,34,35,33,61 ], "appliesTo":[500]},
+		{"min":0, "max":1, "from": [ 60 ],      "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 36,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 34,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 35,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 33,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 61,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 15,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 16,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 31,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 32,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 37,60 ], "appliesTo":[500]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 38,60 ], "appliesTo":[500]},
+
+
+		{"min":0, "max":6, "weighted":true, "from": [ 36,34,35,33,61 ], "appliesTo":[570]},
+		{"min":0, "max":1, "from": [ 60 ],     "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 36,60 ], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 34,60 ], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 35,60 ], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 33,60 ], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 61,60 ], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 31,60 ], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 32,60 ], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 37,60 ], "appliesTo":[570]},
+		{"min":0, "max":1, "exclusive":true, "from": [ 38,60 ], "appliesTo":[570]},
+
+
+		{"min":1, "max":1, "from":[70,71,72], "appliesTo":[610], "composite":true},
+		{"min":0, "max":2, "from":[73],       "appliesTo":[610]},
+
+		{"min":1, "max":1, "from":[50,51],    "appliesTo":[630]}
+	]
+}

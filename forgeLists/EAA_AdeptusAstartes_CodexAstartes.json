@@ -1,0 +1,145 @@
+{
+	"id":"Codex Astartes",
+	"version":"0.01",
+	"by":"EA-Eternal War",
+
+	"includeFiles": {
+		"primary": "./lists/SM.json",
+		"allies": [
+					"./lists/ImperialAllies.json",
+					"./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+					]
+	},
+    "specialRules": [
+		{ "title": "They Shall Know No Fear" },
+		{ "title": "Space Marine Transports" }
+	],
+	"sections":[
+		{"name":"CODEX ASTARTES DETACHMENTS",
+		 "formations":[
+			{"id":500, "name":"Assaults",              "pts":175, "units":"4 Assaults",               "upgrades":[10,11,12,13, 37,38],        "xref":["Assaults"]},
+			{"id":510, "name":"Bikes",                 "pts":200,                                     "upgrades":[10,11,12,13]},
+			{"id":520, "name":"Devastators",           "pts":250, "units":"4 Devastators",            "upgrades":[10,11,12,13, 27,28,29,30, 31,32, 33,34,35,36,60, 37,38], "xref":["Devastators"]},
+			{"id":530, "name":"Land Raiders",          "pts":250, "units":"3 Land Raiders",           "upgrades":[10,11,12,13, 31,32],        "xref":["Land Raider"]},
+			{"id":540, "name":"Land Speeders",         "pts":200,                                     "upgrades":[10,11,12,13]},
+			{"id":570, "name":"Predators",             "pts":250,                                     "upgrades":[10,11,12,13, 31,32]},
+			{"id":580, "name":"Tacticals",             "pts":275, "units":"6 Tacticals",              "upgrades":[10,11,12,13, 27,28,29,30, 31,32, 33,34,35,36,61, 37,38], "xref":["Tacticals"]},
+			{"id":590, "name":"Scouts",                "pts":150,                                     "upgrades":[10,11,12,13, 34,35,36]},
+			{"id":600, "name":"Terminators",           "pts":350, "units":"4 Terminators",            "upgrades":[10,11,12,13, 33],           "xref":["Terminators"]},
+			{"id":610, "name":"Vindicators",           "pts":225, "units":"4 Vindicators",            "upgrades":[10,11,12,13, 31,32, 37,38], "xref":["Vindicator"]},
+			{"id":620, "name":"Whirlwinds",   	       "pts":275, "units":"4 Whirlwinds",             "upgrades":[10,11,12,13, 31,32],        "xref":["Whirlwind"]}
+		]},
+		{"name":"CODEX ASTARTES AIRCRAFT, NAVY AND TITAN ALLIES",
+		 "notes":"(Max 33%)",
+		 "formations":[
+			{"id":640, "name":"Thunderhawk",	       "pts":200, "units":"Thunderhawk Gunship",      "upgrades":[], "xref":["Thunderhawk"]},
+ 			{"id":550, "name":"Landing Craft",         "pts":350, "units":"1 Landing Craft",          "upgrades":[],                          "xref":["Landing Craft"]},
+			{"id":630, "name":"Storm Talon Squadron", "pts":200, "units":"2 Storm Talon Gunships",   "upgrades":[], "xref":["Storm Talon Gunship"]},
+			{"id":560, "name":"Orbital Support",       "pts":0,                                       "upgrades":[]},
+			{"id":650, "name":"Warhound Titan",       "pts":275, "units":"1 Warhound Scout Titan",   "upgrades":[], "xref":["Warhound"]},
+			{"id":660, "name":"Warhound Pack",        "pts":500, "units":"2 Warhound Scout Titans",  "upgrades":[], "xref":["Warhound"]},
+			{"id":670, "name":"Reaver Titan",         "pts":650, "units":"1 Reaver Titan",           "upgrades":[], "xref":["Reaver Titan"]},
+			{"id":680, "name":"Warlord Titan",        "pts":825, "units":"1 Warlord Titan",          "upgrades":[], "xref":["Warlord Titan"]}
+		]}
+	],
+	"upgrades":[
+		{"id":10, "name":"Captain",                    "pts":50,  "xref":["Captain"]},
+		{"id":11, "name":"Chaplain",                   "pts":50,  "xref":["Chaplain"]},
+		{"id":12, "name":"Librarian",                  "pts":50,  "xref":["Librarian"]},
+		{"id":13, "name":"Supreme Commander",          "pts":100, "xref":["Supreme Commander"]},
+
+		{"id":15, "name":"4 Scouts",                   "pts":0,   "xref":["Scouts"]},
+		{"id":16, "name":"2 Scouts + 2 Scout Sniper",  "pts":25,  "xref":["Scouts","Scouts Sniper"]},
+		{"id":17, "name":"4 Scouts Sniper",            "pts":50,  "xref":["Scouts Sniper"]},
+
+		{"id":20, "name":"Assault Bike",               "pts":0,   "xref":["Assault Bike"]},
+		{"id":21, "name":"Attack Bike",                "pts":0,   "xref":["Attack Bike"]},
+
+		{"id":22, "name":"Predator Annihilator",       "pts":0,   "xref":["Predator Annihilator"]},
+		{"id":23, "name":"Predator Destructor",        "pts":0,   "xref":["Predator Destructor"]},
+
+		{"id":24, "name":"Land Speeder",               "pts":0,   "xref":["Land Speeder"]},
+		{"id":25, "name":"Land Speeder Tornado",       "pts":0,   "xref":["Land Speeder Tornado"]},
+		{"id":26, "name":"Land Speeder Typhoon",       "pts":10,  "xref":["Land Speeder Typhoon"]},
+
+		{"id":27, "name":"Dreadnought Hellfire",       "pts":50,  "xref":["Dreadnought, Hellfire"]},
+		{"id":28, "name":"Dreadnought Tactical",       "pts":50,  "xref":["Dreadnought, Tactical"]},
+		{"id":29, "name":"2x Dreadnought Hellfire",    "pts":75,  "xref":["Dreadnought, Hellfire"]},
+		{"id":30, "name":"2x Dreadnought Tactical",    "pts":75,  "xref":["Dreadnought, Tactical"]},
+
+		{"id":31, "name":"Hunter",                     "pts":75,  "xref":["Hunter"]},
+		{"id":32, "name":"Stalker",                    "pts":75,  "xref":["Stalker"]},
+
+		{"id":33, "name":"Land Raider",                "pts":50,  "xref":["Land Raider"],                   "weight":2},
+
+		{"id":34, "name":"Razorback (THB)",            "pts":25,  "xref":["Razorback, Twin Heavy Bolter"],  "weight":1},
+		{"id":35, "name":"Razorback (TL)",             "pts":25,  "xref":["Razorback, Twin Lascannon"],     "weight":1},
+		{"id":36, "name":"Rhino",                      "pts":0,   "xref":["Rhino"],                         "weight":2},
+
+		{"id":60, "name":"4 Drop pods",                "pts":0,   "xref":["Drop Pod"]},
+		{"id":61, "name":"6 Drop pods",                "pts":0,   "xref":["Drop Pod"]},
+
+		{"id":37, "name":"Vindicator",                 "pts":50,  "xref":["Vindicator"]},
+		{"id":38, "name":"2x Vindicator",              "pts":75,  "xref":["Vindicator"]},
+
+		{"id":50, "name":"Strike Cruiser",             "pts":200,  "xref":["Strike Cruiser"]},
+		{"id":51, "name":"Battle Barge",               "pts":275,  "xref":["Battle Barge"]}
+	],
+	"formationConstraints":[
+		{"max":1,"perArmy":true, "name":"Spacecraft", "from":[560]},
+		{"maxPercent":33, "name":"Aircraft, Navy & Titans", "from":[550,560,630,640,650,660,670,680]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "perArmy":true, "from":[13]},
+
+		{"min":0, "max":1, "from":[10,11,12,13], "appliesTo":[500,510,520,540,570,580,590,600,610,620]},
+
+		{"min":5, "max":5, "from":[20,21],       "appliesTo":[510], "composite":true},
+
+		{"min":4, "max":4, "from":[22,23],       "appliesTo":[570], "composite":true},
+
+		{"min":5, "max":5, "from":[24,25,26],    "appliesTo":[540], "composite":true},
+
+		{"min":0, "max":1, "from":[27,28,29,30], "appliesTo":[520,580,590]},
+
+		{"min":0, "max":1, "from":[31,32],       "appliesTo":[520,530,570,580,610,620]},
+
+		{"min":0, "max":4, "from":[33],          "appliesTo":[600]},
+
+
+		{"min":0, "max":6, "weighted":true, "from": [36,34,35,33], "appliesTo":[580]},
+		{"min":0, "max":1, "from": [61],         "appliesTo":[580]},
+		{"min":0, "max":1, "exclusive":true, "from": [36,61], "appliesTo":[580]},
+		{"min":0, "max":1, "exclusive":true, "from": [34,61], "appliesTo":[580]},
+		{"min":0, "max":1, "exclusive":true, "from": [35,61], "appliesTo":[580]},
+		{"min":0, "max":1, "exclusive":true, "from": [33,61], "appliesTo":[580]},
+		{"min":0, "max":1, "exclusive":true, "from": [31,61], "appliesTo":[580]},
+		{"min":0, "max":1, "exclusive":true, "from": [32,61], "appliesTo":[580]},
+		{"min":0, "max":1, "exclusive":true, "from": [37,61], "appliesTo":[580]},
+		{"min":0, "max":1, "exclusive":true, "from": [38,61], "appliesTo":[580]},
+
+
+		{"min":0, "max":4, "weighted":true, "from": [36,34,35,33], "appliesTo":[520]},
+		{"min":0, "max":1, "from": [60],         "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [36,60], "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [34,60], "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [35,60], "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [33,60], "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [31,60], "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [32,60], "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [37,60], "appliesTo":[520]},
+		{"min":0, "max":1, "exclusive":true, "from": [38,60], "appliesTo":[520]},
+
+		{"min":0, "max":4, "weighted":true, "from": [36,34,35], "appliesTo":[590]},
+
+
+		{"min":1, "max":1, "from":[15,16,17], "appliesTo":[590], "composite":true},
+
+		{"min":0, "max":1, "from":[37,38],    "appliesTo":[500,520,580,610]},
+
+		{"min":1, "max":1, "from":[50,51],    "appliesTo":[560]}
+	]
+}

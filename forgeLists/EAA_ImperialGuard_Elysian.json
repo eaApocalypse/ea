@@ -1,0 +1,59 @@
+{
+	"id":"Elysian Drop Troops",
+	"version":"0.01",
+	"by":"EA-Eternal War",
+	"sections":[
+		{"name":"Elysian Core Formations", "formations":[
+			{"id":502, "name":"Regimental HQ", "pts":250, "upgrades":[91,92,10,11], "units":"1 Elysian Supreme Commander unit and 7 Drop Troops units."},
+			{"id":500, "name":"Drop Troop Company", "pts":200, "upgrades":[91,92,10,11], "units":"1 Elysian Commander unit and 7 Drop Troops units."}
+
+		]},
+		{"name":"Elysian Support Formations", "formations":[
+			{"id":510, "name":"Elysian Tempest Scions", "pts":300, "upgrades":[91,92,10,12,11,13,21], "units":"8 Tempest Scion units and 1 Tempestor "},
+			{"id":511, "name":"Heavy Tauros Company", "pts":225, "upgrades":[91,92,21], "units":"8 Heavy Tauros Venators "},
+			{"id":513, "name":"Cyclops Demolition Squadron", "pts":200, "upgrades":[], "units":"6 Cyclops Demolition Vehicles"},
+			{"id":514, "name":"Sentinels", "pts":100, "upgrades":[91,92], "units":" 4 Sentinels "},
+			{"id":517, "name":"Support Sentinels", "pts":125, "upgrades":[91,92,21]},
+			{"id":518, "name":"Vulture Squadron", "pts":225, "upgrades":[91,92], "units":"3 Vultures"},
+			{"id":519, "name":"Vendetta Squadron", "pts":225, "upgrades":[91,92], "units":" 3 Vendettas "}
+		]},
+		{"name":"Elysian Aircraft, Spacecraft", "formations":[
+			{"id":521, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":522, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
+			{"id":523, "name":"Marauder Collossus Bombers", "pts":275, "upgrades":[], "units":"2 Marauder Collossus Bombers"},
+			{"id":524, "name":"Lunar Class Cruiser", "pts":150, "upgrades":[], "units":"Lunar Class Cruiser"}
+		]}
+	],
+	"upgrades":[
+		{"id":91, "name":"Commissar", "pts":0},
+		{"id":92, "name":"Lord Commissar", "pts":50},
+		{"id":10, "name":"4 Valkyries", "pts":100},
+		{"id":11, "name":"8 Tauros Venators", "pts":100},
+		{"id":12, "name":"Grav Shutes", "pts":0},
+		{"id":13, "name":"8 Tauros Transports", "pts":75},
+		{"id":15, "name":"4 Support Sentinels - Heavy Bolter and a Hunter-killer missile", "pts":0},
+		{"id":16, "name":"4 Support Sentinels - Heavy Bolter and a Multi-Melta", "pts":0},
+		{"id":17, "name":"4 Support Sentinels - Heavy Bolter and a Rocket Pod", "pts":0},
+		{"id":21, "name":"Sky Talons", "pts":25}
+
+	],
+	"formationConstraints":[
+		{"max":1, "from":[502]},
+		{"max":1, "from":[524]},
+		{"max":2, "from":[513]},
+		{"max":3, "name":"Support Formations", "from":[510,511,513,514,517,518,519,510], "forEach":[500,502], "name2":"Core Formation"},
+		{"maxPercent":33, "name":"Navy Support formations", "from":[521,522,523,524]}
+	],
+	"upgradeConstraints":[
+		{"max":1, "perArmy":true, "from":[92]},	
+		{"max":6, "perArmy":true, "from":[91,92]},
+		{"max":1, "from":[91,92]},
+		{"max":1, "from":[10]},
+		{"max":1, "from":[11]},
+		{"max":1, "from":[12]},
+		{"max":1, "from":[13]},
+		{"max":1, "from":[14]},
+		{"max":1, "from":[10,11,12,13,14]},
+		{"min":1, "max":1, "from":[15,16,17], "appliesTo":[517]}
+	]
+}

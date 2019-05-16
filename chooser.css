@@ -1,0 +1,250 @@
+/* GENERIC */
+body {
+	background-color:#FFFFFF;
+	margin:0.2em 2em 2em 2em;
+}
+table {
+	border-collapse:collapse;
+}
+th {
+	padding:0.5em 1em 0.5em 1em;
+}
+td {
+	padding:0.7em 1em 0.5em 1em;
+}
+tr.interactive:hover > td {
+	cursor:pointer;
+	background-color:#000000;
+	color:orange !important;
+}
+.inactive {
+	cursor:auto;
+	font-style:italic;
+	color:#666;
+}
+.viewDiv {
+//	margin-top:1em;
+}
+/* ORBAT */
+#notes {
+	margin:1em;
+	font-size:x-small;
+	width:56%;
+}
+#orbatDiv {
+	margin-bottom:15em;
+}
+.orbat > * > tr > td, .orbat th {
+	padding-left:8mm;
+	padding-right:8mm;
+}
+#orbatTitle {
+	text-align:left;
+	font-weight:bold;
+	font-size:normal;
+}
+.orbat {
+	font-family:sans-serif;
+	background-color:#e6e6e6;
+	border:3px solid black;
+	width:60%;
+}
+#orbatListName {
+	font-style:italic;
+	font-size:x-small;
+	font-weight:normal;
+}
+.orbat tr {
+	border-bottom:none;
+}
+.orbat tr.orbatFormation td {
+	padding-bottom:0;
+	border-bottom:none;
+	font-weight:bold;
+	font-size:small;
+}
+.orbat span.upgradeMultiplier {
+	float:left;
+}
+tr.orbatUpgrade > td.points {
+	padding-left:8mm;
+	color:white;
+}
+tr.orbatUpgrade > td {
+	font-size:x-small;
+	padding-left:8mm;
+	padding-top:0;
+	padding-bottom:0;
+	color:#444444;
+}
+tr.mandatory > td {
+	color:black;
+}
+.orbat tbody {
+	border-top:dotted 1px gray;
+}
+.points {
+	padding-left:0;
+	text-align:right;
+	vertical-align:top;
+}
+#orbatTotal {
+	vertical-align:top;
+	text-align:right;
+//s	font-weight:normal;
+}
+#formationDivider {
+	border-bottom:1px dotted gray;
+}
+#controls a {
+	padding-right:1em;
+}
+#controls a.selected {
+	text-decoration:none;
+	cursor:auto;
+	color:#363;
+}
+#controls {
+	font-family:monospace;
+	font-size:small;
+	margin-top:0.5em;
+	margin-bottom:0.5em;
+}
+#warnings {
+	color:#aa0000;
+	font-size:x-small;
+	font-weight:normal;
+}
+.units {
+	font-size:x-small;
+	font-weight:normal;
+//	color:black;
+}
+
+
+/* DROP DOWN */
+div.dropDown {
+	cursor:auto;
+	position:absolute;
+	z-index:99;
+	width:44%;
+	margin-left:10%;
+	margin-top:-4px;
+}
+
+div.dropDown .listDiv table td {
+	font-weight:normal;
+}
+
+/* ARMY LISTS */
+#armyList {
+	padding:0 1em 1em 1em;
+	position:fixed;
+	right:0;
+	top:0;
+	height:100%;
+	width:33%;
+	overflow:auto;
+}
+#armyList .listDiv {
+	margin-top:2em;
+}
+.listDiv {
+	padding:0.5em 1em 1em 1em;
+	border:1px solid #222;
+	background-color:silver;
+	color:#222;
+	font-family:serif;
+	font-size:small;
+	box-shadow:black 5px 5px 5px;
+	-webkit-box-shadow: black 5px 5px 5px;
+	-moz-box-shadow: black 5px 5px 5px;
+}
+.listDiv table {
+	width:100%;
+}
+.listDiv table td {
+	padding:0 1em 0 1em;
+}
+.listDiv td.points {
+	padding-left:0;
+	text-align:right;
+}
+.listDiv table th {
+	border-bottom:1px solid #222;
+}
+.listDiv .constraint {
+	float:right;
+}
+.even {
+	background-color: #cccccc;
+}
+
+@media print {
+	body {
+		background-color:white;
+	}
+	#armyList, #controls, div.dropDown, #notes {
+		display:none;
+	}
+	#orbat {
+		width:100%;
+		margin-bottom:1em;
+	}
+	.orbatUpgrade td.points {
+		color:white;
+	}
+}
+
+#plainTextDiv {
+	width:60%;
+}
+
+#importDiv {
+	margin-bottom:1em;
+}
+#importDiv textarea {
+	width:40em;
+	height:10em;
+}
+
+.divOuter{
+	width: 90%;
+}
+.divRowMain{
+}
+.divRowComposition{
+    font-style: italic;
+	margin-left: 10px;
+/*	background-color: #ffffdd;*/
+}
+.trStatHeader{
+	font-weight: bold;
+}
+.divStat{
+	display: inline-block;
+}
+.divStatList{
+	padding: 5px;
+}
+.td40{
+	min-width: 40px;
+}
+.td100{
+	min-width: 100px;
+}
+.td130{
+	min-width: 130px;
+}
+.td140{
+	min-width: 140px;
+}
+.td150{
+	min-width: 150px;
+}
+.td180{
+	min-width: 180px;
+}
+.tdFill{
+	width: 100%;
+}

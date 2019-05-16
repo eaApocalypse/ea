@@ -153,14 +153,6 @@
         "points": 150
       },
       {
-        "name": "0-1 Orbital Support",
-        "units": "One Strike Cruiser",
-        "upgrades": [
-          "Battle Barge"
-        ],
-        "points": 200
-      },
-      {
         "name": "Terminators",
         "units": "Four Terminators",
         "upgrades": [
@@ -177,11 +169,6 @@
           "AA Support"
         ],
         "points": 275
-    },
-    {
-      "name": "Landing Craft",
-      "units": "One Landing Craft",
-      "points": 350
     }
     ]
     },
@@ -190,13 +177,26 @@
       "description": "Up to a third of the points available may be spent on these formations",
       "formations": [
         {
+          "name": "Thunderhawk",
+          "units": "One Thunderhawk Gunship",
+          "points": 200
+        },
+        {
+          "name": "Landing Craft",
+          "units": "One Landing Craft",
+          "points": 350
+        },
+        {
           "name": "Storm Talon Squadron",
           "units": "Two Storm Talons",
           "points": 200
         },
         {
-          "name": "Thunderhawk",
-          "units": "One Thunderhawk Gunship",
+          "name": "0-1 Orbital Support",
+          "units": "One Strike Cruiser",
+          "upgrades": [
+            "Battle Barge"
+          ],
           "points": 200
         },
         {

@@ -1,0 +1,61 @@
+{
+	"id":"Catachan Jungle Fighters",
+	"version":"0.01",
+	"by":"EA-Eternal War",
+	"sections":[
+		{"name":"DEATHWORLD VETERANS COMPANIES", "formations":[
+			{"id":502, "name":"Deathworld Regimental HQ", "pts":250, "upgrades":[10,11,12,14], "units":"1 Catachan Supreme Commander"},
+			{"id":500, "name":"Deathworld Air Cavalry Company", "pts":200, "upgrades":[10,11,12,14], "units":"1 Catachan Commander"}
+		]},
+		{"name":"DEATHWORLD VETERANS SUPPORT FORMATIONS", "formations":[
+			{"id":510, "name":"Death World Veterans", "pts":200, "upgrades":[10,11,14,15], "units":"1 Catachan Commander"},
+			{"id":511, "name":"Deathworld Sentinel Squadron", "pts":100, "upgrades":[], "units":"4 Deathworld Sentinels"},
+			{"id":513, "name":"Catachan Devils", "pts":250, "upgrades":[10,11], "units":"6 Catachan Devil units"},
+			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[], "units":"6 Hellhounds"},
+			{"id":517, "name":"Vulture Squadron", "pts":225, "upgrades":[], "units":"3 Vultures"},
+			{"id":518, "name":"Missile Team", "pts":200, "upgrades":[], "units":"4 Catachan Missile Teams and 2 Vendettas"},
+			{"id":519, "name":"Sniper Team", "pts":100, "upgrades":[10,11], "units":"4 Catachan Snipers"}
+		]},
+		{"name":"NAVAL SUPPORT", "formations":[
+			{"id":521, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
+			{"id":522, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
+			{"id":523, "name":"Marauder Collossus Bombers", "pts":275, "upgrades":[], "units":"2 Marauder Collossus Bombers"}
+		]}
+	],
+	"upgrades":[
+		{"id":10, "name":"Valkyries", "pts":25},
+		{"id":11, "name":"Vendettas", "pts":50},
+		{"id":12, "name":"2 Catachan Missile Teams", "pts":50},
+		{"id":13, "name":"3 Catachan Mortar Squad", "pts":50},
+		{"id":14, "name":"Add 2 Ogryn and 2 Valkyries", "pts":75},
+		{"id":15, "name":"Add 2 Ogryn and 2 Vendettas", "pts":125},
+		{"id":16, "name":"2 Catachan Jungle Fighters", "pts":0},
+		{"id":17, "name":"2 Death World Veterans", "pts":0},
+		{"id":18, "name":"1 Catachan Ogryn", "pts":0},
+
+
+		{"id":21, "name":"7 Catachan Jungle Fighters", "pts":0},
+		{"id":22, "name":"5 Catachan Jungle Fighters, 1 Ogryn", "pts":0},
+		{"id":23, "name":"3 Catachan Jungle Fighters, 2 Ogryns", "pts":0},
+		{"id":24, "name":"5 Death World Veterans", "pts":0},
+		{"id":25, "name":"3 Death World Veterans, 1 Ogryn", "pts":0},
+		{"id":26, "name":"1 Death World Veteran, 2 Ogryns", "pts":0}
+	],
+	"formationConstraints":[
+		{"max":1, "from":[502]},
+		{"max":1, "from":[513]},
+		{"max":3, "name":"Support Formations", "from":[510,511,512,513,514,515,516,517,518,519], "forEach":[500,501,502], "name2":"Company"},
+		{"maxPercent":33, "name":"Navy Support formations", "from":[520,521,522,523,524,525]}
+	],
+	"upgradeConstraints":[
+		{"max":10, "from":[10]},
+		{"max":10, "from":[11]},
+		{"max":1, "from":[14,15]},
+		{"max":4, "from":[13]},
+		{"max":1, "from":[12]},
+		{"max":2, "from":[18]},
+		{"min":1, "max":1, "from":[24,25,26], "appliesTo":[510]},
+		{"min":1, "max":1, "from":[21,22,23], "appliesTo":[500,502]},
+		{"min":4, "max":10, "from":[10,11], "appliesTo":[500,502]}
+	]
+}

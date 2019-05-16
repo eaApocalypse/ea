@@ -1,0 +1,96 @@
+{
+   "id": "Death Guard",
+   "version": "0.01",
+   "by": "EA-Eternal War",
+   "sections": [
+      {"name": "INDIVIDUALS", "formations": [
+	    {"id": 501, "name": "Daemon Pool", "pts": 0, "upgrades": [71,72,74]}
+      ]},
+
+      {"name": "DEATH GUARD RETINUE", "formations": [
+            {"id": 521, "name": "Death Guard Retinue", "pts": 275, "upgrades": [22,23,24,25,26,27,28,30]}
+       ]},
+
+      {"name": "DEATH ELITE FORMATIONS (Max one for each Death Guard Retinue)", "formations": [
+            {"id": 531, "name": "Chosen", "pts": 150, "units": "4 Chosen, 2 Death Guard Rhinos", "upgrades": [22,25,27,30]},
+            {"id": 532, "name": "Terminators", "pts": 350, "units": "4 Blightlord Terminators", "upgrades": [25,26,27,30,32]},
+            {"id": 533, "name": "Vindicators", "pts": 25, "upgrades": [31]}
+       ]},
+
+      {"name": "DEATH GUARD DAEMON ENGINE FORMATIONS (Max two for each Death Guard Retinue)", "formations": [
+            {"id": 541, "name": "Contagion Engines", "pts": 325, "units": "4 Contagion Engines", "upgrades": []},
+            {"id": 542, "name": "Blight Drones", "pts": 225, "units": "7 Greater Blight Drones", "upgrades": []},
+            {"id": 543, "name": "Plaguetower", "pts": 325, "units": "1 Plaguetower", "upgrades": []},
+            {"id": 544, "name": "Nurgle Defilers", "pts": 50, "upgrades": [21]}
+       ]},
+
+      {"name": "ZOMBIES, SPACESHIPS, AIRCRAFT &amp; TITANS", "formations": [
+            {"id": 551, "name": "Plague Zombie Infestation", "pts": 175, "units": "3 + 2D6 Plague Zombies", "upgrades": []},
+            {"id": 552, "name": "Plaguehound", "pts": 50, "upgrades": [20]},
+            {"id": 553, "name": "Repugnant", "pts": 600, "units": "1 Repugnant Titan", "upgrades": []},
+            {"id": 554, "name": "Hell Blades", "pts": 200, "units": "3 Hell Blade Interceptors", "upgrades": []},
+            {"id": 555, "name": "Hell Talons", "pts": 225, "units": "2 Hell Talon Fighter-Bombers", "upgrades": []},
+            {"id": 556, "name": "Harbringer", "pts": 350, "units": "1 Death Guard Harbringer Bomber", "upgrades": []},
+            {"id": 557, "name": "Plagueship", "pts": 100, "units": "1 Plagueship", "upgrades": []}
+         ]}
+   ],
+   "upgrades": [
+      {"id": 13, "name": "Chaos Warlord", "pts": 50},
+      {"id": 14, "name": "Daemon Prince of Nurgle (replaces the Chaos Lord and his unit)", "pts": 75},
+      {"id": 15, "name": "Chaos Lord", "pts": 0},
+      {"id": 16, "name": "Sorcerer Lord", "pts": 0},
+      {"id": 17, "name": "3 Chaos Space Marines", "pts": 0},
+      {"id": 18, "name": "3 Havocs", "pts": 35},
+      {"id": 19, "name": "4 Plague Marines", "pts": 0},
+      {"id": 20, "name": "Plaguehound Scout Titan", "pts": 250},
+      {"id": 21, "name": "Desecrator", "pts": 50},
+      {"id": 22, "name": "2 Death Guard Dreadnoughts", "pts": 75},
+      {"id": 23, "name": "Death Guard Rhino", "pts": 10},
+	  {"id": 24, "name": "Death Guard Land Raider", "pts": 50},
+      {"id": 25, "name": "Daemonic Pact", "pts": 25},
+      {"id": 26, "name": "Champion of Nurgle", "pts": 50},
+      {"id": 27, "name": "Icon Bearer ", "pts": 25},
+      {"id": 28, "name": "Death Guard Stalker ", "pts": 50},
+      {"id": 29, "name": "3 Plague Marines", "pts": 25},
+      {"id": 30, "name": "2 Death Guard Vindicators", "pts": 50},
+      {"id": 31, "name": "Death Guard Vindicator", "pts": 35},
+
+      {"id": 32, "name": "4 Death Guard Land Raiders", "pts": 200},
+
+		{"id":71, "name":"Greater Daemon Pool point", "pts":50},
+		{"id":72, "name":"Lesser Daemon Pool point", "pts":15},
+		{"id":73, "name":"Greater Daemon Pool point (Free)", "pts":0},
+		{"id":74, "name":"Lesser Daemon Pool point (Daemonic Pact)", "pts":0}
+
+
+   ],
+   "formationConstraints": [
+      {"max": 1, "from": [556]},
+      {"max": 1, "name": "Spacecraft", "from": [557]},
+      {"min": 1,"max": 1, "from": [501]},
+      {"maxPercent": 33, "name": "War Engines & Allies", "from": [551,552,553,554,555,556,557]},
+      {"max": 1, "name": "Elite Formations", "from": [531,532,533],  "forEach": [521], "name2": "Death Guard Retinue"},
+      {"max": 2, "name": "Daemon Engine Formations", "from": [541,542,543,544],  "forEach": [521], "name2": "Death Guard Retinue"}
+   ],
+   "upgradeConstraints": [
+      {"max": 1, "from": [13,14], "perArmy": true},
+      {"min": 1, "max": 1, "from": [73], "appliesTo": [501]},
+      {"max": 1, "from": [22]},
+      {"max": 4, "from": [23,24], "appliesTo": [521]},
+
+      {"max": 1, "from": [25]},
+      {"max": 1, "from": [26]},
+      {"max": 1, "from": [27]},
+      {"max": 1, "from": [28]},
+	  {"max": 1, "from": [29]},
+      {"max": 1, "from": [30]},
+      {"max": 1, "from": [32]},
+      {"min": 1, "max": 1, "from": [15,16,13,14], "appliesTo": [521,532]},
+      {"min": 1, "max": 1, "from": [17,18,29], "appliesTo": [521]},
+      {"min": 1, "max": 1, "from": [19], "appliesTo": [521]},
+      {"min": 5, "max": 7, "from": [31], "appliesTo": [533]},
+      {"min": 4, "max": 7, "from": [21], "appliesTo": [544]},
+      {"min": 1, "max": 2, "from": [20], "appliesTo": [552]}
+
+   ]
+}
