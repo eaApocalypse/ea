@@ -172,9 +172,6 @@
       "name": "Imperial Knight Support",
       "description": "Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations",
       "formations": [
-        {
-          "name": "Questoris Banner",
-          "formations": [
             {
               "name": "Questoris Banner",
               "units": "One Seneschal and three of the following knights in any combination",
@@ -189,8 +186,6 @@
               ],
               "points": 300
             }
-          ]
-        }
       ]
     },
     {
