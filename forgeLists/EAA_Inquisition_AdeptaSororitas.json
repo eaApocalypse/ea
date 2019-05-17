@@ -1,22 +1,23 @@
 {
-   "id": "Adepta Sororitas",
-   "version": "0.01",
-   "by": "EA-Eternal War",
-   "notes":["If Using transports (Immolator, Repressor, Rhinos, Valkyries) you must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible."],
-   "includeFiles": {
-     "primary": "./lists/IQ.json",
-     "allies": [
-           "./lists/IG.json",
-           "./lists/ImperialAllies.json",
-           "./lists/ImperialNavy.json"
-           ],
-     "common": [
-           "./lists/weapons.json"
-           ]
-   },
-     "specialRules": [
-       { "title": "Act of Faith"}
-   ],
+  "id": "Adepta Sororitas",
+  "version": "0.01",
+  "notes":["If Using transports (Immolator, Repressor, Rhinos, Valkyries) you must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible."],
+  "by": "EA-Eternal War",
+
+	"includeFiles": {
+		"primary": "./lists/IQ.json",
+		"allies": [
+      "./lists/IG.json",
+      "./lists/ImperialAllies.json",
+      "./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+		]
+	},
+    "specialRules": [
+					    { "title": "Act of Faith"}
+	],
    "sections": [
       {"name": "MISSION", "formations": [
       {"id": 512, "name": "Mission",     "pts":275 ,  "upgrades": [16,19,11,9,18,22,23,24]},
