@@ -3,70 +3,83 @@
    "version": "0.01",
    "by": "EA-Eternal War",
    "notes":["If Using transports (Immolator, Repressor, Rhinos, Valkyries) you must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible."],
-
+   "includeFiles": {
+     "primary": "./lists/IQ.json",
+     "allies": [
+           "./lists/IG.json",
+           "./lists/ImperialAllies.json",
+           "./lists/ImperialNavy.json"
+           ],
+     "common": [
+           "./lists/weapons.json"
+           ]
+   },
+     "specialRules": [
+       { "title": "Act of Faith"}
+   ],
    "sections": [
-        {"name": "MISSION", "formations": [
-            {"id": 512, "name": "Mission", "pts": 275 , "upgrades": [16,19,11,9,18,22,23,24]},
-	    {"id": 515, "name": "Retribution", "pts":250 , "upgrades": [19,11,9,18,22,23,24]}
+      {"name": "MISSION", "formations": [
+      {"id": 512, "name": "Mission",     "pts":275 ,  "upgrades": [16,19,11,9,18,22,23,24],     "xref":[]},
+	    {"id": 515, "name": "Retribution", "pts":250 ,  "upgrades": [19,11,9,18,22,23,24],        "xref":[]}
 	  ]},
 
-        {"name": "SUPPORT FORMATIONS", "formations": [
-	    {"id": 513, "name": "Exorcism", "pts": 0, "upgrades": [16,17]},
-	    {"id": 514, "name": "Choir", "pts": 225, "units": "6 Seraphim Sister Units", "upgrades": [11,18,9]},
-            {"id": 516, "name": "Coven", "pts": 200, "upgrades": [22,23,24]},
-            {"id": 517, "name": "Repentance", "pts": 225, "units": "One Mistress Character and 6 Repentia Sister Units", "upgrades": [53]},
-	    {"id": 519, "name": "Purgeance", "pts": 100, "upgrades": [17] }
-         ]},
+      {"name": "SUPPORT FORMATIONS", "formations": [
+	    {"id": 513, "name": "Exorcism",          "pts": 0,   "upgrades": [16,17],                                                                 "xref":["Exorcist"]},
+	    {"id": 514, "name": "Choir",             "pts": 225, "units": "6 Seraphim Sister Units", "upgrades": [11,18,9],                           "xref":["Seraphim Sister"]},
+      {"id": 516, "name": "Coven",             "pts": 200, "upgrades": [22,23,24],                                                              "xref":[]},
+      {"id": 517, "name": "Repentance",        "pts": 225, "units": "One Mistress Character and 6 Repentia Sister Units", "upgrades": [53],     "xref":["Mistress", "Repentia Sisters"]},
+	    {"id": 519, "name": "Purgeance",         "pts": 100, "upgrades": [17],                                                                    "xref":[]}
+      ]},
 
-        {"name": "AUXILIARY FORMATIONS", "formations": [
+      {"name": "AUXILIARY FORMATIONS", "formations": [
 
-            {"id": 518, "name": "Inquisitor Hereticus Retinue", "pts": 200, "units": "One Inquisitor Hereticus Character", "upgrades": [21,13,19]},
-	    {"id": 600, "name": "Crusaders", "pts": 200, "units": "1 Priest Character and 10 Redemptionist Units", "upgrades": [15,13]},
-            {"id": 602, "name": "Conclave", "pts": 250, "units": "6 Arco-Flagellant Units", "upgrades": [15,22,23,24]},
-            {"id": 605, "name": "Pentinence", "pts": 35, "upgrades": [32]}
-         ]},
+      {"id": 518, "name": "Inquisitor Hereticus Retinue", "pts": 200, "units": "One Inquisitor Character", "upgrades": [21,13,19,51],                         "xref":["Inquisitor"]},
+	    {"id": 600, "name": "Crusaders",                    "pts": 200, "units": "1 Priest Character and 10 Redemptionist Units", "upgrades": [15,13],       "xref":["Priest", "Redemptionists"]},
+      {"id": 602, "name": "Conclave",                     "pts": 250, "units": "6 Arco-Flagellant Units", "upgrades": [15,22,23,24],                       "xref":["Arco-Flagellants"]},
+      {"id": 605, "name": "Pentinence",                   "pts": 35,  "upgrades": [32],                                                                    "xref":["Penitent Engine"]}
+      ]},
 
-        {"name": "WAR ENGINES AND IMPERIAL NAVY", "formations": [
-            {"id": 719, "name": "Lightning Squadron", "pts": 150, "units": "2 Lightning Strike Fighters", "upgrades": [] },
-            {"id": 720, "name": "Marauder Squadron", "pts": 250, "units": "2 Marauder Bombers", "upgrades": [] },
-	    {"id": 708, "name": "Orbital Support", "pts": 150, "units": "1 Lunar Class Cruiser", "upgrades": [] }
+      {"name": "WAR ENGINES AND IMPERIAL NAVY", "formations": [
+      {"id": 719, "name": "Lightning Squadron",          "pts": 150, "units": "2 Lightning Strike Fighters", "upgrades": [],               "xref":["Lightning Strike Fighter"]},
+      {"id": 720, "name": "Marauder Squadron",           "pts": 250, "units": "2 Marauder Bombers",          "upgrades": [],               "xref":["Marauder Bomber"]},
+	    {"id": 708, "name": "Orbital Support",             "pts": 150, "units": "1 Lunar Class Cruiser",       "upgrades": [],               "xref":["Lunar Class Cruiser"]}
          ]}
 
    ],
    "upgrades": [
-	  {"id": 9, "name": "Living Saint","pts": 75},
-	  {"id": 11, "name": "Canoness","pts": 100},
-	  {"id": 13, "name": "Inquisitorial Chimera","pts": 25},
-          {"id": 14, "name": "2 Dominion Sister Units","pts": 75},
-	  {"id": 15, "name": "Pentinent Engine","pts": 35},
-	  {"id": 30, "name": "2 Pentinent Engines","pts": 70},
-	  {"id": 31, "name": "3 Pentinent Engines","pts": 105},
-	  {"id": 16, "name": "Exorcist","pts": 50},
-          {"id": 17, "name": "Hunter","pts": 50},
-	  {"id": 18, "name": "Palatine","pts": 50},
-          {"id": 19, "name": "Priest","pts": 50},
-	  {"id": 21, "name": "4 Inquisitorial Valyries","pts": 150},
-          {"id": 22, "name": "Immolator","pts": 25},
-	  {"id": 23, "name": "Repressor","pts": 25},
-          {"id": 24, "name": "Rhino","pts": 0},
-	  {"id": 32, "name": "Pentinent Engine","pts": 35},
-	  {"id": 26, "name": "Inquisitorial Storm Trooper","pts": 0},
-	  {"id": 27, "name": "Inquisitorial Veteran Warrior Acolyte","pts": 15},
-	  {"id": 28, "name": "Inquisitorial Support Staff","pts": 15},
-	  {"id": 29, "name": "Death Cult Assassin","pts": 20},
-	  {"id": 42, "name": "8 Battle Sister","pts": 0},
-	  {"id": 33, "name": "6 Battle Sisters 2 Celestian Sisters","pts": 25},
-	  {"id": 34, "name": "6 Battle Sisters 2 Dominion Sisters","pts": 15},
-	  {"id": 35, "name": "6 Battle Sisters 2 Retribution Sisters","pts": 15},
-	  {"id": 36, "name": "4 Battle Sisters 2 Celestian Sisters 2 Dominion Sisters","pts": 40},
-	  {"id": 37, "name": "4 Battle Sisters 2 Celestian Sisters 2 Retribution Sisters","pts": 40},
-	  {"id": 38, "name": "6 Retribution Sisters","pts": 0},
-	  {"id": 39, "name": "4 Retribution Sisters 2 Celestian Sisters","pts": 10},
-	  {"id": 40, "name": "4 Retribution Sisters 2 Dominion Sisters","pts": 0},
-	  {"id": 50, "name": "4 Dominion Sisters","pts": 0},
-	  {"id": 51, "name": "4 Dominion ","pts": 0},
-	  {"id": 52, "name": "4 Dominion ","pts": 0},
-	  {"id": 53, "name": "Emperors Chapel","pts": 150}
+	  {"id": 9,  "name": "Living Saint","pts": 75,                                                 "xref":["Living Saint"]},
+	  {"id": 11, "name": "Canoness","pts": 100,                                                    "xref":["Canoness"]},
+	  {"id": 13, "name": "Inquisitorial Chimera","pts": 25,                                        "xref":[]},
+    {"id": 14, "name": "2 Dominion Sister Units","pts": 75,                                      "xref":["Dominion Sister"]},
+	  {"id": 15, "name": "Pentinent Engine","pts": 35,                                             "xref":["Penitent Engine"]},
+	  {"id": 30, "name": "2 Pentinent Engines","pts": 70,                                          "xref":["Penitent Engine"]},
+	  {"id": 31, "name": "3 Pentinent Engines","pts": 105,                                         "xref":["Penitent Engine"]},
+	  {"id": 16, "name": "Exorcist","pts": 50,                                                     "xref":["Exorcist"]},
+    {"id": 17, "name": "Hunter","pts": 50,                                                       "xref":["Sororitas Hunter"]},
+	  {"id": 18, "name": "Palatine","pts": 50,                                                     "xref":["Palatine"]},
+    {"id": 19, "name": "Priest","pts": 50,                                                       "xref":["Priest"]},
+	  {"id": 21, "name": "4 Inquisitorial Valyries","pts": 150,                                    "xref":["Valkyrie"]},
+    {"id": 22, "name": "Immolator","pts": 25,                                                    "xref":["Immolator"]},
+	  {"id": 23, "name": "Repressor","pts": 25,                                                    "xref":["Repressor"]},
+    {"id": 24, "name": "Rhino","pts": 0,                                                         "xref":["Sororitas Rhino"]},
+	  {"id": 32, "name": "Pentinent Engine","pts": 35,                                             "xref":["Penitent Engine"]},
+	  {"id": 26, "name": "Inquisitorial Storm Trooper","pts": 0,                                   "xref":["Inquisitorial Storm Trooper"]},
+	  {"id": 27, "name": "Inquisitorial Veteran Warrior Acolyte","pts": 15,                        "xref":[]},
+	  {"id": 28, "name": "Inquisitorial Support Staff","pts": 15,                                  "xref":[]},
+	  {"id": 29, "name": "Death Cult Assassin","pts": 20,                                          "xref":["Death Cult Assassin"]},
+	  {"id": 42, "name": "8 Battle Sister","pts": 0,                                               "xref":["Battle Sisters"]},
+	  {"id": 33, "name": "6 Battle Sisters 2 Celestian Sisters","pts": 25,                         "xref":["Battle Sisters", "Celestian Sister"]},
+	  {"id": 34, "name": "6 Battle Sisters 2 Dominion Sisters","pts": 15,                          "xref":["Battle Sisters", "Dominion Sister"]},
+	  {"id": 35, "name": "6 Battle Sisters 2 Retribution Sisters","pts": 15,                       "xref":["Battle Sisters"]},
+	  {"id": 36, "name": "4 Battle Sisters 2 Celestian Sisters 2 Dominion Sisters","pts": 40,      "xref":["Battle Sisters", "Celestian Sister", "Dominion Sister"]},
+	  {"id": 37, "name": "4 Battle Sisters 2 Celestian Sisters 2 Retribution Sisters","pts": 40,   "xref":["Battle Sisters", "Celestian Sister"]},
+	  {"id": 38, "name": "6 Retribution Sisters","pts": 0,                                         "xref":["Retributor Sister"]},
+	  {"id": 39, "name": "4 Retribution Sisters 2 Celestian Sisters","pts": 10,                    "xref":["Retributor Sister", "Celestian Sister"]},
+	  {"id": 40, "name": "4 Retribution Sisters 2 Dominion Sisters","pts": 0,                      "xref":["Retributor Sister", "Dominion Sister"]},
+	  {"id": 50, "name": "4 Dominion Sisters","pts": 0,                                            "xref":["Dominion Sister"]},
+	  {"id": 51, "name": "Chimeras","pts": 25,                                                     "xref":["Chimera"]},
+	  {"id": 52, "name": "4 Dominion ","pts": 0,                                                   "xref":[]},
+	  {"id": 53, "name": "Emperors Chapel","pts": 150,                                             "xref":[]}
 
 
 
@@ -80,10 +93,10 @@
       {"max": 1, "name": "Retribution Formation", "from": [515], "forEach": [512], "name2": "Mission" }
    ],
    "upgradeConstraints": [
-      {"max": 1, "from": [11,18,9] },
-	   {"max": 1, "from": [19] },
+    {"max": 1, "from": [11,18,9] },
+	  {"max": 1, "from": [19] },
 	  {"max": 1, "perArmy": true, "from": [11]},
-      	  {"max": 1, "perArmy": true, "from": [9]},
+    {"max": 1, "perArmy": true, "from": [9]},
 
 	  {"max": 1, "from": [12]},
 	  {"max": 1, "from": [14]},
@@ -91,9 +104,10 @@
 	  {"max": 1, "from": [17]},
 	  {"max": 1, "from": [20]},
 	  {"max": 1, "from": [53]},
+    {"max": 4, "from": [51]},
 	  {"max": 1, "from": [10,21], "appliesTo": [518]},
 	  {"max": 2, "from": [16], "appliesTo":[512,515,519]},
-          {"max": 4, "from": [21] },
+    {"max": 4, "from": [21]},
 	  {"min": 4, "max": 7, "from": [32], "appliesTo": [605] },
 	  {"min": 5, "max": 7, "from": [16], "appliesTo": [513] },
 	  {"min": 6, "max": 6, "from": [22,23], "appliesTo": [519] },

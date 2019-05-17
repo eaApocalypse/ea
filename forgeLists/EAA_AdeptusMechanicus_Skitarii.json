@@ -45,7 +45,7 @@
 		{"name":"SKITARII AIRCRAFT, NAVY AND ALLIES",
 		 "notes":"(Max 33%)",
 		 "formations":[
-			{"id":700, "name":"Questoris Banner",	          "pts":30,              																		  "upgrades":[21,22,23,24,25,26,27,41,42]},
+			{"id":700, "name":"Questoris Banner",	          "pts":30,              																		  "upgrades":[41,42]},
 			{"id":703, "name": "Avenger Strike Fighters",   "pts":175, "units":"2 Avenger Strike Fighters", 					  "upgrades":[],        "xref":["Avenger Strike Fighters"]},
 			{"id":704, "name": "Mechanicus Battleship",     "pts":200, "units":"1 Ark Mechanicus Battleship ",  			  "upgrades":[],        "xref":["Ark Mechanicus Battleship"]}
 		]}

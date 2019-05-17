@@ -42,7 +42,7 @@
 			{"id":901, "name":"Vanguard Maniple", 					"pts":175, "units":"9 Skitarii Vanguard",    						"upgrades":[46],        									"xref":["Skitarii Vanguard"]},
 			{"id":902, "name":"Ironstrider Cavaliers", 			"pts":175, "units":"6 Ironstrider Ballistarius",     	  "upgrades":[],        										"xref":["Ironstrider Ballistarius"]},
 			{"id":903, "name":"Sydonian Dragoons", 					"pts":175, "units":"6 Sydonian Dragoons",     				  "upgrades":[],        										"xref":["Sydonian Dragoon"]},
-			{"id":904, "name":"Questoris Banner",	          "pts":30, 	 "units":"Seneschal",  											  "upgrades":[51,52,53,54,55,56,57,61,62],  "xref":["Seneschal"]},
+			{"id":904, "name":"Questoris Banner",	          "pts":30, 	 "units":"Seneschal",  										  "upgrades":[61,62],  											"xref":["Seneschal"]},
 			{"id":905, "name":"Avenger Strike Fighters",    "pts":175, "units":"2 Avenger Strike Fighters", 				"upgrades":[],        										"xref":["Avenger Strike Fighters"]},
 			{"id":906, "name":"Mechanicus Battleship",      "pts":200, "units":"1 Ark Mechanicus Battleship ",  	  "upgrades":[],        										"xref":["Ark Mechanicus Battleship"]}
 
@@ -74,7 +74,7 @@
 		{"id":83, "name":"Carapace Multi-Lasers",					"pts":50,       		 "xref":["Carapace Multi-Lasers"]},
 		{"id":84, "name":"Sacred Icon",										"pts":50,       		 "xref":["Sacred Icon"]},
 
-		{"id":40, "name":"Archmagos",                 "pts":75,			   "xref":["Archmagos"]},
+		{"id":40, "name":"Archmagos",              	  "pts":75,			   "xref":["Archmagos"]},
 		{"id":41, "name":"Magos",               		  "pts":50,		 	   "xref":["Magos"]},
 		{"id":42, "name":"Tech Priest Dominus",       "pts":50,  			 "xref":["Tech Priest Dominus"]},
 
