@@ -28,8 +28,8 @@
 		 "formations":[
 			{"id":601, "name":"Ranger Centuria",  "pts":25,                                 												     "upgrades":[15],      "xref":["Skitarii Rangers"]},
 			{"id":602, "name":"Sicarian Infiltrators", "pts":225, "units":"7 Sicarian Infiltrators",    							   "upgrades":[12,17,18],   "xref":["Sicarian Infiltrators"]},
-			{"id":603, "name":"Sicarian Rustalkers", "pts":225, "units":"7 Sicarian Rustalkers",    									   "upgrades":[12,17,18],   "xref":["Sicarian Ruststalkers"]},
-			{"id":605, "name":"Ironstrider Cavaliers", "pts":225, "units":"6 Ironstrider Ballistarius",     					   "upgrades":[],        "xref":["Ironstrider Ballistarius"]},
+			{"id":603, "name":"Sicarian Rustalkers", "pts":175, "units":"7 Sicarian Rustalkers",    									   "upgrades":[12,17,18],   "xref":["Sicarian Ruststalkers"]},
+			{"id":605, "name":"Ironstrider Cavaliers", "pts":175, "units":"6 Ironstrider Ballistarius",     					   "upgrades":[],        "xref":["Ironstrider Ballistarius"]},
 			{"id":606, "name":"Sydonian Dragoons", "pts":225, "units":"6 Sydonian Dragoons",     												 "upgrades":[],        "xref":["Sydonian Dragoon"]},
 			{"id":607, "name":"Onager Cohort", "pts":225, "units":"5 Onager Dunecrawlers",    												   "upgrades":[],        "xref":["Onager Dunecrawler"]}
 		]},
