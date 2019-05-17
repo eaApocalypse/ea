@@ -86,6 +86,30 @@
          "Automaton",
          "God Machine Killer (GMK)"
       ]
+    },
+    {
+      "from": "QK.json",
+      "units": [
+        "Seneschal",
+        "Knight Crusader",
+        "Knight Errant",
+        "Knight Gallant",
+        "Knight Magaera",
+        "Knight Paladin",
+        "Knight Styrix",
+        "Knight Warden",
+        "Knight Castellan",
+        "Knight Valiant"
+      ],
+              "unitRules": [
+                "Heavy Armoured Vehicle (H-AV)",
+                "Bravery",
+                "Ion Gauntlet (X)",
+                "Ion Shield (X)",
+                "Ignore Shields",
+                "Chain",
+                "Unstable"
+      ]
     }
 ],
 "sections": [
@@ -141,6 +165,31 @@
               "Inferno Gun, Plasma Blastgun, Turbo-Laser Destructor, Veteran Princeps, Vulcan Mega-Bolter"
           ],
           "points": 500
+        }
+      ]
+    },
+    {
+      "name": "Imperial Knight Support",
+      "description": "Up to a third of the points available may be spent on Imperial Knight Support and Adeptus Mechanicus Navy Formations",
+      "formations": [
+        {
+          "name": "Questoris Banner",
+          "formations": [
+            {
+              "name": "Questoris Banner",
+              "units": "One Seneschal and three of the following knights in any combination",
+              "extraUnits": [
+                "Knight Crusader +25 points each",
+                "Knight Errant",
+                "Knight Gallant",
+                "Knight Magaera (R)",
+                "Knight Paladin",
+                "Knight Styrix (R)",
+                "Knight Warden"
+              ],
+              "points": 300
+            }
+          ]
         }
       ]
     },
@@ -346,6 +395,16 @@
               "points": "50 points"
             }
           ]
+        },
+        {
+          "name": "Dominus Knights",
+          "description": "Add up to one Knight Valiant or Knight Castellan to a Questoris Banner or a Cerasus Banner. Note: One Knight Valiant or Knight Castellan for every 1500 points.",
+          "points": "125 points each"
+        },
+        {
+          "name": "Questoris Banner Upgrades",
+          "description": "Add up to two Knights from the Questoris Banner list to a Questoris Banner. Note: apply points as listed if not free.",
+          "points": "90 points each"
         }
     ]
   }
