@@ -41,7 +41,7 @@
 			{"id":901, "name":"Vanguard Maniple", 					"pts":175, "units":"9 Skitarii Vanguard",    						"upgrades":[46],        									"xref":["Skitarii Vanguard"]},
 			{"id":902, "name":"Ironstrider Cavaliers", 			"pts":225, "units":"6 Ironstrider Ballistarius",     	  "upgrades":[],        										"xref":["Ironstrider Ballistarius"]},
 			{"id":903, "name":"Sydonian Dragoons", 					"pts":225, "units":"6 Sydonian Dragoons",     				  "upgrades":[],        										"xref":["Sydonian Dragoon"]},
-			{"id":904, "name":"Questoris Banner",	          "pts":5, 	 "units":"Seneschal",  											  "upgrades":[21,22,23,24,25,26,27,41,42],  "xref":["Seneschal"]},
+			{"id":904, "name":"Questoris Banner",	          "pts":5, 	 "units":"Seneschal",  											  "upgrades":[51,52,53,54,55,56,57,61,62],  "xref":["Seneschal"]},
 			{"id":905, "name": "Avenger Strike Fighters",   "pts":175, "units":"2 Avenger Strike Fighters", 				"upgrades":[],        										"xref":["Avenger Strike Fighters"]},
 			{"id":906, "name": "Mechanicus Battleship",     "pts":200, "units":"1 Ark Mechanicus Battleship ",  	  "upgrades":[],        										"xref":["Ark Mechanicus Battleship"]}
 
