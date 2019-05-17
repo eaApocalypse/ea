@@ -60,7 +60,7 @@
 		{"id":16, "name":"5 Duneriders", 				  	  "pts":125,  		 "xref":["Dunerider"]},
 		{"id":18, "name":"4 Duneriders", 				  	  "pts":100,  		 "xref":["Dunerider"]},
 		{"id":19, "name":"3 Duneriders", 				  	  "pts":75,  		 	 "xref":["Dunerider"]},
-		{"id":17, "name":"Termite Assault Drill",     "pts":50,        "xref":["Termite Assault Drill"]},
+		{"id":17, "name":"Termite Assault Drill",     "pts":25,        "xref":["Termite Assault Drill"]},
 
 		{"id":21, "name":"Knight Crusader",                 "pts":90,  "xref":["Knight Crusader"]},
 		{"id":22, "name":"Knight Errant",                   "pts":90,  "xref":["Knight Errant"]},
