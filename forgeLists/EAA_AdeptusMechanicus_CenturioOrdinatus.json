@@ -36,7 +36,7 @@
 		{"name":"CENTURIO ORDINATUS",
 		 "formations":[
 			{"id":801, "name":"Ordinati Minoris",  "pts":25,              		  "upgrades":[31,32,33,34,35,36,37,38,39,40,41,42,43,44,45],      	 "xref":[]},
-			{"id":802, "name":"Ordinati Majoris",  "pts":225,      						  "upgrades":[],  																									 "xref":[]}
+			{"id":802, "name":"Ordinati Majoris",  "pts":0,      						  "upgrades":[],  																									 "xref":[]}
 		]},
 		{"name":"SKITARII AIRCRAFT, NAVY AND ALLIES",
 		 "notes":"(Max 33%)",
