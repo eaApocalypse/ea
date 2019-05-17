@@ -42,7 +42,7 @@
 			{"id":901, "name":"Vanguard Maniple", 					"pts":175, "units":"9 Skitarii Vanguard",    						"upgrades":[46],        									"xref":["Skitarii Vanguard"]},
 			{"id":902, "name":"Ironstrider Cavaliers", 			"pts":175, "units":"6 Ironstrider Ballistarius",     	  "upgrades":[],        										"xref":["Ironstrider Ballistarius"]},
 			{"id":903, "name":"Sydonian Dragoons", 					"pts":175, "units":"6 Sydonian Dragoons",     				  "upgrades":[],        										"xref":["Sydonian Dragoon"]},
-			{"id":904, "name":"Questoris Banner",	          "pts":5, 	 "units":"Seneschal",  											  "upgrades":[51,52,53,54,55,56,57,61,62],  "xref":["Seneschal"]},
+			{"id":904, "name":"Questoris Banner",	          "pts":30, 	 "units":"Seneschal",  											  "upgrades":[51,52,53,54,55,56,57,61,62],  "xref":["Seneschal"]},
 			{"id":905, "name":"Avenger Strike Fighters",    "pts":175, "units":"2 Avenger Strike Fighters", 				"upgrades":[],        										"xref":["Avenger Strike Fighters"]},
 			{"id":906, "name":"Mechanicus Battleship",      "pts":200, "units":"1 Ark Mechanicus Battleship ",  	  "upgrades":[],        										"xref":["Ark Mechanicus Battleship"]}
 
@@ -85,7 +85,7 @@
 		{"id":49, "name":"3 Duneriders", 				  	  "pts":75,  		 	 "xref":["Dunerider"]},
 		{"id":47, "name":"Termite Assault Drill",     "pts":25,        "xref":["Termite Assault Drill"]},
 
-		{"id":51, "name":"Knight Crusader",                 "pts":90,  "xref":["Knight Crusader"]},
+		{"id":51, "name":"Knight Crusader",                 "pts":115, "xref":["Knight Crusader"]},
 		{"id":52, "name":"Knight Errant",                   "pts":90,  "xref":["Knight Errant"]},
 		{"id":53, "name":"Knight Gallant",                  "pts":90,  "xref":["Knight Gallant"]},
 		{"id":54, "name":"Knight Magaera (R)",              "pts":90,  "xref":["Knight Magaera"]},

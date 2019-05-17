@@ -45,7 +45,7 @@
 		{"name":"SKITARII AIRCRAFT, NAVY AND ALLIES",
 		 "notes":"(Max 33%)",
 		 "formations":[
-			{"id":700, "name":"Questoris Banner",	          "pts":5,              																		  "upgrades":[21,22,23,24,25,26,27,41,42]},
+			{"id":700, "name":"Questoris Banner",	          "pts":30,              																		  "upgrades":[21,22,23,24,25,26,27,41,42]},
 			{"id":703, "name": "Avenger Strike Fighters",   "pts":175, "units":"2 Avenger Strike Fighters", 					  "upgrades":[],        "xref":["Avenger Strike Fighters"]},
 			{"id":704, "name": "Mechanicus Battleship",     "pts":200, "units":"1 Ark Mechanicus Battleship ",  			  "upgrades":[],        "xref":["Ark Mechanicus Battleship"]}
 		]}
@@ -62,7 +62,7 @@
 		{"id":19, "name":"3 Duneriders", 				  	  "pts":75,  		 	 "xref":["Dunerider"]},
 		{"id":17, "name":"Termite Assault Drill",     "pts":25,        "xref":["Termite Assault Drill"]},
 
-		{"id":21, "name":"Knight Crusader",                 "pts":90,  "xref":["Knight Crusader"]},
+		{"id":21, "name":"Knight Crusader",                 "pts":115,  "xref":["Knight Crusader"]},
 		{"id":22, "name":"Knight Errant",                   "pts":90,  "xref":["Knight Errant"]},
 		{"id":23, "name":"Knight Gallant",                  "pts":90,  "xref":["Knight Gallant"]},
 		{"id":24, "name":"Knight Magaera (R)",              "pts":90,  "xref":["Knight Magaera"]},

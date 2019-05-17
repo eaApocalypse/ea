@@ -59,7 +59,7 @@
 		{"id":12, "name":"Knight Helverin",                 "pts":50, "xref":["Knight Helverin"]},
 		{"id":13, "name":"Knight Warglaive",                "pts":50, "xref":["Knight Warglaive"]},
 
-		{"id":21, "name":"Knight Crusader",                 "pts":90,  "xref":["Knight Crusader"]},
+		{"id":21, "name":"Knight Crusader",                 "pts":115, "xref":["Knight Crusader"]},
 		{"id":22, "name":"Knight Errant",                   "pts":90,  "xref":["Knight Errant"]},
 		{"id":23, "name":"Knight Gallant",                  "pts":90,  "xref":["Knight Gallant"]},
 		{"id":24, "name":"Knight Magaera (R)",              "pts":90,  "xref":["Knight Magaera"]},
