@@ -3,7 +3,6 @@
   "version": "0.01",
   "notes":["If Using transports (Immolator, Repressor, Rhinos, Valkyries) you must take exactly enough to carry all units in the formation after any upgrades have been added. No transport spaces may be left over if possible."],
   "by": "EA-Eternal War",
-
 	"includeFiles": {
 		"primary": "./lists/IQ.json",
 		"allies": [
