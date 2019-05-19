@@ -2,6 +2,55 @@
   {
     "name": "Dark Eldar Forces",
     "specialRules": [
+      {
+        "title": "Fleet of Foot",
+        "description": [
+          "Dark Eldar formations do not suffer the usual penalties when taking a march action, so may still lend support fire in assaults, help claim a crossfire bonus, and even fire flak shots."
+          ]
+      },
+      {
+        "title": "Kabal Coterie",
+        "description": [
+          "A  Dark  Eldar  army  must  include  a  Kabal  Coterie."
+          ]
+      },
+      {
+        "title": "Kabal Coterie BTS",
+        "description": [
+          "A  Dark  Eldar  army  must  include  a  Kabal  Coterie.  The  enemy  count  as  having  achieved  the  ‘Break  Their  Spirit’ victory condition if they destroy this formation or the most expensive formation in the army (6.1.7)."
+          ]
+      },
+      {
+        "title": "Dark Eldar May not Garrison",
+        "description": [
+          "Only Mandrake formations may set up using the tournament game garrison rule (6.1.5)."
+          ]
+      },
+      {
+        "title": "Webway Portal",
+        "description": [
+          "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
+          "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise."
+          ]
+      },
+      {
+        "title": "Shadowfields",
+        "description": [
+          "Each Shadowfield will automatically stop one point of damage and then go down. Do not make armour saves for damage stopped by Shadowfields, or allocate Blast Markers. Once all of a vehicle or war engine’s Shadowfields have been knocked down, it may be damaged normally and you may make saving throws against any hits that are scored. Hits from close combat ignore Shadowfields but units using their firefight values must first knock down any Shadowfields before they can cause any damage. While a vehicle or war engine has at least one operating Shadowfield it counts as being obscured (1.8.2) and so weapons (including AA) without the ignore cover ability shooting at it receive a -1 to hit modifier."
+          ]
+      },
+      {
+        "title": "Hit and Run",
+        "description": [
+          "Eldar/Dark Eldar formations that select an advance or double action may choose to shoot either before or after each move, but may still only shoot once. If the formation chooses to double the -1 to hit penalty applies even if the shot is taken before moving. Eldar formations that win an assault may consolidate up to their speed value rather than the normal 5cms. "
+        ]
+      },
+      {
+        "title": "Lance",
+        "description": [
+          "When units with reinforced armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+        ]
+      }
 
     ],
     "unit": [

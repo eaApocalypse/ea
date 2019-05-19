@@ -113,13 +113,13 @@
           "points": 300
         },
         {
-          "name": "Monolith Maniple",
+          "name": "Portal Maniple",
           "units": "Two Monoliths and two Obelisks",
           "extraUnits": [
             "Add one Obelisk for 50 points",
             "Add up to one Monolith for 75 points"
           ],
-          "points": 225
+          "points": 250
         },
         {
           "name": "Venator Maniple",
