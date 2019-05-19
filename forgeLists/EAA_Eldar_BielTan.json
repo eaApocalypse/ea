@@ -1,7 +1,25 @@
 {
-   "id": "Biel-Tan Craftworld",
-   "version": "0.01",
-   "by": "EA-Eternal War",
+		"id":"Biel-Tan Craftworld",
+		"version":"0.01",
+		"by":"EA-Eternal War",
+		"includeFiles": {
+			"primary": "./lists/EL.json",
+			"allies": [
+						"./lists/eldarNavy.json"
+						],
+			"common": [
+						"./lists/weapons.json"
+					]
+  	},
+			"specialRules": [
+								{ "title":"Fleet of Foot"},
+								{ "title":"Hit and Run"},
+								{ "title":"Lance"},
+								{ "title":"Kabal Coterie BTS"},
+								{ "title":"Dark Eldar May not Garrison"},
+								{ "title":"Webway Portal"},
+								{ "title":"Shadowfields"}
+		],
    "sections": [
       {"name": "INDIVIDUALS", "formations": [
 	    {"id": 507, "name": "Wraithgate", "pts": 50, "upgrades": []},
