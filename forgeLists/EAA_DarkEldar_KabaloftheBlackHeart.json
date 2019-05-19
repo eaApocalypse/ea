@@ -7,7 +7,7 @@
 		"includeFiles": {
 			"primary": "./lists/DE.json",
 			"allies": [
-						"./lists/darkEldarNavyNavy.json"
+						"./lists/darkEldarNavy.json"
 						],
 			"common": [
 						"./lists/weapons.json"
