@@ -4,8 +4,8 @@
 	"by":"EA-Eternal War",
 	"sections":[
 		{"name":"COMPANIES", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":450, "units":"1 Steel Legion Supreme Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
-			{"id":501, "name":"Mechanized Infantry Company", 			"pts":350, "units":"1 Steel Legion Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
+			{"id":500, "name":"Regimental HQ", 				"pts":300, "units":"1 Steel Legion Supreme Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
+			{"id":501, "name":"Mechanized Infantry Company", 			"pts":225, "units":"1 Steel Legion Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
 			{"id":502, "name":"Conscripts Company", 	"pts":200, "units":"1 Steel Legion Commander and 11 conscripts ", "upgrades":[52,53,54,57,58,56,59,60,61,64,65,70]},
 		 	{"id":505, "name":"Artillery Company", 			"pts":400, "upgrades":[70]}
 		]},
