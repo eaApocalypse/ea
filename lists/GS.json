@@ -11,6 +11,15 @@
             ]
           },
           {
+            "title": "Tunnelers",
+            "description": [
+              "Tunnellers are set up touching their own side's table edge before the battle starts at the same time that spacecraft are set up (see 4.3.1). Any units transported in tunnellers should be placed to one side at this time too. Secretly write down the location where the tunneller will surface at the same time and in the same manner that you record the coordinates of a drop zone (see 4.3.1). You must also secretly record the turn the tunneller will surface. If it is going to surface in your half of the table it may arrive from the second turn onwards. If it is going to surface in the opposing half of the table, it may arrive from turn three onwards.",
+              "Set up the tunneller units at the start of the stated turn, before determining who wins the strategy roll, at the location you wrote down. Surfacing does not count as movement for the purposes of triggering enemy overwatch fire. If a tunneller would have surfaced on terrain that is impassable for it, under a friendly unit, or in an enemy zone of control, then it is assumed that on-board sensor equipment would divert it towards another entry point. The unit should be moved to the nearest area where it can surface.",
+              "Formations of multiple tunnellers need only record one location where they will surface. Place the first tunneller unit at this location. All other tunneller units must be placed within 5cm of another tunneller unit that has already been placed and fully within a 15cm radius of the original surfacing coordinates. After all tunnellers have been placed any units being transported are allowed to disembark immediately.",
+              "Disembarking triggers overwatch fire as normal. Tunnellers, and any units being transported in them, may take an action on the turn they appear."
+              ]
+          },
+          {
             "title": "Cult Guard",
             "description": [
               "Brood Brothers, Super Heavy Tanks, Tank Platoons, Sentinels, Brood Brother Basilisks, Bombards and Deathstrikes are considered to be 'Cult Guard' formations."
