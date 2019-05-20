@@ -27,7 +27,7 @@
 		{"name":"Genestealer Cult Broods", "formations": [
 			{ "id":500, "name":"Patriarch Host", "units":"1 Patriarch Brood Coven, 3 Purestrain Genestealers and 6 Hybrid Metamorphs.", "pts":325, "upgrades":[63,44],        "xref":["Patriarch Coven", "Purestrain Genestealers", "Hybrid Metamorphs"]},
 			{ "id":501, "name":"Hybrid Brood", "pts":200, "upgrades":[13,32,46,47],              																																							"xref":[]},
-			{ "id":502, "name":"Brood Brothers", "pts":200, "upgrades":[24,48,57,12],              																																						"xref":[]},
+			{ "id":502, "name":"Brood Brothers", "pts":200, "upgrades":[48,57,12],              																																						"xref":[]},
 			{ "id":503, "name":"Genestealer Brood", "pts":175, "upgrades":[43],              																																									"xref":[]}
 		]},
 

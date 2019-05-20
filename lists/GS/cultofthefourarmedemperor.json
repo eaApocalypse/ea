@@ -112,7 +112,6 @@
           "units": "Ten Brood Brother Units and a Genestealer Primus",
           "upgrades": [
             "Extended Family",
-            "Fire Support",
             "Hydra",
             "Cult Chimeras"
           ],
@@ -253,16 +252,6 @@
             "points": "25 points each"
           }
         ]
-      },
-      {
-        "name": "Fire Support",
-        "description": "Add four Cult Fire Support Units",
-        "points": "100 points"
-      },
-      {
-        "name": "Hybrids",
-        "description": "Add four Genestealer Hybrid Units",
-        "points": "100 points"
       },
       {
         "name": "Aberrants",
