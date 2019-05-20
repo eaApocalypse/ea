@@ -4,8 +4,8 @@
 	"by":"EA-Eternal War",
 	"sections":[
 		{"name":"COMPANIES", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":450, "units":"1 Steel Legion Supreme Commander, 8 Infantry, 3 Heavy Weapon Squads and 6 Chimeras ", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
-			{"id":501, "name":"Mechanized Infantry Company", 			"pts":350, "units":"1 Steel Legion Commander, 6 Infantry, 3 Heavy Weapon Squads and 5 Chimeras ", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
+			{"id":500, "name":"Regimental HQ", 				"pts":450, "units":"1 Steel Legion Supreme Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
+			{"id":501, "name":"Mechanized Infantry Company", 			"pts":350, "units":"1 Steel Legion Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
 			{"id":502, "name":"Conscripts Company", 	"pts":200, "units":"1 Steel Legion Commander and 11 conscripts ", "upgrades":[52,53,54,57,58,56,59,60,61,64,65,70]},
 		 	{"id":505, "name":"Artillery Company", 			"pts":400, "upgrades":[70]}
 		]},
@@ -71,15 +71,16 @@
 		{"id":41, "name":"3 Gun Emplacements",			"pts":25},
 
 		{"id":42, "name":"4 Valkyries",					"pts":150},
-   		{"id":43, "name":"4 Taurox",					"pts":150},
+   	{"id":43, "name":"4 Taurox",					"pts":150},
 
 		{"id":44, "name":"6 Gun Emplacements",			"pts":0},
 		{"id":45, "name":"1 Hydra, 7 Gun Emplacements",	"pts":50},
 
-		{"id":48, "name":"2 Fire Support Squads, 1 Chimera",		"pts":75},
-		{"id":49, "name":"2 Fire Support Squads",		"pts":50},
-		{"id":50, "name":"4 Fire Support Squads, 2 Chimeras",		"pts":150},
-		{"id":51, "name":"4 Fire Support Squads",		"pts":100},
+		{"id":47, "name":"Guard Infantry",											  "pts":0},
+		{"id":48, "name":"Heavy Weapons Squad (Autocannon)",		  "pts":0},
+		{"id":49, "name":"Heavy Weapons Squad (Lascannon)",			  "pts":0},
+		{"id":50, "name":"Heavy Weapons Squad (Heavy Bolter)",		"pts":0},
+		{"id":51, "name":"Heavy Weapons Squad (Mortar)",					"pts":0},
 
 		{"id":52, "name":"Hydra",						"pts":50},
 
@@ -96,10 +97,12 @@
 		{"id":60, "name":"3 Leman Russ Demolishers",	"pts":125},
 		{"id":61, "name":"3 Leman Russ Conquerors",		"pts":125},
 
-		{"id":62, "name":"1 Sniper, 1 Chimera",			"pts":50},
-		{"id":63, "name":"2 Snipers, 1 Chimera",		"pts":75},
-		{"id":64, "name":"1 Sniper",					"pts":25},
-		{"id":65, "name":"2 Snipers",					"pts":50},
+		{"id":62, "name":"1 Sniper, 1 Chimera",		  	"pts":50},
+		{"id":63, "name":"2 Snipers, 1 Chimera",	  	"pts":75},
+		{"id":64, "name":"1 Sniper",									"pts":25},
+		{"id":65, "name":"2 Snipers",									"pts":50},
+		{"id":69, "name":"Chimera",										"pts":25},
+
 
 
 
@@ -120,8 +123,6 @@
 		{"max":1, "from":[41]},
 		{"max":1, "from":[42,43]},
 
-		{"max":1, "from":[48,50]},
-		{"max":1, "from":[49,51]},
 		{"max":1, "from":[52]},
 		{"max":1, "from":[53]},
 		{"max":1, "from":[54,57,58]},
@@ -132,13 +133,22 @@
 		{"max":1, "from":[59,60,61]},
 
 		{"max":1, "from":[70]},
-    	{"min":1, "max":2, "from":[26,27,29,66], "appliesTo":[516]},
 
-   		{"max":3, "from":[11,21,48,50,52,53,54,57,58,55,59,60,61,62,63], "appliesTo":[500]},
 
-   		{"max":3, "from":[23,49,51,53,54,57,58,56,59,60,61,64,65], "appliesTo":[501]},
+		{"min":11, "max":11, "from":[47,48,49,50,51], "appliesTo":[500]},
+		{"min":9, "max":9, "from":[47,48,49,50,51], "appliesTo":[501]},
+		{"min":0, "max":4, "from":[48,49,50,51], "appliesTo":[500]},
+		{"min":0, "max":4, "from":[48,49,50,51], "appliesTo":[501]},
+		{"min":5, "max":12, "from":[69], "appliesTo":[501]},
+		{"min":6, "max":12, "from":[69], "appliesTo":[500]},
 
-   		{"max":3, "from":[21,48,50,52,53,54,57,58,55,59,60,61,62,63], "appliesTo":[502]},
+			{"min":1, "max":2, "from":[26,27,29,66], "appliesTo":[516]},
+
+   		{"max":3, "from":[11,21,52,53,54,57,58,55,59,60,61,62,63], "appliesTo":[500]},
+
+   		{"max":3, "from":[23,53,54,57,58,56,59,60,61,64,65], "appliesTo":[501]},
+
+   		{"max":3, "from":[21,52,53,54,57,58,55,59,60,61,62,63], "appliesTo":[502]},
 
    		{"max":3, "from":[52,53,54,57,58,59,60,61], "appliesTo":[503]},
 

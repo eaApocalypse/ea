@@ -61,7 +61,7 @@
           "Reaver Titan",
           "Warlord Titan"
         ],
-      "unitRules": ["Void Shields", "Independent", "God Machine" ]
+      "unitRules": ["Void Shields", "God Machine" ]
     },
 
     {
@@ -84,7 +84,7 @@
       "formations": [
         {
           "name": "Regimental HQ",
-          "units": "One Steel Legion Supreme Commander, eight Infantry, three Heavy Weapon Squads and six Chimeras",
+          "units": "One Steel Legion Supreme Commander, eleven Guard Infantry and six Chimeras",
           "extraUnits": [
               "All"
           ],
@@ -92,7 +92,7 @@
         },
         {
           "name": "Mechanized Infantry Company",
-          "units": "One Steel Legion Commander, six Infantry, three Heavy Weapon Squads and five Chimeras",
+          "units": "One Steel Legion Commander, nine Guard Infantry and five Chimeras",
           "extraUnits": [
               "All"
           ],
@@ -108,9 +108,9 @@
         },
         {
           "name": "Artillery Company",
-          "units": "Six Basilisks, one with a Commissar. Six Gun Emplacements.",
+          "units": "Six Basilisks and six gun emplacements.",
           "extraUnits": [
-              "Replace six Basilisks with Manticores: 50 points",
+              "Replace six Basilisks with six Manticores: 50 points",
               "Flak"
           ],
           "points": 400
@@ -253,11 +253,11 @@
     "description": "Each upgrade may be taken once per formation. No more than three upgrades per Company",
     "items": [
       {
-        "name": "Fire Support Platoon*",
+        "name": "Fire Support",
         "options": [
           {
-            "description": "Add two or four Fire Support Squads",
-            "points": "50 points for two, 100 points for four"
+            "description": "Swap up to four Guard Infantry for Heavy Weapons Teams",
+            "points": "free"
           }
         ]
       },
