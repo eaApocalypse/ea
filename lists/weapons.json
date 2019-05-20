@@ -6793,6 +6793,18 @@
       ]
     },
     {
+      "name": "Rad Mortar",
+        "modes": [
+          {
+            "firepower": "BP3",
+            "range":30,
+            "specialRules": [
+              "IC"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Rad Missile Launcher",
         "modes": [
           {
