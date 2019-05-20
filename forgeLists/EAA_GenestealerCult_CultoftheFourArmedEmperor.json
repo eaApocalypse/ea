@@ -5,7 +5,7 @@
 			"includeFiles": {
 				"primary": "./lists/GS.json",
 				"allies": [
-							"./lists/IG.json"
+							"./lists/IG.json",
 							"./lists/imperialNavy.json"
 							],
 				"common": [
