@@ -4207,6 +4207,7 @@
           "firepower": "1BP",
           "range": 30,
           "specialRules": [
+            "IC",
             "Ind"
         ]
         }
@@ -5754,7 +5755,8 @@
             "firepower": "1BP",
             "range": 30,
             "specialRules": [
-              "Ind"
+              "Ind",
+              "IC"
 
           ]
           }
