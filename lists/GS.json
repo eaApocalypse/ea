@@ -2,6 +2,47 @@
   {
     "name": "Genestealer Forces",
     "specialRules": [
+
+          {
+            "title": "Cult Ambush",
+            "description": [
+                "Genestealer armies are ambush specialist. Some Genestealer formations may be set up as Cult Ambushers. Only formations with all units having the Cult ambush rule can be set up this way and only 1 formation per 1k Points after the first 1k Points (2 at 3k Points, 3 at 4k and so on).",
+                "Instead of depolying as normal these formation set up as garrisons using any objective but must stay 30cm from the opponents deployment edge, So no garrisoning the enemy blitz."
+            ]
+          },
+          {
+            "title": "Cult Guard",
+            "description": [
+              "Brood Brothers, Super Heavy Tanks, Tank Platoons, Sentinels, Brood Brother Basilisks, Bombards and Deathstrikes are considered to be 'Cult Guard' formations."
+            ]
+          },
+          {
+            "title": "Patriarch Host",
+            "description": [
+                "A Genestealer army must include a Patriarch Host. This formation is always considered to be the BTS even if it not the most expensive formation.",
+                "While the Patriarch Brood Coven unit is on the table all infantry units in the Patriarch Host are consider fearless. If the Patriarch Brood Coven is removed from the table the Patriarch Host immediatly loses Fearless."
+            ]
+          },
+          {
+            "title": "Genestealer Primus",
+            "description": [
+              "While the Patriarch Brood Coven unit is alive and on the table, all infantry units in a 'Cult Guard' formation with a Genestealer Primus are considered Super Expendable (except for the unit with the Genestealer Primus). If the Genestealer Primus dies, the 'Cult Guard' units immediately loses Expendable. If the Genestealer Primus dies in an assault, all units are counted for casualties as normal."
+            ]
+          },
+          {
+            "title": "Genestealer Magus",
+            "description": [
+              "A Genestealer army may include one Genestealer Magus Character per 1000 points. The Genestealer Magus do not cost any points.",
+              "Genestealer Magus units may be added to the army at the start of the battle before either side sets up. Genestealer Magus units may be attached to any Cult Guard formations. You may not include more than one Genestealer Magus per formation. You may not add a Genestealer Magus to a Cult Navy formation. If you have more Genestealer Magus than formations any excess is lost."
+            ]
+          },
+          {
+            "title": "Extreme Mobility",
+            "description": [
+              "Tyranid Armoured Vehicles and War Engines units do not take dangerous terrain tests. Tyranid Light Vehicles move through terrain and receive cover as if they were Infantry. Fortified positions such as minefields or razorwire, and special terrain features such as lava flows affect Tyranids normally."
+            ]
+          }
+
     ],
     "unit": [
       {
