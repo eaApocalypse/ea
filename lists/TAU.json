@@ -3,6 +3,12 @@
     "name": "Tau Forces",
     "specialRules": [
       {
+        "title": "Heavy Armoured Vehicle (H-AV)",
+        "description": [
+          "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. H-AVs are treated like normal Armoured Vehicles in all other respects."
+        ]
+      },
+      {
         "title": "Coordinated Fire",
         "description": [
           "Some units are noted as being able to call in coordinated fire. These units can order up to two other formations within 15cm that have not taken an action this turn, and which are not broken, to follow their own formation when they take an advance, double or sustained fire action.",

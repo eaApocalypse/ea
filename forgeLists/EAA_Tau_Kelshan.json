@@ -1,48 +1,66 @@
-{
+ {
    "id": "Tau Kelshan",
-   "version": "0.01",
-   "by": "EA-Eternal War",
-   "sections": [
+   		"version":"0.01",
+   		"by":"EA-Eternal War",
+   		"includeFiles": {
+   			"primary": "./lists/TAU.json",
+   			"allies": [
+   						"./lists/tauNavy.json"
+   						],
+   			"common": [
+   						"./lists/weapons.json"
+   					]
+     	},
+   			"specialRules": [
+                  { "title":"Heavy Armoured Vehicle (H-AV)"},
+   								{ "title":"Coordinated Fire"},
+   								{ "title":"Deflector Shield"},
+   								{ "title":"Lance"},
+   								{ "title":"Guided Missiles"},
+   								{ "title":"Markerlights"},
+   								{ "title":"Tau Jet Packs"}
+   		],
+  "sections": [
       { "name": "CORE GROUP",
          "formations": [
-            {"id": 512,"name": "Battle Suits","pts": 25, "upgrades": [18]},
-            {"id": 513,"name": "Stealth Group","pts": 250,"units": "4 XV15 Stealth Units, 2 Ghostkeels","upgrades": [13]}
+            {"id": 512,"name": "Battle Suits","pts": 25, "upgrades": [18],                                                      "xref":[]},
+            {"id": 513,"name": "Stealth Group","pts": 250,"units": "4 XV15 Stealth Units, 2 Ghostkeels","upgrades": [13],       "xref":["Stealth Battlesuits", "Ghostkeel"]}
          ]
       },
       {"name": "SUPPORT GROUPS",
          "formations": [
-            {"id": 521,"name": "Broadside Group","pts": 200,"units": "4 XV88 Broadsides","upgrades": []},
-            {"id": 522,"name": "Special Battle Suit","pts": 0, "upgrades": []},
-            {"id": 523,"name": "Heavy Battle Suits","pts": 300,"units": "2 KX-128 Stormsurge Battle Suits","upgrades": []},
-            {"id": 524,"name": "Firesight Marksmen","pts": 175,"units": "1 Firesight Marksmen, 4 Sniper Drones","upgrades": []},
-            {"id": 525,"name": "Manta Dropship","pts": 500,"upgrades": []},
-            {"id": 526,"name": "Supremacy Suit","pts": 275,"upgrades": []}
+            {"id": 521,"name": "Broadside Group","pts": 200,"units": "4 XV88 Broadsides","upgrades": [],                              "xref":["Broadside Battlesuit"]},
+            {"id": 522,"name": "Special Battle Suit","pts": 0, "upgrades": [],                                                        "xref":[]},
+            {"id": 523,"name": "Heavy Battle Suits","pts": 300,"units": "2 KX-128 Stormsurge Battle Suits","upgrades": [],            "xref":["KX-128 Stormsurge"]},
+            {"id": 524,"name": "Firesight Marksmen","pts": 175,"units": "1 Firesight Marksmen, 4 Sniper Drones","upgrades": [],       "xref":["Firesight Marksmen", "Sniper Drones"]},
+            {"id": 525,"name": "Manta Dropship","pts": 500,"upgrades": [],                                                            "xref":["Manta"]},
+            {"id": 526,"name": "Supremacy Suit","pts": 275,"upgrades": [],                                                            "xref":[""]}
          ]
       },
       { "name": "AIR CASTE",
          "formations": [
-            {"id": 531,"name": "Razorshark Squadron","pts": 200,"units": "3 Razorshark Fighters","upgrades": []},
-            {"id": 532,"name": "Sun Shark Bombers","pts": 200,"units": "2 Sun Shark Bombers","upgrades": []},
-            {"id": 533,"name": "AX-1-0 Squadron","pts": 350,"units": "2 Tiger Shark AX-1-0","upgrades": []},
-            {"id": 534,"name": "Spacecraft","pts": 200,"upgrades": []}
+            {"id": 531,"name": "Razorshark Squadron","pts": 200,"units": "3 Razorshark Fighters","upgrades": [],              "xref":["Razorshark Fighter"]},
+            {"id": 532,"name": "Sun Shark Bombers","pts": 200,"units": "2 Sun Shark Bombers","upgrades": [],                  "xref":["Sundshark Bomber"]},
+            {"id": 533,"name": "AX-1-0 Squadron","pts": 350,"units": "2 Tiger Shark AX-1-0","upgrades": [],                   "xref":["Tiger Shark AX-1-0"]},
+            {"id": 534,"name": "Spacecraft","pts": 200,"upgrades": [],                                                        "xref":[""]}
          ]
       }
    ],
    "upgrades": [
-      {"id": 9,"name": "4 XV107 R‘varna","pts": 400},
-      {"id": 10,"name": "4 XV109 Y‘vahra","pts": 400},
-      {"id": 11,"name": "3 XV107 R‘varna","pts": 300},
-      {"id": 12,"name": "3 XV109 Y‘vahra","pts": 300},
-      {"id": 13,"name": "Bonded Team","pts": 25},
-      {"id": 14,"name": "3 XV88 Broadsides","pts": 150},
-      {"id": 15,"name": "Shas'el","pts": 25},
-      {"id": 16,"name": "Shas'o","pts": 75},
-      {"id": 17,"name": "Protector Class Cruiser","pts": 0},
-      {"id": 22,"name": "Custodian Class Battleship","pts": 25},
-      {"id": 18,"name": "KV-104 Riptide","pts": 100},
-      {"id": 19,"name": "KV-139 Supremacy Suit - Heavy Rail Cannon","pts": 0},
-      {"id": 20,"name": "KV-139 Supremacy Suit - Nexus Missile System","pts": 0},
-      {"id": 21,"name": "KV-139 Supremacy Suit - Pulse Ordinance Multi-Driver","pts": 0}
+      {"id": 9,"name":  "4 XV107 R‘varna","pts": 400,                                         "xref":["XV107 R‘varna"]},
+      {"id": 10,"name": "4 XV109 Y‘vahra","pts": 400,                                         "xref":["XV109 Y‘vahra"]},
+      {"id": 11,"name": "3 XV107 R‘varna","pts": 300,                                         "xref":["XV107 R‘varna"]},
+      {"id": 12,"name": "3 XV109 Y‘vahra","pts": 300,                                         "xref":["XV109 Y‘vahra"]},
+      {"id": 13,"name": "Bonded Team","pts": 25,                                              "xref":["Bonded Team"]},
+      {"id": 14,"name": "3 XV88 Broadsides","pts": 150,                                       "xref":["Broadside Battlesuit"]},
+      {"id": 15,"name": "Shas'el","pts": 25,                                                  "xref":["Shas'el"]},
+      {"id": 16,"name": "Shas'o","pts": 75,                                                   "xref":["Shas'o"]},
+      {"id": 17,"name": "Protector Class Cruiser","pts": 0,                                   "xref":["Protector Class Cruiser"]},
+      {"id": 22,"name": "Custodian Class Battleship","pts": 25,                               "xref":["Custodian Class Battleship"]},
+      {"id": 18,"name": "KV-104 Riptide","pts": 100,                                          "xref":["KV-104 Riptide"]},
+      {"id": 19,"name": "KV-139 Supremacy Suit - Heavy Rail Cannon","pts": 0,                 "xref":["KX-139 Supremacy Suit"]},
+      {"id": 20,"name": "KV-139 Supremacy Suit - Nexus Missile System","pts": 0,              "xref":["KX-139 Supremacy Suit"]},
+      {"id": 21,"name": "KV-139 Supremacy Suit - Pulse Ordinance Multi-Driver","pts": 0,      "xref":["KX-139 Supremacy Suit"]}
    ],
    "formationConstraints": [
       {"max": 1,"from": [534]},
