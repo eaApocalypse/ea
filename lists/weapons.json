@@ -9381,7 +9381,7 @@
       "name": "Volkite Chierovile",
         "modes": [
           {
-            "firepower": "4x AP3+/AT4+",
+            "firepower": "2x AP3+/AT4+",
             "range": 45,
             "specialRules": [
               "IC"
