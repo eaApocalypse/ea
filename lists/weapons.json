@@ -7011,7 +7011,7 @@
       "name": "Reaper Missile Launchers",
       "modes": [
         {
-          "firepower": "AP4+/AT4+",
+          "firepower": "AP4+/AT5+",
           "range": 45,
           "specialRules": [
           ]

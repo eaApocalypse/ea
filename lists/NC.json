@@ -126,10 +126,9 @@
       {
           "name": "Wraiths",
           "type": "INF",
-          "speed": 15,
-          "armour": 5,
-          "cc": 5,
-          "ff": 4,
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
           "weapons": [
             "Wraith Claws"
           ],
@@ -389,7 +388,7 @@
           "name": "Pylon",
           "type": "WE",
           "speed": "Immobile",
-          "armour": 3,
+          "armour": 4,
           "cc": "",
           "ff": 4,
           "weapons": [
@@ -397,7 +396,8 @@
             "Gauss Flux Arc"
           ],
           "specialRules": [
-            "Damage Capacity 3",
+            "Damage Capacity 2",
+            "Reinforced Armour",
             "Fearless",
             "Living Metal",
             "Teleport",

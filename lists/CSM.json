@@ -45,7 +45,7 @@
           "name": "Exalted Sorcerer",
           "type": "CH",
           "weapons": [
-              "Blue Fire of Metamorphosis",
+            "Blue Fire of Metamorphosis",
             "Daemon Weapon"
           ],
           "specialRules": [
@@ -142,7 +142,7 @@
         "name": "Champion of Chaos",
         "type": "CH",
         "weapons": [
-          "Daemonic Bolt"
+          "Power Weapon"
         ],
         "specialRules": [
             "Augment Summoning (+2D3)",
@@ -457,7 +457,6 @@
           "Power Weapons"
       ],
       "specialRules": [
-          "Fearless",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"

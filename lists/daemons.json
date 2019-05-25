@@ -28,104 +28,98 @@
         ],
           "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
         },
-      {
-        "name": "Keeper of Secrets",
-        "type": "WE",
-        "speed": 20,
-        "armour": 4,
-        "cc": 3,
-        "ff": 4,
-        "weapons": [
-          "Slicing Shards",
-          "Lash of Torment"
+        {
+          "name": "Bloodthirster",
+          "type": "WE",
+          "speed": 30,
+          "armour": 4,
+          "cc": 3,
+          "ff": 5,
+          "weapons": [
+            "Axe of Khorne",
+            "Lash of Khorne"
+          ],
+          "specialRules": [
+              "Damage Capacity 3",
+              "Reinforced Armour",
+                "Invulnerable Save",
+              "Inspiring",
+              "Daemonic Focus",
+              "Walker",
+              "Jump Pack",
+              "Augment Summoning (+1D3)"
+          ],
+          "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+        },
+        {
+          "name": "Great Unclean One",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Stream of Corruption",
+            "Filth Mace"
+          ],
+          "specialRules": [
+              "Damage Capacity 4",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Inspiring",
+              "Daemonic Focus",
+              "Walker",
+              "Augment Summoning (+1D3)"
+          ],
+          "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+        },
+        {
+          "name": "Keeper of Secrets",
+          "type": "WE",
+          "speed": 20,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Slicing Shards",
+            "Lash of Torment"
+          ],
+          "specialRules": [
+              "Damage Capacity 3",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Inspiring",
+              "Daemonic Focus",
+              "Walker",
+              "Augment Summoning (+1D3)"
         ],
-        "specialRules": [
-            "Damage Capacity 3",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Augment Summoning (+1D3)"
-      ],
-        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
-      },
-      {
-        "name": "Herald of Slaanesh",
-        "type": "INF",
-        "speed": 20,
-        "armour": 3,
-        "cc": 2,
-        "ff": 4,
-        "weapons": [
-          "Barbed Claws",
-          "Cacophonic Blast"
-        ],
-        "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save"
-            ]
-      },
-      {
-        "name": "Herald of Slaanesh on Seeker Chariot",
-        "type": "LV",
-        "speed": 40,
-        "armour": 3,
-        "cc": 2,
-        "ff": 4,
-        "weapons": [
-          "Barbed Claws",
-          "Cacophonic Blast"
-        ],
-        "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save"
-            ]
-      },
-      {
-        "name": "Daemonettes of Slaanesh",
-        "type": "INF",
-        "speed": 20,
-        "armour": 4,
-        "cc": 3,
-        "weapons": [
-          "Piercing Claws"
-        ],
-        "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
-            ]
-      },
-      {
-        "name": "Fiends of Slaanesh",
-        "type": "INF",
-        "speed": 35,
-        "armour": 4,
-        "cc": 3,
-        "weapons": [
-          "Claws"
-        ],
-        "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
-            ]
-      },
-      {
-        "name": "Seekers of Slaanesh",
-        "type": "INF",
-        "speed": 40,
-        "armour": 4,
-        "cc": 2,
-        "weapons": [
-          "Barbed Claws"
-        ],
-        "specialRules": [
-            "Expendable",
-            "Mounted",
-            "Walker",
-            "Invulnerable Save"
-            ]
-      },
+          "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
+        },
+        {
+          "name": "Lord of Change",
+          "type": "WE",
+          "speed": 30,
+          "armour": 4,
+          "cc": 5,
+          "ff": 3,
+          "weapons": [
+            "Withering Gaze",
+            "Bedlam Staff"
+          ],
+          "specialRules": [
+              "Damage Capacity 3",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Inspiring",
+              "Daemonic Focus",
+              "Walker",
+              "Jump Pack",
+              "Augment Summoning (+1D3)"
+          ],
+          "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All Daemon units within 5cm are destroyed on 6+."
+        },
+
+
       {
         "name": "Exalted Great Unclean One",
         "type": "WE",
@@ -150,28 +144,7 @@
         ],
          "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
       },
-      {
-        "name": "Great Unclean One",
-        "type": "WE",
-        "speed": 15,
-        "armour": 4,
-        "cc": 3,
-        "ff": 4,
-        "weapons": [
-          "Stream of Corruption",
-          "Filth Mace"
-        ],
-        "specialRules": [
-            "Damage Capacity 4",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Augment Summoning (+1D3)"
-        ],
-        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
-      },
+
       {
         "name": "Herald of Nurgle on Palanquin",
         "type": "INF",
@@ -206,22 +179,7 @@
             "Invulnerable Save"
         ]
       },
-      {
-        "name": "Plaguebearers of Nurgle",
-        "type": "INF",
-        "speed": 15,
-        "armour": 3,
-        "cc": 4,
-        "ff": 6,
-        "weapons": [
-          "Plagueswords",
-          "Cloud of Flies"
-        ],
-        "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
-        ]
-      },
+
       {
         "name": "Beasts of Nurgle",
         "type": "INF",
@@ -279,29 +237,7 @@
         ],
          "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
       },
-      {
-        "name": "Bloodthirster",
-        "type": "WE",
-        "speed": 30,
-        "armour": 4,
-        "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Axe of Khorne",
-          "Lash of Khorne"
-        ],
-        "specialRules": [
-            "Damage Capacity 3",
-            "Reinforced Armour",
-              "Invulnerable Save",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Jump Pack",
-            "Augment Summoning (+1D3)"
-        ],
-        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All daemons within 5cm are destroyed on 6+"
-      },
+
       {
         "name": "Herald of Khorne on Skull Cannon",
         "type": "LV",
@@ -334,20 +270,7 @@
             "Invulnerable Save"
         ]
       },
-      {
-        "name": "Bloodletters of Khorne",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "weapons": [
-          "Hellblades"
-        ],
-        "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
-        ]
-      },
+
       {
         "name": "Fleshhounds of Khorne",
         "type": "INF",
@@ -403,34 +326,12 @@
         ],
          "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All Daemon units within 5cm are destroyed."
       },
-      {
-        "name": "Lord of Change",
-        "type": "WE",
-        "speed": 30,
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Withering Gaze",
-          "Bedlam Staff"
-        ],
-        "specialRules": [
-            "Damage Capacity 3",
-            "Reinforced Armour",
-              "Invulnerable Save",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Jump Pack",
-            "Augment Summoning (+1D3)"
-        ],
-        "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All Daemon units within 5cm are destroyed on 6+."
-      },
+
       {
         "name": "Herald of Tzeench",
         "type": "INF",
         "speed": 15,
-        "armour": 3,
+        "armour": 4,
         "cc": 5,
         "ff": 5,
         "weapons": [
@@ -458,25 +359,62 @@
         ]
       },
       {
-        "name": "Horrors of Tzeench",
+        "name": "Bloodletters of Khorne",
         "type": "INF",
         "speed": 15,
-        "armour": 4,
-        "cc": 5,
-        "ff": 5,
+        "cc": 4,
         "weapons": [
-          "Sorcerous Bolts"
+          "Hellblades"
         ],
         "specialRules": [
             "Expendable",
-            "Invulnerable Save"
+            "Invulnerable Save (5+)"
         ]
+      },
+      {
+        "name": "Daemonic Beasts",
+        "type": "INF",
+        "speed": 30,
+        "cc": 4,
+        "weapons": [
+          "Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save (5+)"
+        ]
+      },
+      {
+        "name": "Daemonettes of Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "cc": 3,
+        "weapons": [
+          "Piercing Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save (5+)"
+            ]
+      },
+      {
+        "name": "Fiends of Slaanesh",
+        "type": "INF",
+        "speed": 35,
+        "armour": 4,
+        "cc": 3,
+        "weapons": [
+          "Claws"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save (5+)"
+            ]
       },
       {
         "name": "Flamers of Tzeench",
         "type": "INF",
         "speed": 15,
-        "armour": 5,
         "cc": 6,
         "ff": 3,
         "weapons": [
@@ -484,9 +422,72 @@
         ],
         "specialRules": [
             "Expendable",
-            "Invulnerable Save"
+            "Invulnerable Save (5+)"
         ]
       },
+      {
+        "name": "Herald of Slaanesh",
+        "type": "INF",
+        "speed": 20,
+        "armour": 3,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Barbed Claws",
+          "Cacophonic Blast"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Invulnerable Save (5+)"
+            ]
+      },
+      {
+        "name": "Herald of Slaanesh on Seeker Chariot",
+        "type": "LV",
+        "speed": 40,
+        "armour": 3,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Barbed Claws",
+          "Cacophonic Blast"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Invulnerable Save (5+)"
+            ]
+      },
+      {
+        "name": "Horrors of Tzeench",
+        "type": "INF",
+        "speed": 15,
+        "cc": 5,
+        "ff": 4,
+        "weapons": [
+          "Sorcerous Bolts"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save (5+)"
+        ]
+      },
+      {
+        "name": "Plaguebearers of Nurgle",
+        "type": "INF",
+        "speed": 15,
+        "armour": 5,
+        "cc": 4,
+        "ff": 6,
+        "weapons": [
+          "Plagueswords",
+          "Cloud of Flies"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save (5+)"
+        ]
+      },
+
       {
         "name": "Screamers of Tzeench",
         "type": "INF",
@@ -503,21 +504,24 @@
         ]
       },
       {
-        "name": "Daemonic Beasts",
+        "name": "Seekers of Slaanesh",
         "type": "INF",
-        "speed": 30,
-        "armour": 4,
-        "cc": 4,
+        "speed": 40,
+        "armour": 5,
+        "cc": 2,
         "weapons": [
-          "Claws"
+          "Barbed Claws"
         ],
         "specialRules": [
             "Expendable",
-            "Invulnerable Save"
-        ]
-    },
+            "Mounted",
+            "Walker",
+            "Invulnerable Save (5+)"
+            ]
+      },
+
     {
-      "name": "Furies of Chaos Undivided",
+      "name": "Furies of Chaos",
       "type": "INF",
       "speed": 25,
       "armour": 4,
@@ -544,7 +548,7 @@
       ],
       "specialRules": [
           "Daemonic Focus",
-              "Invulnerable Save",
+          "Invulnerable Save",
           "Infiltrators",
           "Walker"
       ]

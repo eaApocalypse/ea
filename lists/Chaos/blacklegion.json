@@ -12,7 +12,7 @@
       "Augment Summoning (+x)",
       "Daemonic Focus",
       "Fickle Masters",
-      "Black Legion Dreadclaws"
+      "Dreadclaws"
     ],
   "usage": [
     "The following army list allows you to field an army based on the Black Legion, using their preferred operational methods."
@@ -24,9 +24,9 @@
         "Warlord",
         "Chaos Lord",
         "Sorcerer Lord",
-        "Champion of Chaos Undivided",
+        "Champion of Chaos",
         "Icon Bearer",
-        "Daemon Prince of Chaos Undivided",
+        "Daemon Prince of Chaos (Undivided)",
         "Chaos Space Marines",
         "Havocs",
         "Chosen",
@@ -37,7 +37,7 @@
         "Khorne Berzerkers",
         "Rubric Marines",
         "Obliterators",
-        "Chaos Space Marine Assault Bikes",
+        "Chaos Space Marine Bikes",
         "Chaos Rhino",
         "Chaos Land Raider",
         "Chaos Predator",
@@ -57,7 +57,7 @@
             "Deathwheel"
         ],
         "unitRules": [
-          "Daemon Engine (x)"
+          "Daemon Engine"
         ]
     },
     {
@@ -71,7 +71,7 @@
         "Great Unclean One",
         "Bloodthirster",
         "Lord of Change",
-        "Daemonic Beasts of Chaos Undivided"
+        "Daemonic Beasts"
       ],
       "unitRules": [
     ]
@@ -80,8 +80,8 @@
       "from": "traitortitanlegions.json",
       "units": [
         "Chaos Warhound",
-        "Chaos Reaver",
-        "Chaos Warlord"
+        "Ravager Titan",
+        "Banelord Titan"
       ],
       "unitRules": [
         "Void Shields",
@@ -110,7 +110,7 @@
         {
           "name": "Black Legion Retinue",
           "units": "Eight Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
-          "upgrades": [
+          "extraUnits": [
             "Supreme Commander",
             "Transport",
             "Champion",
@@ -134,7 +134,7 @@
         {
           "name": "Chosen",
           "units": "Four Chosen, two Chaos Rhinos",
-          "upgrades": [
+          "extraUnits": [
             "Dreadnoughts",
             "Daemonic Pact"
           ],
@@ -143,7 +143,8 @@
         {
           "name": "Chaos Terminators",
           "units": "Four Chaos Terminators, one Chaos Lord or Sorcerer Lord",
-          "upgrades": [
+          "extraUnits": [
+              "Add up to two Chaos Terminators for 65 points each",
               "Supreme Commander",
               "Transport",
               "Champion",
@@ -164,7 +165,7 @@
       {
         "name": "Bike Company",
         "units": "Eight Chaos Space Marine Assault Bikes, one Chaos Lord or Sorcerer Lord",
-        "upgrades": [
+        "extraUnits": [
           "Daemonic Pact",
           "Icon Bearer"
         ],
@@ -173,7 +174,7 @@
     {
       "name": "Raptor Cult",
       "units": "Six Raptors, one Chaos Lord or Sorcerer Lord",
-      "upgrades": [
+      "extraUnits": [
           "Daemonic Pact"
       ],
       "points": 225
@@ -181,7 +182,7 @@
   {
     "name": "Predator Company",
     "units": "Four Chaos Predators",
-    "upgrades": [
+    "extraUnits": [
         "Stalker",
         "Vindicator"
     ],
@@ -190,7 +191,7 @@
     {
   "name": "Havocs",
   "units": "Four Havocs, one Chaos Lord or Sorcerer Lord, two Rhinos",
-  "upgrades": [
+  "extraUnits": [
       "Land Raiders",
       "Stalker",
       "Vindicator"
@@ -206,7 +207,7 @@
           {
             "name": "Defiler Pack",
             "units": "Four Defilers",
-          "upgrades": [
+          "extraUnits": [
             "Add up to two Defilers for 50 points each"
           ],
           "points": 225
@@ -214,7 +215,7 @@
           {
             "name": "Decimators",
             "units": "One Decimator",
-            "upgrades": [
+           "extraUnits": [
               "Add one Decimator for 150 points"
             ],
             "points": 200
@@ -222,7 +223,7 @@
           {
             "name": "Deathwheels",
             "units": "One Deathwheel",
-            "upgrades": [
+          "extraUnits": [
               "Add one Deathwheel for 225 points"
             ],
             "points": 275
@@ -230,20 +231,20 @@
           {
             "name": "Chaos Warhound",
             "units": "One Chaos Warhound Scout Titan",
-            "upgrades": [
+            "extraUnits": [
               "Add one Chaos Warhound for 225 Points"
             ],
             "points": 275
           },
           {
-            "name": "Chaos Reaver",
-            "units": "One Chaos Reaver Titan",
-            "points": 625
+            "name": "Ravager Titan",
+            "units": "One Chaos Ravager Titan",
+            "points": 650
           },
           {
-            "name": "Chaos Warlord",
-            "units": "One Chaos Warlord Titan",
-            "points": 750
+            "name": "Banelord Titan",
+            "units": "One Banelord Titan",
+            "points": 850
           },
         {
           "name": "Hell Blade Squadron",
@@ -263,7 +264,7 @@
         {
           "name": "0-1 Chaos Cruiser",
           "units": "One Devastation Class Cruiser",
-          "upgrades": [
+          "extraUnits": [
             "Battleship"
           ],
           "points": 150
@@ -307,7 +308,7 @@
             "points": "50 points"
           },
           {
-            "description": "Replace the Chaos Lord and its unit with a Daemon Prince of Chaos Undivided",
+            "description": "Replace the Chaos Lord and its unit with a Daemon Prince",
             "points": "75 points"
           }
         ]
@@ -316,7 +317,7 @@
         "name": "Transport",
         "options": [
           {
-            "description": "Add up to four Chaos Rhinos (Retinue only)",
+            "description": "Add up to four Chaos Rhinos",
             "points": "10 points each"
           },
           {
@@ -324,7 +325,7 @@
             "points": "50 points each"
         },
         {
-          "description": "(No more than needed to transport the formation with no space left over)",
+          "description": "(No more than needed to transport the formation)",
           "points": ""
       }
         ]
@@ -341,7 +342,7 @@
       },
       {
         "name": "Champion",
-        "description": "Add one Champion of Chaos Undivided character to the formation",
+        "description": "Add one Champion of Chaos character to the formation",
         "points": "50 points"
       },
       {
@@ -395,8 +396,8 @@
       },
       {
         "name": "Obliterators",
-        "description": "Replace up to two Chaos Terminators with Obliterators",
-        "points": "35 points each"
+        "description": "Add up to three Obliterators",
+        "points": "75 points each"
     }
     ]
   }

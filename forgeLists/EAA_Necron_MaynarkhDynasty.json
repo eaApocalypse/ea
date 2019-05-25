@@ -19,7 +19,7 @@
             {"id": 505, "name": "Armored Phalanx", "pts": 225, "units": "5 Obelisks"},
             {"id": 502, "name": "Eques Maniple", "pts": 350, "upgrades": [103,104,107]},
             {"id": 503, "name": "Portal Maniple", "pts": 0, "upgrades": [105,106]},
-            {"id": 506, "name": "Pylon", "pts": 225, "upgrades": []},
+            {"id": 506, "name": "Pylon", "pts": 200, "upgrades": []},
             {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": [100,103,101,104,107]}
          ]
       },

@@ -10,14 +10,10 @@
           ]
         },
         {
-           "title": "Daemon Engine (x)",
+           "title": "Daemon Engine",
            "description": [
-             "Formations completely made up of units with the Daemon Engine (x) special rule, and that have the same faction within its brackets, gain the bonus associated with that faction:",
-             "Slaanesh: Formation gains +1 to activate when attempting to Double.",
-             "Nurgle: Formation gains +1 to activate when attempting to Marshal.",
-             "Khorne: Formation gains +1 to activate when attempting to Engage.",
-             "Tzeench: Formation gains +1 to activate when attempting to Advance.",
-             "Chaos Undivided: Formations ignores the -1 modifier for enemy formations within 30cm when rallying."
+             "Applies to formations completely made up of units with the Daemon Engine special rule.",
+             "These formations have a 2+ Initiative and ignores the -1 modifier for enemy formations within 30cm when rallying."
            ]
        },
        {
@@ -98,7 +94,7 @@
             "Walker",
             "Infiltrators",
             "Invulnerable Save",
-            "Daemon Engine (Chaos Undivided)"
+            "Daemon Engine"
           ]
         },
         {
@@ -114,7 +110,7 @@
           "specialRules": [
             "Fearless",
             "Invulnerable Save",
-            "Daemon Engine (Chaos Undivided)"
+            "Daemon Engine"
           ]
         },
         {
@@ -130,7 +126,7 @@
           "specialRules": [
             "Fearless",
             "Invulnerable Save",
-            "Daemon Engine (Chaos Undivided)"
+            "Daemon Engine"
           ]
         },
         {
@@ -146,7 +142,7 @@
           "specialRules": [
             "Fearless",
             "Invulnerable Save",
-            "Daemon Engine (Chaos Undivided)"
+            "Daemon Engine"
           ]
         },
         {
@@ -166,7 +162,7 @@
             "Reinforced Armour",
             "Walker",
             "Invulnerable Save",
-            "Daemon Engine (Chaos Undivided)"
+            "Daemon Engine"
           ]
         },
         {
@@ -186,7 +182,7 @@
               "Fearless",
               "Daemonic Focus",
               "Chaos Gate",
-              "Daemon Engine (Chaos Undivided)"
+              "Daemon Engine"
           ],
                     "notes": "Critical Hit Effect: The Warp Altar is destroyed. All Daemons within 5cm are destroyed, non-Daemons within 5cm suffers a MW hit on 6+."
       },
@@ -206,7 +202,7 @@
           "Reinforced Armour",
           "Fearless",
           "Invulnerable Save",
-          "Daemon Engine (Chaos Undivided)"
+          "Daemon Engine"
       ],
           "notes": "Critical Hit Effect: The Decimator is destroyed."
         },
@@ -227,7 +223,7 @@
               "Reinforced Armour",
               "Fearless",
               "Invulnerable Save",
-              "Daemon Engine (Chaos Undivided)"
+              "Daemon Engine"
           ],
           "notes": "Critical Hit Effect: Move the Deathwheel 3D6 in a random direction. If it moves into impassable terrain or a war engine unit it will stop. All units it moves into or over suffer a hit. The Deathwheel is then destroyed"
       },
@@ -252,7 +248,7 @@
             "Walker",
             "Infiltrators",
             "Invulnerable Save",
-            "Daemon Engine (Slaanesh)"
+            "Daemon Engine"
           ]
         },
         {
@@ -271,7 +267,7 @@
             "Walker",
             "Scout",
             "Invulnerable Save",
-            "Daemon Engine (Slaanesh)"
+            "Daemon Engine"
           ]
         },
         {
@@ -289,7 +285,7 @@
             "Fearless",
             "Walker",
             "Invulnerable Save",
-            "Daemon Engine (Slaanesh)"
+            "Daemon Engine"
           ]
         },
         {
@@ -307,7 +303,7 @@
             "Fearless",
             "Walker",
             "Invulnerable Save",
-            "Daemon Engine (Slaanesh)"
+            "Daemon Engine"
           ]
         },
         {
@@ -327,7 +323,7 @@
               "Reinforced Armour",
               "Fearless",
               "Invulnerable Save",
-              "Daemon Engine (Slaanesh)"
+              "Daemon Engine"
           ],
           "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the Questor into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
       },
@@ -349,7 +345,7 @@
             "Reinforced Armour",
             "Fearless",
             "Invulnerable Save",
-            "Daemon Engine (Slaanesh)"
+            "Daemon Engine"
         ],
         "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit takes a point of damage and is moved D6cm in a random direction. If this move takes the Subjugator into impassable terrain or another unit it can’t move over then it stops immediately and is destroyed. All units it moves into or over suffer a hit on a roll of 6+."
     },
@@ -373,7 +369,7 @@
             "Walker",
             "Infiltrators",
             "Invulnerable Save",
-            "Daemon Engine (Nurgle)"
+            "Daemon Engine"
           ]
         },
         {
@@ -391,7 +387,7 @@
             "Fearless",
             "Skimmer",
             "Invulnerable Save",
-            "Daemon Engine (Nurgle)"
+            "Daemon Engine"
           ]
         },
         {
@@ -408,7 +404,7 @@
           "specialRules": [
             "Fearless",
             "Invulnerable Save",
-            "Daemon Engine (Nurgle)"
+            "Daemon Engine"
           ]
         },
         {
@@ -428,7 +424,7 @@
             "Reinforced Armour",
             "Walker",
             "Invulnerable Save",
-            "Daemon Engine (Nurgle)"
+            "Daemon Engine"
           ]
         },
         {
@@ -447,7 +443,7 @@
               "Reinforced Armour",
               "Fearless",
               "Invulnerable Save",
-              "Daemon Engine (Nurgle)",
+              "Daemon Engine",
               "Transport"
           ],
           "notes": "May transport fourteen infantry units, Blight Drones or Dreadnoughts. Terminators, Daemon Princes, Blight Drones and Dreadnoughts count as two units each. Critical Hit Effect: The Plague Tower takes 1 additional point of damage. 1D3 random units carried inside takes 1 hit."
@@ -472,7 +468,7 @@
             "Walker",
             "Infiltrators",
             "Invulnerable Save",
-            "Daemon Engine (Khorne)"
+            "Daemon Engine"
           ]
         },
         {
@@ -490,7 +486,7 @@
             "Fearless",
             "Reinforced Armour",
             "Invulnerable Save",
-            "Daemon Engine (Khorne)"
+            "Daemon Engine"
           ]
         },
         {
@@ -510,7 +506,7 @@
             "Reinforced Armour",
             "Walker",
             "Invulnerable Save",
-            "Daemon Engine (Khorne)"
+            "Daemon Engine"
           ]
         },
         {
@@ -533,7 +529,7 @@
               "Infiltrators",
               "Walker",
               "Invulnerable Save",
-              "Daemon Engine (Khorne)"
+              "Daemon Engine"
           ],
           "notes": "Critical Hit Effect: The unit takes an additional point of damage. All units in base contact takes a hit on 6+"
       },
@@ -555,7 +551,7 @@
               "Fearless",
               "Thick Rear Armour",
               "Invulnerable Save",
-              "Daemon Engine (Khorne)"
+              "Daemon Engine"
           ],
           "notes": "The Lord of Battles takes one additional damage, and immediately rampages a full 3D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Lord of Battles into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
           },
@@ -583,7 +579,7 @@
                 "Fearless",
                 "Thick Rear Armour",
                 "Invulnerable Save (5+)",
-                "Daemon Engine (Khorne)",
+                "Daemon Engine",
                 "Daemonic Pact"
             ],
             "notes": "The Tower of Skulls takes 1 additional damage, and immediately rampages a full 2D6cm in a random direction (move as ‘barge’ see 3.3.1, ignore ZOC, all units count as part of target formation). If this move takes the Tower of Skulls into impassable terrain or another unit it can’t move over then it stops immediately and takes a further point of damage. Any units moved over or contacted take a hit on a D6 roll of 4+"
@@ -610,7 +606,7 @@
             "Walker",
             "Infiltrators",
             "Invulnerable Save",
-            "Daemon Engine (Tzeench)"
+            "Daemon Engine"
           ]
         },
 
@@ -629,7 +625,7 @@
             "Fearless",
             "Skimmer",
             "Invulnerable Save",
-            "Daemon Engine (Tzeench)"
+            "Daemon Engine"
           ]
       },
       {
@@ -649,7 +645,7 @@
           "Reinforced Armour",
           "Walker",
           "Invulnerable Save",
-          "Daemon Engine (Tzeench)"
+          "Daemon Engine"
         ]
       },
       {
@@ -668,7 +664,7 @@
           "Fearless",
           "Jump Pack",
           "Invulnerable Save",
-          "Daemon Engine (Tzeench)"
+          "Daemon Engine"
       ],
           "notes": "The runes that bind the imprisoned daemon are broken, and the Mirrorfiend is destroyed. All models within 5cm take a hit on 4+."
       },
@@ -690,7 +686,7 @@
           "Fearless",
           "Skimmer",
           "Invulnerable Save (5+)",
-          "Daemon Engine (Tzeench)"
+          "Daemon Engine"
       ],
           "notes": "The Warp Palace takes 1 additional damage. Any units within 5cm takes an additional hit with MW on 6+."
       },

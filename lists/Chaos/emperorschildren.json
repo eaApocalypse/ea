@@ -12,7 +12,7 @@
       "Augment Summoning (+x)",
       "Daemonic Focus",
       "Fickle Masters",
-      "Emperor's Children Dreadclaws"
+      "Dreadclaws"
     ],
   "usage": [
     "The following army list allows you to field an army based on the Emperor's Children, using their preferred operational methods."
@@ -24,7 +24,7 @@
         "Warlord",
         "Chaos Lord",
         "Sorcerer Lord",
-        "Champion of Slaanesh",
+        "Champion of Chaos",
         "Icon Bearer",
         "Daemon Prince of Slaanesh",
         "Chaos Space Marines",
@@ -55,8 +55,8 @@
             "Subjugator"
         ],
         "unitRules": [
-            "Void Shields",
-          "Daemon Engine (x)",
+          "Void Shields",
+          "Daemon Engine",
           "Heavy Armoured Vehicle (H-AV)"
         ]
     },
@@ -93,7 +93,7 @@
           "units": "Three Noise Marines, three Chaos Space Marines, one Chaos Lord or Sorcerer Lord",
           "upgrades": [
             "Supreme Commander",
-            "Retinue Transport",
+            "Transport",
             "Champion",
             "Daemonic Pact",
             "Stalker",
@@ -113,9 +113,11 @@
       "formations": [
         {
           "name": "Chosen",
-          "units": "Four Chosen, two Chaos Rhinos",
+          "units": "Four Chosen",
           "upgrades": [
+            "Transport",
             "Dreadnoughts",
+            "Dreadclaws",
             "Daemonic Pact"
           ],
           "points": 150
@@ -255,10 +257,10 @@
         ]
       },
       {
-        "name": "Retinue Transport",
+        "name": "Transport",
         "options": [
           {
-            "description": "Add up to three Chaos Rhinos",
+            "description": "Add enough Chaos Rhinos to transport the formation",
             "points": "10 points each"
           },
           {
@@ -288,7 +290,7 @@
       },
       {
         "name": "Champion",
-        "description": "Add one Champion of Slaanesh character to the formation",
+        "description": "Add one Champion character to the formation",
         "points": "50 points"
       },
       {
