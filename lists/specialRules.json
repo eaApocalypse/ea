@@ -342,13 +342,7 @@
         "Only Mandrake formations may set up using the tournament game garrison rule (6.1.5)."
         ]
     },
-    {
-      "title": "Webway Portal",
-      "description": [
-        "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
-        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise."
-        ]
-    },
+
     {
       "title": "Shadowfields",
       "description": [
@@ -367,7 +361,13 @@
 
 
 
-
+    {
+      "title": "Webway Portal",
+      "description": [
+        "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
+        "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise."
+        ]
+    },
     {
       "title": "Seers of Ulthwé",
       "description": [
