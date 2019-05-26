@@ -28,7 +28,7 @@
       {"name": "WARHOSTS", "formations": [
             {"id": 510, "name": "Aspect Warrior Warhost", "pts": 300, "upgrades": [39,40,41,42],                            "xref":[]},
             {"id": 511, "name": "Guardian Warhost", "pts": 150, "upgrades": [43,44,45],                                  		"xref":[]},
-            {"id": 512, "name": "Guardian Warhost (Mounted)", "pts": 350, "units": "4 Wave Serpents", "upgrades": [],       "xref":["Wave Serpents"]}
+            {"id": 512, "name": "Guardian Warhost (Mounted)", "pts": 350, "units": "4 Wave Serpents", "upgrades": [],       "xref":["Wave Serpent"]}
          ]},
       {"name": "TROUPES", "formations": [
             {"id": 500, "name": "Ranger Troupe", "pts": 0, "upgrades": [11],                                  							"xref":[]},
@@ -64,7 +64,7 @@
       {"id": 40, "name": "Autarch", "pts": 75,                               						   									"xref":["Eldar Autarch"]},
       {"id": 41, "name": "Wave Serpent", "pts": 50,                         						         						"xref":["Wave Serpent"]},
       {"id": 42, "name": "2 Falcons", "pts": 125,                           						       							"xref":["Falcon"]},
-      {"id": 24, "name": "Guardians", "pts": 0,                            						      								"xref":["Guardian"]},
+      {"id": 24, "name": "Guardians", "pts": 0,                            						      								"xref":["Eldar Guardians"]},
       {"id": 25, "name": "Heavy Weapon Platform", "pts": 0,                                  								"xref":["Eldar Heavy Weapons Platform"]},
       {"id": 43, "name": "3 Support Weapon Platforms", "pts": 50,                                  					"xref":["Support Weapons Platform"]},
       {"id": 44, "name": "3 Wraithguard", "pts": 125,                                			  								"xref":["Wraithguards"]},
@@ -78,8 +78,8 @@
       {"id": 34, "name": "Cobra", "pts": 200,                             						     									"xref":["Cobra"]},
       {"id": 35, "name": "Scorpion", "pts": 200,                                  													"xref":["Scorpion"]},
       {"id": 36, "name": "Storm Serpent", "pts": 200,                                  											"xref":["Storm Serpent"]},
-      {"id": 51, "name": "Warlock", "pts": 0,                                  															"xref":["Warlock"]},
-      {"id": 52, "name": "Farseer", "pts": 25,                                  														"xref":["Farseer"]},
+      {"id": 51, "name": "Warlock", "pts": 0,                                  															"xref":["Eldar Warlock"]},
+      {"id": 52, "name": "Farseer", "pts": 25,                                  														"xref":["Eldar Farseer"]},
       {"id": 53, "name": "Phoenix Bombers", "pts": 75,                                  										"xref":[]},
       {"id": 54, "name": "Nightwing Interceptors", "pts": 75,                                  							"xref":[]}
    ],
