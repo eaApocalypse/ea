@@ -9,6 +9,7 @@
     [
       "Summoning",
       "Death Guard Summoning Rules",
+      "Dreadclaws",
       "Augment Summoning (+x)",
       "Daemonic Focus",
       "Fickle Masters"
@@ -23,7 +24,7 @@
         "Warlord",
         "Chaos Lord",
         "Sorcerer Lord",
-        "Champion of Nurgle",
+        "Champion of Chaos",
         "Icon Bearer",
         "Daemon Prince of Nurgle",
         "Chaos Space Marines",
@@ -107,6 +108,7 @@
           "upgrades": [
             "Supreme Commander",
             "Transport",
+            "Dreadclaws",
             "Champion",
             "Daemonic Pact",
             "Stalker",
@@ -126,10 +128,12 @@
       "formations": [
         {
           "name": "Chosen",
-          "units": "Four Chosen, two Death Guard Rhinos",
+          "units": "Four Chosen",
           "upgrades": [
             "Dreadnoughts",
+            "Dreadclaws",
             "Daemonic Pact",
+            "Transports",
             "Icon Bearer",
             "Vindicators"
           ],
@@ -140,6 +144,7 @@
           "units": "Four Blightlord Terminators, one Chaos Lord or Sorcerer Lord",
           "upgrades": [
               "Supreme Commander",
+              "Dreadclaws",
               "Transport",
               "Champion",
               "Daemonic Pact",
@@ -228,7 +233,7 @@
         {
           "name": "0-1 Plagueship",
           "units": "One Plagueship",
-          "points": 100
+          "points": 200
         }
       ]
   },
@@ -273,7 +278,7 @@
         "name": "Transport",
         "options": [
           {
-            "description": "Add up to four Death Guard Rhinos (Retinue only)",
+            "description": "Add Death Guard Rhinos",
             "points": "10 points each"
           },
           {
@@ -285,6 +290,11 @@
           "points": ""
       }
         ]
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
+        "points": "5 points per unit"
       },
       {
         "name": "Daemonic Pact",

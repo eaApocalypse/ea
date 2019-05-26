@@ -150,42 +150,7 @@
         ],
         "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker"
       },
-      {
-        "name": "Champion of Slaanesh",
-        "type": "CH",
-        "weapons": [
-          "Daemonic Bolt"
-        ],
-        "specialRules": [
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-        ],
-        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker"
-      },
-      {
-        "name": "Champion of Nurgle",
-        "type": "CH",
-        "weapons": [
-          "Daemon Weapon"
-        ],
-        "specialRules": [
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-        ],
-        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker"
-      },
-      {
-        "name": "Champion of Khorne",
-        "type": "CH",
-        "weapons": [
-          "Daemon Weapon"
-        ],
-        "specialRules": [
-            "Augment Summoning (+2D3)",
-            "Invulnerable Save"
-        ],
-        "notes": "May be sacrificed, before rolling its formations summoning points this unit’s Augment Summoning (+2D3) ability is changed to Augment Summoning (+6). After this roll the unit with the Champion is destroyed with no saves allowed. A unit sacrificed in this way does not cause a Blast Marker"
-      },
+
       {
         "name": "Icon Bearer",
         "type": "CH",
@@ -215,8 +180,7 @@
           "Reinforced Armour",
           "Jump Pack",
           "Teleport",
-          "Fearless",
-          "Daemonic Focus"
+          "Fearless"
         ]
       },
       {
@@ -234,8 +198,7 @@
           "Supreme Commander",
           "Reinforced Armour",
           "Teleport",
-          "Fearless",
-          "Daemonic Focus"
+          "Fearless"
         ]
       },
       {
@@ -254,8 +217,7 @@
           "Reinforced Armour",
           "Invulnerable Save",
           "Teleport",
-          "Fearless",
-          "Daemonic Focus"
+          "Fearless"
         ]
       },
       {
@@ -273,8 +235,7 @@
           "Jump Pack",
           "Teleport",
           "Fearless",
-          "Inspiring",
-          "Daemonic Focus"
+          "Inspiring"
         ]
       },
       {
@@ -295,23 +256,8 @@
           "Teleport",
           "Fearless",
           "Daemonic Pact",
-          "Augment Summoning (+1D3)",
-          "Daemonic Focus"
+          "Augment Summoning (+1D3)"
         ]
-      },
-      {
-        "name": "Alpha Legion Marines",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          "Autocannon"
-      ],
-      "specialRules": [
-          "Stubborn"
-      ]
       },
       {
         "name": "Chaos Space Marines",
@@ -334,20 +280,6 @@
         "weapons": [
           "Autocannon|2|"
         ]
-      },
-      {
-        "name": "Alpha Legion Flakk Havocs",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 5,
-        "ff": 4,
-        "weapons": [
-          "Flakk Missile Launcher|2|"
-      ],
-      "specialRules": [
-          "Stubborn"
-      ]
       },
       {
         "name": "Chosen",
@@ -396,21 +328,6 @@
       ]
       },
       {
-        "name": "Alpha Legion Destroyers",
-        "type": "INF",
-        "speed": 30,
-        "armour": 4,
-        "cc": 5,
-        "ff": 4,
-        "weapons": [
-          "Rad Missile Launcher|2|"
-      ],
-      "specialRules": [
-          "Stubborn",
-          "Jump Packs"
-      ]
-      },
-      {
         "name": "Chaos Terminators",
         "type": "INF",
         "speed": 15,
@@ -439,7 +356,6 @@
           "Power Weapons"
       ],
       "specialRules": [
-          "Stubborn",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
@@ -474,7 +390,6 @@
           "Power Weapons"
       ],
       "specialRules": [
-          "Fearless",
           "Reinforced Armour",
           "Invulnerable Save",
           "Teleport",
@@ -493,7 +408,6 @@
           "Power Weapons"
       ],
       "specialRules": [
-          "Fearless",
           "Reinforced Armour",
           "Teleport",
           "Thick Rear Armour"
@@ -511,7 +425,6 @@
           "Power Weapons"
       ],
       "specialRules": [
-          "Fearless",
           "Reinforced Armour",
           "Invulnerable Save",
           "Teleport",
@@ -688,22 +601,6 @@
       "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
       },
       {
-        "name": "Alpha Legion Rhino",
-        "type": "AV",
-        "speed": 30,
-        "armour": 5,
-        "cc": 6,
-        "ff": 6,
-        "weapons": [
-          "Combi-Bolter"
-      ],
-      "specialRules": [
-          "Stubborn",
-        "Transport"
-    ],
-      "notes": "May transport two infantry units (except Terminators) without Jump Packs or Mounted."
-      },
-      {
         "name": "Death Guard Rhino",
         "type": "AV",
         "speed": 25,
@@ -737,25 +634,6 @@
         ],
         "notes": "May transport one Chaos Terminator unit or two infantry units without Jump Packs or Mounted."
           },
-          {
-            "name": "Alpha Legion Land Raider",
-            "type": "AV",
-            "speed": 25,
-            "armour": 4,
-            "cc": 6,
-            "ff": 4,
-            "weapons": [
-              "Twin Lascannon|2|",
-              "Twin Heavy Bolter"
-            ],
-            "specialRules": [
-                "Stubborn",
-                "Reinforced Armour",
-                "Thick Rear Armour",
-                "Transport"
-            ],
-            "notes": "May transport one Terminator unit or two infantry units without Jump Packs or Mounted."
-              },
         {
           "name": "Emperor's Children Land Raider",
           "type": "AV",
@@ -843,21 +721,6 @@
         ]
       },
       {
-        "name": "Alpha Legion Predator",
-        "type": "AV",
-        "speed": 30,
-        "armour": 4,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Predator Cannon",
-          "Lascannon|2|"
-      ],
-      "specialRules": [
-          "Stubborn"
-      ]
-      },
-      {
         "name": "Emperor's Children Predator",
         "type": "AV",
         "speed": 30,
@@ -896,21 +759,6 @@
         ]
       },
       {
-        "name": "Alpha Legion Laser Vindicator",
-        "type": "AV",
-        "speed": 25,
-        "armour": 4,
-        "cc": 6,
-        "ff": 5,
-        "weapons": [
-          "Laser Destroyer Array"
-        ],
-        "specialRules": [
-            "Stubborn",
-            "Walker"
-        ]
-      },
-      {
         "name": "Death Guard Vindicator",
         "type": "AV",
         "speed": 20,
@@ -938,22 +786,6 @@
         ],
         "specialRules": [
           "Fearless",
-          "Walker"
-        ]
-      },
-      {
-        "name": "Alpha Legion Dreadnought",
-        "type": "AV",
-        "speed": 15,
-        "armour": 3,
-        "cc": 4,
-        "ff": 4,
-        "weapons": [
-          "Twin Volkite Culvertin",
-          "Power Fist"
-        ],
-        "specialRules": [
-          "Stubborn",
           "Walker"
         ]
       },
@@ -1015,19 +847,6 @@
         "Invulnerable Save"
     ]
   },
-  {
-    "name": "Alpha Legion Xiphon Interceptor",
-    "type": "AC",
-    "speed": "Fighter",
-    "armour": 6,
-    "weapons": [
-      "AC Quad Lascannon||FxF",
-      "AC Xiphon Rotary Missile Launcher||FxF"
-    ],
-    "specialRules": [
-
-    ]
-  },
     {
       "name": "Chaos Thunderhawk",
       "type": "AC/WE",
@@ -1048,66 +867,6 @@
         "Transport"
       ],
       "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
-  },
-  {
-    "name": "Alpha Legion Thunderhawk",
-    "type": "AC/WE",
-    "speed": "Bomber",
-    "armour": 4,
-    "cc": 5,
-    "ff": 4,
-    "weapons": [
-      "Battle Cannon||FxF",
-      "AC Twin Heavy Bolter|2|FxF",
-      "AC Twin Heavy Bolter||Left",
-      "AC Twin Heavy Bolter||Right"
-    ],
-    "specialRules": [
-      "Damage Capacity 2",
-      "Stubborn",
-      "Planetfall",
-      "Reinforced Armour",
-      "Transport"
-    ],
-    "notes": "May transport eight infantry units or Dreadnoughts; Terminators and Dreadnoughts count as two units each. Critical Hit Effect: The unit and all units being carried are destroyed."
-    },
-    {
-      "name": "Alpha Legion Thunderhawk Transporter",
-      "type": "AC/WE",
-      "speed": "Bomber",
-      "armour": 4,
-      "cc": 6,
-      "ff": 5,
-      "weapons": [
-        "AC Twin Heavy Bolter|2|Left",
-        "AC Twin Heavy Bolter|2|Right"
-      ],
-      "specialRules": [
-        "Damage Capacity 2",
-        "Stubborn",
-        "Planetfall",
-        "Reinforced Armour",
-        "Transport"
-      ],
-      "notes": "May carry up to two of the following: Stalkers, Predators, Rhinos and Vindicators. Or it may carry one Land Raider. In addition it may also carry any infantry transported in these vehicles. Critical Hit Effect: The unit and all units being carried are destroyed."
-  },
-  {
-    "name": "Alpha Legion Strike Cruiser",
-    "type": "SC",
-    "weapons": [
-      {
-        "name": "Orbital Bombardment",
-        "modes": [
-          {
-            "firepower": "4BP, MW"
-          }
-        ]
-      }
-    ],
-    "specialRules": [
-      "Transport"
-    ],
-    "notes": "May transport twenty infantry units or Dreadnoughts; plus twenty light vehicles or armoured vehicle units (except Dreadnoughts); plus six Thunderhawk Gunships and enough Dreadclaws and Thunderhawk Transporters to transport any other units being carried."
   }
     ]
   }

@@ -600,7 +600,7 @@
        "description": [
          "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
 
-         "The following units may be deployed using Dreadclaws: Daemon Princes, Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Obliterators, Chaos Dreadnoughts, Noise Marines, Sirenshriek Terminators, Daemon Prince of Slaanesh"
+         "The following units may be deployed using Dreadclaws: All Daemon Princes, Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Sirenshriek Terminators, Blightlord Terminators, Obliterators, Chaos Dreadnoughts"
        ]
      },
      {

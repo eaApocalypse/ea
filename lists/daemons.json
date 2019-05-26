@@ -180,38 +180,7 @@
         ]
       },
 
-      {
-        "name": "Beasts of Nurgle",
-        "type": "INF",
-        "speed": 20,
-        "armour": 3,
-        "cc": 4,
-        "weapons": [
-          "Slobbering Affection"
-        ],
-        "specialRules": [
-            "Expendable",
-            "Invulnerable Save"
-        ]
-      },
-      {
-        "name": "Plague Drones of Nurgle",
-        "type": "INF",
-        "speed": 25,
-        "armour": 3,
-        "cc": 4,
-        "ff": 5,
-        "weapons": [
-          "Death's Heads",
-          "Blight Fly"
-        ],
-        "specialRules": [
-            "Expendable",
-            "Mounted",
-            "Jump Packs",
-            "Invulnerable Save"
-        ]
-      },
+
       {
         "name": "Exalted Bloodthirster",
         "type": "WE",
@@ -359,6 +328,20 @@
         ]
       },
       {
+        "name": "Beasts of Nurgle",
+        "type": "INF",
+        "speed": 20,
+        "armour": 4,
+        "cc": 4,
+        "weapons": [
+          "Slobbering Affection"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Invulnerable Save (5+)"
+        ]
+      },
+      {
         "name": "Bloodletters of Khorne",
         "type": "INF",
         "speed": 15,
@@ -484,6 +467,24 @@
         ],
         "specialRules": [
             "Expendable",
+            "Invulnerable Save (5+)"
+        ]
+      },
+      {
+        "name": "Plague Drones of Nurgle",
+        "type": "INF",
+        "speed": 25,
+        "armour": 4,
+        "cc": 4,
+        "ff": 5,
+        "weapons": [
+          "Death's Heads",
+          "Blight Fly"
+        ],
+        "specialRules": [
+            "Expendable",
+            "Mounted",
+            "Jump Packs",
             "Invulnerable Save (5+)"
         ]
       },

@@ -117,11 +117,9 @@
       "name": "Plagueship",
       "type": "SC",
       "weapons": [
-        "Orbital Bombardment 4BP"
-    ],
-    "specialRules": [
-      "Slow to Arrive (May only arrive from turn 2 onwards)"
-    ]
+          "Plagueship Bombardment"
+      ],
+        "notes": "Transport. May transport 20 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
     },
     {
       "name": "Despoiler Class Battleship",

@@ -199,6 +199,18 @@
             }
         ]
       },
+
+      {
+        "name": "Plagueship Bombardment",
+        "modes": [
+          {
+            "firepower": "1D6 BP",
+            "specialRules": [
+              "D"
+          ]
+          }
+        ]
+      },
       {
         "name": "Orbital Bombardment 1D6BP",
         "modes": [
