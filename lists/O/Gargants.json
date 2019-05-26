@@ -1,9 +1,9 @@
 {
   "fraction": "Ork",
-  "army": "Bad Moon Gargants",
+  "army": "Gargant Mob",
   "version": "0.01",
   "release": "Beta Release",
-  "strategy": "Bad Moon Gargants armies have a Strategy Rating of 2.",
+  "strategy": "Gargants armies have a Strategy Rating of 2.",
   "Initiative": "All formations have an Initiative Rating of 3+.",
   "specialRules": [
       "Mob Rule",
@@ -62,7 +62,7 @@
               "upgrades": [
                   "0-1 Big Mob Oddboy: 50 points"
               ],
-          "points": 1000
+          "points": 1200
           },
           {
             "name": "Great Gargant",

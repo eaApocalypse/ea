@@ -401,8 +401,8 @@
         "type": "INF",
         "speed": 15,
         "armour": 4,
-        "cc": 2,
-        "ff": 5,
+        "cc": 3,
+        "ff": 3,
         "weapons": [
           "Reaper Autocannon",
           "Power Weapons"

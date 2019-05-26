@@ -244,21 +244,20 @@
         "name": "Fleshhounds of Khorne",
         "type": "INF",
         "speed": 30,
-        "armour": 4,
         "cc": 2,
         "weapons": [
           "Claws and Fangs"
         ],
         "specialRules": [
             "Expendable",
-            "Invulnerable Save"
+            "Invulnerable Save (5+)"
         ]
       },
       {
         "name": "Bloodcrushers of Khorne",
         "type": "INF",
         "speed": 25,
-        "armour": 3,
+        "armour": 4,
         "cc": 3,
         "weapons": [
           "Juggernaut"
@@ -267,7 +266,7 @@
             "Expendable",
             "Mounted",
             "Walker",
-            "Invulnerable Save"
+            "Invulnerable Save (5+)"
         ]
       },
       {

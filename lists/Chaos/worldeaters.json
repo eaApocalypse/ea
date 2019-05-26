@@ -12,7 +12,7 @@
       "Augment Summoning (+x)",
       "Daemonic Focus",
       "Fickle Masters",
-      "World Eaters Dreadclaws"
+      "Dreadclaws"
     ],
   "usage": [
     "The following army list allows you to field an army based on the World Eaters, using their preferred operational methods."
@@ -23,7 +23,7 @@
       "units": [
         "Blood Lord",
         "Skull Lord",
-        "Champion of Khorne",
+        "Champion of Chaos",
         "Icon Bearer",
         "Daemon Prince of Khorne",
         "Chaos Space Marines",
@@ -56,8 +56,8 @@
 
         ],
         "unitRules": [
-          "Daemon Engine"
-          "God Machine",
+          "Daemon Engine",
+          "God Machine"
 
         ]
     },
@@ -75,8 +75,9 @@
   {
     "from": "chaosnavy.json",
     "units": [
-        "Heldrake Interceptor",
-        "Baledrake Fighter-Bomber",
+        "Hell Blade Interceptor",
+        "Hell Talon Fighter-Bomber",
+        "Heldrake",
         "Devastation Class Cruiser",
         "Despoiler Class Battleship"
   ],
@@ -231,25 +232,30 @@
             ],
             "points": 700
           },
-        {
-          "name": "Heldrake Wing",
-          "units": "Two Heldrake Interceptors",
-          "points": 200
-        },
-        {
-          "name": "Baledrake Wing",
-          "units": "Two Baledrake Fighter-Bombers",
-          "points": 200
-        },
+          {
+            "name": "Hell Blade Squadron",
+            "units": "Three Hell Blade Interceptors",
+            "points": 200
+          },
+          {
+            "name": "Heldrake Wing",
+            "units": "Three Heldrakes",
+            "points": 200
+          },
+          {
+            "name": "Hell Talon Squadron",
+            "units": "Two Hell Talon Fighter-Bombers",
+            "points": 225
+          },
+          {
+            "name": "0-1 Chaos Cruiser",
+            "units": "One Devastation Class Cruiser",
+            "upgrades": [
+              "Battleship"
+            ],
+            "points": 150
+          }
 
-        {
-          "name": "0-1 Chaos Cruiser",
-          "units": "One Devastation Class Cruiser",
-          "upgrades": [
-            "Battleship"
-          ],
-          "points": 150
-        }
       ]
   },
       {
@@ -358,8 +364,8 @@
       },
       {
         "name": "Mutilators",
-        "description": "Replace up to two Skullseeker Terminators with Mutilators",
-        "points": "25 points each"
+        "description": "Add up to two Mutilators",
+        "points": "75 points each"
     }
     ]
   }

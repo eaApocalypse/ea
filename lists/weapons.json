@@ -517,7 +517,7 @@
       "name": "AC Hades Autocannon",
         "modes": [
           {
-            "firepower": "3x AP5+/AT6+/AA6+",
+            "firepower": "AP5+/AT6+/AA6+",
             "range": 30,
             "specialRules": [
           ]
@@ -883,8 +883,8 @@
       "name": "AC Piston-Driven Claws",
         "modes": [
           {
-            "firepower": "AA6+",
-            "range": 15,
+            "firepower": "2x AA6+",
+            "range": 5,
             "specialRules": [
           ]
           }
@@ -1466,8 +1466,8 @@
         {
           "firepower": "Assault Weapons",
           "specialRules": [
-            "EA(+2)",
-            "TK(D2)"
+            "EA(+3)",
+            "TK(1)"
           ]
         }
       ]

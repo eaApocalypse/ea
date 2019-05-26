@@ -492,7 +492,8 @@
          "Lesser Daemons: Daemonettes of Slaanesh (1), Fiends of Slaanesh (1), Seekers of Slaanesh (2)",
          "Greater Daemons: Keeper of Secrets (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
+         "Additionally one Greater Daemon of Slaanesh may be added to the daemon pool for free."
        ]
      },
      {
@@ -502,17 +503,19 @@
          "Lesser Daemons: Plaguebearers of Nurgle (1), Beasts of Nurgle (1), Plague Drones of Nurgle (2)",
          "Greater Daemons: Great Unclean One (7)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
+         "Additionally one Greater Daemon of Nurgle may be added to the daemon pool for free."
        ]
      },
      {
        "title": "World Eaters Summoning Rules",
        "description": [
-         "All formations in Death Guard worship the Blood God, Khorne. All formations with Daemonic Pact may summon the following Daemons:",
+         "All formations of the World Eaters worship the Blood God, Khorne. All formations with Daemonic Pact may summon the following Daemons:",
          "Lesser Daemons: Bloodletters of Khorne (1), Fleshhounds of Khorne (1), Bloodcrushers of Khorne (2)",
          "Greater Daemons: Bloodthirster (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
-         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one."
+         "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
+         "Additionally one Greater Daemon of Korne may be added to the daemon pool for free."
        ]
      },
      {
@@ -523,7 +526,8 @@
          "Greater Daemons: Lord of Change (8)",
          "No more than one of each type of Greater Daemon can be on the battlefield at the same time. No formation can summon more than one Greater Daemon at a time.",
          "Note that while the number of summoning points required to summon each type of daemonic unit varies, the daemon pool cost is always one.",
-         "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Aspiring Sorcerer, Exalted Sorcerer, Daemon Prince of Tzeench) or formation with Daemonic Pact."
+         "Add one Lesser Daemon Pool point to the Lesser Daemon Pool for each unit (Aspiring Sorcerer, Exalted Sorcerer, Daemon Prince of Tzeench) or formation with Daemonic Pact.",
+         "Additionally one Greater Daemon of Tzeentch may be added to the daemon pool for free."
        ]
      },
      {
@@ -600,7 +604,7 @@
        "description": [
          "Dreadclaws allow a Chaos formation to enter play using the planetfall rules if a spaceship has been purchased to carry them. Units in a formation with Dreadclaws deploy using the planetfall rules but do not roll for scatter. Place the first unit within 15cm of the pre-plotted drop zone co-ordinates and place all other units in the formation within 15cm of this unit and in coherency. Units may not be placed in impassable terrain or enemy zones of control.",
 
-         "The following units may be deployed using Dreadclaws: All Daemon Princes, Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Sirenshriek Terminators, Blightlord Terminators, Obliterators, Chaos Dreadnoughts"
+         "The following units may be deployed using Dreadclaws: All Daemon Princes, Noise Marines, Rubric Marines, Khorne Berzerkers, Plague Marines, Chaos Space Marines, Havocs, Chaos Terminators, Skullseeker Terminators, Sirenshriek Terminators, Blightlord Terminators, Obliterators, Mutilators, all Cult Dreadnaughts"
        ]
      },
      {
