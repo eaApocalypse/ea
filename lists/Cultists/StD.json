@@ -150,16 +150,6 @@
       "name": "Chaos Allies and Traitor Aircraft",
       "description": "Up to a fourth of the points available may be spent on Chaos Allies and Traitor Aircraft",
       "formations": [
-          {
-            "name": "Dark Mechanicus and Infestation Allies",
-            "units": "One Dark Mechanicus and Infestation formation from the Lost and the Damned army list with no upgrades. All choices considered to be 0-1, and must abide to the Eternal Animosity rule (no mixing Tzeench/Nurgle or Slaanesh/Khorne formations)",
-            "points": 0
-          },
-          {
-            "name": "Alpha Legion Advisors",
-            "units": "Four Alpha Legion Marines, two Alpha Legion Rhinos",
-            "points": 175
-          },
         {
           "name": "Thunderbolt Squadron",
           "units": "Two Thunderbolt Fighters",
