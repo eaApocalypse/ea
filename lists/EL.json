@@ -2,6 +2,80 @@
   {
     "name": "Eldar Forces",
     "specialRules": [
+      {
+        "title": "Webway Portal",
+        "description": [
+          "A army that includes any Webway Portals may place up to three formations in reserve, infantry units in these reserve formations may count as mounted in their transports. These formations may enter play by activating and moving onto the table through a friendly Webway Portal during the game, measuring their first move from any part of the position the portal occupies on the battlefield.",
+          "A Webway Portal may only be used once per turn, and if the formation fails to activate when attempting to enter via a Webway, it may only take a hold action offboard and regroup. Only infantry, light vehicles or armoured vehicles with the walker ability may use Webway Portals. H-AV units may not use portals unless noted otherwise."
+          ]
+      },
+      {
+        "title": "Seers of Ulthwé",
+        "description": [
+          "Ulthwe armies have a Strategy Rating of 4. However for all deployment purposes (such as choosing teleport order or picking spaceship arrival turn) Ulthwe armies count as having a Strategy Rating of 5."
+        ]
+      },
+      {
+        "title": "Black Guardians",
+        "description": [
+          "Black Guardians are know as the masters of the Webway. This is represented by the following rules:",
+          "* Black Guardian Warhost formations ignore, and do not count for, the one per turn limit that normally applies to Webway Portals."
+          ]
+      },
+      {
+        "title": "Avatar",
+        "description": [
+          "The Avatar must begin the game in reserve. In the Strategy Phase of any turn, before the strategy roll place the Avatar within 15cm of a Farseer unit.",
+          "The Avatar counts as its own formation and may only enter playing this manner.",
+          "In the End Phase of that turn it is removed from play before rallying formations. Once removed it may not return."
+        ]
+      },
+      {
+        "title": "Eldar Garrisons",
+        "description": [
+          "Only formation with all units consisting of scouts are allowed to garrison objectives."
+        ]
+      },
+      {
+        "title": "Farsight",
+        "description": [
+          "Eldar formations that include a unit with the Farsight ability may ignore the -1 penalty to Action test rolls when attempting to retain the Initiative.",
+          "In addition once per turn the Eldar player may attempt to retain the Initiative twice in a row (i.e. allowing the Eldar player to take 3 activations in a row). Any Eldar formation may be selected, including those without a unit with Farsight, but at least one unit with the Farsight ability must be in play on the battlefield.",
+          "The formation selected must still carry out an action test with a -1 modifier for the first retain and -2 for the second retain, unless the selected formation has a unit with the Farsight ability."
+        ]
+      },
+      {
+        "title": "Hit and Run",
+        "description": [
+          "Eldar/Dark Eldar formations that select an advance or double action may choose to shoot either before or after each move, but may still only shoot once. If the formation chooses to double the -1 to hit penalty applies even if the shot is taken before moving. Eldar formations that win an assault may consolidate up to their speed value rather than the normal 5cms. "
+        ]
+      },
+      {
+        "title": "Holofields (x)",
+        "description": [
+          "Holofields provide a saving throw to the value of 'x'. This save may always be taken even against weapons with the Macro Weapon or Titan Killer abilities.",
+          "If a unit has reinforced armour it may use its re-roll unless hit by a Lance, Macro Weapon or Titan Killer attack but the re-roll uses the units armour value. Hits saved by the Holofield do not generate Blast Markers, even if they have the Disrupt ability.",
+          "Against Titan Killer attacks that cause extra damage make one Holofield save roll, if this is successful the unit takes no damage, if the roll fails it suffers all the damage. Holofield saves can be reduced by modifiers such as the -1 to saves from a cross fire and weapons with the sniper ability. "
+        ]
+      },
+      {
+        "title": "Lance",
+        "description": [
+          "When units with reinforced armour are hit by a weapon with the Lance ability they do not get to re-roll failed armour saves. "
+        ]
+      },
+      {
+        "title": "Seers of Ulthwé",
+        "description": [
+          "Ulthwe armies have a Strategy Rating of 4. However for all deployment purposes (such as choosing teleport order or picking spaceship arrival turn) Ulthwe armies count as having a Strategy Rating of 5. An Ulthwe army gets +1 to the strategy roll on the turn the Avatar arrives."
+        ]
+      },
+      {
+        "title": "Independent Twins",
+        "description": ["Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Revenant Titan is destroyed, the other Revenant Twin receives a Blast Marker.",
+                        "Additionally, Revenant Twins may use the Commander ability but only with its Revenant Twin and the Commander ability is increased to 25cm instead of the normal 5cm."
+        ]
+      }
     ],
     "unit": [
 
