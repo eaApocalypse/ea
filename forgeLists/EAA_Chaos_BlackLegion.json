@@ -13,7 +13,7 @@
 		]},
 		{"name":"BLACK LEGION ELITE FORMATIONS", "formations":[
 			{"id":502, "name":"Chaos Terminators", "pts":275, "upgrades":[14,15,41,42,70,80]},
-			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen, 2 Chaos Rhinos", "upgrades":[42,70]}
+			{"id":503, "name":"Chosen", "pts":150, "units":"4 Chosen", "upgrades":[40,80,42,70]}
 		]},
 		{"name":"BLACK LEGION SUPPORT FORMATIONS", "formations":[
 			{"id":504, "name":"Bike Company",	"pts":300, "units":"8 Chaos Space Marines Bikes", "upgrades":[14,70]},
