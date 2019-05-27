@@ -308,9 +308,9 @@
     {
       "title": "Teleport Homer",
       "description": [
-        "Teleporting models may re-roll Teleport Mishap 1:s if their base is within 15cm of an unbroken unit with the 'Teleport Homer' special rule.",
-        "In addition, formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can either teleport normally, or coordinate their teleport with their space ship's activation.",
-        "In the latter case, the entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable or unwilling to do so they must wait and teleport normally in later turns. Teleports coordinated with a space ship activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another."
+        "Teleporting models may re-roll Teleport Mishap of 1s if they are setting up at the start of a turn and if their base is within 15cm of an unbroken unit with the 'Teleport Homer' special rule.",
+        "In addition, formations that exclusively consists of models with Teleport may be set up in a space ship if such has been bought. From there, they can coordinate their teleport with their space ship's activation.",
+        "The entire formation must be placed within 15cm of a unit with the Teleport Homer special rule. If they are unable to do so the formation is stuck on the space craft and may no enter play. Teleports coordinated with a space ship activation happen after Orbital Barrage, Pin-Points and all events related to formations making Planetfall has been resolved. All such teleports counts as taking place simultaneously, not one after another."
         ]
     },
 
