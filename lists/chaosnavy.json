@@ -117,7 +117,8 @@
       "name": "Plagueship",
       "type": "SC",
       "weapons": [
-          "Plagueship Bombardment"
+          "Plagueship Bombardment",
+          "Pin Point"
       ],
         "notes": "Transport. May transport 20 infantry units or Chaos Dreadnoughts and enough Dreadclaws to transport any other units being carried."
     },
