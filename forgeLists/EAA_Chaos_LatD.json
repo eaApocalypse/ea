@@ -31,8 +31,8 @@
          ]},
 
 	        {"name": "Chaos Navy (Max 25%)", "formations": [
-            {"id": 554, "name": "Heldrake Flight", "pts": 200, "units": "2 Heldrake Interceptors", "upgrades": []},
-            {"id": 555, "name": "Baledrake Flight", "pts": 200, "units": "2 Baledrake Fighter-Bombers", "upgrades": []},
+            {"id": 554, "name": "Hell Blades",	"pts":200, "units":"3 Hell Blade Fighters", "upgrades": []},
+            {"id": 555, "name": "Hell Talons",	"pts":225, "units":"2 Hell Talon Bombers", "upgrades": []},
             {"id": 557, "name": "Orbital Support", "pts": 150, "upgrades": []}
          ]}
    ],
