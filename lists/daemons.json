@@ -5,6 +5,55 @@
     ],
     "unit": [
         {
+          "name": "Exalted Bloodthirster",
+          "type": "WE",
+          "speed": 30,
+          "armour": 4,
+          "cc": 3,
+          "ff": 5,
+          "weapons": [
+            "Axe of Khorne",
+            "Lash of Khorne"
+          ],
+          "specialRules": [
+              "Damage Capacity 4",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Leader",
+              "Commander",
+              "Inspiring",
+              "Daemonic Focus",
+              "Walker",
+              "Jump Pack",
+              "Augment Summoning (+2D3)"
+          ],
+           "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
+        },
+        {
+          "name": "Exalted Great Unclean One",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 4,
+          "weapons": [
+            "Stream of Corruption",
+            "Filth Mace"
+          ],
+          "specialRules": [
+              "Damage Capacity 5",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Leader",
+              "Commander",
+              "Inspiring",
+              "Daemonic Focus",
+              "Walker",
+              "Augment Summoning (+2D3)"
+          ],
+           "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
+        },
+        {
           "name": "Exalted Keeper of Secrets",
           "type": "WE",
           "speed": 20,
@@ -29,6 +78,31 @@
           "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
         },
         {
+          "name": "Exalted Lord of Change",
+          "type": "WE",
+          "speed": 30,
+          "armour": 4,
+          "cc": 5,
+          "ff": 3,
+          "weapons": [
+            "Withering Gaze",
+            "Bedlam Staff"
+          ],
+          "specialRules": [
+              "Damage Capacity 4",
+              "Reinforced Armour",
+              "Invulnerable Save",
+              "Leader",
+              "Commander",
+              "Inspiring",
+              "Daemonic Focus",
+              "Walker",
+              "Jump Pack",
+              "Augment Summoning (+2D3)"
+          ],
+           "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All Daemon units within 5cm are destroyed."
+        },
+        {
           "name": "Bloodthirster",
           "type": "WE",
           "speed": 30,
@@ -42,7 +116,7 @@
           "specialRules": [
               "Damage Capacity 3",
               "Reinforced Armour",
-                "Invulnerable Save",
+              "Invulnerable Save",
               "Inspiring",
               "Daemonic Focus",
               "Walker",
@@ -119,32 +193,38 @@
           "notes": "Critical Hit Effect: The Greater Daemon is destroyed. All Daemon units within 5cm are destroyed on 6+."
         },
 
-
       {
-        "name": "Exalted Great Unclean One",
-        "type": "WE",
-        "speed": 15,
-        "armour": 4,
+        "name": "Herald of Khorne on Skull Cannon",
+        "type": "LV",
+        "speed": 25,
+        "armour": 3,
         "cc": 3,
         "ff": 4,
         "weapons": [
-          "Stream of Corruption",
-          "Filth Mace"
+          "Skull Cannon"
         ],
         "specialRules": [
-            "Damage Capacity 5",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Leader",
-            "Commander",
-            "Inspiring",
             "Daemonic Focus",
-            "Walker",
-            "Augment Summoning (+2D3)"
-        ],
-         "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
+            "Invulnerable Save (5+)"
+        ]
       },
-
+      {
+        "name": "Herald of Khorne on Juggernaut",
+        "type": "INF",
+        "speed": 25,
+        "armour": 3,
+        "cc": 3,
+        "weapons": [
+          "Sword of Blood",
+          "Juggernaut"
+        ],
+        "specialRules": [
+            "Mounted",
+            "Walker",
+            "Daemonic Focus",
+            "Invulnerable Save (5+)"
+        ]
+      },
       {
         "name": "Herald of Nurgle on Palanquin",
         "type": "INF",
@@ -158,7 +238,7 @@
         ],
         "specialRules": [
             "Daemonic Focus",
-            "Invulnerable Save"
+            "Invulnerable Save (5+)"
         ]
       },
       {
@@ -176,70 +256,72 @@
             "Daemonic Focus",
             "Mounted",
             "Jump Packs",
-            "Invulnerable Save"
+            "Invulnerable Save (5+)"
         ]
       },
-
-
       {
-        "name": "Exalted Bloodthirster",
-        "type": "WE",
-        "speed": 30,
+        "name": "Herald of Slaanesh",
+        "type": "INF",
+        "speed": 20,
         "armour": 4,
-        "cc": 3,
-        "ff": 5,
-        "weapons": [
-          "Axe of Khorne",
-          "Lash of Khorne"
-        ],
-        "specialRules": [
-            "Damage Capacity 4",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Leader",
-            "Commander",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Jump Pack",
-            "Augment Summoning (+2D3)"
-        ],
-         "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All daemons within 5cm are destroyed."
-      },
-
-      {
-        "name": "Herald of Khorne on Skull Cannon",
-        "type": "LV",
-        "speed": 25,
-        "armour": 3,
-        "cc": 3,
+        "cc": 2,
         "ff": 4,
         "weapons": [
-          "Skull Cannon"
+          "Barbed Claws",
+          "Cacophonic Blast"
         ],
         "specialRules": [
             "Daemonic Focus",
-            "Invulnerable Save"
+            "Invulnerable Save (5+)"
+            ]
+      },
+      {
+        "name": "Herald of Slaanesh on Seeker Chariot",
+        "type": "LV",
+        "speed": 40,
+        "armour": 3,
+        "cc": 2,
+        "ff": 4,
+        "weapons": [
+          "Barbed Claws",
+          "Cacophonic Blast"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Invulnerable Save (5+)"
+            ]
+      },
+      {
+        "name": "Herald of Tzeench",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 5,
+        "ff": 5,
+        "weapons": [
+          "Violet Fire of Tzeench"
+        ],
+        "specialRules": [
+            "Daemonic Focus",
+            "Invulnerable Save (5+)"
         ]
       },
       {
-        "name": "Herald of Khorne on Juggernaut",
-        "type": "INF",
-        "speed": 25,
+        "name": "Herald of Tzeench on Burning Chariot",
+        "type": "LV",
+        "speed": 30,
         "armour": 3,
-        "cc": 3,
+        "cc": 5,
+        "ff": 5,
         "weapons": [
-          "Sword of Blood",
-          "Juggernaut"
+          "Violet Fire of Tzeench"
         ],
         "specialRules": [
-            "Mounted",
-            "Walker",
+            "Jump Packs",
             "Daemonic Focus",
-            "Invulnerable Save"
+            "Invulnerable Save (5+)"
         ]
       },
-
       {
         "name": "Fleshhounds of Khorne",
         "type": "INF",
@@ -267,63 +349,6 @@
             "Mounted",
             "Walker",
             "Invulnerable Save (5+)"
-        ]
-      },
-      {
-        "name": "Exalted Lord of Change",
-        "type": "WE",
-        "speed": 30,
-        "armour": 4,
-        "cc": 5,
-        "ff": 3,
-        "weapons": [
-          "Withering Gaze",
-          "Bedlam Staff"
-        ],
-        "specialRules": [
-            "Damage Capacity 4",
-            "Reinforced Armour",
-            "Invulnerable Save",
-            "Leader",
-            "Commander",
-            "Inspiring",
-            "Daemonic Focus",
-            "Walker",
-            "Jump Pack",
-            "Augment Summoning (+2D3)"
-        ],
-         "notes": "Critical Hit Effect: The Exalted Greater Daemon is destroyed. All Daemon units within 5cm are destroyed."
-      },
-
-      {
-        "name": "Herald of Tzeench",
-        "type": "INF",
-        "speed": 15,
-        "armour": 4,
-        "cc": 5,
-        "ff": 5,
-        "weapons": [
-          "Violet Fire of Tzeench"
-        ],
-        "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save"
-        ]
-      },
-      {
-        "name": "Herald of Tzeench on Burning Chariot",
-        "type": "LV",
-        "speed": 30,
-        "armour": 3,
-        "cc": 5,
-        "ff": 5,
-        "weapons": [
-          "Violet Fire of Tzeench"
-        ],
-        "specialRules": [
-            "Jump Packs",
-            "Daemonic Focus",
-            "Invulnerable Save"
         ]
       },
       {
@@ -407,38 +432,7 @@
             "Invulnerable Save (5+)"
         ]
       },
-      {
-        "name": "Herald of Slaanesh",
-        "type": "INF",
-        "speed": 20,
-        "armour": 3,
-        "cc": 2,
-        "ff": 4,
-        "weapons": [
-          "Barbed Claws",
-          "Cacophonic Blast"
-        ],
-        "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save (5+)"
-            ]
-      },
-      {
-        "name": "Herald of Slaanesh on Seeker Chariot",
-        "type": "LV",
-        "speed": 40,
-        "armour": 3,
-        "cc": 2,
-        "ff": 4,
-        "weapons": [
-          "Barbed Claws",
-          "Cacophonic Blast"
-        ],
-        "specialRules": [
-            "Daemonic Focus",
-            "Invulnerable Save (5+)"
-            ]
-      },
+
       {
         "name": "Horrors of Tzeench",
         "type": "INF",

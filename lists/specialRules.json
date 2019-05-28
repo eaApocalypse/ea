@@ -672,11 +672,11 @@
           "title": "Reign of Chaos",
           "description": [
             "During the Strategy Phase the Daemon Incursion player rolls 2d6 and picks the highest. In addition add the dice together and consult the following table:",
-            "(2-3) *Chaotic Ebb* All Daemon units (friend and foe) loses their Invulnerable Save for the rest of the turn.",
-            "(4-5) *The Winds Recede* All players that can summon Daemons lose 1D3 Lesser Daemons Pool points. Daemon Incursion players lose an additional D3. If the pool is empty nothing happens.",
+            "(2) *Chaotic Ebb* All Daemon units (friend and foe) Invulnerable Save is reduced to 6+ for the rest of the turn.",
+            "(3-5) *The Winds Recede* All players that can summon Daemons lose 1D3 Lesser Daemons Pool points. Daemon Incursion players lose an additional D3. If the pool is empty nothing happens.",
             "(6-8) *Eye of the Storm* Nothing happens.",
-            "(9-10) *The Winds Wax* All players that can summon Daemons gains 1D3 Lesser Daemons Pool points. Daemon Incursion players gains an additional D3.",
-            "(11-12) *Chaotic Surge* All Daemon units (friend and foe) improves their Invulnerable Save to 5+ for the rest of the turn"
+            "(9-11) *The Winds Wax* All players that can summon Daemons gains 1D3 Lesser Daemons Pool points. Daemon Incursion players gains an additional D3.",
+            "(12) *Chaotic Surge* All Daemon units (friend and foe) Invulnerable Save is increased by 1 for the rest of the turn"
           ]
         },
 
