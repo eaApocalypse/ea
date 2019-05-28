@@ -12,13 +12,12 @@
 					]
   	},
 			"specialRules": [
-								{ "title":"Fleet of Foot"},
-								{ "title":"Hit and Run"},
-								{ "title":"Lance"},
-								{ "title":"Kabal Coterie BTS"},
-								{ "title":"Dark Eldar May not Garrison"},
 								{ "title":"Webway Portal"},
-								{ "title":"Shadowfields"}
+								{ "title":"Avatar"},
+								{ "title":"Farsight"},
+								{ "title":"Hit and Run"},
+								{ "title":"Holofields (x)"},
+								{ "title":"Lance"}
 		],
    "sections": [
       {"name": "INDIVIDUALS", "formations": [

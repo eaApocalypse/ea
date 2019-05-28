@@ -1,11 +1,28 @@
 {
    "id": "Ulthw&eacute; Craftworld",
-   "version": "0.01",
-   "by": "EA-Eternal War",
-   "sections": [
+   "version":"0.01",
+   "by":"EA-Eternal War",
+   "includeFiles": {
+     "primary": "./lists/EL.json",
+     "allies": [
+           "./lists/eldarNavy.json"
+           ],
+     "common": [
+           "./lists/weapons.json"
+         ]
+   },
+     "specialRules": [
+               { "title":"Webway Portal"},
+               { "title":"Avatar"},
+               { "title":"Farsight"},
+               { "title":"Hit and Run"},
+               { "title":"Holofields (x)"},
+               { "title":"Lance"}
+   ],
+  "sections": [
       {"name": "INDIVIDUALS", "formations": [
-            {"id": 507, "name": "Wraithgate", "pts": 50, "upgrades": []},
-            {"id": 508, "name": "Avatar", "pts": 0, "upgrades": []}
+             {"id": 507, "name": "Wraithgate", "pts": 50, "upgrades": [],                                  							"xref":["Wraithgate"]},
+  	         {"id": 508, "name": "Avatar", "pts": 0, "upgrades": [],                                  									"xref":["Avatar"]}
          ]},
       {"name": "WARHOSTS", "formations": [
             {"id": 510, "name": "Black Guardian Warhost", "pts": 175, "upgrades": [43,45,44]},

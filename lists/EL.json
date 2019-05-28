@@ -65,12 +65,6 @@
         ]
       },
       {
-        "title": "Seers of Ulthwé",
-        "description": [
-          "Ulthwe armies have a Strategy Rating of 4. However for all deployment purposes (such as choosing teleport order or picking spaceship arrival turn) Ulthwe armies count as having a Strategy Rating of 5. An Ulthwe army gets +1 to the strategy roll on the turn the Avatar arrives."
-        ]
-      },
-      {
         "title": "Independent Twins",
         "description": ["Allows a formation of Revenant Titans to operate as two independent War Engines for all purposes, including for determining the army BTS. If one Revenant Titan is destroyed, the other Revenant Twin receives a Blast Marker.",
                         "Additionally, Revenant Twins may use the Commander ability but only with its Revenant Twin and the Commander ability is increased to 25cm instead of the normal 5cm."

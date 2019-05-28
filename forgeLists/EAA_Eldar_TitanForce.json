@@ -1,10 +1,27 @@
 {
    "id": "Titan Force",
-   "version": "0.01",
-   "by": "EA-Eternal War",
-   "sections": [
+   "version":"0.01",
+   "by":"EA-Eternal War",
+   "includeFiles": {
+     "primary": "./lists/EL.json",
+     "allies": [
+           "./lists/eldarNavy.json"
+           ],
+     "common": [
+           "./lists/weapons.json"
+         ]
+   },
+     "specialRules": [
+               { "title":"Webway Portal"},
+               { "title":"Avatar"},
+               { "title":"Farsight"},
+               { "title":"Hit and Run"},
+               { "title":"Holofields (x)"},
+               { "title":"Lance"}
+   ],
+  "sections": [
       {"name": "Eldar Titan Special", "formations": [
-	    {"id": 500, "name": "Wraithgate", "pts": 50, "upgrades": []}
+        {"id": 507, "name": "Wraithgate", "pts": 50, "upgrades": [],                                  							"xref":["Wraithgate"]}
       ]},
       {"name": "Eldar Titans", "formations": [
       {"id": 511, "name": "Warlock Titan", "pts": 850, "units": "One Warlock Titan", "upgrades": [11]},
