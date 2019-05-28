@@ -25,7 +25,7 @@
         "Arch Heretic",
         "Fallen Commander",
         "Daemonic Icon",
-        "Daemon Prince of Chaos Undivided",
+        "Daemon Prince of Chaos",
         "Mutants",
         "Chaos Spawn",
         "Land Transporter"
@@ -54,16 +54,6 @@
 
 
           ]
-    },
-    {
-      "from": "CSM.json",
-      "units": [
-        "Alpha Legion Marines",
-        "Alpha Legion Rhino"
-    ],
-    "unitRules": [
-        "Stubborn"
-    ]
     },
     {
       "from": "daemons.json",
@@ -190,7 +180,7 @@
               "points": "50 points"
             },
             {
-              "description": "Replace the Fallen Commander with a Daemon Prince of Chaos Undivided",
+              "description": "Replace the Fallen Commander with a Daemon Prince of Chaos",
               "points": "100 points"
             }
           ]

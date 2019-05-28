@@ -27,7 +27,7 @@
 	"upgrades":[
 
 		{"id":10, "name":"Demagogue", 							"pts":0},
-		{"id":11, "name":"Aspiring Champion of Chaos Undivided", 	"pts":0},
+		{"id":11, "name":"Aspiring Champion of Chaos", 	"pts":0},
 
 		{"id":20, "name":"Cultists", "pts":0},
 		{"id":21, "name":"Mutants", "pts":0},

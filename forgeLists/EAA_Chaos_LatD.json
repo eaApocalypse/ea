@@ -38,9 +38,9 @@
    ],
 	"upgrades":[
 		{"id":10, "name":"Demagogue", 		"pts":0},
-		{"id":11, "name":"Aspiring Champion of Chaos Undivided", 		"pts":0},
+		{"id":11, "name":"Aspiring Champion of Chaos", 		"pts":0},
 		{"id":12, "name":"Demagogue with Arch Heretic", 		"pts":50},
-		{"id":13, "name":"Daemon Prince of Chaos Undivided", 		"pts":100},
+		{"id":13, "name":"Daemon Prince of Chaos", 		"pts":100},
 		{"id":14, "name":"Icon Bearer character", "pts":25},
 
 		{"id":15, "name":"Chaos Spawn", "pts":35},

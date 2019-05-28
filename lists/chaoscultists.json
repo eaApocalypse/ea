@@ -53,7 +53,7 @@
         ]
     },
     {
-      "name": "Aspiring Champion of Chaos Undivided",
+      "name": "Aspiring Champion of Chaos",
       "type": "INF",
       "speed": 15,
       "armour": 4,
@@ -103,7 +103,7 @@
           ]
       },
       {
-        "name": "Daemon Prince of Chaos Undivided",
+        "name": "Daemon Prince of Chaos",
         "type": "INF",
         "speed": 30,
         "armour": 4,

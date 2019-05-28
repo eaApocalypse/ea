@@ -45,7 +45,7 @@
 	"upgrades":[
 		{"id":10, "name":"Fallen Commander", 		"pts":0},
 		{"id":11, "name":"Fallen Commander with Arch Heretic", 		"pts":50},
-		{"id":12, "name":"Daemon Prince of Chaos Undivided", 		"pts":100},
+		{"id":12, "name":"Daemon Prince of Chaos", 		"pts":100},
 
 		{"id":15, "name":"Chaos Spawn", "pts":35},
 		{"id":16, "name":"Hellhound", "pts":25},
