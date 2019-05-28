@@ -2693,6 +2693,19 @@
       ]
     },
     {
+      "name": "Daemonic Barrage",
+        "modes": [
+          {
+            "firepower": "1BP",
+            "range": 45,
+            "specialRules": [
+              "IC",
+              "Ind"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Daemon Maw",
         "modes": [
           {
@@ -4791,6 +4804,17 @@
       ]
     },
     {
+      "name": "Ironfist Assault Pod",
+        "modes": [
+          {
+            "firepower": "",
+            "specialRules": [
+              "Transport: 10 Infantry units. Iron Warrior Terminators and Obliterators count as 2 each."
+          ]
+          }
+      ]
+    },
+    {
       "name": "Jackal Guns",
       "modes": [
         {
@@ -5402,6 +5426,17 @@
         }
     ]
     },
+    {
+      "name": "Mars Bolters",
+        "modes": [
+          {
+            "firepower": "AP5+/AA6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
         {
     "name": "Massive Melee Weapons",
       "modes": [
@@ -5630,6 +5665,19 @@
             "range": 60,
             "specialRules": [
               "IC"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Menrendgard Siege Cannon",
+        "modes": [
+          {
+            "firepower": "9BP",
+            "range": 60,
+            "specialRules": [
+              "D",
+              "Ind"
           ]
         }
       ]
@@ -6378,6 +6426,18 @@
             "specialRules": [
               "EA(+1)",
               "MW"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Siegelord Power Claw",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+3)",
+              "TK(D3)"
           ]
           }
       ]
@@ -7489,6 +7549,18 @@
       ]
     },
     {
+      "name": "Siege Hammer",
+      "modes": [
+        {
+          "firepower": "Assault Weapons",
+          "specialRules": [
+            "EA(+1)",
+            "MW"
+          ]
+        }
+      ]
+    },
+    {
       "name": "Siege Mortar",
           "modes": [
             {
@@ -8146,6 +8218,17 @@
               "EA(+1)",
               "TK(D2)",
               "Ignore Shields"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tail",
+        "modes": [
+          {
+            "firepower": "Assault Weapons",
+            "specialRules": [
+              "EA(+1)"
           ]
         }
       ]
@@ -9911,6 +9994,12 @@
   {
     "name": "WM",
     "description": "Weapon Mount"
+  },
+
+
+  {
+    "name": "Transport: 10 Infantry units. Iron Warrior Terminators and Obliterators count as 2 each.",
+    "description": "Transport"
   }
 
   ]

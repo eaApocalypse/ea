@@ -59,6 +59,36 @@
           ]
         },
         {
+          "name": "Chaos Basilisk",
+          "type": "AV",
+          "speed": 20,
+          "armour": 5,
+          "cc": 6,
+          "ff": 5,
+          "weapons": [
+            "Earthshaker Cannon", "Heavy Bolter"
+          ],
+          "specialRules": [
+
+          ]
+        },
+        {
+          "name": "Daemonic Artillery",
+          "type": "AV",
+          "speed": 20,
+          "armour": 4,
+          "cc": 4,
+          "ff": 6,
+          "weapons": [
+            "Daemonic Barrage"
+          ],
+          "specialRules": [
+            "Fearless",
+            "Invulnerable Save"
+
+          ]
+        },
+        {
           "name": "Hades Land Raider",
           "type": "AV",
           "speed": 25,
@@ -715,6 +745,26 @@
         "specialRules": [
             "Invulnerable Save"
         ]
+      },
+      {
+          "name": "Orinatus Menrendgard",
+          "type": "WE",
+          "speed": 10,
+          "armour": 5,
+          "cc": 6,
+          "ff": 4,
+          "weapons": [
+              "Menrendgard Siege Cannon",
+              "Lascannon|2",
+              "Mars Bolters|2"
+          ],
+          "specialRules": [
+            "Damage Capacity 4",
+            "Void Shields 4",
+            "Reinforced Armour",
+            "Fearless"
+        ],
+        "notes": "¤Critical Hit Effect¤: The Ordinatus is destroyed, and any units within 5cm suffers a hit on 4+"
       }
     ]
   }

@@ -94,7 +94,7 @@
         "type": "WE",
         "speed": 20,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 3,
         "weapons": ["3 Battle Titan Weapons"],
         "specialRules": [
@@ -111,7 +111,7 @@
         "type": "WE",
         "speed": 20,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 3,
         "weapons": [
           "Doom Burner",
@@ -133,7 +133,7 @@
           "type": "WE",
           "speed": 15,
           "armour": 4,
-          "cc": 4,
+          "cc": 3,
           "ff": 3,
           "weapons": ["4 Battle Titan Weapons"],
           "specialRules": [
@@ -154,7 +154,7 @@
         "type": "WE",
         "speed": 15,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 3,
         "weapons": ["Beam of Ecstasy|0-1|FwA", "Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Paired Sonic Devastators||FxF", "Musk Flail", "Lust Lash"],
         "specialRules": [
@@ -174,7 +174,7 @@
         "type": "WE",
         "speed": 15,
         "armour": 4,
-        "cc": 4,
+        "cc": 3,
         "ff": 3,
         "weapons": ["Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Heavy Plague Mortar||FxF", "Corruption Cannon||FxF", "Plague Flail"],
         "specialRules": [
@@ -194,7 +194,7 @@
           "type": "WE",
           "speed": 15,
           "armour": 4,
-          "cc": 4,
+          "cc": 3,
           "ff": 3,
           "weapons": ["Hellstrike Cannon|0-1|FwA", "Plasma Incinerator|0-1|FwA", "Cyclone Cannon|0-1|FwA", "Beam Blaster|0-1|FwA", "Havoc Barrage Missile|6|FxF", "Guntail", "Doomfist"],
           "specialRules": [
@@ -206,6 +206,30 @@
             "Thick Rear Armour",
             "Walker",
             "Must be armed with either a Hellstrike Cannon, Plasma Incinerator, Cyclone Cannon or Beam Blaster"
+          ],
+          "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
+      },
+      {
+          "name": "Siegelord Titan",
+          "type": "WE",
+          "speed": 15,
+          "armour": 4,
+          "cc": 3,
+          "ff": 3,
+          "weapons": ["Hellstrike Cannon||FwA",
+                      "Doom Burner||FwA",
+                      "Siegelord Power Claw",
+                      "Ironfist Assault Pod",
+                      "Tail"
+                    ],
+          "specialRules": [
+            "God Machine",
+            "Damage Capacity 8",
+            "Void Shields 6",
+            "Fearless",
+            "Reinforced Armour",
+            "Thick Rear Armour",
+            "Walker"
           ],
           "notes": "May step over units and pieces of terrain that that are lower lower than the unit’s knees and less than 2cm wide. Critical Hit Effect: The unit’s plasma reactor has been breached. Roll a D6 for each breach on the unit in the end phase of each turn. On a roll of 1 the unit is destroyed and all units within 5cm suffer a hit on a roll of 5+, and on a roll of 4–6 the breach has been repaired. Any breach not repaired causes one point of damage."
       },

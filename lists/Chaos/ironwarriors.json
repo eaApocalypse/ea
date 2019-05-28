@@ -1,0 +1,429 @@
+{
+  "fraction": "Chaos Space Marines",
+  "army": "Iron Warriors",
+  "version": "0.01",
+  "release": "Beta Release",
+  "strategy": "Iron Warrior armies have a Strategy Rating of 4.",
+  "Initiative": "All Iron Warrior formations have an Initiative Rating of 1+. Chaos Navy and Daemon Engines (See Daemon Engines) formations have an Initiative Rating of 2+.",
+  "specialRules":
+    [
+      "Dreadclaws"
+    ],
+  "usage": [
+    "The following army list allows you to field an army based on the Black Legion, using their preferred operational methods."
+  ],
+  "units": [
+    {
+      "from": "CSM.json",
+      "units": [
+        "Warsmith",
+        "Iron Warriors Lord",
+        "Daemon Prince of Chaos (Undivided)",
+        "Chaos Space Marines",
+        "Iron Warrior Assault Marines",
+        "Havocs",
+        "Chosen",
+        "Raptors",
+        "Iron Warrior Terminators",
+        "Obliterators",
+        "Chaos Rhino",
+        "Chaos Land Raider",
+        "Chaos Predator",
+        "Chaos Vindicator",
+        "Chaos Dreadnought",
+        "Chaos Siege Dreadnought",
+        "Chaos Stalker"
+    ],
+    "unitRules": [
+
+    ]
+    },
+    {
+        "from": "darkmechanicus.json",
+        "units": [
+            "Chaos Basilisk",
+            "Daemonic Artillery",
+            "Defiler",
+            "Decimator",
+            "Orinatus Menrendgard"
+
+        ],
+        "unitRules": [
+          "Daemon Engine"
+        ]
+    },
+    {
+      "from": "traitortitanlegions.json",
+      "units": [
+        "Ravager Titan",
+        "Siegelord Titan"
+      ],
+      "unitRules": [
+        "Void Shields",
+        "God Machine"
+    ]
+  },
+  {
+    "from": "chaosnavy.json",
+    "units": [
+      "Hell Blade Interceptor",
+      "Hell Talon Fighter-Bomber",
+      "Harbringer Bomber",
+      "Devastation Class Cruiser",
+      "Despoiler Class Battleship"
+  ],
+  "unitRules": [
+      "God Machine Killer (GMK)"
+
+  ]
+  }
+  ],
+  "sections": [
+    {
+      "name": "Iron Warriors Core Formations",
+      "formations": [
+        {
+          "name": "Iron Warriors Company",
+          "units": "Six Chaos Space Marines, two Havkocks and one Iron Warriors Lord",
+          "extraUnits": [
+            "Supreme Commander",
+            "Dreadnoughts",
+            "Siege Dreadnoughts",
+            "Obliterators",
+            "Dreadclaws",
+            "Transport",
+            "Vindicators",
+            "Havocs",
+            "Iron Warrior Assault Marines",
+            "Stalker"
+
+          ],
+          "points": 300
+        },
+        {
+          "name": "Defiler Assault Pack",
+          "units": "Six Defilers",
+          "extraUnits": [
+            "Defilers",
+            "Dreadnoughts",
+            "Siege Dreadnoughts"
+          ],
+          "points": 425
+        },
+        {
+          "name": "Grand Battery",
+          "units": "Nine Chaos Basilisks",
+          "extraUnits": [
+            "Emplacements",
+            "Stalker"
+
+          ],
+          "points": 650
+        },
+        {
+          "name": "Armoured Assault Company",
+          "units": "Six Chaos Vindicators",
+          "extraUnits": [
+            "Chaos Vindicators",
+            "Stalker"
+
+          ],
+          "points": 250
+        }
+      ]
+    },
+    {
+      "name": "Siege Support Formations",
+      "description": "Two Seige Support formation may be fielded per Core formation",
+      "formations": [
+        {
+          "name": "Super Heavy Company",
+          "units": "Up to three Decimators",
+          "extraUnits": [
+
+          ],
+          "points": "225 each"
+        },
+        {
+          "name": "Artillery Battery",
+          "units": "Four Chaos Basilisks",
+          "extraUnits": [
+            "Emplacements",
+            "Stalker"
+          ],
+          "points": 325
+        },
+        {
+          "name": "Armoured Company",
+          "units": "Four to Eight Preditors or Land Raiders in any combination",
+          "extraUnits": [
+            "Vindicators",
+            "Stalker"
+          ],
+          "points": "Preditors 50 points each, Land Raiders 75 points each."
+        },
+        {
+          "name": "Daemonic Artillery Battery",
+          "units": "Three Daemonic Artillery units",
+          "extraUnits": [
+            "Emplacements",
+            "Stalker"
+          ],
+          "points": 325
+        }
+    ]
+  },
+  {
+    "name": "Siege Assault Formations",
+    "description": "One Siege Assault formation may be fielded per Core formation",
+    "formations": [
+      {
+        "name": "0-1 Obliterator Cult",
+        "units": "Four Oblitorators",
+        "extraUnits": [
+          "Dreadclaws"
+        ],
+        "points": 350
+    },
+    {
+      "name": "Raptor Cult",
+      "units": "Four Raptors, one Iron Warriors Lord",
+      "extraUnits": [
+          "Raptors"
+      ],
+      "points": 175
+  },
+  {
+    "name": "Havok Company",
+    "units": "Four Havoks, two Land Raiders and one Iron Warrior Lord",
+    "extraUnits": [
+      "Supreme Commander",
+      "Havocs",
+      "Dreadnoughts",
+      "Defilers",
+      "Transport",
+      "Stalker"
+    ],
+    "points": 325
+    },
+    {
+      "name": "Siege Hammer Company",
+      "units": "Six Iron Warrior Assault Marines and one Iron Warriors Lord",
+      "extraUnits": [
+      "Supreme Commander",
+      "Dreadnoughts",
+      "Siege Dreadnoughts",
+      "Transport",
+      "Iron Warrior Assault Marines",
+      "Stalker"
+      ],
+      "points": 225
+    },
+    {
+      "name": "Chosen",
+      "units": "Four Chaos Space Marine Chosen",
+      "extraUnits": [
+      "Dreadclaws",
+      "Transport (Rhinos Only)",
+      "Dreadnaughts"
+
+      ],
+      "points": 225
+    },
+    {
+      "name": "Terminators",
+      "units": "Four Iron Warrior Terminators and one Iron Warriors Lord",
+      "extraUnits": [
+      "Supreme Commander",
+      "Transport (Land Raiders)",
+      "Obliterators",
+      "Terminators"
+      ],
+      "points": 275
+    },
+    {
+      "name": "Dreadnaught Assault Pack",
+      "units": "Five Chaos Dreadnaughts",
+      "extraUnits": [
+      "Supreme Commander (Warsmith Only)",
+      "Siege Dreadnoughts",
+      "Dreadclaws"
+      ],
+      "points": 225
+    }
+    ]
+  },
+        {
+      "name": "Dark Mechanicus Daemon Engines, Traitor Titans and Chaos Navy",
+      "description": "Up to a third of the points available may be spent on these formations",
+      "formations": [
+          {
+            "name": "Ordinatus Menrendgard",
+            "units": "One Ordinatus Menrendgard",
+          "extraUnits": [
+
+          ],
+          "points": 625
+          },
+          {
+            "name": "Ravager Titan",
+            "units": "One Chaos Ravager Titan",
+            "points": 650
+          },
+          {
+            "name": "Siegelord Titan",
+            "units": "One Banelord Titan",
+            "points": 850
+          },
+        {
+          "name": "Hell Blade Squadron",
+          "units": "Three Hell Blade Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Hell Talon Squadron",
+          "units": "Two Hell Talon Fighter-Bombers",
+          "points": 225
+        },
+        {
+          "name": "0-1 Harbringer",
+          "units": "One Harbringer Bomber",
+          "points": 325
+        },
+        {
+          "name": "0-1 Chaos Cruiser",
+          "units": "One Devastation Class Cruiser",
+          "extraUnits": [
+            "Battleship"
+          ],
+          "points": 150
+        }
+      ]
+  }
+  ],
+  "upgrades": {
+    "title": "Iron Warrior Upgrades",
+    "description": "Each upgrade may be taken once per formation",
+    "items": [
+      {
+        "name": "Battleship",
+        "description": "Replace the Devastation Class Cruiser with a Despoiler Class Battleship",
+        "points": "50 points"
+      },
+      {
+        "name": "0-1 Supreme Commander",
+        "options": [
+          {
+            "description": "Choose one of the following:"
+          },
+          {
+            "description": "Replace the Iron Warrior Lord with a Warsmith",
+            "points": "50 points"
+          },
+          {
+            "description": "Add a Warsmith to a Dreadnaught Assault Pack",
+            "points": "50 points"
+          },
+          {
+            "description": "Replace the Iron Warrior Lord and its unit with a Daemon Prince",
+            "points": "75 points"
+          }
+        ]
+      },
+      {
+        "name": "Transport",
+        "options": [
+          {
+            "description": "Add up to four Chaos Rhinos",
+            "points": "10 points each"
+          },
+          {
+            "description": "Add up to four Chaos Land Raiders",
+            "points": "50 points each"
+        },
+        {
+          "description": "(No more than needed to transport the formation)",
+          "points": ""
+      }
+        ]
+      },
+      {
+        "name": "Dreadnoughts",
+        "options": [
+          {
+            "description": "Add one Chaos Dreadnoughts to the formation",
+            "points": "50 points"
+          },
+          {
+            "description": "Add two Chaos Dreadnoughts to the formation",
+            "points": "75 points"
+          },
+          {
+            "description": "Add three Chaos Dreadnoughts to the formation",
+            "points": "125 points"
+          }
+        ]
+      },
+      {
+        "name": "Siege Dreadnoughts",
+        "description": "Add one Chaos Siege Dreadnought to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Defilers",
+        "description": "Add up to three Defilers to the formation",
+        "points": "75 points each"
+      },
+      {
+        "name": "Dreadclaws",
+        "description": "Transport a formation containing only infantry units and Dreadnoughts in Dreadclaws (formation must be deployed on a space ship)",
+        "points": "5 points per unit"
+      },
+      {
+        "name": "Havocs",
+        "description": "Add four Havocs to the formation",
+        "points": "150 points"
+      },
+      {
+        "name": "Vindicators",
+        "description": "Add up to three Chaos Vindicators",
+        "points": "35 points each"
+      },
+      {
+        "name": "Emplacements",
+        "description": "Add enough Gun Emplacements to the formation for all Vehicles in the formation",
+        "points": "25 points"
+      },
+      {
+        "name": "Iron Warrior Assault Marines",
+        "description": "Add four Iron Warrior Assault Marines to the formation",
+        "points": "125 points"
+      },
+      {
+        "name": "Iron Warrior Terminators",
+        "description": "Add up to two Iron Warrior Terminators to the formation",
+        "points": "60 points each"
+      },
+      {
+        "name": "Raptors",
+        "description": "Add up to four Raptors to the formation",
+        "points": "35 points each"
+      },
+      {
+        "name": "Chaos Preditors",
+        "description": "Add up to four Chaos Preditors",
+        "points": "50 points each"
+      },
+      {
+        "name": "Stalker",
+        "description": "Add one Chaos Stalker to the formation",
+        "points": "50 points"
+      },
+      {
+        "name": "Obliterators",
+        "description": "Add up to three Obliterators",
+        "points": "75 points each"
+      }
+    ]
+  }
+}

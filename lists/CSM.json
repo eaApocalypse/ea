@@ -30,6 +30,19 @@
           ]
         },
         {
+          "name": "Warsmith",
+          "type": "CH",
+          "weapons": [
+            "Power Weapon",
+            "Servo Arm"
+          ],
+          "specialRules": [
+            "Supreme Commander",
+            "Invulnerable Save",
+            "Equiped with either a Power Weapon or Servo Arm."
+          ]
+        },
+        {
           "name": "Blood Lord",
           "type": "CH",
           "weapons": [
@@ -56,6 +69,21 @@
             "Invulnerable Save"
           ]
         },
+        {
+          "name": "Iron Warriors Lord",
+          "type": "CH",
+          "weapons": [
+            "Power Weapon",
+            "Servo Arm"
+          ],
+          "specialRules": [
+            "Commander",
+            "Leader",
+            "Invulnerable Save",
+            "Equiped with either a Power Weapon or Servo Arm."
+
+          ]
+        },
       {
         "name": "Chaos Lord",
         "type": "CH",
@@ -63,20 +91,6 @@
           "Power Weapon"
         ],
         "specialRules": [
-          "Commander",
-          "Leader",
-          "Invulnerable Save"
-
-        ]
-      },
-      {
-        "name": "Alpha Legion Lord",
-        "type": "CH",
-        "weapons": [
-          "Power Weapon"
-        ],
-        "specialRules": [
-          "'I'm Alpharius!'",
           "Commander",
           "Leader",
           "Invulnerable Save"
@@ -124,19 +138,6 @@
 
         ],
         "notes": "May not be added to a formation containing Khorne Berzerkers"
-      },
-      {
-        "name": "Alpha Legion Sorcerer",
-        "type": "CH",
-        "weapons": [
-          "Warp Bolt"
-        ],
-        "specialRules": [
-            "Commander",
-            "Leader",
-            "Invulnerable Save"
-
-        ]
       },
       {
         "name": "Champion of Chaos",
@@ -271,6 +272,16 @@
         ]
       },
       {
+        "name": "Chaos Assault Marines",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 4,
+        "weapons": [
+        ]
+      },
+      {
         "name": "Havocs",
         "type": "INF",
         "speed": 15,
@@ -336,6 +347,24 @@
         "ff": 3,
         "weapons": [
           "Reaper Autocannon|2|",
+          "Power Weapons"
+      ],
+      "specialRules": [
+          "Reinforced Armour",
+          "Teleport",
+          "Thick Rear Armour"
+      ]
+      },
+      {
+        "name": "Iron Warrior Terminators",
+        "type": "INF",
+        "speed": 15,
+        "armour": 4,
+        "cc": 3,
+        "ff": 3,
+        "weapons": [
+          "Reaper Autocannon",
+          "Heavy Flamer",
           "Power Weapons"
       ],
       "specialRules": [
@@ -783,6 +812,21 @@
         "weapons": [
           "Twin Autocannon",
           "Power Fist"
+        ],
+        "specialRules": [
+          "Fearless",
+          "Walker"
+        ]
+      },
+      {
+        "name": "Chaos Siege Dreadnought",
+        "type": "AV",
+        "speed": 15,
+        "armour": 3,
+        "cc": 4,
+        "weapons": [
+          "Siege Hammer",
+          "Siege Drill"
         ],
         "specialRules": [
           "Fearless",
