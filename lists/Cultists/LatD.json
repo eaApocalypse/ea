@@ -83,8 +83,8 @@
     {
       "from": "chaosnavy.json",
       "units": [
-        "Heldrake Interceptor",
-        "Baledrake Fighter-Bomber",
+        "Hell Blade Interceptor",
+        "Hell Talon Fighter-Bomber",
         "Devastation Class Cruiser"
     ],
     "unitRules": [
@@ -234,16 +234,16 @@
       "name": "Chaos Navy",
       "description": "Up to a fourth of the points available may be spent on these formations",
       "formations": [
-          {
-            "name": "Heldrake Wing",
-            "units": "Two Heldrake Interceptors",
-            "points": 200
-          },
-          {
-            "name": "Baledrake Wing",
-            "units": "Two Baledrake Fighter-Bombers",
-            "points": 200
-          },
+        {
+          "name": "Hell Blade Squadron",
+          "units": "Three Hell Blade Interceptors",
+          "points": 200
+        },
+        {
+          "name": "Hell Talon Squadron",
+          "units": "Two Hell Talon Fighter-Bombers",
+          "points": 225
+        },
 
           {
             "name": "0-1 Chaos Cruiser",
