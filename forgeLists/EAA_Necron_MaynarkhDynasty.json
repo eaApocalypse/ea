@@ -18,7 +18,7 @@
          "formations": [
             {"id": 505, "name": "Armored Phalanx", "pts": 225, "units": "5 Obelisks"},
             {"id": 502, "name": "Eques Maniple", "pts": 350, "upgrades": [103,104,107]},
-            {"id": 503, "name": "Portal Maniple", "pts": 0, "upgrades": [105,106]},
+            {"id": 503, "name": "Portal Maniple", "pts": 25, "upgrades": [105,106]},
             {"id": 506, "name": "Pylon", "pts": 200, "upgrades": []},
             {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": [100,103,101,104,107]}
          ]
@@ -74,8 +74,8 @@
       {"max": 3, "from": [103], "appliesTo": [701,501,502]},
       {"max": 1, "from": [104], "appliesTo": [501,502]},
       {"max": 6, "min": 6, "from": [109,110], "appliesTo": [502]},
-      {"max": 3, "min": 2, "from": [105], "appliesTo": [503]},
-      {"max": 3, "min": 2, "from": [106], "appliesTo": [503]},
+      {"max": 2, "min": 0, "from": [105], "appliesTo": [503]},
+      {"max": 4, "min": 3, "from": [106], "appliesTo": [503]},
       {"max": 3, "from": [105], "appliesTo": [504]},
       {"min": 1, "max": 1, "from": [20,21], "appliesTo": [803]}
    ]

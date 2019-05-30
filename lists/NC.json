@@ -190,7 +190,7 @@
           "name": "Monolith",
           "type": "AV",
           "speed": 15,
-          "armour": 3,
+          "armour": 4,
           "cc": 6,
           "ff": 5,
           "weapons": [
@@ -211,7 +211,7 @@
           "name": "Obelisk",
           "type": "AV",
           "speed": 30,
-          "armour": 3,
+          "armour": 4,
           "cc": 6,
           "ff": 5,
           "weapons": [
@@ -348,7 +348,7 @@
           "name": "Abattoir",
           "type": "WE",
           "speed": 20,
-          "armour": 3,
+          "armour": 4,
           "cc": 2,
           "ff": 4,
           "weapons": [
@@ -370,7 +370,7 @@
           "name": "Aeonic Orb",
           "type": "WE",
           "speed": 20,
-          "armour": 3,
+          "armour": 4,
           "ff": 3,
           "weapons": [
             "Solar Flare"
@@ -397,7 +397,6 @@
           ],
           "specialRules": [
             "Damage Capacity 2",
-            "Reinforced Armour",
             "Fearless",
             "Living Metal",
             "Teleport",
@@ -409,7 +408,7 @@
           "name": "Warbarque",
           "type": "WE",
           "speed": 20,
-          "armour": 3,
+          "armour": 4,
           "cc": 6,
           "ff": 4,
           "weapons": [
@@ -435,7 +434,7 @@
           "name": "C’tan Shard",
           "type": "H-AV",
           "speed": 20,
-          "armour": 3,
+          "armour": 4,
           "cc": 4,
           "ff": 4,
           "weapons": [
@@ -454,7 +453,7 @@
           "name": "Seraptek Heavy Construct",
           "type": "H-AV",
           "speed": 20,
-          "armour": 3,
+          "armour": 5,
           "cc": 4,
           "ff": 4,
           "weapons": [

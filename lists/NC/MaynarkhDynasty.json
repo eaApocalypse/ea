@@ -13,7 +13,6 @@
             "Necron",
             "Portal",
             "Living Metal",
-
             "Stable",
             "Implacable Advance",
             "Phase Out"
@@ -114,12 +113,12 @@
         },
         {
           "name": "Portal Maniple",
-          "units": "Two Monoliths and two Obelisks",
+          "units": "Three Monoliths",
           "extraUnits": [
-            "Add one Obelisk for 50 points",
+            "Add up to two Obelisk for 50 points each",
             "Add up to one Monolith for 75 points"
           ],
-          "points": 250
+          "points": 275
         },
         {
           "name": "Venator Maniple",

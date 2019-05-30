@@ -143,13 +143,13 @@
           "points": 300
         },
         {
-          "name": "Monolith Maniple",
-          "units": "Two Monoliths and two Obelisks",
+          "name": "Portal Maniple",
+          "units": "Three Monoliths",
           "extraUnits": [
-            "Add one Obelisk for 50 points",
+            "Add up to two Obelisk for 50 points each",
             "Add up to one Monolith for 75 points"
           ],
-          "points": 225
+          "points": 275
         },
         {
           "name": "Stalker Maniple",
