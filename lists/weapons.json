@@ -7711,6 +7711,7 @@
           {
             "firepower": "Small Arms",
             "specialRules": [
+              "EA(+1)"
               "MW"
 
           ]
