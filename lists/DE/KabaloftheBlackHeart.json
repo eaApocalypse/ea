@@ -123,13 +123,6 @@
           "points": 225
         },
         {
-          "name": "Heavy Barge",
-          "units": "One Vessel of Pain",
-          "upgrades": [
-          ],
-          "points": 250
-        },
-        {
           "name": "Mandrakes",
           "units": "Six Mandrake units",
           "upgrades": [
@@ -207,6 +200,13 @@
 
           ],
           "points": 200
+        },
+        {
+          "name": "Heavy Barge",
+          "units": "One Vessel of Pain",
+          "upgrades": [
+          ],
+          "points": 250
         },
         {
           "name": "Tormentor",
