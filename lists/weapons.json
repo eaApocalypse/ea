@@ -300,6 +300,17 @@
         ]
       },
       {
+        "name": "Orbital Bombardment 10BP",
+        "modes": [
+          {
+            "firepower": "10BP",
+            "specialRules": [
+              "MW"
+          ]
+          }
+        ]
+      },
+      {
         "name": "Pin Point",
         "modes": [
           {
@@ -2837,11 +2848,22 @@
       ]
     },
     {
+      "name": "Deathwind",
+      "modes": [
+        {
+          "firepower": "AP5+/AT5+",
+          "range": 15,
+          "specialRules": [
+
+          ]
+        }
+      ]
+    },
+    {
       "name": "Decimator Cannon",
       "modes": [
         {
-          "firepower": "3BP",
-          "range": 45,
+
           "specialRules": [
               "IC"
           ]
@@ -7678,6 +7700,18 @@
             "range": 30,
             "specialRules": [
               "IC"
+
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Smite",
+        "modes": [
+          {
+            "firepower": "Small Arms",
+            "specialRules": [
+              "MW"
 
           ]
           }
