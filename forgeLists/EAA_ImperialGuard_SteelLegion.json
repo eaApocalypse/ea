@@ -86,8 +86,8 @@
 
 		{"id":53, "name":"3 Griffons",					"pts":50},
 
-		{"id":55, "name":"2 Ogryns, 2 Chimeras",		"pts":100},
-		{"id":56, "name":"2 Ogryns",					"pts":50},
+		{"id":55, "name":"2 Ogryns, 2 Chimeras",		"pts":125},
+		{"id":56, "name":"2 Ogryns",					"pts":75},
 
 		{"id":54, "name":"1 Hellhound",					"pts":25},
 		{"id":57, "name":"2 Hellhounds",				"pts":50},
