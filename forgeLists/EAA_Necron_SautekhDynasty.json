@@ -18,7 +18,7 @@
             {"id": 706, "name": "Blade Maniple", "units":"6 Tomb Blade units", "pts": 200},
             {"id": 700, "name": "Iudicium Maniple", "pts": 250, "upgrades": [3]},
             {"id": 701, "name": "Eques Maniple", "pts": 300, "upgrades": [1,2]},
-            {"id": 702, "name": "Portal Maniple", "pts": 25, "upgrades": [75,59]},
+            {"id": 702, "name": "Portal Maniple", "pts": 50, "upgrades": [75,59]},
             {"id": 704, "name": "Letum Maniple", "units":"4 Deathmark units", "pts": 200, "upgrades": [1,5]},
             {"id": 705, "name": "Triarch Maniple", "pts": 275, "upgrades": [1,2,5,23,99]},
             {"id": 708, "name": "Stalker Maniple", "units":"4 Triarch Stalkers", "pts": 200, "upgrades": [88]},
