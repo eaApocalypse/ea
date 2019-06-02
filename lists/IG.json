@@ -2,10 +2,71 @@
   {
     "name": "Astra Militarum Forces",
     "specialRules": [
+
         {
           "title": "Heavy Armoured Vehicle (H-AV)",
           "description": [
             "Units with the unit type H-AV can take 2 damage before they are killed, and counts as 2 units for Outnumber, Blast Markers, number of attacks in an assault, hit allocation and the maximum number of units in base contact. In addition it is possible to Critically Hit H-AVs. If a Critical Hit is rolled, the unit is destroyed with no further effects. H-AVs are treated like normal Armoured Vehicles in all other respects."
+          ]
+        },
+        {
+          "title": "Voice of Command",
+          "description": [
+            "Once per turn one formation in the Astra Militarum army may add +1 to activate or rally, Delcare before rolling the die. This ability may only be used if the supreme commander is present on the board."
+                ]
+        },
+        {
+          "title": "Lord Commissar",
+          "description": [
+            "All infantry units in a formation joined by a Lord Commissar gain Fearless. If the unit with the Lord Commissar is killed the formations loses Fearless and receives 1D3 Blast Markers."
+            ]
+        },
+        {
+          "title": "Commissars",
+          "description": [
+            "An Astra Militarum army may include one Commissar character per 500 points, or part there of, in the army. The Commissars do not cost any points.",
+            "Commissar units may be added to the army at the start of the battle before either side sets up. If the army includes a Supreme Commander than the first Commissar must be attached to the Supreme Commander’s formation. Any further Commissars may be attached to any other formations.",
+            "You may not include more than one Commissar per formation. You may not add a Commissar to an Imperial Ally formation. If you have more Commissars than formations any excess is lost."
+          ]
+        },
+
+        {
+          "title": "Commissars and Catachan Heroism",
+          "description": [
+            "Catachan regiments generally lack Commissars. Even these tough and uncompromising officers are unable to assert their authority over the Catachan soldiers; in fact, they are resented by troops, and it is not uncommon for Commissars assigned to Catachan regiments to be 'fragged' by their own troops, or for them to simply go missing. Catachan Fighters aren't cowards or idlers, they are born killers, tough, ferocious and skilled - they just have no respect for commissars.",
+            "Catachan Jungle Fighters do no add commissars like your usual Astra Militarum Armies. Instead for Commanders/Supreme Commanders are inspiring and fearless."
+          ]
+        },
+        {
+          "title": "Cyclops Demolition Vehicles",
+          "description": [
+            "When a formation of Cyclops Demolition Vehicles engages an a formation, they are immediately removed from play after the engagement has been resolved.",
+            "Additionally Cyclops Demolition Vehicle Formations cannot be broken."
+            ]
+        },
+        {
+          "title": "Grav Chutes",
+          "description": [
+            "A formation completely made up of units with Grav Chutes may be set up and enter play via Self Planetfall."
+            ]
+        },
+        {
+          "title": "Elysian Hit and Run",
+          "description": [
+            "Elysian formations that select an advance or double action may choose to shoot either before or after each move, but may still only shoot once. If the formation chooses to double the -1 to hit penalty applies even if the shot is taken before moving. Elysian formations that win an assault may consolidate up to their speed value rather than the normal 5cms."
+          ]
+        },
+
+        {
+          "title": "Fortified Positions",
+          "description": [
+            "Fortified positions must be set up after objectives have been placed but before spacecraft and garrisons are set up, with the exception of Gun Emplacements that are listed as part of a formation’s 'units'.  While these Gun Emplacements are not actually units, they are set up at the same time and with coherency of the formation they are part of.",
+            "Fortified positions may be set up anywhere a vehicle may deploy on the player’s half of the table. They may not be transported. Each group of fortified positions (whether part of a formation or not) must be set up so every piece is within 5cm of another piece from the same group, and so all pieces from the same group form a “chain” without any gaps of more than 5cm.",
+            "Once set up, fortified positions may be used by any unit (including enemy units).",
+            "Trench: Provides a cover save of 4+ to INF. May contain 1 unit per 4 cm of lenght. Counts as Dangerous Terrain for AV.",
+            "Razorwire: Counts as Dangerous Terrain for INF",
+            "Gun Emplacement: Provides a Cover Save of 4+ to a single unit of INF or a 5+ Cover Save to a single unit of AV (not H-AV)",
+            "Bunker: Provides a cover save of 3+ and Thick Rear Armour to up to three units of INF. Counts as Dangerous Terrain for AV and WE."
           ]
         }
     ],
