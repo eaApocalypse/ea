@@ -211,13 +211,6 @@
           "points": 225
         },
         {
-          "name": "Forge Knight Maniple",
-          "units": "Five Forge Knights",
-          "upgrades": [
-          ],
-          "points": 250
-        },
-        {
           "name": "Secutarii Detachment (1 per Corvus Assault Pod or Emperor Titan.)",
           "options": [
             {
