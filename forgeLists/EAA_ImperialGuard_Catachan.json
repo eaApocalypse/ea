@@ -1,45 +1,59 @@
 {
-	"id":"Catachan Jungle Fighters",
+	"id":"Astra Militarum - Catachan Jungle Fighters",
 	"version":"0.01",
 	"by":"EA-Eternal War",
+
+	"includeFiles": {
+		"primary": "./lists/IG.json",
+		"allies": [
+					"./lists/IG.json",
+					"./lists/ImperialAllies.json",
+					"./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+					]
+	},
+    "specialRules": [
+			{ "title": "Voice of Command"},
+			{ "title": "Commissars and Catachan Heroism"}
+	],
 	"sections":[
 		{"name":"DEATHWORLD VETERANS COMPANIES", "formations":[
-			{"id":502, "name":"Deathworld Regimental HQ", "pts":250, "upgrades":[10,11,12,14], "units":"1 Catachan Supreme Commander"},
-			{"id":500, "name":"Deathworld Air Cavalry Company", "pts":200, "upgrades":[10,11,12,14], "units":"1 Catachan Commander"}
+			{"id":502, "name":"Deathworld Regimental HQ", "pts":250, "upgrades":[10,11,12,14], "units":"1 Catachan Supreme Commander",    "xref":["Catachan Supreme Commander"]},
+			{"id":500, "name":"Deathworld Air Cavalry Company", "pts":200, "upgrades":[10,11,12,14], "units":"1 Catachan Commander",      "xref":["Catachan Commander"]}
 		]},
 		{"name":"DEATHWORLD VETERANS SUPPORT FORMATIONS", "formations":[
-			{"id":510, "name":"Death World Veterans", "pts":200, "upgrades":[10,11,14,15], "units":"1 Catachan Commander"},
-			{"id":511, "name":"Deathworld Sentinel Squadron", "pts":100, "upgrades":[], "units":"4 Deathworld Sentinels"},
-			{"id":513, "name":"Catachan Devils", "pts":250, "upgrades":[10,11], "units":"6 Catachan Devil units"},
-			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[], "units":"6 Hellhounds"},
-			{"id":517, "name":"Vulture Squadron", "pts":225, "upgrades":[], "units":"3 Vultures"},
-			{"id":518, "name":"Missile Team", "pts":200, "upgrades":[], "units":"4 Catachan Missile Teams and 2 Vendettas"},
-			{"id":519, "name":"Sniper Team", "pts":100, "upgrades":[10,11], "units":"4 Catachan Snipers"}
+			{"id":510, "name":"Death World Veterans", "pts":200, "upgrades":[10,11,14,15], "units":"1 Catachan Commander",             		"xref":["Catachan Commander"]},
+			{"id":511, "name":"Deathworld Sentinel Squadron", "pts":100, "upgrades":[], "units":"4 Deathworld Sentinels",             		"xref":["Death World Sentinel"]},
+			{"id":513, "name":"Catachan Devils", "pts":250, "upgrades":[10,11], "units":"6 Catachan Devil units",             						"xref":["Death World Devils"]},
+			{"id":514, "name":"Hellhound Platoon", "pts":250, "upgrades":[], "units":"6 Hellhounds",             													"xref":["Hellhound"]},
+			{"id":517, "name":"Vulture Squadron", "pts":225, "upgrades":[], "units":"3 Vultures",             														"xref":["Vulture"]},
+			{"id":518, "name":"Missile Team", "pts":200, "upgrades":[], "units":"4 Catachan Missile Teams and 2 Vendettas",            	  "xref":["Catachan Missile Team", "Vendetta"]},
+			{"id":519, "name":"Sniper Team", "pts":100, "upgrades":[10,11], "units":"4 Catachan Snipers",             										"xref":["Catachan Snipers"]}
 		]},
 		{"name":"NAVAL SUPPORT", "formations":[
-			{"id":521, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":522, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
-			{"id":523, "name":"Marauder Collossus Bombers", "pts":275, "upgrades":[], "units":"2 Marauder Collossus Bombers"}
+			{"id":521, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters",             						"xref":["Thunderbolt Fighter"]},
+			{"id":522, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers",             										"xref":["Marauder Bomber"]},
+			{"id":523, "name":"Marauder Collossus Bombers", "pts":275, "upgrades":[], "units":"2 Marauder Collossus Bombers",             "xref":["Marauder Colossus Bomber"]}
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Valkyries", "pts":25},
-		{"id":11, "name":"Vendettas", "pts":50},
-		{"id":12, "name":"2 Catachan Missile Teams", "pts":50},
-		{"id":13, "name":"3 Catachan Mortar Squad", "pts":50},
-		{"id":14, "name":"Add 2 Ogryn and 2 Valkyries", "pts":75},
-		{"id":15, "name":"Add 2 Ogryn and 2 Vendettas", "pts":125},
-		{"id":16, "name":"2 Catachan Jungle Fighters", "pts":0},
-		{"id":17, "name":"2 Death World Veterans", "pts":0},
-		{"id":18, "name":"1 Catachan Ogryn", "pts":0},
-
-
-		{"id":21, "name":"7 Catachan Jungle Fighters", "pts":0},
-		{"id":22, "name":"5 Catachan Jungle Fighters, 1 Ogryn", "pts":0},
-		{"id":23, "name":"3 Catachan Jungle Fighters, 2 Ogryns", "pts":0},
-		{"id":24, "name":"5 Death World Veterans", "pts":0},
-		{"id":25, "name":"3 Death World Veterans, 1 Ogryn", "pts":0},
-		{"id":26, "name":"1 Death World Veteran, 2 Ogryns", "pts":0}
+		{"id":10, "name":"Valkyries", "pts":25,             																														"xref":["Valkyrie"]},
+		{"id":11, "name":"Vendettas", "pts":50,             																														"xref":["Vendetta"]},
+		{"id":12, "name":"2 Catachan Missile Teams", "pts":50,             																							"xref":["Catachan Missile Team"]},
+		{"id":13, "name":"3 Catachan Mortar Squad", "pts":50,             																							"xref":["Catachan Mortar Squad"]},
+		{"id":14, "name":"Add 2 Ogryn and 2 Valkyries", "pts":75,             																					"xref":["Ogryns"]},
+		{"id":15, "name":"Add 2 Ogryn and 2 Vendettas", "pts":125,             																					"xref":["Ogryns"]},
+		{"id":16, "name":"2 Catachan Jungle Fighters", "pts":0,             																						"xref":["Catachan Infantry"]},
+		{"id":17, "name":"2 Death World Veterans", "pts":0,             																								"xref":["Deathworld Veterans"]},
+		{"id":18, "name":"1 Ogryn", "pts":0,             																																"xref":["Ogryns"]},
+		{"id":21, "name":"7 Catachan Jungle Fighters", "pts":0,             																						"xref":["Catachan Infantry"]},
+		{"id":22, "name":"5 Catachan Jungle Fighters, 1 Ogryn", "pts":0,             																		"xref":["Catachan Infantry", "Ogryns"]},
+		{"id":23, "name":"3 Catachan Jungle Fighters, 2 Ogryns", "pts":0,             																	"xref":["Catachan Infantry", "Ogryns"]},
+		{"id":24, "name":"5 Death World Veterans", "pts":0,             																								"xref":["Deathworld Veterans"]},
+		{"id":25, "name":"3 Death World Veterans, 1 Ogryn", "pts":0,             																				"xref":["Deathworld Veterans", "Ogryns"]},
+		{"id":26, "name":"1 Death World Veterans, 2 Ogryns", "pts":0,             																			"xref":["Deathworld Veterans", "Ogryns"]}
 	],
 	"formationConstraints":[
 		{"max":1, "from":[502]},

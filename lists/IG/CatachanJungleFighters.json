@@ -20,7 +20,7 @@
         "Catachan Mortar Squad",
         "Catachan Missile Team",
         "Catachan Snipers",
-        "Catachan Ogryns",
+        "Ogryns",
         "Deathworld Veterans",
         "Death World Devils",
         "Death World Sentinel",
@@ -193,7 +193,7 @@
         "name": "Ogryns",
         "options": [
           {
-            "description": "0-2 Per formation Swap two infantry units for one Catachan Ogryn",
+            "description": "0-2 Per formation Swap two infantry units for one Ogryn",
             "points": "Free"
           },
           {
