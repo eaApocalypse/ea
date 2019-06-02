@@ -1,112 +1,129 @@
 {
-	"id":"Armageddon Steel Legion",
+	"id":"Astra Militarum",
 	"version":"0.01",
 	"by":"EA-Eternal War",
+
+	"includeFiles": {
+		"primary": "./lists/IG.json",
+		"allies": [
+					"./lists/IG.json",
+					"./lists/ImperialAllies.json",
+					"./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+					]
+	},
+    "specialRules": [
+			{ "title": "Lord Commissar"},
+			{ "title": "Commissars"},
+			{ "title": "Voice of Command"},
+			{ "title": "Fortified Positions"},
+			{ "title": "God Machine"},
+			{ "title": "God Machine Killer (GMK)"},
+			{ "title": "Void Shields"}
+	],
 	"sections":[
 		{"name":"COMPANIES", "formations":[
-			{"id":500, "name":"Regimental HQ", 				"pts":300, "units":"1 Steel Legion Supreme Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
-			{"id":501, "name":"Mechanized Infantry Company", 			"pts":225, "units":"1 Steel Legion Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70]},
-			{"id":502, "name":"Conscripts Company", 	"pts":200, "units":"1 Steel Legion Commander and 11 conscripts ", "upgrades":[52,53,54,57,58,56,59,60,61,64,65,70]},
-		 	{"id":505, "name":"Artillery Company", 			"pts":400, "upgrades":[70]}
+			{"id":500, "name":"Regimental HQ", 										"pts":300, "units":"1 Steel Legion Supreme Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70],                    "xref":["Steel Legion Supreme Commander"]},
+			{"id":501, "name":"Mechanized Infantry Company", 			"pts":225, "units":"1 Steel Legion Commander", "upgrades":[52,53,54,57,58,55,59,60,61,62,63,70],                            "xref":["Steel Legion Commander"]},
+			{"id":502, "name":"Conscripts Company", 							"pts":200, "units":"1 Steel Legion Commander and 11 conscripts ", "upgrades":[52,53,54,57,58,56,59,60,61,64,65,70],         "xref":["Steel Legion Commander"]},
+		 	{"id":505, "name":"Artillery Company", 								"pts":400, "upgrades":[70],                            																																			"xref":[]}
 		]},
 		{"name":"SUPPORT FORMATIONS (Max two for each Company)", "formations":[
-			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[], "units":"6 Rough Riders"},
-			{"id":511, "name":"Tempestus Scions",				"pts":200, "upgrades":[42,43], "units":"1 Tempestor, 7 Tempestus Scions"},
-			{"id":512, "name":"Artillery Battery",				"pts":225, "upgrades":[41]},
-			{"id":514, "name":"Sentinel Squadron",				"pts":100, "upgrades":[], "units":"4 Sentinels"},
-			{"id":515, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[40], "units":"2 Deathstrike Missile Launchers"},
-			{"id":516, "name":"Super-Heavy Tank Platoon", 			"pts":25, "upgrades":[26,27,29,66]},
-			{"id":517, "name":"Leman Russ Platoon", 			"pts":350, "upgrades":[]},
-			{"id":518, "name":"Flak Battery",				"pts":150, "upgrades":[41], "units":"3 Hydras"},
-			{"id":519, "name":"Vulture Squadron",				"pts":0, "upgrades":[28]},
-			{"id":520, "name":"Bullgryn Platoon", 	"pts":250, "units":"5 Bullgryns", "upgrades":[]}
+			{"id":510, "name":"Rough Rider Platoon", 			"pts":150, "upgrades":[], "units":"6 Rough Riders",                    					"xref":["Rough Riders"]},
+			{"id":511, "name":"Tempestus Scions",				"pts":200, "upgrades":[42,43], "units":"1 Tempestor, 7 Tempestus Scions",         "xref":["Tempestus Scions", "Tempestor"]},
+			{"id":512, "name":"Artillery Battery",				"pts":225, "upgrades":[41],                    																	"xref":[]},
+			{"id":514, "name":"Sentinel Squadron",				"pts":100, "upgrades":[], "units":"4 Sentinels",                    						"xref":["Sentinel"]},
+			{"id":515, "name":"Deathstrike Missile Battery",		"pts":200, "upgrades":[40], "units":"2 Deathstrike Missile Launchers",    "xref":["Deathstrike"]},
+			{"id":516, "name":"Super-Heavy Tank Platoon", 			"pts":25, "upgrades":[26,27,29,66],                    										"xref":[]},
+			{"id":517, "name":"Leman Russ Platoon", 			"pts":350, "upgrades":[],                    																		"xref":[]},
+			{"id":518, "name":"Flak Battery",				"pts":150, "upgrades":[41], "units":"3 Hydras",                    										"xref":["Hydra"]},
+			{"id":519, "name":"Vulture Squadron",				"pts":0, "upgrades":[28],                    																			"xref":["Vulture"]},
+			{"id":520, "name":"Bullgryn Platoon", 	"pts":250, "units":"5 Bullgryns", "upgrades":[],                    									"xref":["Bullgryns"]}
 		]},
 		{"name":"TITAN LEGION AND IMPERIAL NAVY FORMATIONS (Max 33%)", "formations":[
-			{"id":529, "name":"Warhound",		"pts":275, "upgrades":[], "units":"1 Warhound"},
-			{"id":530, "name":"Warhound Pack",		"pts":500, "upgrades":[], "units":"2 Warhounds"},
-			{"id":531, "name":"Reaver Titan",		"pts":600, "upgrades":[]},
-			{"id":535, "name":"Warlord Titan",		"pts":750, "upgrades":[]},
-			{"id":532, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolts"},
-			{"id":533, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauders"},
-			{"id":534, "name":"Orbital Support",		"pts":150, "upgrades":[]}
+			{"id":529, "name":"Warhound",		"pts":275, "upgrades":[], "units":"1 Warhound",                    														"xref":["Warhound"]},
+			{"id":530, "name":"Warhound Pack",		"pts":500, "upgrades":[], "units":"2 Warhounds",                    										"xref":["Warhound"]},
+			{"id":531, "name":"Reaver Titan",		"pts":600, "upgrades":[],                    																							"xref":["Reaver Titan"]},
+			{"id":535, "name":"Warlord Titan",		"pts":750, "upgrades":[],                   													  								"xref":["Warlord Titan"]},
+			{"id":532, "name":"Thunderbolt Fighters",	"pts":150, "upgrades":[], "units":"2 Thunderbolts",               								  "xref":["Thunderbolt Fighter"]},
+			{"id":533, "name":"Marauder Bombers",		"pts":225, "upgrades":[], "units":"2 Marauders",                     									"xref":["Marauder Bomber"]},
+			{"id":534, "name":"Orbital Support",		"pts":150, "upgrades":[],                  													  								"xref":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":10, "name":"Steel Legion Supreme Commander",		"pts":0},
-		{"id":11, "name":"Steel Legion Supreme Commander",		"pts":75},
+		{"id":10, "name":"Steel Legion Supreme Commander",		"pts":0,                     						"xref":["Steel Legion Supreme Commander"]},
+		{"id":11, "name":"Steel Legion Supreme Commander",		"pts":75,                     					"xref":["Steel Legion Supreme Commander"]},
 
-		{"id":20, "name":"9 Infantry, 5 Chimeras",		"pts":0},
-		{"id":21, "name":"15 Infantry, 8 Chimeras",		"pts":125},
+		{"id":20, "name":"9 Infantry, 5 Chimeras",		"pts":0,                     										"xref":["Infantry", "Chimera"]},
+		{"id":21, "name":"15 Infantry, 8 Chimeras",		"pts":125,                     									"xref":["Infantry", "Chimera"]},
 
-		{"id":22, "name":"12 Infantry",					"pts":0},
-		{"id":23, "name":"18 Infantry",					"pts":75},
+		{"id":22, "name":"12 Infantry",					"pts":0,                     													"xref":["Infantry"]},
+		{"id":23, "name":"18 Infantry",					"pts":75,                     												"xref":["Infantry"]},
 
-		{"id":24, "name":"Leman Russ",					"pts":0},
-		{"id":25, "name":"Leman Russ Vanquisher",		"pts":0},
+		{"id":24, "name":"Leman Russ",					"pts":0,                     													"xref":["Leman Russ"]},
+		{"id":25, "name":"Leman Russ Vanquisher",		"pts":0,                     											"xref":["Leman Russ Vanquisher"]},
 
-		{"id":26, "name":"Baneblade",						"pts":175},
-		{"id":27, "name":"Shadowsword",					"pts":175},
-		{"id":66, "name":"Stormsword",					"pts":175},
-		{"id":29, "name":"Stormblade",					"pts":175},
+		{"id":26, "name":"Baneblade",						"pts":175,                     												"xref":["Baneblade"]},
+		{"id":27, "name":"Shadowsword",					"pts":175,                     												"xref":["Shadowsword"]},
+		{"id":66, "name":"Stormsword",					"pts":175,                     												"xref":["Stormsword"]},
+		{"id":29, "name":"Stormblade",					"pts":175,                     												"xref":["Stormblade"]},
 
-		{"id":28, "name":"Vulture",						"pts":75},
+		{"id":28, "name":"Vulture",						"pts":75,                     													"xref":["Vulture"]},
 
-		{"id":30, "name":"6 Basilisks",					"pts":0},
-		{"id":31, "name":"6 Manticores",				"pts":50},
+		{"id":30, "name":"6 Basilisks",					"pts":0,                     													"xref":["Basilisk"]},
+		{"id":31, "name":"6 Manticores",				"pts":50,                     												"xref":["Manticore"]},
 
-		{"id":32, "name":"3 Basilisks",					"pts":25},
-		{"id":39, "name":"3 Bombards",					"pts":25},
-		{"id":33, "name":"3 Manticores",				"pts":25},
+		{"id":32, "name":"3 Basilisks",					"pts":25,                     												"xref":["Basilisk"]},
+		{"id":39, "name":"3 Bombards",					"pts":25,                     												"xref":["Bombard"]},
+		{"id":33, "name":"3 Manticores",				"pts":25,                     												"xref":["Manticore"]},
 
-		{"id":34, "name":"6 Leman Russ Punishers",		"pts":0},
-		{"id":35, "name":"6 Leman Russ Demolishers",	"pts":0},
-		{"id":36, "name":"6 Leman Russ Conquerors",		"pts":0},
+		{"id":34, "name":"6 Leman Russ Punishers",		"pts":0,                     										"xref":["Leman Russ Punisher"]},
+		{"id":35, "name":"6 Leman Russ Demolishers",	"pts":0,                     										"xref":["Leman Russ Demolisher"]},
+		{"id":36, "name":"6 Leman Russ Conquerors",		"pts":0,                     										"xref":["Leman Russ Conqueror"]},
 
-		{"id":37, "name":"Lunar Class Cruiser",			"pts":0},
-		{"id":38, "name":"Emperor Class Battleship",	"pts":50},
-
-
-
-		{"id":40, "name":"2 Gun Emplacements",			"pts":25},
-		{"id":41, "name":"3 Gun Emplacements",			"pts":25},
-
-		{"id":42, "name":"4 Valkyries",					"pts":150},
-   	{"id":43, "name":"4 Taurox",					"pts":150},
-
-		{"id":44, "name":"6 Gun Emplacements",			"pts":0},
-		{"id":45, "name":"1 Hydra, 7 Gun Emplacements",	"pts":50},
-
-		{"id":47, "name":"Guard Infantry",											  "pts":0},
-		{"id":48, "name":"Heavy Weapons Squad (Autocannon)",		  "pts":0},
-		{"id":49, "name":"Heavy Weapons Squad (Lascannon)",			  "pts":0},
-		{"id":50, "name":"Heavy Weapons Squad (Heavy Bolter)",		"pts":0},
-		{"id":51, "name":"Heavy Weapons Squad (Mortar)",					"pts":0},
-
-		{"id":52, "name":"Hydra",						"pts":50},
-
-		{"id":53, "name":"3 Griffons",					"pts":50},
-
-		{"id":55, "name":"2 Ogryns, 2 Chimeras",		"pts":125},
-		{"id":56, "name":"2 Ogryns",					"pts":75},
-
-		{"id":54, "name":"1 Hellhound",					"pts":25},
-		{"id":57, "name":"2 Hellhounds",				"pts":50},
-		{"id":58, "name":"3 Hellhounds",				"pts":75},
-
-		{"id":59, "name":"3 Leman Russ Punishers",		"pts":125},
-		{"id":60, "name":"3 Leman Russ Demolishers",	"pts":125},
-		{"id":61, "name":"3 Leman Russ Conquerors",		"pts":125},
-
-		{"id":62, "name":"1 Sniper, 1 Chimera",		  	"pts":50},
-		{"id":63, "name":"2 Snipers, 1 Chimera",	  	"pts":75},
-		{"id":64, "name":"1 Sniper",									"pts":25},
-		{"id":65, "name":"2 Snipers",									"pts":50},
-		{"id":69, "name":"Chimera",										"pts":25},
+		{"id":37, "name":"Lunar Class Cruiser",			"pts":0,                     											"xref":["Lunar Class Cruiser"]},
+		{"id":38, "name":"Emperor Class Battleship",	"pts":50,                     									"xref":["Emperor Class Battleship"]},
 
 
 
+		{"id":40, "name":"2 Gun Emplacements",			"pts":25,                     										"xref":[]},
+		{"id":41, "name":"3 Gun Emplacements",			"pts":25,                     										"xref":[]},
 
-		{"id":70, "name":"Lord Commissar",					"pts":50}
+		{"id":42, "name":"4 Valkyries",					"pts":150,                     												"xref":["Valkyrie"]},
+   	{"id":43, "name":"4 Taurox",					"pts":150,                     													"xref":["Taurox"]},
+
+		{"id":44, "name":"6 Gun Emplacements",			"pts":0,                     											"xref":[]},
+		{"id":45, "name":"1 Hydra, 7 Gun Emplacements",	"pts":50,                     								"xref":["Hydra"]},
+
+		{"id":47, "name":"Guard Infantry",											  "pts":0,                						"xref":["Infantry"]},
+		{"id":48, "name":"Heavy Weapons Squad (Autocannon)",		  "pts":0,                						"xref":["Heavy Weapon Squads"]},
+		{"id":49, "name":"Heavy Weapons Squad (Lascannon)",			  "pts":0,                						"xref":["Heavy Weapon Squads"]},
+		{"id":50, "name":"Heavy Weapons Squad (Heavy Bolter)",		"pts":0,                						"xref":["Heavy Weapon Squads"]},
+		{"id":51, "name":"Heavy Weapons Squad (Mortar)",					"pts":0,                						"xref":["Heavy Weapon Squads"]},
+
+		{"id":52, "name":"Hydra",						"pts":50,                     														"xref":["Hydra"]},
+
+		{"id":53, "name":"3 Griffons",					"pts":50,                    				 									"xref":["Griffon"]},
+
+		{"id":55, "name":"2 Ogryns, 2 Chimeras",		"pts":125,                     										"xref":["Ogryns", "Chimera"]},
+		{"id":56, "name":"2 Ogryns",					"pts":75,                     													"xref":["Ogryns"]},
+		{"id":54, "name":"1 Hellhound",					"pts":25,                     												"xref":["Hellhound"]},
+		{"id":57, "name":"2 Hellhounds",				"pts":50,                    				 									"xref":["Hellhound"]},
+		{"id":58, "name":"3 Hellhounds",				"pts":75,                     												"xref":["Hellhound"]},
+
+		{"id":59, "name":"3 Leman Russ Punishers",		"pts":125,                     									"xref":["Leman Russ Punisher"]},
+		{"id":60, "name":"3 Leman Russ Demolishers",	"pts":125,                     									"xref":["Leman Russ Demolisher"]},
+		{"id":61, "name":"3 Leman Russ Conquerors",		"pts":125,                     									"xref":["Leman Russ Conqueror"]},
+
+		{"id":62, "name":"1 Sniper, 1 Chimera",		  	"pts":50,                     									"xref":["Chimera", "Snipers"]},
+		{"id":63, "name":"2 Snipers, 1 Chimera",	  	"pts":75,                     									"xref":["Chimera", "Snipers"]},
+		{"id":64, "name":"1 Sniper",									"pts":25,                     									"xref":["Snipers"]},
+		{"id":65, "name":"2 Snipers",									"pts":50,                     									"xref":["Snipers"]},
+		{"id":69, "name":"Chimera",										"pts":25,                     									"xref":["Chimera"]},
+
+		{"id":70, "name":"Lord Commissar",					"pts":50,                     										"xref":["Lord Commissar"]}
 
 	],
 	"formationConstraints":[
