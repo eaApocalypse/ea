@@ -6,7 +6,7 @@
   "strategy": "Eldar Titan Force armies have a Strategy Rating of 4.",
   "Initiative": "Titans and Knights have an Initiative Rating of 1+. All other formations have an Initiative Rating of 2+.",
 
-  "specialRules": ["Farsight","Hit and Run", "Holofields (x)","Lance","Ignore Shields", "Shield Disruptor", "Webway Portal","Independent Twins", "Heavy Armoured Vehicle (H-AV)"],
+  "specialRules": ["Farsight","Hit and Run", "Holofields (x)","Lance","Ignore Shields",  "Webway Portal","Independent Twins", "Heavy Armoured Vehicle (H-AV)"],
   "usage": [
     "The following army list allows you to field an army based on Eldar Titans and Eldar Knights."
   ],
