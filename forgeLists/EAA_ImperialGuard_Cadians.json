@@ -1,66 +1,89 @@
 {
-	"id":"Cadian Shock Troopers",
+	"id":"Astra Militarum - Cadian Shock Troops",
 	"version":"0.01",
 	"by":"EA-Eternal War",
+
+	"includeFiles": {
+		"primary": "./lists/IG.json",
+		"allies": [
+					"./lists/IG.json",
+					"./lists/ImperialAllies.json",
+					"./lists/ImperialNavy.json"
+					],
+		"common": [
+					"./lists/weapons.json"
+					]
+	},
+    "specialRules": [
+			{ "title": "Lord Commissar"},
+			{ "title": "Commissars"},
+			{ "title": "Voice of Command"},
+			{ "title": "Fortified Positions"},
+			{ "title": "God Machine"},
+			{ "title": "God Machine Killer (GMK)"},
+			{ "title": "Void Shields"}
+	],
 	"sections":[
 		{"name":"CADIAN CORE COMPANIES", "formations":[
-			{"id":500, "name":"Regimental HQ", "pts":550, "upgrades":[], "units":"7 Kasrkins, Leviathan Mobile Command Center"},
-			{"id":501, "name":"Whiteshield Company", "pts":400, "upgrades":[], "units":"Cadian Commander, 13 Whiteshield Infantry"}
+			{"id":500, "name":"Regimental HQ", "pts":550, "upgrades":[99], "units":"7 Kasrkins, Leviathan Mobile Command Center",             "xref":["Cadian Supreme Commander", "Kasrkin", "Leviathan Mobile Command Center"]},
+			{"id":501, "name":"Whiteshield Company", "pts":400, "upgrades":[99], "units":"Cadian Commander, 13 Whiteshield Infantry",         "xref":["White Shield Infantry", "Cadian Commander"]}
 
 
 		]},
 		{"name":"CADIAN SUPPORT FORMATIONS (Up to three for each Core Company)", "formations":[
-			{"id":510, "name":"Assault Launcher Platoon", "pts":250, "upgrades":[], "units":"2 Praetor Armoured Assault Launchers"},
-			{"id":511, "name":"Medusa Company", "pts":350, "upgrades":[], "units":"6 Medusa and 6 Trojans"},
-			{"id":513, "name":"Flak Battery", "pts":150, "upgrades":[], "units":"3 Heavy AA Guns, 3 Trojans"},
-			{"id":514, "name":"Hellhound Platoon", "pts":225, "upgrades":[], "units":"6 Hellhounds"},
-			{"id":516, "name":"Kasrkin Company", "pts":350, "upgrades":[30,31,32,33, 34,35,36], "units":"Cadian Commander, 7 Kasrkins"},
-			{"id":517, "name":"Sentinel Platoon", "pts":100, "upgrades":[], "units":"4 Cadian Sentinels"},
-			{"id":518, "name":"Super-Heavy Tank Platoon", "pts":25, "upgrades":[20,21,22,23]},
-			{"id":519, "name":"Deathstrike Battery",	"pts":200, "upgrades":[], "units":"2 Deathstrikes"}
+			{"id":510, "name":"Assault Launcher Platoon", "pts":250, "upgrades":[], "units":"2 Praetor Armoured Assault Launchers",           "xref":["Praetor Armoured Assault Launcher"]},
+			{"id":511, "name":"Medusa Company", "pts":350, "upgrades":[], "units":"6 Medusa and 6 Trojans",                    								"xref":["Trojan", "Medusa Gun"]},
+			{"id":513, "name":"Flak Battery", "pts":150, "upgrades":[], "units":"3 Heavy AA Guns, 3 Trojans",                    							"xref":["Trojan", "Heavy AA Gun"]},
+			{"id":514, "name":"Hellhound Platoon", "pts":225, "upgrades":[], "units":"6 Hellhounds",                    											"xref":["Hellhound"]},
+			{"id":516, "name":"Kasrkin Company", "pts":350, "upgrades":[99], "units":"Cadian Commander, 7 Kasrkins",       										"xref":["Cadian Commander", "Kasrkin"]},
+			{"id":517, "name":"Sentinel Platoon", "pts":100, "upgrades":[], "units":"4 Cadian Sentinels",                    									"xref":["Cadian Sentinel"]},
+			{"id":518, "name":"Super-Heavy Tank Platoon", "pts":25, "upgrades":[],                    																				"xref":[]},
+			{"id":519, "name":"Deathstrike Battery",	"pts":200, "upgrades":[], "units":"2 Deathstrikes",                    									"xref":["Deathstrike"]}
 
 		]},
 		{"name":"TITAN LEGION FORMATIONS", "formations":[
-			{"id":520, "name":"Warhound",		"pts":275, "upgrades":[], "units":"1 Warhound Titan"},
-			{"id":521, "name":"Reaver Titan",		"pts":650, "upgrades":[], "units":"1 Reaver Titan"}
+			{"id":520, "name":"Warhound",		"pts":275, "upgrades":[], "units":"1 Warhound Titan",                    													"xref":["Warhound"]},
+			{"id":521, "name":"Reaver Titan",		"pts":650, "upgrades":[], "units":"1 Reaver Titan",                    												"xref":["Reaver Titan"]}
 		]},
 		{"name":"IMPERIAL NAVY SUPPORT", "formations":[
-			{"id":530, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters"},
-			{"id":531, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers"},
-			{"id":532, "name":"Orbital Support", "pts":150, "upgrades":[]}
+			{"id":530, "name":"Thunderbolt Fighters", "pts":150, "upgrades":[], "units":"2 Thunderbolt Fighters",                    					"xref":["Thunderbolt Fighter"]},
+			{"id":531, "name":"Marauder Bombers", "pts":225, "upgrades":[], "units":"2 Marauder Bombers",                    									"xref":["Marauder Bomber"]},
+			{"id":532, "name":"Orbital Support", "pts":150, "upgrades":[],                    																								"xref":[]}
 		]}
 	],
 	"upgrades":[
-		{"id":1, "name":"Cadian Supreme Commander", "pts":0},
+		{"id":1, "name":"Cadian Supreme Commander", "pts":0,                    				"xref":["Cadian Supreme Commander"]},
 
-		{"id":10, "name":"2 Stormlords", "pts":0},
-		{"id":11, "name":"3 Crassus Amoured Assault Transports", "pts":0},
+		{"id":10, "name":"2 Stormlords", "pts":0,                    										"xref":["Stormlord"]},
+		{"id":11, "name":"3 Crassus Amoured Assault Transports", "pts":0,               "xref":["Crassus Amoured Assault Transport"]},
 
-		{"id":15, "name":"6 Gun Emplacements", "pts":0},
-		{"id":16, "name":"Hydra, 7 Gun Emplacements", "pts":50},
+		{"id":15, "name":"6 Gun Emplacements", "pts":0,                    							"xref":[]},
+		{"id":16, "name":"Hydra, 7 Gun Emplacements", "pts":50,                    			"xref":[]},
 
-		{"id":18, "name":"Hydra", "pts":50},
+		{"id":18, "name":"Hydra", "pts":50,                    													"xref":[]},
 
-		{"id":20, "name":"Shadowsword", "pts":175},
-		{"id":21, "name":"Baneblade", "pts":175},
-		{"id":22, "name":"Stormsword", "pts":175},
-		{"id":23, "name":"Stormblade", "pts":175},
+		{"id":20, "name":"Shadowsword", "pts":175,                    									"xref":["Shadowsword"]},
+		{"id":21, "name":"Baneblade", "pts":175,                    										"xref":["Baneblade"]},
+		{"id":22, "name":"Stormsword", "pts":175,                    										"xref":["Stormlord"]},
+		{"id":23, "name":"Stormblade", "pts":175,                    										"xref":["Stormblade"]},
 
-		{"id":24, "name":"6 Leman Russ", "pts":0},
-		{"id":25, "name":"6 Leman Russ Demolisher", "pts":0},
-		{"id":26, "name":"6 Leman Russ Exterminator", "pts":0},
+		{"id":24, "name":"6 Leman Russ", "pts":0,                    										"xref":[]},
+		{"id":25, "name":"6 Leman Russ Demolisher", "pts":0,                    				"xref":[]},
+		{"id":26, "name":"6 Leman Russ Exterminator", "pts":0,                    			"xref":[]},
 
-		{"id":30, "name":"Shadowsword", "pts":150},
-		{"id":31, "name":"Baneblade", "pts":150},
-		{"id":32, "name":"Stormsword", "pts":150},
-		{"id":33, "name":"Stormblade", "pts":150},
+		{"id":30, "name":"Shadowsword", "pts":150,                    									"xref":["Stormlord"]},
+		{"id":31, "name":"Baneblade", "pts":150,                    										"xref":["Baneblade"]},
+		{"id":32, "name":"Stormsword", "pts":150,                    										"xref":["Shadowsword"]},
+		{"id":33, "name":"Stormblade", "pts":150,                    										"xref":["Stormblade"]},
 
-		{"id":34, "name":"3 Leman Russ", "pts":125},
-		{"id":35, "name":"3 Leman Russ Demolisher", "pts":125},
-		{"id":36, "name":"3 Leman Russ Exterminator", "pts":125},
+		{"id":34, "name":"3 Leman Russ", "pts":125,                    									"xref":[]},
+		{"id":35, "name":"3 Leman Russ Demolisher", "pts":125,                    			"xref":[]},
+		{"id":36, "name":"3 Leman Russ Exterminator", "pts":125,                    		"xref":[]},
 
-		{"id":40, "name":"Lunar Class",	"pts":0},
-		{"id":41, "name":"Emperor Class", "pts":50}
+		{"id":40, "name":"Lunar Class",	"pts":0,                    										"xref":["Lunar Class Cruiser"]},
+
+
+		{"id":99, "name":"Lord Commissar",	"pts":0,                    								"xref":["Lord Commissar"]}
 
 
 
@@ -73,6 +96,7 @@
 
 	],
 	"upgradeConstraints":[
+		{"max":1, "perArmy":true, "from":[99]},
 		{"max":1, "from":[18]},
 		{"max":1, "from":[30,31,32,33]},
 		{"max":1, "from":[34,35,36]},
