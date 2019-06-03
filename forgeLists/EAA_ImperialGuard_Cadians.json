@@ -84,7 +84,7 @@
 		{"id":40, "name":"Lunar Class",	"pts":0,                    										"xref":["Lunar Class Cruiser"]},
 
 
-		{"id":99, "name":"Lord Commissar",	"pts":0,                    								"xref":["Lord Commissar"]}
+		{"id":99, "name":"Lord Commissar",	"pts":50,                    								"xref":["Lord Commissar"]}
 
 
 
