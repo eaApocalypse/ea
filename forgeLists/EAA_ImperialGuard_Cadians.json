@@ -15,6 +15,7 @@
 					]
 	},
     "specialRules": [
+			{ "title": "Heavy Armoured Vehicle (H-AV)"},
 			{ "title": "Lord Commissar"},
 			{ "title": "Commissars"},
 			{ "title": "Voice of Command"},
