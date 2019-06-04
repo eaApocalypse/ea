@@ -49,7 +49,7 @@
         "formations": [
             {"id": 803,"name":"Harvester Engine","pts": 750,                            			                		          "xref":[]},
             {"id": 802,"name":"Spacecraft","units":"One Scythe Class Harvester","pts": 350,                            			"xref":["Scythe Class Harvester"]},
-            {"id": 805,"name":"Warbarque","pts": 275,"upgrades": [],                            			                	    "xref":["Warbarque"]},
+            {"id": 805,"name":"Warbarque","pts": 275,"upgrades": [],                            			                	    "xref":["Warbarque"]}
          ]
       }
    ],
