@@ -19,7 +19,7 @@ table {
 	margin:auto;
 	border-collapse:collapse;
 }
-.ab a:hover { 
+.ab a:hover {
 	color:gray;
 	text-decoration:underline;
 }
@@ -55,7 +55,7 @@ a.xx {
 img.icon {
 	margin-left:0;
 	margin-right:0.5em;
-	height:1.2em;	
+	height:1.2em;
 	vertical-align:middle;
 	border:none;
 }
@@ -66,13 +66,13 @@ img.icon {
 	vertical-align:top;
 	padding:1em 1em;
 }
-.list a:hover { 
+.list a:hover {
 	color:teal;
 }
 .list {
 	font-size:small;
 	font-family:sans-serif;
-	width:18em;
+	width:22em;
 	text-align:left;
 	background-color:silver;
 	border-top:solid 0.1em #000000;
