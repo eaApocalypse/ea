@@ -120,7 +120,7 @@
           "upgrades": [
             "Ancient, Barges, Grotesques, Talos, Transport"
           ],
-          "points": 225
+          "points": 200
         },
         {
           "name": "Mandrakes",
@@ -168,6 +168,13 @@
             "Barges, Beasts, Succubus, Transport, Wyches"
           ],
           "points": 200
+        },
+        {
+          "name": "Heavy Barge",
+          "units": "One Vessel of Pain",
+          "upgrades": [
+          ],
+          "points": 250
         }
 
 
@@ -200,13 +207,6 @@
 
           ],
           "points": 200
-        },
-        {
-          "name": "Heavy Barge",
-          "units": "One Vessel of Pain",
-          "upgrades": [
-          ],
-          "points": 250
         },
         {
           "name": "Tormentor",

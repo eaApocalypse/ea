@@ -33,22 +33,22 @@
 			{"id":513, "name":"Kabal Flotilla", "pts":25, "upgrades":[51,61],                                  															"xref":[]}
 		]},
 		{"name":"PARTISANS", "formations":[
-			{"id":501, "name":"Haemonculi Coven", "pts":225, "units":"2 Haemonculi, 4 Wracks", "upgrades":[22,71,60,73,70,76],   "xref":["Haemonculi", "Wracks"]},
+			{"id":501, "name":"Haemonculi Coven", "pts":200, "units":"2 Haemonculi, 4 Wracks", "upgrades":[22,71,60,73,70,76],   "xref":["Haemonculi", "Wracks"]},
 			{"id":502, "name":"Talos", "pts":225, "units":"4 Talos", "upgrades":[73,74],                  											 "xref":["Talos"]},
 			{"id":503, "name":"Wych Cult", "pts":200, "units":"6 Wyches", "upgrades":[71,75,18,70,76],                 					 "xref":["Wyches"]},
 			{"id":504, "name":"Hellions", "pts":200, "units":"6 Hellions", "upgrades":[18,82],               								     "xref":["Hellions"]},
 			{"id":505, "name":"Reavers", "pts":200, "units":"6 Reavers", "upgrades":[18,83],                  									 "xref":["Reavers"]},
 			{"id":506, "name":"Mandrakes", "pts":200, "units":"6 Mandrakes", "upgrades":[],                  										 "xref":["Mandrakes"]},
-			{"id":507, "name":"Scourges", "pts":250, "units":"6 Scourges", "upgrades":[18,80],                  								 "xref":["Scourges"]}
+			{"id":507, "name":"Scourges", "pts":250, "units":"6 Scourges", "upgrades":[18,80],                  								 "xref":["Scourges"]},
+			{"id":508, "name":"Heavy Barge", "pts":250, "units":"1 Vessel of Pain", "upgrades":[],                    					 "xref":["Vessel of Pain"]}
 		]},
 		{"name":"SPACESHIPS & AIRCRAFT", "formations":[
-			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[],                  										"xref":["Torture Class Cruiser"]},
-			{"id":523, "name":"Slavebringer", "pts":200, "upgrades":[],                  								              "xref":["Slavebringer Assault Boat"]},
-			{"id":525, "name":"Executioner Assault Ship", "pts":400, "upgrades":[],         								          "xref":["Executioner Assault Ship"]},
+			{"id":528, "name":"Tormentor Class Titan", "pts":350, "units":"1 Tormentor Titan", "upgrades":[],         "xref":["Tormentor Titan"]},
 			{"id":526, "name":"Razorwing Fighters", "pts":0, "upgrades":[84],                 											  "xref":["Razorwing Fighter"]},
 			{"id":527, "name":"Voidraven Bombers", "pts":225, "units":"2 Voidravens", "upgrades":[],                  "xref":["Voidraven Bomber"]},
-			{"id":528, "name":"Tormentor Class Titan", "pts":350, "units":"1 Tormentor Titan", "upgrades":[],         "xref":["Tormentor Titan"]},
-			{"id":508, "name":"Heavy Barge", "pts":250, "units":"1 Vessel of Pain", "upgrades":[],                    "xref":["Vessel of Pain"]}
+			{"id":523, "name":"Slavebringer", "pts":200, "upgrades":[],                  								              "xref":["Slavebringer Assault Boat"]},
+			{"id":525, "name":"Executioner Assault Ship", "pts":400, "upgrades":[],         								          "xref":["Executioner Assault Ship"]},
+			{"id":522, "name":"Torture Class Cruiser", "pts":300, "upgrades":[],                  										"xref":["Torture Class Cruiser"]}
 		]}
 	],
 	"upgrades":[
@@ -77,11 +77,11 @@
 
 	],
 	"formationConstraints":[
-		{"maxPercent":33.34, "name": "Spaceships, Aircraft & Titans", "from":[522,523,525,526,527,528,529,508]},
+		{"maxPercent":33.34, "name": "Spaceships, Aircraft & Titans", "from":[522,523,525,526,527,528,529]},
 		{"max":1, "from":[530]},
 		{"max":1, "from":[531]},
 		{"min":1, "max":1, "from":[511]},
-		{"max":2, "name":"Partisans", "from":[501,502,503,504,505,506,507], "forEach":[511,512,513], "name2":"Kabal"},
+		{"max":2, "name":"Partisans", "from":[501,502,503,504,505,506,507,508], "forEach":[511,512,513], "name2":"Kabal"},
 		{"max":1, "name":"Spacecraft", "from":[522]}
 	],
 	"upgradeConstraints":[

@@ -1,82 +1,104 @@
 {
-   "id": "Necrons - Maynarkh Dynasty",
-   "version": "0.01",
-   "by": "EA-Eternal",
-   "notes": [""],
-   "sections": [
-      {"name": "INDIVIDUALS", "formations": [
-            {"id": 601, "name": "Tomb Complex", "pts": 0, "upgrades": []}
+		"id":"Necron - Maynarkh Dynasty",
+		"version":"0.01",
+		"by":"EA-Eternal War",
+		"includeFiles": {
+			"primary":"./lists/NC.json",
+			"allies": [
+						"./lists/necronNavy.json"
+						],
+			"common": [
+						"./lists/weapons.json"
+					]
+  	},
+			"specialRules": [
+								{"title":"Necron Special Rules"},
+								{"title":"Necron Reserves"},
+								{"title":"Necron Garrisons"},
+								{"title":"Necron"},
+								{"title":"Portal"},
+								{"title":"Living Metal"},
+								{"title":"Stable"},
+                {"title":"Implacable Advance"},
+                {"title":"Phase Out"},
+                {"title":"Heavy Armoured Vehicle (H-AV)"},
+                {"title":"God Machine Killer (GMK)"},
+                {"title":"God Machine"}
+
+		],
+  "sections": [
+      {"name":"INDIVIDUALS","formations": [
+            {"id": 601,"name":"Tomb Complex","pts": 0,"upgrades": [],                            			                		 "xref":[]}
          ]
       },
-      {"name": "NECRON PHALANXES",
-         "formations": [
-            {"id": 701, "name": "Infantry Phalanx", "pts": 275, "upgrades": [100,103,101,99]
-            }
+      {"name":"NECRON PHALANXES",
+        "formations": [
+            {"id": 701,"name":"Infantry Phalanx","pts": 275,"upgrades": [100,103,101,99],                            			 "xref":[]}
          ]
       },
-      {"name": "NECRON SUPPORT",
-         "formations": [
-            {"id": 505, "name": "Armored Phalanx", "pts": 225, "units": "5 Obelisks"},
-            {"id": 502, "name": "Eques Maniple", "pts": 350, "upgrades": [103,104,107]},
-            {"id": 503, "name": "Portal Maniple", "pts": 50, "upgrades": [105,106]},
-            {"id": 506, "name": "Pylon", "pts": 200, "upgrades": []},
-            {"id": 501, "name": "Venator Maniple", "pts": 200, "units": "6 Flayed Ones", "upgrades": [100,103,101,104,107]}
+      {"name":"NECRON SUPPORT",
+        "formations": [
+            {"id": 505,"name":"Armored Phalanx","pts": 225,"units":"5 Obelisks",                            			         "xref":[]},
+            {"id": 502,"name":"Eques Maniple","pts": 350,"upgrades": [103,104,107],                            			       "xref":[]},
+            {"id": 503,"name":"Portal Maniple","pts": 50,"upgrades": [105,106],                            			           "xref":[]},
+            {"id": 506,"name":"Pylon","pts": 200,"upgrades": [],                            			                		     "xref":["Pylon"]},
+            {"id": 501,"name":"Venator Maniple","pts": 200,"units":"6 Flayed Ones","upgrades": [100,103,101,104,107],      "xref":["Flayed Ones"]}
          ]
       },
-      {"name": "HARVESTERS",
-         "formations": [
-            {"id": 803, "name": "Harvester Engine", "pts": 750},
-            {"id": 802, "name": "Spacecraft", "units":"One Scythe Class Harvester", "pts": 350},
-            {"id": 805, "name": "Warbarque", "pts": 275, "upgrades": []}
+      {"name":"HARVESTERS",
+        "formations": [
+            {"id": 803,"name":"Harvester Engine","pts": 750,                            			                		          "xref":[]},
+            {"id": 802,"name":"Spacecraft","units":"One Scythe Class Harvester","pts": 350,                            			"xref":["Scythe Class Harvester"]},
+            {"id": 805,"name":"Warbarque","pts": 275,"upgrades": [],                            			                	    "xref":["Warbarque"]},
          ]
       }
    ],
-   "upgrades": [
-      {"id": 11, "name":  "Nightbringer", "pts": 300},
-      {"id": 12, "name":  "Deceiver", "pts": 300},
-      {"id": 100, "name": "Tomb Spyders", "pts": 50},
-      {"id": 101, "name": "Cryptek", "pts": 50},
-      {"id": 102, "name": "Immortals", "pts": 40},
-      {"id": 103, "name": "Wraiths", "pts": 50},
-      {"id": 104, "name": "Necron Lord", "pts": 25},
-      {"id": 109, "name": "Destroyers", "pts": 0},
-      {"id": 110, "name": "Heavy Destroyers","pts": 0},
-      {"id": 106, "name": "Monolith", "pts": 75},
-      {"id": 105, "name": "Obelisk", "pts": 50},
-      {"id": 107, "name": "Necron Overlord", "pts": 75},
-      {"id": 20, "name":  "Abattoir", "pts": 0},
-      {"id": 21, "name":  "Aeonic Orb", "pts": 0},
-      {"id": 22, "name":  "Necron Lord", "pts": 0},
-      {"id": 23, "name":  "Necron Warriors", "pts": 0},
-      {"id": 24, "name":  "Immortals", "pts": 25},
-      {"id": 99, "name":  "C'tan Shard", "pts": 100}
+  "upgrades": [
+      {"id": 11,"name": "Nightbringer","pts": 300,                            			                	"xref":[]},
+      {"id": 12,"name": "Deceiver","pts": 300,                            			                		  "xref":[]},
+      {"id": 100,"name":"Tomb Spyders","pts": 50,                            			                		"xref":["Tomb Spyder"]},
+      {"id": 101,"name":"Cryptek","pts": 50,                            			                		    "xref":["Cryptek"]},
+      {"id": 102,"name":"Immortals","pts": 40,                            			                		  "xref":["Immortals"]},
+      {"id": 103,"name":"Wraiths","pts": 50,                            			                		    "xref":["Wraiths"]},
+      {"id": 104,"name":"Necron Lord","pts": 25,                            			                		"xref":["Necron Lord"]},
+      {"id": 109,"name":"Destroyers","pts": 0,                            			                		  "xref":["Destroyers"]},
+      {"id": 110,"name":"Heavy Destroyers","pts": 0,                            			                "xref":["Heavy Destroyers"]},
+      {"id": 106,"name":"Monolith","pts": 75,                            			                		    "xref":["Monolith"]},
+      {"id": 105,"name":"Obelisk","pts": 50,                            			                		    "xref":["Obelisk"]},
+      {"id": 107,"name":"Necron Overlord","pts": 75,                            			                "xref":["Necron Overlord"]},
+      {"id": 20,"name": "Abattoir","pts": 0,                            			                		    "xref":["Abattoir"]},
+      {"id": 21,"name": "Aeonic Orb","pts": 0,                            			                		  "xref":["Aeonic Orb"]},
+      {"id": 22,"name": "Necron Lord","pts": 0,                            			                		  "xref":["Necron Lord"]},
+      {"id": 23,"name": "Necron Warriors","pts": 0,                            			                	"xref":["Necron Warriors"]},
+      {"id": 24,"name": "Immortals","pts": 25,                            			                		  "xref":["Immortals"]},
+      {"id": 99,"name": "C'tan Shard","pts": 100,                            			                		"xref":["C’tan Shard"]}
    ],
-   "formationConstraints": [
-      {"max": 1, "from": [601]},
-      {"max": 1, "from": [602]},
-      {"max": 1, "from": [802]},
-      {"max": 1, "from": [803]},
-      {"max": 2, "from": [805]},
-      {"maxPercent": 33, "name": "War Engines & Allies", "from": [602,506,802,803,804,805]},
-      {"max": 3, "name": "Necron Support", "from": [501,502,503,504,505,506], "forEach": [701], "name2": "Necron Phalanx"}
+  "formationConstraints": [
+      {"max": 1,"from": [601]},
+      {"max": 1,"from": [602]},
+      {"max": 1,"from": [802]},
+      {"max": 1,"from": [803]},
+      {"max": 2,"from": [805]},
+      {"maxPercent": 33,"name":"War Engines & Allies","from": [602,506,802,803,804,805]},
+      {"max": 3,"name":"Necron Support","from": [501,502,503,504,505,506],"forEach": [701],"name2":"Necron Phalanx"}
    ],
-   "upgradeConstraints": [
-      {"max": 1, "from": [107], "perArmy": true},
-      {"max": 1, "from": [99], "perArmy": true},
-      {"max": 1, "from": [104,107]},
-      {"max": 3, "from": [24], "appliesTo": [701]},
-      {"max": 1, "min": 1, "from": [11,12], "appliesTo": [602]},
-      {"max": 8, "min": 8, "from": [23,24], "appliesTo": [701]},
-      {"max": 1, "min": 1, "from": [22,107], "appliesTo": [701]},
-      {"max": 3, "from": [100], "appliesTo": [701,501]},
-      {"max": 1, "from": [101], "appliesTo": [701,501]},
-      {"max": 3, "from": [102], "appliesTo": [701]},
-      {"max": 3, "from": [103], "appliesTo": [701,501,502]},
-      {"max": 1, "from": [104], "appliesTo": [501,502]},
-      {"max": 6, "min": 6, "from": [109,110], "appliesTo": [502]},
-      {"max": 2, "min": 0, "from": [105], "appliesTo": [503]},
-      {"max": 4, "min": 3, "from": [106], "appliesTo": [503]},
-      {"max": 3, "from": [105], "appliesTo": [504]},
-      {"min": 1, "max": 1, "from": [20,21], "appliesTo": [803]}
+  "upgradeConstraints": [
+      {"max": 1,"from": [107],"perArmy": true},
+      {"max": 1,"from": [99],"perArmy": true},
+      {"max": 1,"from": [104,107]},
+      {"max": 3,"from": [24],"appliesTo": [701]},
+      {"max": 1,"min": 1,"from": [11,12],"appliesTo": [602]},
+      {"max": 8,"min": 8,"from": [23,24],"appliesTo": [701]},
+      {"max": 1,"min": 1,"from": [22,107],"appliesTo": [701]},
+      {"max": 3,"from": [100],"appliesTo": [701,501]},
+      {"max": 1,"from": [101],"appliesTo": [701,501]},
+      {"max": 3,"from": [102],"appliesTo": [701]},
+      {"max": 3,"from": [103],"appliesTo": [701,501,502]},
+      {"max": 1,"from": [104],"appliesTo": [501,502]},
+      {"max": 6,"min": 6,"from": [109,110],"appliesTo": [502]},
+      {"max": 2,"min": 0,"from": [105],"appliesTo": [503]},
+      {"max": 4,"min": 3,"from": [106],"appliesTo": [503]},
+      {"max": 3,"from": [105],"appliesTo": [504]},
+      {"min": 1,"max": 1,"from": [20,21],"appliesTo": [803]}
    ]
 }
