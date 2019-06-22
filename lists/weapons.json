@@ -1728,6 +1728,18 @@
       ]
     },
     {
+      "name": "Belleros Energy Cannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 45,
+            "specialRules": [
+                "Ind"
+          ]
+          }
+      ]
+    },
+    {
       "name": "Big Choppas",
         "modes": [
           {

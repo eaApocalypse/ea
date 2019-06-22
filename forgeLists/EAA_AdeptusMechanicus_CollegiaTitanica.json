@@ -39,7 +39,7 @@
 			{"id":552, "name":"Warhound Titan Pack",	"pts":500, "upgrades":[80,82],      		   "xref":["Warhound Titan"]}
 		]},
 		{"name":"SUPPORT FORMATIONS", "formations":[
-			{"id":901, "name":"Vanguard Maniple", 					"pts":175, "units":"9 Skitarii Vanguard",    						"upgrades":[46],        									"xref":["Skitarii Vanguard"]},
+			{"id":901, "name":"Vanguard Maniple", 					"pts":175, "units":"9 Skitarii Vanguard",    						"upgrades":[46,50],        									"xref":["Skitarii Vanguard"]},
 			{"id":902, "name":"Ironstrider Cavaliers", 			"pts":175, "units":"6 Ironstrider Ballistarius",     	  "upgrades":[],        										"xref":["Ironstrider Ballistarius"]},
 			{"id":903, "name":"Sydonian Dragoons", 					"pts":175, "units":"6 Sydonian Dragoons",     				  "upgrades":[],        										"xref":["Sydonian Dragoon"]},
 			{"id":904, "name":"Questoris Banner",	          "pts":30, 	 "units":"Seneschal",  										  "upgrades":[61,62],  											"xref":["Seneschal"]},
@@ -80,10 +80,11 @@
 
 		{"id":45, "name":"Skitarii Ranger",           "pts":25,  			 "xref":["Skitarii Ranger"]},
 
-		{"id":46, "name":"5 Duneriders", 				  	  "pts":125,  		 "xref":["Dunerider"]},
-		{"id":48, "name":"4 Duneriders", 				  	  "pts":100,  		 "xref":["Dunerider"]},
-		{"id":49, "name":"3 Duneriders", 				  	  "pts":75,  		 	 "xref":["Dunerider"]},
+		{"id":46, "name":"5 Duneriders", 				  	  "pts":75,  		 	 "xref":["Dunerider"]},
+		{"id":48, "name":"4 Duneriders", 				  	  "pts":60,  		 	 "xref":["Dunerider"]},
+		{"id":49, "name":"3 Duneriders", 				  	  "pts":45,  		 	 "xref":["Dunerider"]},
 		{"id":47, "name":"Termite Assault Drill",     "pts":25,        "xref":["Termite Assault Drill"]},
+		{"id":50, "name":"Skorpius Disintegrator", 	 	"pts":25,        "xref":["Skorpius Disintegrator"]},
 
 		{"id":51, "name":"Knight Crusader",                 "pts":115, "xref":["Knight Crusader"]},
 		{"id":52, "name":"Knight Errant",                   "pts":90,  "xref":["Knight Errant"]},
@@ -117,6 +118,7 @@
 		{"min":0, "max":1, "from":[46],  							     "appliesTo":[901], "composite":true},
 
     {"max":1, "from":[80]},
+		{"max":3, "from":[50]},
 		{"max":1, "perArmy":true, "from":[81]},
 		{"max":1, "from":[82]},
 		{"max":1, "from":[83]},

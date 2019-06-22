@@ -78,7 +78,8 @@
         "Ironstrider Ballistarius",
         "Sydonian Dragoon",
         "Forge Knight",
-        "Chimeradon",
+        "Skorpius Dunerider",
+        "Skorpius Disintegrator",
         "Avenger Strike Fighters",
         "Ark Mechanicus Battleship"
     ],
@@ -206,7 +207,7 @@
           "name": "Skitarii Maniple",
           "units": "One Tech Priest, nine Skitarii Vanguard",
           "upgrades": [
-            "Chimeradons"
+            "Skorpius Duneriders, Skorpius Disintegrator"
           ],
           "points": 225
         },
@@ -381,6 +382,24 @@
             {
               "description": "Add a Sacred Icon to the Titan",
               "points": "50 points"
+            }
+          ]
+        },
+        {
+          "name": "Skorpius Dunerider",
+          "options": [
+            {
+              "description": "Add enough Skorpius Duneriders to transport the entire formation",
+              "points": "15 points each"
+            }
+          ]
+        },
+        {
+          "name": "Skorpius Disintegrator",
+          "options": [
+            {
+              "description": "Add up to three Skorpius Disintegrators to a formation",
+              "points": "25 points each"
             }
           ]
         },

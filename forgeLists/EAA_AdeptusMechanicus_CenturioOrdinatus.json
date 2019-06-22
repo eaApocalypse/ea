@@ -22,16 +22,16 @@
 	"sections":[
 		{"name":"SKITARII CORE FORMATIONS",
 		 "formations":[
-			{"id":500, "name":"Vanguard Maniple", "pts":175, "units":"9 Skitarii Vanguard",    "upgrades":[16],        "xref":["Skitarii Vanguard"]}
+			{"id":500, "name":"Vanguard Maniple", "pts":175, "units":"9 Skitarii Vanguard",    "upgrades":[16,20],        "xref":["Skitarii Vanguard"]}
 		]},
 		{"name":"SKITARII SUPPORT FORMATIONS",
 		 "formations":[
-			{"id":601, "name":"Ranger Centuria",  "pts":25,                                 												     "upgrades":[15],      "xref":["Skitarii Rangers"]},
-			{"id":602, "name":"Sicarian Infiltrators", "pts":225, "units":"7 Sicarian Infiltrators",    							   "upgrades":[12,17,18],   "xref":["Sicarian Infiltrators"]},
-			{"id":603, "name":"Sicarian Rustalkers", "pts":175, "units":"7 Sicarian Rustalkers",    									   "upgrades":[12,17,18],   "xref":["Sicarian Ruststalkers"]},
-			{"id":605, "name":"Ironstrider Cavaliers", "pts":175, "units":"6 Ironstrider Ballistarius",     					   "upgrades":[],        "xref":["Ironstrider Ballistarius"]},
-			{"id":606, "name":"Sydonian Dragoons", "pts":225, "units":"6 Sydonian Dragoons",     												 "upgrades":[],        "xref":["Sydonian Dragoon"]},
-			{"id":607, "name":"Onager Cohort", "pts":225, "units":"5 Onager Dunecrawlers",    												   "upgrades":[],        "xref":["Onager Dunecrawler"]}
+			{"id":601, "name":"Ranger Centuria",  "pts":25,                                 												     "upgrades":[15],        "xref":["Skitarii Rangers"]},
+			{"id":602, "name":"Sicarian Infiltrators", "pts":225, "units":"7 Sicarian Infiltrators",    							   "upgrades":[12,17,18,20],   "xref":["Sicarian Infiltrators"]},
+			{"id":603, "name":"Sicarian Rustalkers", "pts":175, "units":"7 Sicarian Rustalkers",    									   "upgrades":[12,17,18,20],   "xref":["Sicarian Ruststalkers"]},
+			{"id":605, "name":"Ironstrider Cavaliers", "pts":175, "units":"6 Ironstrider Ballistarius",     					   "upgrades":[],          "xref":["Ironstrider Ballistarius"]},
+			{"id":606, "name":"Sydonian Dragoons", "pts":225, "units":"6 Sydonian Dragoons",     												 "upgrades":[],        	 "xref":["Sydonian Dragoon"]},
+			{"id":607, "name":"Onager Cohort", "pts":225, "units":"5 Onager Dunecrawlers",    												   "upgrades":[20],        "xref":["Onager Dunecrawler"]}
 		]},
 		{"name":"CENTURIO ORDINATUS",
 		 "formations":[
@@ -52,10 +52,12 @@
 
 		{"id":15, "name":"Skitarii Ranger",           "pts":25,  			 "xref":["Skitarii Ranger"]},
 
-		{"id":16, "name":"5 Duneriders", 				  	  "pts":125,  		 "xref":["Dunerider"]},
-		{"id":18, "name":"4 Duneriders", 				  	  "pts":100,  		 "xref":["Dunerider"]},
-		{"id":19, "name":"3 Duneriders", 				  	  "pts":75,  		 	 "xref":["Dunerider"]},
-		{"id":17, "name":"Termite Assault Drill",     "pts":25,        "xref":["Termite Assault Drill"]},
+		{"id":16, "name":"5 Skorpius Duneriders", 				  	  "pts":75,  			 "xref":["Skorpius Dunerider"]},
+		{"id":18, "name":"4 Skorpius Duneriders", 				  	  "pts":60,  		 	 "xref":["Skorpius Dunerider"]},
+		{"id":19, "name":"3 Skorpius Duneriders", 				  	  "pts":45,  		 	 "xref":["Skorpius Dunerider"]},
+		{"id":17, "name":"Termite Assault Drill",    					  "pts":25,        "xref":["Termite Assault Drill"]},
+
+		{"id":20, "name":"Skorpius Disintegrator", 	 					  "pts":25,        "xref":["Skorpius Disintegrator"]},
 
 		{"id":31, "name":"Ordinati Minoris - Gatling Blaster",												"pts":125,        "xref":["Ordinati Minoris","Gatling Blaster"]},
 		{"id":32, "name":"Ordinati Minoris - Melta Cannon",														"pts":150,        "xref":["Ordinati Minoris","Melta Cannon"]},
@@ -88,6 +90,8 @@
 		{"max":1, "perArmy":true, "from":[10]},
 
 		{"min":1, "max":1, "from":[46,47,48], "appliesTo":[802]},
+
+		{"min":0, "max":3, "from":[20]},
 
 		{"min":2, "max":3, "from":[31,32,33,34,35,36,37,38,39,40,41,42,43,44,45], "appliesTo":[801]},
 

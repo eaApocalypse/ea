@@ -26,7 +26,8 @@
         "Ironstrider Ballistarius",
         "Sydonian Dragoon",
         "Onager Dunecrawler",
-        "Chimeradon",
+        "Skorpius Dunerider",
+        "Skorpius Disintegrator",
         "Termite Assault Drill",
         "Ordinati Minoris",
         "Ordinati Majoris",
@@ -72,7 +73,7 @@
           "name": "Vanguard Maniple",
           "units": "Nine Skitarii Vanguard and one Tech Preist Dominus.",
           "upgrades": [
-            "Commander, Duneriders"
+            "Commander, Skorpius Duneriders, Skorpius Disintegrator"
           ],
           "points": 225
         }
@@ -94,7 +95,7 @@
           "name": "Ruststalker Killclade",
           "units": "Seven Sicarian Ruststalkers ",
           "upgrades": [
-            "Tech-Priest, Duneriders, Subterranean Assault"
+            "Tech-Priest, Subterranean Assault, Skorpius Duneriders, Skorpius Disintegrator"
           ],
           "points": 200
         },
@@ -102,7 +103,7 @@
           "name": "Infiltrator Killclade",
           "units": "Seven Sicarian Infiltrators",
           "upgrades": [
-            "Tech-Priest, Duneriders, Subterranean Assault"
+            "Tech-Priest, Subterranean Assault, Skorpius Duneriders, Skorpius Disintegrator"
           ],
           "points": 200
         },
@@ -119,6 +120,9 @@
         {
           "name": "Onager Cohort",
           "units": "Five Onager Dunecrawler",
+          "upgrades": [
+            "Skorpius Disintegrator"
+          ],
           "points": 200
         }
       ]
@@ -211,11 +215,11 @@
         ]
       },
       {
-        "name": "Duneriders",
+        "name": "Skorpius Dunerider",
         "options": [
           {
-            "description": "Add enough Duneriders to transport the entire formation",
-            "points": "25 points"
+            "description": "Add enough Skorpius Duneriders to transport the entire formation",
+            "points": "15 points each"
           }
         ]
       },
@@ -225,6 +229,15 @@
           {
             "description": "Add enough Termite Assault Drills to transport the entire formation",
             "points": "25 points"
+          }
+        ]
+      },
+      {
+        "name": "Skorpius Disintegrator",
+        "options": [
+          {
+            "description": "Add up to three Skorpius Disintegrators to a formation",
+            "points": "25 points each"
           }
         ]
       },
