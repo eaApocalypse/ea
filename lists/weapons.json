@@ -913,12 +913,24 @@
       ]
     },
     {
+      "name": "AC Twin Lascannon ",
+        "modes": [
+          {
+            "firepower": "AT4+/AA4+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "AC Twin Lascannon",
         "modes": [
           {
             "firepower": "AT4+/AA4+",
             "range": 30,
             "specialRules": [
+              "FxF"
           ]
           }
       ]
