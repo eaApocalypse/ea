@@ -39,7 +39,7 @@
          "name": "AIRCRAFT and SPACECRAFT (Max 25%)",
          "formations": [
             {"id": 530, "name": "Fighta Skwadron", "pts": 0, "upgrades": [20]},
-            {"id": 531, "name": "Bommer", "pts": 150,"units":"1 Bommer", "upgrades": []}
+            {"id": 531, "name": "Bommers", "pts": 200,"units":"2 Bommer", "upgrades": []}
 
          ]
       }
