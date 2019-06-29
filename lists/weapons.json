@@ -2572,6 +2572,17 @@
       ]
     },
     {
+      "name": "Kannon",
+        "modes": [
+          {
+            "firepower": "AP5+/AT5+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
       "name": "Krootox Claws",
         "modes": [
           {
@@ -2582,6 +2593,29 @@
           }
       ]
     },
+    {
+      "name": "Kombi Weapons",
+        "modes": [
+          {
+            "firepower": "2x AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Kustom Mega Kannon",
+        "modes": [
+          {
+            "firepower": "2x MW4+",
+            "range": 45,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+
     {
       "name": "Cloud of Flies",
         "modes": [
@@ -2902,6 +2936,18 @@
           "range": 60,
           "specialRules": [
               "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Defstorm Mega Shoota",
+      "modes": [
+        {
+          "firepower": "4x AP4+/AT5+",
+          "range": 45,
+          "specialRules": [
+              
           ]
         }
       ]
@@ -4932,6 +4978,18 @@
     },
     {
       "name": "Klaives",
+        "modes": [
+          {
+            "firepower": "Assault Weapon",
+            "specialRules": [
+              "EA(+1)",
+              "MW"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Klaw of Mork",
         "modes": [
           {
             "firepower": "Assault Weapon",
@@ -7249,6 +7307,19 @@
       ]
     },
     {
+      "name": "Rokkit Launchers",
+        "modes": [
+          {
+            "firepower": "AT4+",
+            "range": 30,
+            "specialRules": [
+
+
+          ]
+          }
+      ]
+    },
+    {
       "name": "Rocket Pods",
         "modes": [
           {
@@ -7760,6 +7831,19 @@
                 "TK(D3)"
           ]
         }
+      ]
+    },
+    {
+      "name": "Snazzgunz",
+        "modes": [
+          {
+            "firepower": "AP4+/AT5+",
+            "range": 45,
+            "specialRules": [
+
+
+          ]
+          }
       ]
     },
     {
@@ -8859,6 +8943,17 @@
     },
     {
       "name": "Twin Big Shoota",
+        "modes": [
+          {
+            "firepower": "AP5+/AT6+",
+            "range": 30,
+            "specialRules": [
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Twin Big Shootas",
         "modes": [
           {
             "firepower": "AP5+/AT6+",
