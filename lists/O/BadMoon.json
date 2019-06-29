@@ -55,6 +55,29 @@
   ],
   "sections": [
     {
+      "name": "Ork Special",
+      "formations": [
+        {
+          "name": "0-1 Tellyporta Array",
+          "units":
+          
+          "The Tellyporta Array replaces the Ork players blitz objective.",
+          "The Tellyporta Array permits the ork player to place units in reserve then teleport them into battle. The units placed in reserver must consist entirely of infantry units; Killa Kanz, Dreads, Oddboys are much too sensible to allow themselves to be teleported.",
+          "Once per game the ork player may use the tellyporta array at the start of the turn to teleport the reserve units into battle. If at any point the Tellyporta Array objective counts as captured by the opposing player it may not be used until the Teleporta Array objective is not considered captured.",
+          "Teleporting is done by selecting anywhere on the table and scattering the point (it may not scatter off the table), all teleporting units must deploy within 10cm of the point after it scatters. Roll for blast markers as normal and apply any other restrictions on teleporting as normal."
+
+          "extraUnits": [
+
+          ],
+          "pointsOptions": [
+            {"name": "Normal", "points":  "50"},
+            {"name": "Big", "points":     "N/A"},
+            {"name": "'Uge", "points":    "N/A"}
+          ]
+        }
+      ]
+      },
+    {
       "name": "Ork Formations",
       "formations": [
         {
