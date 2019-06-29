@@ -201,14 +201,14 @@
           "units": "One Gargant",
           "upgrades": [
           ],
-          "points": 600
+          "points": 650
       },
       {
         "name": "Great Gargant",
         "units": "One Great Gargant",
         "upgrades": [
         ],
-        "points": 800
+        "points": 850
     }
         ]
         }

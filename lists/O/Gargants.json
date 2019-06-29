@@ -62,7 +62,7 @@
               "upgrades": [
                   "0-1 Big Mob Oddboy: 50 points"
               ],
-          "points": 1200
+          "points": 1000
           },
           {
             "name": "Great Gargant",
@@ -70,7 +70,7 @@
             "upgrades": [
                   "0-1 Big Mob Oddboy: 50 points"
             ],
-        "points": 800
+        "points": 850
         },
         {
           "name": "Gargant",
@@ -78,7 +78,7 @@
           "upgrades": [
                   "0-1 Big Mob Oddboy: 50 points"
           ],
-          "points": 600
+          "points": 650
       }
         ]
     },
@@ -162,13 +162,12 @@
           "points": 150
       },
       {
-        "name": "Bommer",
-        "units": "One Bommer",
+        "name": "Bomba Skwadron",
+        "units": "Two Bommers",
         "upgrades": [
+
         ],
-        "points": 150
-        }
-        ]
+        "points": 200
     }
   ]
 }

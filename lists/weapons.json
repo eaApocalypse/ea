@@ -359,7 +359,7 @@
       "name": "AC Twin Big Shoota",
         "modes": [
           {
-            "firepower": "AP5+/AT6+/AA5+",
+            "firepower": "AP5+/AA5+",
             "range": 15,
             "specialRules": [
           ]
@@ -381,7 +381,7 @@
       "name": "AC Blasta Bombs",
         "modes": [
           {
-            "firepower": "D3+1BP",
+            "firepower": "D3",
             "range": 15,
             "specialRules": [
           ]

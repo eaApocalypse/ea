@@ -8,8 +8,8 @@
          "name": "GARGANT FORMATIONS (At least one Mega Gargant or Great Gargant)",
          "formations": [
             {"id": 501, "name": "Mega Gargant", "pts": 1000, "units":"1 Mega Gargant", "upgrades": [10,11,12,13,14,15]},
-            {"id": 502, "name": "Great Gargant", "pts": 700, "upgrades": [10,11,12,13,14,15]},
-            {"id": 503, "name": "Gargant", "pts": 550, "upgrades": [11,12,13,14,15]}
+            {"id": 502, "name": "Great Gargant", "pts": 850, "upgrades": [10,11,12,13,14,15]},
+            {"id": 503, "name": "Gargant", "pts": 650, "upgrades": [11,12,13,14,15]}
 	       ]
       },
 	  {

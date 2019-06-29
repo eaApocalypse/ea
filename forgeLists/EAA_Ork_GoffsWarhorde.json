@@ -35,8 +35,8 @@
          "formations": [
             {"id": 517, "name": "Fighta-Bommer Skwadron", "pts": 0, "upgrades": [49]},
             {"id": 518, "name": "Landa", "pts": 200,  "units": "Landa", "upgrades": []},
-            {"id": 522, "name": "Gargant", "pts": 550, "units": "Gargant", "upgrades": [81]},
-            {"id": 523, "name": "Great Gargant", "pts": 700, "units": "Great Gargant", "upgrades": [81]}
+            {"id": 522, "name": "Gargant", "pts": 650, "units": "Gargant", "upgrades": [81]},
+            {"id": 523, "name": "Great Gargant", "pts": 850, "units": "Great Gargant", "upgrades": [81]}
          ]
       }
    ],

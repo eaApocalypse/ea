@@ -638,7 +638,7 @@
       "armour": 6,
 
       "weapons": [
-        "AC Twin Big Shoota||FxF",
+        "AC Twin Big Shoota",
         "AC Tankbusta Rokkits||FxF"
       ],
       "specialRules": [
@@ -660,18 +660,16 @@
     },
     {
       "name": "Bommer",
-      "type": "AC/WE",
+      "type": "AC",
       "speed": "Bomber",
-      "armour": 4,
+      "armour": 5,
 
       "weapons": [
         "AC Flakka-Dakka",
         "AC Blasta Bombs||FxF"
       ],
       "specialRules": [
-          "Damage Capacity 2"
-      ],
-            "Notes": "¤Critical Hit Effect¤: The Bommer is destroyed"
+      ]
     },
     {
       "name": "Landa",
