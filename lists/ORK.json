@@ -57,19 +57,30 @@
   ],
   "notes": "Has 'Ore Dakka if added to a WE unit, or Power Claw if added to an INF unit"
   },
-    {
-      "name": "Oddboy",
-      "type": "CH",
-      "weapons": [
-        "Supa-Zzap-Gun|0-1|",
-        "Soopagun|0-1|",
-        "D3+1 Power Fields|0-1|",
-        "Weirdboy Tower|0-1|"
-      ],
-      "specialRules": [
-          "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given D3+1 power fields"
-      ]
-    },
+  {
+    "name": "Oddboy",
+    "type": "CH",
+    "weapons": [
+      "Supa-Zzap-Gun|0-1|",
+      "Soopagun|0-1|",
+      "D3+1 Power Fields|0-1|",
+      "Weirdboy Tower|0-1|"
+    ],
+    "specialRules": [
+        "Replace one Big Gun weapon with either a Supa-Zzap-Gun, Soopagun or Weirdboy Tower, alternatively the unit may be given D3+1 power fields"
+    ]
+  },
+  {
+    "name": "Kaptain",
+    "type": "CH",
+    "weapons": [
+      "Power Claw"
+    ],
+    "specialRules": [
+        "Commander",
+        "Leader"
+    ]
+  },
     {
       "name": "Big Mob Oddboy",
       "type": "CH",
@@ -159,6 +170,35 @@
       ],
       "specialRules": [
         "Leader"
+      ]
+    },
+    {
+      "name": "Meganobz",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 3,
+      "ff": 4,
+      "weapons": [
+        "Kombi Weapons",
+        "Power Claw"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Leader"
+      ]
+    },
+    {
+      "name": "Flash Gitz",
+      "type": "INF",
+      "speed": 15,
+      "armour": 4,
+      "cc": 3,
+      "ff": 5,
+      "weapons": [
+        "Snazzgunz"
+      ],
+      "specialRules": [
       ]
     },
     {
@@ -388,6 +428,22 @@
       ]
     },
     {
+      "name": "Mega Dread",
+      "type": "AV",
+      "speed": 15,
+      "armour": 4,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Kill Kannon",
+        "Kombat Klaws"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Walker"
+      ]
+    },
+    {
       "name": "Stompa",
       "type": "H-AV",
       "speed": 15,
@@ -403,6 +459,90 @@
           "Walker"
       ],
       "notes": "Armed with either three Big Gunz, or two Big Guns and a Kombat 'Ammer"
+    },
+    {
+      "name": "'Ardwagon",
+      "type": "AV",
+      "speed": 25,
+      "armour": 4,
+      "cc": 5,
+      "ff": 4,
+      "weapons": [
+        "Kannon",
+        "Big Shoota|3|"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+          "Transport: Four units of Boyz, Nobz, Meganobz, Flash Gitz or Grotz. Big Gunz takes two spaces each. May carry two unit of Grotz in addition to any other units transported"
+      ]
+    },
+    {
+      "name": "Morkanaut",
+      "type": "H-AV",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Kustom Mega Kannon",
+        "Twin Big Shootas",
+        "Rokkit Launchers",
+        "Klaw of Mork"
+      ],
+      "specialRules": [
+          "Reinforced Armour",
+          "Transport: Two Boyz, Nobz, Meganobz, Grotz."
+      ]
+    },
+    {
+      "name": "Gorkanaut",
+      "type": "H-AV",
+      "speed": 15,
+      "armour": 5,
+      "cc": 4,
+      "ff": 4,
+      "weapons": [
+        "Defstorm Mega Shoota",
+        "Twin Big Shootas",
+        "Rokkit Launchers",
+        "Klaw of Mork"
+      ],
+      "specialRules": [
+        "Reinforced Armour",
+        "Transport: Two Boyz, Nobz, Meganobz, Grotz."
+    ]
+    },
+    {
+      "name": "Kill Bursta",
+      "type": "WE",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "'Uge Kannon"
+      ],
+      "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour"
+        ],
+      "notes": "¤Critical Hit Effect¤: The Kill Bursta is destroyed, and all units being carried are destroyed unless they roll a 6+"
+    },
+    {
+      "name": "Kill Blasta",
+      "type": "WE",
+      "speed": 20,
+      "armour": 4,
+      "cc": 6,
+      "ff": 4,
+      "weapons": [
+        "Giga Shoota"
+      ],
+      "specialRules": [
+          "Damage Capacity 3",
+          "Reinforced Armour"
+        ],
+      "notes": "¤Critical Hit Effect¤: The Kill Bursta is destroyed, and all units being carried are destroyed unless they roll a 6+"
     },
     {
       "name": "Battlefortress",
