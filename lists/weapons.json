@@ -2947,7 +2947,7 @@
           "firepower": "4x AP4+/AT5+",
           "range": 45,
           "specialRules": [
-              
+
           ]
         }
       ]
@@ -3760,6 +3760,18 @@
             "firepower": "n/a",
             "specialRules": [
                 "Spec"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "Giga Shoota",
+        "modes": [
+          {
+            "firepower": "8x AP3+/AT5+",
+            "range": 45,
+            "specialRules": [
+
           ]
           }
       ]
@@ -9426,6 +9438,19 @@
             "firepower": "n/a",
             "specialRules": [
                 "Spec"
+          ]
+          }
+      ]
+    },
+    {
+      "name": "'Uge Kannon",
+        "modes": [
+          {
+            "firepower": "3BP",
+            "range": 30,
+            "specialRules": [
+              "MW",
+              "IC"
           ]
           }
       ]
